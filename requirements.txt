@@ -1,0 +1,13 @@
+# 世界模型论文监控智能体 - 依赖
+# 安装： pip install -r requirements.txt
+
+requests>=2.31.0
+arxiv>=2.1.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+openai>=1.40.0
+
+# MD -> PDF（markdown 转 HTML，xhtml2pdf+reportlab 渲染中文 PDF）
+markdown>=3.4
+xhtml2pdf>=0.2.16
+reportlab>=4.0

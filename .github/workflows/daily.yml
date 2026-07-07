@@ -1,0 +1,91 @@
+name: 世界模型论文日报
+
+# ============================================================
+# 每日在 GitHub Actions 上定时运行论文监控全流程：
+#   检索 arXiv -> GLM 5 维度评估 -> 生成知识星球推文
+#   -> 把推文 md 转 PDF -> 通过 SMTP 邮件把 PDF 作为附件发送到你邮箱
+#   -> 把 output/ 与 processed_papers.json 提交回仓库归档
+#
+# 推送方式：邮件附件（电脑关机也能在手机邮箱 App 收到 PDF）
+#
+# 必填 Secret：
+#   GLM_API_KEY     智谱 GLM API Key
+#   SMTP_HOST       SMTP 服务器，例：smtp.qq.com
+#   SMTP_USER       登录账号（通常即邮箱地址）
+#   SMTP_PASS       SMTP 授权码（QQ/163 邮箱设置开启 SMTP 后生成）
+#   SMTP_TO         收件邮箱（可与 SMTP_USER 相同；多个用逗号分隔）
+# 可选 Secret：
+#   SMTP_PORT       端口，默认 465（SSL）；587 用 STARTTLS
+#   SMTP_FROM       发件人地址，默认同 SMTP_USER
+#   GLM_BASE_URL / GLM_MODEL / SINCE_DATE / MAX_PAPERS_PER_DAY / TOP_K
+# ============================================================
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间次日 06:00
+    - cron: "0 22 * * *"
+  workflow_dispatch: {} # 支持手动触发，便于验证
+
+permissions:
+  contents: write # 允许把生成的日报提交回仓库
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      # 让 python datetime.now() 返回北京时间，生成的文件名与用户体感一致
+      TZ: Asia/Shanghai
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # Linux runner 缺中文字体，装一个 Noto CJK（md2pdf 自动选用）
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: 运行论文监控流水线
+        env:
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          GLM_BASE_URL: ${{ secrets.GLM_BASE_URL }}
+          GLM_MODEL: ${{ secrets.GLM_MODEL }}
+          SINCE_DATE: ${{ secrets.SINCE_DATE }}
+          MAX_PAPERS_PER_DAY: ${{ secrets.MAX_PAPERS_PER_DAY }}
+          TOP_K: ${{ secrets.TOP_K }}
+        run: |
+          python main.py
+
+      - name: 转换推文 PDF 并通过邮件发送
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+        run: |
+          # --skip-main：上面已跑过 main.py，这里只做转 PDF + 邮件推送
+          python daily_job.py --skip-main
+
+      - name: 提交日报到仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/ data/processed_papers.json || true
+          if git diff --staged --quiet; then
+            echo "今日无新增内容，跳过提交。"
+          else
+            git commit -m "chore(daily): 世界模型论文日报 $(date -u +%Y-%m-%d)"
+            git push
+          fi

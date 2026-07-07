@@ -1,0 +1,36 @@
+# 环境与密钥
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 输出与数据（如需把日报纳入版本控制，可注释掉对应行）
+# 注意：GitHub Actions 会把 output/ 下的 md/pdf 提交回仓库归档，
+# 所以这里不再整体忽略 output/，只忽略本地构建产物 / 临时文件。
+output/_*.png
+output/_*.tmp
+data/processed_papers.json
+data/*.tmp
+
+# 日志：运行期日志不入仓
+*.log
+daily_job.log
+run.log
+run2.log
+run3.log
+run4.log
+regen.log
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
