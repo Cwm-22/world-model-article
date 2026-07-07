@@ -33,33 +33,64 @@ from xhtml2pdf import pisa
 
 # ---------------- 中文字体注册（仅一次） ----------------
 def _register_cjk_font() -> str:
-    """注册一个可用的中文 TTF 字体并返回字体名。"""
+    """注册一个可用的中文 TTF 字体并返回字体名。
+
+    优先用已知路径候选；找不到就扫描 /usr/share/fonts（Linux）下所有字体，
+    逐个尝试 reportlab 注册，第一个成功的就用——保证 GitHub Actions 等
+    陌生 Linux 环境（字体名/版本可能变）也能自动兜底。
+    """
     from os.path import exists
+    from glob import glob
 
     candidates = [
         # Windows 自带字体
         ("SimHei", r"C:\Windows\Fonts\simhei.ttf"),
         ("Deng", r"C:\Windows\Fonts\Deng.ttf"),
-        # Linux 常见 CJK 字体（Ubuntu apt: fonts-noto-cjk / fonts-wqy-zenhei）
+        # Linux Noto CJK（Ubuntu 22.04/24.04 路径有多种变体，全列上）
         ("NotoSansCJK", "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"),
         ("NotoSansCJKsc", "/usr/share/fonts/opentype/noto/NotoSansCJKsc-Regular.otf"),
+        ("NotoSansSC", "/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf"),
+        ("NotoSansSC2", "/usr/share/fonts/truetype/noto/NotoSansSC-Regular.otf"),
+        ("NotoCjkTtc", "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"),
+        # Linux 文泉驿
         ("WenQuanYiZenHei", "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"),
         ("WenQuanYiMicroHei", "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"),
     ]
+
+    def _try_register(name: str, path: str) -> str | None:
+        if not exists(path):
+            return None
+        try:
+            pdfmetrics.registerFont(TTFont(name, path))
+            _xhtml_default.DEFAULT_FONT[name.lower()] = name
+            _xhtml_default.DEFAULT_FONT[name.lower() + "-bold"] = name
+            _xhtml_default.DEFAULT_FONT[name.lower() + "-oblique"] = name
+            _xhtml_default.DEFAULT_FONT[
+                name.lower() + "-boldoblique"
+            ] = name
+            return name
+        except Exception:
+            return None
+
+    # 1. 已知路径优先
     for name, path in candidates:
-        if exists(path):
-            try:
-                pdfmetrics.registerFont(TTFont(name, path))
-                # 注册到 xhtml2pdf 的字体映射表（小写名 -> reportlab 名）
-                _xhtml_default.DEFAULT_FONT[name.lower()] = name
-                _xhtml_default.DEFAULT_FONT[name.lower() + "-bold"] = name
-                _xhtml_default.DEFAULT_FONT[name.lower() + "-oblique"] = name
-                _xhtml_default.DEFAULT_FONT[
-                    name.lower() + "-boldoblique"
-                ] = name
-                return name
-            except Exception:
-                continue
+        ret = _try_register(name, path)
+        if ret:
+            return ret
+
+    # 2. Linux 兜底：扫描常见目录下所有字体，逐个 try
+    scan_dirs = [
+        "/usr/share/fonts", "/usr/local/share/fonts", "/usr/share/fonts/truetype",
+    ]
+    idx = 0
+    for d in scan_dirs:
+        for path in sorted(glob(d + "/**/*.tt[cf]", recursive=True)) \
+                + sorted(glob(d + "/**/*.otf", recursive=True)):
+            idx += 1
+            ret = _try_register(f"CJKauto{idx}", path)
+            if ret:
+                return ret
+
     raise RuntimeError(
         "未找到可用的中文 TTF 字体。Windows 需 simhei.ttf；Linux 需 "
         "fonts-noto-cjk 或 fonts-wqy-zenhei（apt install 之一）。"

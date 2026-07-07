@@ -51,9 +51,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Linux runner 缺中文字体，装一个 Noto CJK（md2pdf 自动选用）
+          # Linux runner 缺中文字体，装一个 Noto CJK（md2pdf 会自动选用）
           sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk
+          sudo apt-get install -y fonts-noto-cjk fonts-wqy-zenhei
+          # 调试：列出系统中文 TTF/TTC/OTF 字体真实路径
+          echo "=== 中文字体列表 ==="
+          fc-list :lang=zh | head -20 || true
+          echo "=== /usr/share/fonts 下的 CJK 文件 ==="
+          find /usr/share/fonts -iname "*noto*cjk*" -o -iname "*wqy*" -o -iname "*NotoSansSC*" 2>/dev/null | head -20 || true
 
       - name: 运行论文监控流水线
         env:
