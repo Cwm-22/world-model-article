@@ -37,6 +37,7 @@ from src.storage import (
     mark_evaluated,
     mark_pushed,
     pool_stats,
+    prune_pool,
 )
 
 
@@ -51,6 +52,28 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
     # 0. 校验配置
     Config.validate()
 
+    # 0.5 每日检索之前：清理候选池
+    #   - 剔除 score < PRUNE_MIN_SCORE 的候选
+    #   - 若剔除数 < PRUNE_MIN_REMOVE，继续从最低分候选往下剔，至少剔 5 篇
+    #   - 池上限 POOL_MAX_SIZE，超出再按低分往下剔
+    _banner(
+        f"🧹 [0/6] 清理候选池：< {Config.prune_min_score} 分剔除"
+        f"（至少剔 {Config.prune_min_remove} 篇），池上限 {Config.pool_max_size}"
+    )
+    pruned = prune_pool(
+        min_score=Config.prune_min_score,
+        min_remove=Config.prune_min_remove,
+        max_size=Config.pool_max_size,
+    )
+    print(
+        f"   剔除 {pruned['removed_count']} 篇 "
+        f"(低分 {pruned['removed_low_score']} + 兜底 {pruned['removed_floor']}"
+        f" + 超额 {pruned['removed_overflow']})"
+        f"，剩余候选 {pruned['remaining_count']} 篇"
+    )
+    if pruned["removed_ids"]:
+        print(f"   剔除列表：{pruned['removed_ids'][:10]}{' ...' if len(pruned['removed_ids'])>10 else ''}")
+
     # 1. 多源检索（arXiv + HF Daily + OpenReview + Semantic Scholar）
     enabled = [
         name for name, on in (
@@ -60,7 +83,7 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
             ("Semantic Scholar", Config.enable_semantic_scholar),
         ) if on
     ]
-    _banner(f"🔎 [1/5] 多源检索：{', '.join(enabled)}")
+    _banner(f"🔎 [1/6] 多源检索：{', '.join(enabled)}")
     papers = search_papers()
     print(f"   聚合后候选 {len(papers)} 篇")
     if papers:
@@ -80,7 +103,7 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
     # 3. 评估今日新论文打分（候选池历史论文分数已记录，不再重打）
     evaluated: list[dict[str, Any]] = []
     if new_papers:
-        _banner("🧠 [2/5] GLM 质量评估打分（仅今日新论文）")
+        _banner("🧠 [2/6] GLM 质量评估打分（仅今日新论文）")
         llm = LLMClient()
         evaluated = evaluate_papers(llm, new_papers)
 
@@ -97,12 +120,22 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
                 venue=p.get("venue", ""),
                 sources=p.get("sources") or [p.get("source", "")],
             )
+        # 评估后再按 max_size 收紧一次池（新评分引入的候选可能让池超过上限）
+        # 注意：这里 min_remove=0，只按 max_size 限制
+        re_prune = prune_pool(
+            min_score=0, min_remove=0,
+            max_size=Config.pool_max_size,
+        )
+        if re_prune["removed_count"]:
+            print(f"   检索后池超限，再剔 {re_prune['removed_count']} 篇最低分")
+        else:
+            print(f"   池规模 {re_prune['remaining_count']}，未超 {Config.pool_max_size}")
 
     # 5. 从候选池全集里选 Top K（含今日新增 + 历史未推送）
-    _banner(f"🏆 [3/5] 从候选池选 Top {Config.top_k}")
-    candidates = candidate_pool(max_age_days=Config.candidate_max_age_days)
+    _banner(f"🏆 [3/6] 从候选池选 Top {Config.top_k}")
+    candidates = candidate_pool()
     if not candidates:
-        _banner("✅ 候选池为空，流程结束。")
+        _banner("✅ 候选池为空，流程结束。")  # noqa: E501
         return {
             "fetched": len(papers), "new": len(new_papers),
             "evaluated": len(evaluated), "candidates": 0, "posts": 0,
@@ -130,7 +163,7 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
 
     # 6. 对 Top 论文拉取完整信息（候选池里存的是评分原始数据，需要补完整
     #     作者/摘要等字段给推文模块用），并生成推文
-    _banner(f"✍️  [4/5] 生成 Top {len(selected)} 推文（含联网元信息增强）")
+    _banner(f"✍️  [4/6] 生成 Top {len(selected)} 推文")
     llm = llm if new_papers else LLMClient()  # 复用上半场 LLM 客户端
     selected_ids = [s["arxiv_id"] for s in selected]
     full_papers = fetch_by_ids(selected_ids)
@@ -144,7 +177,7 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
     posts, top_enriched = generate_top_posts(llm, full_papers)
 
     # 7. 落盘
-    _banner("💾 [5/5] 保存报告")
+    _banner("💾 [5/6] 保存报告")
     sum_name, sum_md = build_summary_md(
         today_evaluated=evaluated,
         candidates=candidates,

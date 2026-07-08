@@ -33,14 +33,32 @@ from .config import Config
 # ---------------- 基础 IO ----------------
 
 def load_processed() -> dict[str, dict[str, Any]]:
-    """读取已评估论文记录。文件不存在/损坏时按空 dict 处理，不致崩溃。"""
+    """读取已评估论文记录。文件不存在/损坏时按空 dict 处理，不致崩溃。
+
+    顺带做一次性数据迁移：旧字段 `processed_at` 自动复制到 `evaluated_at`
+    （若 `evaluated_at` 缺失），保证候选池时间过滤不会误删历史条目。
+    """
     path = Config.processed_db_path
     if not path.exists():
         return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return {}
+
+    dirty = False
+    for aid, rec in data.items():
+        if not isinstance(rec, dict):
+            continue
+        if not rec.get("evaluated_at") and rec.get("processed_at"):
+            rec["evaluated_at"] = rec["processed_at"]
+            dirty = True
+    if dirty:
+        try:
+            save_processed(data)
+        except OSError:
+            pass  # 迁移失败也不阻塞读取
+    return data
 
 
 def save_processed(data: dict[str, dict[str, Any]]) -> None:
@@ -132,12 +150,14 @@ def candidate_pool(
     Args:
         exclude_ids: 临时排除的 arXiv id 列表
         max_age_days: 仅保留最近 N 天评估过的论文；None 则不限（避免池无限膨胀）
+
+    时间字段兼容：优先用 `evaluated_at`，缺失则回退到旧字段 `processed_at`
+    （后者是早期版本写入的，避免历史数据被时间过滤误删）。
     """
     data = load_processed()
     exclude = set(exclude_ids or [])
     cutoff = None
     if max_age_days is not None:
-        # 简化："今天往前 N 天"以日期字符串比较即可
         from datetime import timedelta
         cutoff = (datetime.now() - timedelta(days=max_age_days)).isoformat()
 
@@ -147,7 +167,9 @@ def candidate_pool(
             continue
         if rec.get("pushed_at"):
             continue
-        if cutoff and rec.get("evaluated_at", "") < cutoff:
+        # 时间过滤：兼容旧字段 processed_at
+        ts = rec.get("evaluated_at") or rec.get("processed_at") or ""
+        if cutoff and ts and ts < cutoff:
             continue
         item = dict(rec)
         item["arxiv_id"] = aid
@@ -165,6 +187,102 @@ def pool_stats() -> dict[str, int]:
         "evaluated": total,
         "pushed": pushed,
         "candidates": total - pushed,
+    }
+
+
+def prune_pool(
+    *,
+    min_score: int = 60,
+    min_remove: int = 5,
+    max_size: int = 30,
+) -> dict[str, Any]:
+    """清理候选池。被剔除的论文从 processed_papers.json 中**彻底删除**
+    （不再保留为"已评估"记录），为每日新论文腾出空间。
+
+    流程（按顺序执行）：
+    1) 取所有未推送的候选，按 score 升序排列；
+    2) 第一阶段：剔除所有 score < min_score 的候选；统计剔除数 A；
+    3) 第二阶段：若 A < min_remove，从剩余最低分候选继续往下剔，直至
+       累计剔除数 >= min_remove 或候选被清空；
+    4) 第三阶段：若仍剩 > max_size 篇候选，继续剔除最低分直至 <= max_size。
+
+    注意：已推送论文（pushed_at 有值）不会被本函数触碰——它们留作历史归档。
+
+    Returns:
+        {
+            "removed_ids": [...],    被剔除的 arxiv_id 列表（升序打分）
+            "removed_low_score": A,  因低于 min_score 剔除
+            "removed_floor": B,      因 min_remove 兜底剔除
+            "removed_overflow": C,  因超额（> max_size）剔除
+            "removed_count": A+B+C,
+            "remaining_count": 剔除后候选数,
+        }
+    """
+    data = load_processed()
+    if not data:
+        return {
+            "removed_ids": [], "removed_low_score": 0,
+            "removed_floor": 0, "removed_overflow": 0,
+            "removed_count": 0, "remaining_count": 0,
+        }
+
+    # 收集未推送候选（按 score 升序），低分在前
+    candidates: list[tuple[str, int]] = []
+    for aid, rec in data.items():
+        if rec.get("pushed_at"):
+            continue
+        score = int(rec.get("score") or 0)
+        candidates.append((aid, score))
+    candidates.sort(key=lambda x: x[1])
+
+    to_remove: set[str] = set()
+    floor_count = 0
+
+    # 阶段 1：剔除所有低于 min_score 的
+    low_score_ids = [aid for aid, s in candidates if s < min_score]
+    to_remove.update(low_score_ids)
+    a = len(low_score_ids)
+
+    # 阶段 2：若剔除数 < min_remove，从剩余最低分继续剔
+    b = 0
+    if a < min_remove:
+        for aid, _s in candidates:
+            if aid in to_remove:
+                continue
+            to_remove.add(aid)
+            b += 1
+            if (a + b) >= min_remove:
+                break
+
+    # 阶段 3：若仍超 max_size，继续剔除最低分
+    remaining_after_min = [c for c in candidates if c[0] not in to_remove]
+    c_count = 0
+    if len(remaining_after_min) > max_size:
+        for aid, _s in remaining_after_min:
+            to_remove.add(aid)
+            c_count += 1
+            if (len(remaining_after_min) - c_count) <= max_size:
+                break
+
+    removed_low_score = a
+    removed_floor = b
+    removed_overflow = c_count
+    total_removed = removed_low_score + removed_floor + removed_overflow
+
+    # 真正从 db 中删除（彻底不保留）
+    for aid in to_remove:
+        data.pop(aid, None)
+    save_processed(data)
+
+    return {
+        "removed_ids": list(to_remove),
+        "removed_low_score": removed_low_score,
+        "removed_floor": removed_floor,
+        "removed_overflow": removed_overflow,
+        "removed_count": total_removed,
+        "remaining_count": len(data) - sum(
+            1 for r in data.values() if r.get("pushed_at")
+        ),
     }
 
 

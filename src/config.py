@@ -108,12 +108,18 @@ class Config:
     output_dir: Path = BASE_DIR / "output"
     processed_db_path: Path = data_dir / "processed_papers.json"
 
-    # ---- 评估 ----
+    # ---- 评估 / 候选池 ----
     top_k: int = _int("TOP_K", 3)
-    # 候选池保留：已评估且未推送的论文，多久内仍参与下次 Top3 选举。
-    # 设 None 表示永久保留；设 30 表示最近 30 天评估过的论文才有候选资格。
-    # 默认 30：既允许跨天补选好论文，又避免候选池无限膨胀。
-    candidate_max_age_days: int | None = _int("CANDIDATE_MAX_AGE_DAYS", 30) or None
+    # 候选池运行机制：
+    #   1) 每日检索新论文**之前**：剔除所有 score < prune_min_score 的候选；
+    #      若剔除数 < prune_min_remove，则继续从剩余最低分候选往下剔，
+    #      至少剔 prune_min_remove 篇（保证为新论文腾出空间）
+    #   2) 检索评估后若候选池总数超过 pool_max_size，再按低分往下剔
+    #   目的：保留有限数量的高质量候选，让今日新论文有机会进入 Top3，
+    #        同时防止候选池无限膨胀。
+    prune_min_score: int = _int("PRUNE_MIN_SCORE", 60)
+    prune_min_remove: int = _int("PRUNE_MIN_REMOVE", 5)
+    pool_max_size: int = _int("POOL_MAX_SIZE", 30)
 
     @classmethod
     def ensure_dirs(cls) -> None:
