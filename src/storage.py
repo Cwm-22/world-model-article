@@ -140,6 +140,24 @@ def mark_pushed(paper_ids: list[str], *, post_filename: str = "") -> None:
     save_processed(data)
 
 
+def remove_from_pool(paper_id: str) -> bool:
+    """从候选池中**彻底删除**一篇论文（连同评估记录）。
+
+    仅当该论文尚未进过推文（未推送）时才允许删除，避免误删历史归档。
+    用于 Top1 保障换血循环中"删除评分最低候选"。
+
+    Returns:
+        True 表示已删除；False 表示未找到/已推送/不允许删除。
+    """
+    data = load_processed()
+    rec = data.get(paper_id)
+    if not rec or rec.get("pushed_at"):
+        return False
+    data.pop(paper_id, None)
+    save_processed(data)
+    return True
+
+
 def candidate_pool(
     *,
     exclude_ids: list[str] | None = None,

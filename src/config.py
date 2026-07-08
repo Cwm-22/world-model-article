@@ -84,7 +84,7 @@ class Config:
     # 仅保留此日期之后提交的论文（YYYYMMDD，arXiv 日期格式）
     since_date: str = _env("SINCE_DATE", "20260101")
     # 每日拉取数量上限
-    max_papers_per_day: int = _int("MAX_PAPERS_PER_DAY", 20)
+    max_papers_per_day: int = _int("MAX_PAPERS_PER_DAY", 40)
 
     # ---- 多数据源开关 ----
     enable_arxiv: bool = _bool("ENABLE_ARXIV", True)
@@ -120,6 +120,15 @@ class Config:
     prune_min_score: int = _int("PRUNE_MIN_SCORE", 60)
     prune_min_remove: int = _int("PRUNE_MIN_REMOVE", 5)
     pool_max_size: int = _int("POOL_MAX_SIZE", 30)
+    # ---- Top1 质量保障（换血机制）----
+    # 当候选池总分最高的论文 score <= top1_min_score 时：
+    #   1) 删除候选池中评分最低的一篇（彻底剔除）
+    #   2) 重新评估一篇"已检索但未评估"的新论文，加入候选池
+    #   3) 重新选 Top3，重复直到 Top1 > top1_min_score，或换血次数上限
+    top1_min_score: int = _int("TOP1_MIN_SCORE", 80)
+    top1_max_attempts: int = _int("TOP1_MAX_ATTEMPTS", 8)
+    # 首批评估批次大小（每日新论文分批评价，留一些作"换血"后备）
+    evaluate_batch_size: int = _int("EVALUATE_BATCH_SIZE", 10)
 
     @classmethod
     def ensure_dirs(cls) -> None:

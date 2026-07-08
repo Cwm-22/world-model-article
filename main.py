@@ -33,16 +33,96 @@ from src.reporter import build_posts_md, build_summary_md, save_text
 from src.storage import (
     candidate_pool,
     filter_new,
+    is_evaluated,
     is_pushed,
     mark_evaluated,
     mark_pushed,
     pool_stats,
     prune_pool,
+    remove_from_pool,
 )
 
 
 def _banner(msg: str) -> None:
     print(f"\n{'=' * 60}\n{msg}\n{'=' * 60}")
+
+
+def _eval_and_register(llm: LLMClient,
+                       to_eval: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """评估一批论文，写入候选池（带分数），返回带分数的 evaluated 列表。"""
+    evaluated = evaluate_papers(llm, to_eval)
+    for p in evaluated:
+        mark_evaluated(
+            p["arxiv_id"],
+            title=p.get("title", ""),
+            score=p.get("total_score"),
+            scores=p.get("scores"),
+            comment=p.get("comment", ""),
+            venue=p.get("venue", ""),
+            sources=p.get("sources") or [p.get("source", "")],
+        )
+    return evaluated
+
+
+def _top1_ensure_loop(
+    llm: LLMClient,
+    candidates: list[dict[str, Any]],
+    new_papers: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Top1 评分保障循环。
+
+    只要候选池最高分 <= top1_min_score：
+      1) 从候选池**彻底删除**当前评分最低的一篇（remove_from_pool）
+      2) 从 new_papers 里取一篇**尚未评估**的论文，评估并入库
+      3) 刷新候选池
+    直到 Top1 > top1_min_score 或没有未评估论文 / 达到最大尝试次数。
+
+    Returns:
+        (最终候选池列表, 本次新评估的论文列表)
+    """
+    min_score = Config.top1_min_score
+    max_attempts = Config.top1_max_attempts
+    newly_evaluated: list[dict[str, Any]] = []
+
+    for attempt in range(1, max_attempts + 1):
+        if not candidates:
+            print(f"   [换血 {attempt}] 候选池空，停止")
+            break
+        top1 = int(candidates[0].get("score", 0) or 0)
+        if top1 > min_score:
+            print(f"   [换血 {attempt}] Top1={top1} > {min_score}，达标准备")
+            break
+
+        lowest = candidates[-1]
+        _banner(f"🔁 [换血第 {attempt}/{max_attempts} 次] Top1={top1} ≤ {min_score}，启动换血")
+        print(f"   ① 删除最低分：[{lowest.get('score',0)}分] "
+              f"{lowest.get('arxiv_id')} {lowest.get('title','')[:40]}")
+        ok = remove_from_pool(lowest["arxiv_id"])
+        if not ok:
+            print("   ⚠ 删除失败（可能已推送），停止换血")
+            break
+
+        # 找一篇未评估的新论文
+        pending = [p for p in new_papers
+                   if p.get("arxiv_id")
+                   and not is_evaluated(p["arxiv_id"])
+                   and not is_pushed(p["arxiv_id"])]
+        if not pending:
+            print("   ⚠ 已无未评估论文可补，停止换血")
+            candidates = candidate_pool()
+            break
+
+        next_paper = pending[0]
+        print(f"   ② 评估补位：{next_paper.get('arxiv_id')} "
+              f"{next_paper.get('title','')[:40]}")
+        evaled = _eval_and_register(llm, [next_paper])
+        newly_evaluated.extend(evaled)
+        # 检索后再按 max_size 收紧
+        prune_pool(min_score=0, min_remove=0, max_size=Config.pool_max_size)
+        candidates = candidate_pool()
+
+    # 跨循环汇总结果
+    return candidates, newly_evaluated
 
 
 def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
@@ -100,36 +180,29 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
           f"候选池：已评估 {pool['evaluated']}，已推送 {pool['pushed']}，"
           f"待选 {pool['candidates']}")
 
-    # 3. 评估今日新论文打分（候选池历史论文分数已记录，不再重打）
+    # 3. 评估今日新论文打分（首批评估 N 篇，留出后备给换血）
     evaluated: list[dict[str, Any]] = []
     if new_papers:
-        _banner("🧠 [2/6] GLM 质量评估打分（仅今日新论文）")
-        llm = LLMClient()
-        evaluated = evaluate_papers(llm, new_papers)
-
-    # 4. 把今日新评估的入库（带分数），候选池随即可查
-    if evaluated and not dry_run:
-        print("📝 [登记评估结果] 写入候选池")
-        for p in evaluated:
-            mark_evaluated(
-                p["arxiv_id"],
-                title=p.get("title", ""),
-                score=p.get("total_score"),
-                scores=p.get("scores"),
-                comment=p.get("comment", ""),
-                venue=p.get("venue", ""),
-                sources=p.get("sources") or [p.get("source", "")],
-            )
-        # 评估后再按 max_size 收紧一次池（新评分引入的候选可能让池超过上限）
-        # 注意：这里 min_remove=0，只按 max_size 限制
-        re_prune = prune_pool(
-            min_score=0, min_remove=0,
-            max_size=Config.pool_max_size,
+        _banner(
+            f"🧠 [2/6] GLM 质量评估打分"
+            f"（首批 {min(Config.evaluate_batch_size, len(new_papers))} / "
+            f"{len(new_papers)} 篇）"
         )
-        if re_prune["removed_count"]:
-            print(f"   检索后池超限，再剔 {re_prune['removed_count']} 篇最低分")
+        llm = LLMClient()
+        if not dry_run:
+            first_batch = new_papers[: Config.evaluate_batch_size]
+            evaluated = _eval_and_register(llm, first_batch)
+            # 检索后按 max_size 收紧池
+            re_prune = prune_pool(
+                min_score=0, min_remove=0,
+                max_size=Config.pool_max_size,
+            )
+            if re_prune["removed_count"]:
+                print(f"   池超限，再剔 {re_prune['removed_count']} 篇最低分")
+            else:
+                print(f"   池规模 {re_prune['remaining_count']}，未超 {Config.pool_max_size}")
         else:
-            print(f"   池规模 {re_prune['remaining_count']}，未超 {Config.pool_max_size}")
+            evaluated = evaluate_papers(llm, new_papers)
 
     # 5. 从候选池全集里选 Top K（含今日新增 + 历史未推送）
     _banner(f"🏆 [3/6] 从候选池选 Top {Config.top_k}")
@@ -145,7 +218,29 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
         print(f"   - [{c.get('score', 0)}分] "
               f"{'🆕' if 'today' in (c.get('evaluated_at','') or '') else '  '} "
               f"{c.get('arxiv_id')} {c.get('title', '')[:50]}")
-    # 标记今日新增进入 candidates 后是否被选中（用 arxiv_id 集合判断）
+
+    # Top1 评分保障循环（score 必须严格大于 top1_min_score）
+    if not dry_run and candidates:
+        top1 = int(candidates[0].get("score", 0) or 0)
+        _banner(
+            f"🔥 保障 Top1 > {Config.top1_min_score}（当前 Top1 = {top1}）"
+        )
+        candidates, extra = _top1_ensure_loop(llm, candidates, new_papers)
+        evaluated.extend(extra)
+        if candidates:
+            print(
+                f"   换血后 Top1 = "
+                f"{candidates[0].get('score', 0)}"
+                f"，候选池共 {len(candidates)} 篇"
+            )
+        else:
+            _banner("⚠ 换血后候选池为空，流程结束。")
+            return {
+                "fetched": len(papers), "new": len(new_papers),
+                "evaluated": len(evaluated), "candidates": 0, "posts": 0,
+            }
+
+    # 今日新增计数（含换血补充评估的）
     today_ids = {p["arxiv_id"] for p in evaluated}
     selected = candidates[: Config.top_k]
     fresh_count = sum(1 for s in selected if s["arxiv_id"] in today_ids)

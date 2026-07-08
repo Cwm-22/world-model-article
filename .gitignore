@@ -17,8 +17,10 @@ env/
 # 所以这里不再整体忽略 output/，只忽略本地构建产物 / 临时文件。
 output/_*.png
 output/_*.tmp
-data/processed_papers.json
+# 注意：data/processed_papers.json 不忽略——它是已处理论文的去重状态库，
+# 必须入仓并在 workflow 每日运行后由 Actions 自动提交更新。
 data/*.tmp
+output*
 
 # 日志：运行期日志不入仓
 *.log

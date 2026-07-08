@@ -85,7 +85,7 @@ def build_summary_md(
         lines += ["## 📊 今日无新增论文评估", ""]
         lines += ["（仅从候选池既往评分中选取 Top）", ""]
 
-    # ---- 节 2：候选池 Top 评分一览 ----
+    # ---- 节 2：候选池总览（全部列出）----
     lines += [
         f"## 🎯 候选池总览（{len(candidates)} 篇，已评估未推送，按分数降序）",
         "",
@@ -93,7 +93,7 @@ def build_summary_md(
         "|:---:|:---:|:---|:---|:---|:---|:---:|:---|",
     ]
     today_ids = {p.get("arxiv_id") for p in today_evaluated}
-    for i, c in enumerate(candidates[: Config.top_k * 4], 1):
+    for i, c in enumerate(candidates, 1):
         venue = _md_escape(c.get("venue") or "")
         srcs = _md_escape(", ".join(c.get("sources") or []) or "")
         is_fresh = "🆕 是" if c.get("arxiv_id") in today_ids else "  否"

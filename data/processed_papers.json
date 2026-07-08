@@ -1,0 +1,438 @@
+{
+  "2607.05392v1": {
+    "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 81,
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-08T11:44:44",
+    "pushed_post": "2026-07-08_top3_推文.md"
+  },
+  "2607.05390v1": {
+    "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 77,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.05238v1": {
+    "title": "MoP-JEPA: Hard-Assigned Predictor Mixtures for Stochastic JEPA World Models",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 83,
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-07T14:51:00",
+    "pushed_post": "2026-07-07_top3_推文.md"
+  },
+  "2607.04988v1": {
+    "title": "InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 78,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.04546v1": {
+    "title": "Mask2Real-WM: Segmentation Masks as a Sim-to-Real Bridge for Controllable Dexterous World Models",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 75,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.04540v1": {
+    "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 76,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.04352v1": {
+    "title": "Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 78,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.04112v1": {
+    "title": "DynaVieW: Schema-Guided World Modeling for Understanding Hierarchical Visual Dynamics",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 78,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.03964v1": {
+    "title": "Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 77,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.03461v1": {
+    "title": "WorldBagel: Uncovering the Power of Unified Multimodal Models for Vision-Language-Action-World Modeling",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 73,
+    "evaluated_at": "2026-07-07T14:51:01"
+  },
+  "2607.02865v1": {
+    "title": "DREAMSTEER: Latent World Models Can Steer VLA Policies During Deployment Without Any Finetuning",
+    "processed_at": "2026-07-07T14:51:01",
+    "score": 85,
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-07T14:51:00",
+    "pushed_post": "2026-07-07_top3_推文.md"
+  },
+  "2607.04409v1": {
+    "title": "Learning Task-Sufficient World Models by Synergizing Agentic Exploration and Structured Modeling",
+    "evaluated_at": "2026-07-08T00:15:23",
+    "score": 81,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "结合智能体主动探索与结构化建模学习任务充分的世界模型，由因果表征与机器学习领域顶尖学者团队提出，方法新颖且实验设计合理。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-08T11:44:44",
+    "pushed_post": "2026-07-08_top3_推文.md"
+  },
+  "2607.05133v1": {
+    "title": "UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation",
+    "evaluated_at": "2026-07-08T00:15:23",
+    "score": 74,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出统一视频-动作扩散模型，通过掩码调制实现视频与轨迹的联合训练与解耦推理，在自动驾驶世界模型中展现了良好的泛化性与推理效率。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04732v1": {
+    "title": "SparseOcc++: Geometry-Aware Sparse Latent Representation for Semantic Occupancy Prediction",
+    "evaluated_at": "2026-07-08T00:15:23",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 14,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出解耦场景补全与语义分割的几何感知稀疏框架SparseOcc++，在nuScenes和SemanticKITTI上实现高精度与高效率，但偏感知且暂无开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.05352v2": {
+    "title": "Multiplayer Interactive World Models with Representation Autoencoders",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 93,
+    "scores": {
+      "method_innovation": 28,
+      "author_authority": 16,
+      "topic_relevance": 20,
+      "experiment_feasibility": 19,
+      "resource_completeness": 10
+    },
+    "comment": "首个针对高度动态环境的多人交互式世界模型，在Rocket League上实现了长程稳定的实时生成，并开源了完整代码与数据集，具有极高的创新性和工程落地价值。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-08T00:10:56",
+    "pushed_post": "2026-07-07_top3_推文.md"
+  },
+  "2607.05966v1": {
+    "title": "Imagined Rollouts are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 75,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "提出运动学与动力学视角重构世界模型的长视界失败问题，并设计iKCE诊断指标，视角新颖且实验设计合理，但缺乏代码开源与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.05765v1": {
+    "title": "Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 74,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出将3D空间锚定与光真实感渲染解耦的神经仿真框架Image2Sim，结合前馈特征高斯与几何感知单步像素流，从RGB-D序列大规模构建可交互导航环境，思路新颖且与世界模型高度相关，但缺乏代码与项目页公开，实验可验证性受限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04978v1": {
+    "title": "Qantara: Bridge-Flow Training for Multi-Paradigm JEPA Control",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 74,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出多范式JEPA世界模型Qantara，通过桥流匹配实现单一模型支持潜空间规划、行为克隆和逆动力学，创新性强且实验效果显著。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04652v1": {
+    "title": "KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出从冻结的视频世界模型中提取单步潜在速度作为运动可供性图，无需rollout即可为扩散策略提供方向性视觉先验，方法新颖且实验有效。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06216v1": {
+    "title": "MoWorld: A Flash World Model",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 72,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 20,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出端到端的高效世界模型MoWorld，结合3D原生数据引擎与蒸馏推理优化实现NPU上的50FPS实时交互，工程与落地创新性强，但缺乏顶会背书与开源资源验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06291v1": {
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 65,
+    "scores": {
+      "method_innovation": 19,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 5
+    },
+    "comment": "全栈式可交互视频世界生成框架，覆盖数据准备到部署全流程，工程整合度高但核心自回归视频世界模型范式创新有限，且缺乏顶会背书与公开代码仓库链接。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04927v1": {
+    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 6,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出双系统架构结合WAM执行器与VLM规划器以弥补各自在语言规划与物理执行上的不足，并在真实机器人平台上实现了工程优化与公平对比，但作者权威性及开源资源略显不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.05577v1": {
+    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+    "evaluated_at": "2026-07-08T09:48:45",
+    "score": 63,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 11,
+      "topic_relevance": 13,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将叙事学理论引入世界模型记忆系统，提出类型化时态图与查询条件混合检索，在多跳叙事问答上显著优于Graphiti/Zep等基线；但仅arXiv预印本、无代码开源，且'世界模型'偏向NLP叙事记忆而非CV/具身世界模型，主题关联度有限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06559": {
+    "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+    "evaluated_at": "2026-07-08T10:38:23",
+    "score": 86,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 8
+    },
+    "comment": "提出基于RGB-DF联合生成的4D具身世界模型，结合3D RoPE与单次前向逆动力学策略，在双臂灵巧操作任务上展现出卓越的空间精度与时序协调性。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "hf_daily"
+    ]
+  },
+  "2607.06401v1": {
+    "title": "A Definition and Roadmap for World Models",
+    "evaluated_at": "2026-07-08T10:38:23",
+    "score": 72,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 16,
+      "topic_relevance": 20,
+      "experiment_feasibility": 12,
+      "resource_completeness": 2
+    },
+    "comment": "本文系统性地给出了世界模型的科学定义与发展路线图，由多位领域知名学者联合撰写，对凝聚社区共识和指引未来研究方向具有重要意义。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06558": {
+    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+    "evaluated_at": "2026-07-08T10:38:23",
+    "score": 70,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 11,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出以生成式世界模型替代物理机器人进行数字遥操作的数据采集范式，结合深度感知骨骼条件化与视频DiT渐进式训练实现实时交互生成，在Sim2Real双臂灵巧任务上验证有效，创新性突出但尚未见顶会收录与开源代码。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "hf_daily"
+    ]
+  },
+  "2607.06559v1": {
+    "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 80,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "提出基于RGB-DF的4D具身世界模型，通过统一扩散过程同步生成多模态未来，并在真实双臂操作任务上验证了单次前向策略的有效性。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "arxiv",
+      "hf_daily"
+    ],
+    "pushed_at": "2026-07-08T11:44:44",
+    "pushed_post": "2026-07-08_top3_推文.md"
+  },
+  "2607.06501v1": {
+    "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 75,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "该论文提出了一种基于假设驱动的开放世界机器人规划框架，通过结合基础模型与不确定性感知的世界模型扩展，有效解决了未知环境下的知识获取与任务执行问题，具有较强的创新性和实用价值。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06403v1": {
+    "title": "From Foundation to Application: Improving VLA Models in Practice",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 66,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "结合视频表征与深度估计的预测性动力学建模提升了VLA在复杂具身任务中的泛化与长时操作能力，系统级改进扎实但缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06558v1": {
+    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 66,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
+    },
+    "comment": "提出以动作条件世界模型替代物理机器人进行数字遥操作数据采集的范式，技术路线（深度感知骨骼条件+渐进式人到机器人训练+流式自回归蒸馏）创新性较高，但缺乏顶会 peer review 验证且无公开代码，实验可信度与可复现性存疑。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "arxiv",
+      "hf_daily"
+    ]
+  },
+  "2607.04464v1": {
+    "title": "Operator-on-F complements value-equivalence: a planning-time diagnostic for latent world models",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种用于潜在世界模型规划时错误诊断的新方法operator-on-F，有效补充了传统的值等价评估，实验设计合理但缺乏代码开源和明确的作者机构背景。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04434v2": {
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 65,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 8,
+      "experiment_feasibility": 18,
+      "resource_completeness": 9
+    },
+    "comment": "构建了统一的仿真与现实机器人操作策略评测基准，涵盖多维度能力评估与远程云评测系统，实验落地性强，但与世界模型主题直接关联度较弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.03819v2": {
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
+    "evaluated_at": "2026-07-08T11:41:54",
+    "score": 61,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 14,
+      "experiment_feasibility": 14,
+      "resource_completeness": 5
+    },
+    "comment": "结合多视图扩散模型与3D高斯泼溅，通过一致性增强和互信息深度损失优化自我中心视角的3D场景生成，有一定创新性但缺乏顶会背书与代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  }
+}
