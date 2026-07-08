@@ -25,7 +25,9 @@
     "title": "InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization",
     "processed_at": "2026-07-07T14:51:01",
     "score": 78,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-09T07:05:49",
+    "pushed_post": "2026-07-09_top3_推文.md"
   },
   "2607.04546v1": {
     "title": "Mask2Real-WM: Segmentation Masks as a Sim-to-Real Bridge for Controllable Dexterous World Models",
@@ -43,7 +45,9 @@
     "title": "Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach",
     "processed_at": "2026-07-07T14:51:01",
     "score": 78,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-09T07:05:49",
+    "pushed_post": "2026-07-09_top3_推文.md"
   },
   "2607.04112v1": {
     "title": "DynaVieW: Schema-Guided World Modeling for Understanding Hierarchical Visual Dynamics",
@@ -219,54 +223,6 @@
       "arxiv"
     ]
   },
-  "2607.06291v1": {
-    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
-    "evaluated_at": "2026-07-08T09:48:45",
-    "score": 65,
-    "scores": {
-      "method_innovation": 19,
-      "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
-      "resource_completeness": 5
-    },
-    "comment": "全栈式可交互视频世界生成框架，覆盖数据准备到部署全流程，工程整合度高但核心自回归视频世界模型范式创新有限，且缺乏顶会背书与公开代码仓库链接。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.04927v1": {
-    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
-    "evaluated_at": "2026-07-08T09:48:45",
-    "score": 65,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 6,
-      "topic_relevance": 18,
-      "experiment_feasibility": 17,
-      "resource_completeness": 2
-    },
-    "comment": "提出双系统架构结合WAM执行器与VLM规划器以弥补各自在语言规划与物理执行上的不足，并在真实机器人平台上实现了工程优化与公平对比，但作者权威性及开源资源略显不足。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.05577v1": {
-    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
-    "evaluated_at": "2026-07-08T09:48:45",
-    "score": 63,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 11,
-      "topic_relevance": 13,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "将叙事学理论引入世界模型记忆系统，提出类型化时态图与查询条件混合检索，在多跳叙事问答上显著优于Graphiti/Zep等基线；但仅arXiv预印本、无代码开源，且'世界模型'偏向NLP叙事记忆而非CV/具身世界模型，主题关联度有限。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.06559": {
     "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
     "evaluated_at": "2026-07-08T10:38:23",
@@ -334,8 +290,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-08T11:44:44",
-    "pushed_post": "2026-07-08_top3_推文.md"
+    "pushed_at": "2026-07-09T07:05:49",
+    "pushed_post": "2026-07-09_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -403,34 +359,130 @@
       "arxiv"
     ]
   },
-  "2607.04434v2": {
-    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
-    "evaluated_at": "2026-07-08T11:41:54",
-    "score": 65,
+  "2607.03732v1": {
+    "title": "ProxyUp: Training-Free Proxy-Conditioned Video Generation for Controllable Dynamics",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 71,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 15,
+      "topic_relevance": 16,
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
+    },
+    "comment": "提出无需训练的代理条件视频生成框架ProxyUp，通过区域级潜在加噪和随机流松弛实现物理动态控制，与世界模型的动态一致性高度相关，但缺乏开源代码和正式发表信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06438v1": {
+    "title": "WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 69,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 14,
+      "experiment_feasibility": 15,
+      "resource_completeness": 1
+    },
+    "comment": "提出以手腕为门控分离身体运动与手部操作的人形机器人控制框架，有效解决了重定向过程中的接触力约束问题，创新性较强。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06291v1": {
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 67,
     "scores": {
       "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 8,
-      "experiment_feasibility": 18,
-      "resource_completeness": 9
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 6
     },
-    "comment": "构建了统一的仿真与现实机器人操作策略评测基准，涵盖多维度能力评估与远程云评测系统，实验落地性强，但与世界模型主题直接关联度较弱。",
+    "comment": "AlayaWorld提出了一套全栈开源的视频世界模型生成框架，支持长时序实时交互，对生成式世界模型的工程落地与未来研究具有较高参考价值。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.05577v1": {
+    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 66,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 15,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于叙事学的时间状态图与混合检索的叙事世界模型，在长篇虚构写作的多跳问答上显著优于现有图记忆基线，实验设计严谨，但作者知名度与开源资源略显不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04927v1": {
+    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 62,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出双系统架构（System1 WAM执行器+System2 VLM规划器）将世界模型与语言规划结合，工程落地考虑周全（TensorRT/RTC），但作者知名度与发表venue信息缺失，创新性主要在系统集成层面，缺乏代码与项目页公开。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04500v1": {
+    "title": "Geographic Diversity Beats Data Volume for Cross-Domain Generalization in Zero-Label JEPA Driving World Models",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 61,
+    "scores": {
+      "method_innovation": 15,
+      "author_authority": 8,
+      "topic_relevance": 20,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "本文通过控制变量实验揭示了地理多样性在JEPA驾驶世界模型跨域泛化中比数据量更重要，主题高度契合，但方法创新性有限且缺乏开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.03819v2": {
     "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
-    "evaluated_at": "2026-07-08T11:41:54",
-    "score": 61,
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 57,
     "scores": {
-      "method_innovation": 20,
+      "method_innovation": 18,
       "author_authority": 8,
-      "topic_relevance": 14,
+      "topic_relevance": 12,
       "experiment_feasibility": 14,
       "resource_completeness": 5
     },
-    "comment": "结合多视图扩散模型与3D高斯泼溅，通过一致性增强和互信息深度损失优化自我中心视角的3D场景生成，有一定创新性但缺乏顶会背书与代码开源。",
+    "comment": "结合多视图扩散与3D高斯泼溅的自我中心场景生成方法，在几何一致性与深度估计上有创新，但与核心世界模型关联度一般且缺乏顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04434v2": {
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "evaluated_at": "2026-07-09T07:04:46",
+    "score": 55,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 8,
+      "topic_relevance": 5,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "提出了一个统一的仿真与现实机器人操作策略评估基准，实验设计充分且资源完整，但与世界模型主题关联度较低。",
     "sources": [
       "arxiv"
     ]
