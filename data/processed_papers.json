@@ -11,7 +11,9 @@
     "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
     "processed_at": "2026-07-07T14:51:01",
     "score": 77,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-10T07:11:32",
+    "pushed_post": "2026-07-10_top3_推文.md"
   },
   "2607.05238v1": {
     "title": "MoP-JEPA: Hard-Assigned Predictor Mixtures for Stochastic JEPA World Models",
@@ -53,7 +55,9 @@
     "title": "DynaVieW: Schema-Guided World Modeling for Understanding Hierarchical Visual Dynamics",
     "processed_at": "2026-07-07T14:51:01",
     "score": 78,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-10T07:11:32",
+    "pushed_post": "2026-07-10_top3_推文.md"
   },
   "2607.03964v1": {
     "title": "Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control",
@@ -105,22 +109,6 @@
       "resource_completeness": 3
     },
     "comment": "提出统一视频-动作扩散模型，通过掩码调制实现视频与轨迹的联合训练与解耦推理，在自动驾驶世界模型中展现了良好的泛化性与推理效率。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.04732v1": {
-    "title": "SparseOcc++: Geometry-Aware Sparse Latent Representation for Semantic Occupancy Prediction",
-    "evaluated_at": "2026-07-08T00:15:23",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 14,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出解耦场景补全与语义分割的几何感知稀疏框架SparseOcc++，在nuScenes和SemanticKITTI上实现高精度与高效率，但偏感知且暂无开源代码。",
     "sources": [
       "arxiv"
     ]
@@ -290,8 +278,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-09T07:05:49",
-    "pushed_post": "2026-07-09_top3_推文.md"
+    "pushed_at": "2026-07-10T07:11:32",
+    "pushed_post": "2026-07-10_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -423,66 +411,114 @@
       "arxiv"
     ]
   },
+  "2607.07196v1": {
+    "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 72,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将安全关键系统的VV&A标准引入生成式世界模型，提出L0-L4准入阶梯，深刻揭示了视觉保真度与动作鲁棒性之间的背离现象，为世界模型作为测试预言机提供了严谨的认证框架。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06988v1": {
+    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 70,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种新颖的测试时训练框架，通过自监督视频预测和键值记忆机制，利用无标签人类视频引导冻结的世界动作模型，在机器人操作任务中展现出良好的泛化能力。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06925v1": {
+    "title": "Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 70,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 13,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "揭示了目标条件世界模型中'指令泄漏'这一关键混淆因素——模型可能仅转录指令而非真正感知空间关系，并提出将目标移出动力学、监督读取路径的修复方案，诊断协议与修复方法具有普适价值，但整体偏分析诊断而非架构创新，且仅有arXiv预印本无代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.07459v1": {
+    "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "构建了生成式3D世界引擎，有效连接跨模拟器资产与任务驱动场景，显著提升了具身策略的仿真训练与真机迁移效果，但工程整合属性较强且缺乏开源资源佐证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.07287v1": {
+    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 66,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 1
+    },
+    "comment": "提出分层视触觉世界模型框架，将触觉用于预测与高频反馈，在灵巧操作任务上显著优于基线，但缺乏知名作者背书且未开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2607.04927v1": {
     "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 62,
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出双系统架构结合WAM与VLM以解决复杂任务分解问题，并在真实机器人上实现公平对比，工程落地性强但缺乏开源资源与同行评审背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.07534v1": {
+    "title": "Infinite Worlds with Versatile Interactions",
+    "evaluated_at": "2026-07-10T07:10:22",
+    "score": 63,
     "scores": {
       "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出双系统架构（System1 WAM执行器+System2 VLM规划器）将世界模型与语言规划结合，工程落地考虑周全（TensorRT/RTC），但作者知名度与发表venue信息缺失，创新性主要在系统集成层面，缺乏代码与项目页公开。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.04500v1": {
-    "title": "Geographic Diversity Beats Data Volume for Cross-Domain Generalization in Zero-Label JEPA Driving World Models",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 61,
-    "scores": {
-      "method_innovation": 15,
-      "author_authority": 8,
-      "topic_relevance": 20,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "本文通过控制变量实验揭示了地理多样性在JEPA驾驶世界模型跨域泛化中比数据量更重要，主题高度契合，但方法创新性有限且缺乏开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.03819v2": {
-    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 57,
-    "scores": {
-      "method_innovation": 18,
-      "author_authority": 8,
-      "topic_relevance": 12,
-      "experiment_feasibility": 14,
-      "resource_completeness": 5
-    },
-    "comment": "结合多视图扩散与3D高斯泼溅的自我中心场景生成方法，在几何一致性与深度估计上有创新，但与核心世界模型关联度一般且缺乏顶会背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.04434v2": {
-    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 55,
-    "scores": {
-      "method_innovation": 18,
-      "author_authority": 8,
-      "topic_relevance": 5,
-      "experiment_feasibility": 16,
-      "resource_completeness": 8
-    },
-    "comment": "提出了一个统一的仿真与现实机器人操作策略评估基准，实验设计充分且资源完整，但与世界模型主题关联度较低。",
+    "comment": "提出LingBot-World 2.0，通过因果预训练和实时蒸馏实现无界交互与60fps渲染，并创新性地引入双智能体框架，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
