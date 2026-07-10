@@ -41,7 +41,9 @@
     "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
     "processed_at": "2026-07-07T14:51:01",
     "score": 76,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-11T07:00:15",
+    "pushed_post": "2026-07-11_top3_推文.md"
   },
   "2607.04352v1": {
     "title": "Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach",
@@ -63,7 +65,9 @@
     "title": "Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control",
     "processed_at": "2026-07-07T14:51:01",
     "score": 77,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-11T07:00:15",
+    "pushed_post": "2026-07-11_top3_推文.md"
   },
   "2607.03461v1": {
     "title": "WorldBagel: Uncovering the Power of Unified Multimodal Models for Vision-Language-Action-World Modeling",
@@ -278,8 +282,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-10T07:11:32",
-    "pushed_post": "2026-07-10_top3_推文.md"
+    "pushed_at": "2026-07-11T07:00:15",
+    "pushed_post": "2026-07-11_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -293,56 +297,6 @@
       "resource_completeness": 2
     },
     "comment": "该论文提出了一种基于假设驱动的开放世界机器人规划框架，通过结合基础模型与不确定性感知的世界模型扩展，有效解决了未知环境下的知识获取与任务执行问题，具有较强的创新性和实用价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.06403v1": {
-    "title": "From Foundation to Application: Improving VLA Models in Practice",
-    "evaluated_at": "2026-07-08T11:41:54",
-    "score": 66,
-    "scores": {
-      "method_innovation": 18,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 18,
-      "resource_completeness": 2
-    },
-    "comment": "结合视频表征与深度估计的预测性动力学建模提升了VLA在复杂具身任务中的泛化与长时操作能力，系统级改进扎实但缺乏开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.06558v1": {
-    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
-    "evaluated_at": "2026-07-08T11:41:54",
-    "score": 66,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 1
-    },
-    "comment": "提出以动作条件世界模型替代物理机器人进行数字遥操作数据采集的范式，技术路线（深度感知骨骼条件+渐进式人到机器人训练+流式自回归蒸馏）创新性较高，但缺乏顶会 peer review 验证且无公开代码，实验可信度与可复现性存疑。",
-    "venue": "HuggingFace Daily",
-    "sources": [
-      "arxiv",
-      "hf_daily"
-    ]
-  },
-  "2607.04464v1": {
-    "title": "Operator-on-F complements value-equivalence: a planning-time diagnostic for latent world models",
-    "evaluated_at": "2026-07-08T11:41:54",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出了一种用于潜在世界模型规划时错误诊断的新方法operator-on-F，有效补充了传统的值等价评估，实验设计合理但缺乏代码开源和明确的作者机构背景。",
     "sources": [
       "arxiv"
     ]
@@ -491,9 +445,57 @@
       "arxiv"
     ]
   },
-  "2607.04927v1": {
-    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
-    "evaluated_at": "2026-07-10T07:10:22",
+  "2607.08127v1": {
+    "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 76,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 14,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 6
+    },
+    "comment": "提出Temporal Ratio度量并缓解视频-动作模型的泛化鸿沟，为世界-动作模型的时序依赖与组合泛化提供了新颖的视角与自适应推理方法。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.08375v1": {
+    "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 70,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出双层级世界认知VLA框架，结合语义推理与生成式世界模型，引入博弈论思维链与对齐解耦扩散Transformer，在NAVSIM上取得SOTA表现。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.08312v1": {
+    "title": "Write-Protected Discrete Bottlenecks for Language-Grounded World Models: A Structural Limitation and Sufficient Fix",
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 70,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "深入剖析了语言特征注入离散符号瓶颈的结构性缺陷，并提出基于无梯度记忆表与DP-Means的轻量级修复方案，实验设计严谨且极具启发性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.08639v1": {
+    "title": "Native Video-Action Pretraining for Generalizable Robot Control",
+    "evaluated_at": "2026-07-11T06:59:03",
     "score": 65,
     "scores": {
       "method_innovation": 22,
@@ -502,23 +504,56 @@
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出双系统架构结合WAM与VLM以解决复杂任务分解问题，并在真实机器人上实现公平对比，工程落地性强但缺乏开源资源与同行评审背书。",
+    "comment": "提出从头构建的因果视频-动作基础模型LingBot-VA 2.0，结合语义tokenizer与异步推理实现实时闭环控制，在具身智能世界模型方向具有较好的创新性与相关性，但缺乏知名机构背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.07287v2": {
+    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种结合视觉语言规划和触觉世界模型的分层策略，有效解耦了灵巧操作中的慢速推理与高频接触反馈，在接触丰富的任务上展现了较强的泛化性与抗干扰能力。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.07534v1": {
     "title": "Infinite Worlds with Versatile Interactions",
-    "evaluated_at": "2026-07-10T07:10:22",
-    "score": 63,
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 65,
     "scores": {
-      "method_innovation": 20,
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出LingBot-World 2.0，通过因果预训练和实时蒸馏实现无界交互与60fps渲染，并创新性地引入双智能体框架，但缺乏顶会背书与开源代码。",
+    "comment": "提出结合因果预训练与双智能体框架的实时交互式世界模型，实现了无界交互与多玩家沉浸体验，但缺乏顶会背书与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06706v1": {
+    "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
+    "evaluated_at": "2026-07-11T06:59:03",
+    "score": 65,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "该综述系统梳理了VLA模型在双臂操作与无人机系统中的应用，并探讨了跨领域迁移潜力及世界模型等关键问题，但作为期刊综述缺乏顶会背书与代码资源。",
+    "venue": "Drones",
     "sources": [
       "arxiv"
     ]
