@@ -282,8 +282,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-11T07:00:15",
-    "pushed_post": "2026-07-11_top3_推文.md"
+    "pushed_at": "2026-07-12T06:45:29",
+    "pushed_post": "2026-07-12_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -345,22 +345,6 @@
       "resource_completeness": 6
     },
     "comment": "AlayaWorld提出了一套全栈开源的视频世界模型生成框架，支持长时序实时交互，对生成式世界模型的工程落地与未来研究具有较高参考价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.05577v1": {
-    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 66,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 15,
-      "experiment_feasibility": 17,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于叙事学的时间状态图与混合检索的叙事世界模型，在长篇虚构写作的多跳问答上显著优于现有图记忆基线，实验设计严谨，但作者知名度与开源资源略显不足。",
     "sources": [
       "arxiv"
     ]
@@ -459,7 +443,9 @@
     "comment": "提出Temporal Ratio度量并缓解视频-动作模型的泛化鸿沟，为世界-动作模型的时序依赖与组合泛化提供了新颖的视角与自适应推理方法。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-12T06:45:29",
+    "pushed_post": "2026-07-12_top3_推文.md"
   },
   "2607.08375v1": {
     "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
@@ -493,67 +479,116 @@
       "arxiv"
     ]
   },
+  "2607.08233v1": {
+    "title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 77,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 18,
+      "topic_relevance": 16,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出ZendoWorld交互式环境以评估智能体在主动视觉概念归纳中的假设生成与实验设计能力，揭示了当前VLM在主动归纳推理上的显著缺陷。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-12T06:45:29",
+    "pushed_post": "2026-07-12_top3_推文.md"
+  },
   "2607.08639v1": {
     "title": "Native Video-Action Pretraining for Generalizable Robot Control",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 65,
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 71,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "method_innovation": 24,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出从头构建的因果视频-动作基础模型LingBot-VA 2.0，结合语义tokenizer与异步推理实现实时闭环控制，在具身智能世界模型方向具有较好的创新性与相关性，但缺乏知名机构背书与开源代码。",
+    "comment": "提出从头构建的因果视频-动作基础模型LingBot-VA 2.0，结合语义tokenizer与MoE架构实现实时闭环控制，在真实机器人任务中展现出良好的少样本泛化能力。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06558v1": {
+    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出以生成式世界模型替代物理机器人进行数字遥操作数据采集的范式，结合深度感知骨骼条件化、渐进式人-机器人训练及流式自回归蒸馏实现40+ FPS实时交互生成，思路新颖且与世界模型主题高度契合，但仅有arXiv预印本、无代码开源与同行评审佐证，实验可信度与资源完整性尚待验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06640v1": {
+    "title": "The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?",
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "深入探讨了世界模型中价值等价的维度特性，指出标量奖励仅能提供一维投影，并在DreamerV3上进行了严谨的受控实验验证。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.07287v2": {
     "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 65,
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 68,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 25,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出了一种结合视觉语言规划和触觉世界模型的分层策略，有效解耦了灵巧操作中的慢速推理与高频接触反馈，在接触丰富的任务上展现了较强的泛化性与抗干扰能力。",
+    "comment": "提出分层触觉世界模型结合VLA策略，将触觉用于预测与高频反馈，在灵巧操作任务上验证了较好的接触适应性与抗干扰能力，但缺乏开源资源与权威背书。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.07534v1": {
     "title": "Infinite Worlds with Versatile Interactions",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 65,
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 64,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
     },
-    "comment": "提出结合因果预训练与双智能体框架的实时交互式世界模型，实现了无界交互与多玩家沉浸体验，但缺乏顶会背书与开源资源。",
+    "comment": "提出结合多智能体框架的无界交互世界模型，支持实时多人生成与轻量化部署，系统创新性强但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.06706v1": {
-    "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 65,
+  "2607.07763v1": {
+    "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
+    "evaluated_at": "2026-07-12T06:44:23",
+    "score": 62,
     "scores": {
       "method_innovation": 20,
-      "author_authority": 10,
+      "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "该综述系统梳理了VLA模型在双臂操作与无人机系统中的应用，并探讨了跨领域迁移潜力及世界模型等关键问题，但作为期刊综述缺乏顶会背书与代码资源。",
-    "venue": "Drones",
+    "comment": "针对哈密顿世界模型在非保守环境下的时间泛化问题，识别并修复了潜在量级增长与截断误差累积两种失败模式，具有一定的理论价值与改进意义。",
     "sources": [
       "arxiv"
     ]
