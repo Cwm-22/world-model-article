@@ -35,7 +35,9 @@
     "title": "Mask2Real-WM: Segmentation Masks as a Sim-to-Real Bridge for Controllable Dexterous World Models",
     "processed_at": "2026-07-07T14:51:01",
     "score": 75,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-13T06:46:13",
+    "pushed_post": "2026-07-13_top3_推文.md"
   },
   "2607.04540v1": {
     "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
@@ -149,7 +151,9 @@
     "comment": "提出运动学与动力学视角重构世界模型的长视界失败问题，并设计iKCE诊断指标，视角新颖且实验设计合理，但缺乏代码开源与顶会背书。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-13T06:46:13",
+    "pushed_post": "2026-07-13_top3_推文.md"
   },
   "2607.05765v1": {
     "title": "Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator",
@@ -282,8 +286,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-12T06:45:29",
-    "pushed_post": "2026-07-12_top3_推文.md"
+    "pushed_at": "2026-07-13T06:46:13",
+    "pushed_post": "2026-07-13_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -333,22 +337,6 @@
       "arxiv"
     ]
   },
-  "2607.06291v1": {
-    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 67,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 6
-    },
-    "comment": "AlayaWorld提出了一套全栈开源的视频世界模型生成框架，支持长时序实时交互，对生成式世界模型的工程落地与未来研究具有较高参考价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.07196v1": {
     "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
     "evaluated_at": "2026-07-10T07:10:22",
@@ -393,38 +381,6 @@
       "resource_completeness": 2
     },
     "comment": "揭示了目标条件世界模型中'指令泄漏'这一关键混淆因素——模型可能仅转录指令而非真正感知空间关系，并提出将目标移出动力学、监督读取路径的修复方案，诊断协议与修复方法具有普适价值，但整体偏分析诊断而非架构创新，且仅有arXiv预印本无代码开源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.07459v1": {
-    "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
-    "evaluated_at": "2026-07-10T07:10:22",
-    "score": 67,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
-    },
-    "comment": "构建了生成式3D世界引擎，有效连接跨模拟器资产与任务驱动场景，显著提升了具身策略的仿真训练与真机迁移效果，但工程整合属性较强且缺乏开源资源佐证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.07287v1": {
-    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
-    "evaluated_at": "2026-07-10T07:10:22",
-    "score": 66,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 1
-    },
-    "comment": "提出分层视触觉世界模型框架，将触觉用于预测与高频反馈，在灵巧操作任务上显著优于基线，但缺乏知名作者背书且未开源代码。",
     "sources": [
       "arxiv"
     ]
@@ -561,34 +517,115 @@
       "arxiv"
     ]
   },
-  "2607.07534v1": {
-    "title": "Infinite Worlds with Versatile Interactions",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 64,
+  "2607.07459v1": {
+    "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "提出统一的生成式3D世界引擎EmbodiedGen V2，有效解决具身智能仿真环境构建的规模化问题，且具备出色的sim-to-real迁移效果，但缺乏开源代码支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06291v1": {
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 71,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 6
+    },
+    "comment": "全栈式可交互视频世界生成框架，覆盖数据到部署完整流程，工程系统贡献突出但方法层面创新性有限，作者团队信息与发表场所缺失导致权威性难以评估。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.05577v1": {
+    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种基于叙事学的时间状态图记忆系统，用于长篇虚构小说的多跳问答，创新性地将世界模型应用于叙事结构建模，但缺乏公开代码且作者权威性有待验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.04927v1": {
+    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 65,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
-      "resource_completeness": 1
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
     },
-    "comment": "提出结合多智能体框架的无界交互世界模型，支持实时多人生成与轻量化部署，系统创新性强但缺乏顶会背书与开源代码。",
+    "comment": "提出双系统架构结合WAM执行与VLM规划，通过工程优化实现真实机器人实时控制，并在统一基准下与VLA进行公平比较，但缺乏知名机构背书及开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.07763v1": {
     "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 62,
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 63,
     "scores": {
       "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "针对哈密顿世界模型在非保守环境下的时间泛化问题，识别并修复了潜在量级增长与截断误差累积两种失败模式，具有一定的理论价值与改进意义。",
+    "comment": "深入分析了哈密顿视频动力学模型在非保守环境下的时间泛化失效机制并提出针对性修复策略，对世界模型多时间尺度预测有积极意义，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.06706v1": {
+    "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 61,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 12,
+      "topic_relevance": 12,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "该综述系统梳理了VLA模型在无人机与双臂操作中的应用，并探讨了世界模型等跨领域问题，但与核心世界模型研究关联度有限。",
+    "venue": "Drones",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.07534v1": {
+    "title": "Infinite Worlds with Versatile Interactions",
+    "evaluated_at": "2026-07-13T06:44:54",
+    "score": 59,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 6,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
+    },
+    "comment": "提出LingBot-World 2.0交互式世界模型，引入双智能体框架实现无界交互与实时渲染，但缺乏顶会验证与开源代码支撑。",
     "sources": [
       "arxiv"
     ]
