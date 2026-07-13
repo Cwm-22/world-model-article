@@ -286,8 +286,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-13T06:46:13",
-    "pushed_post": "2026-07-13_top3_推文.md"
+    "pushed_at": "2026-07-14T06:56:59",
+    "pushed_post": "2026-07-14_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -501,22 +501,6 @@
       "arxiv"
     ]
   },
-  "2607.07287v2": {
-    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 68,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出分层触觉世界模型结合VLA策略，将触觉用于预测与高频反馈，在灵巧操作任务上验证了较好的接触适应性与抗干扰能力，但缺乏开源资源与权威背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.07459v1": {
     "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
     "evaluated_at": "2026-07-13T06:44:54",
@@ -565,25 +549,93 @@
       "arxiv"
     ]
   },
-  "2607.04927v1": {
-    "title": "DSWAM: A Dual-System World Action Foundation Model for Fine-Grained Robot Manipulation",
-    "evaluated_at": "2026-07-13T06:44:54",
-    "score": 65,
+  "2607.09661v1": {
+    "title": "PanoWorld: Real-World Panoramic Generation",
+    "evaluated_at": "2026-07-14T06:55:06",
+    "score": 88,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 10
+    },
+    "comment": "利用旋转等变性简化全景世界模型的相机轨迹，提出DPRC和GMA模块解决长程记忆问题，并构建了World360数据集，创新性与落地性俱佳。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-14T06:56:59",
+    "pushed_post": "2026-07-14_top3_推文.md"
+  },
+  "2607.09218v1": {
+    "title": "Tactile and Vision Conditioned Contact-Centric Control for Whole-Arm Manipulation",
+    "evaluated_at": "2026-07-14T06:55:06",
+    "score": 80,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 16,
+      "experiment_feasibility": 17,
+      "resource_completeness": 8
+    },
+    "comment": "结合触觉与视觉的接触中心潜在动力学模型与MPC，有效解决全臂操作中的多接触与物理一致性问题，实验设计扎实且具挑战性。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-14T06:56:59",
+    "pushed_post": "2026-07-14_top3_推文.md"
+  },
+  "2607.07287v2": {
+    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+    "evaluated_at": "2026-07-14T06:55:06",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
       "author_authority": 8,
       "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出分层式触觉世界模型框架，将视觉语言规划与触觉预测及高频残差反馈解耦，有效提升了灵巧操作在干扰下的接触适应性与成功率。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.09091v1": {
+    "title": "Beyond Time Shifts: Adapting Omni-LLM as a Reference-Free Evaluator for Generative Audio-Visual Models",
+    "evaluated_at": "2026-07-14T06:55:06",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 14,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出双系统架构结合WAM执行与VLM规划，通过工程优化实现真实机器人实时控制，并在统一基准下与VLA进行公平比较，但缺乏知名机构背书及开源代码。",
+    "comment": "提出基于Omni-LLM和R-GRPO的无参考音视频生成评估框架，将人类相对偏好转化为连续绝对指标，对世界模拟器的动态一致性评估有较高参考价值，但缺乏开源代码和顶会评审支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.09185v1": {
+    "title": "Causally Debiased Latent Action Model for Embodied Action Conditioned World Models",
+    "evaluated_at": "2026-07-14T06:55:06",
+    "score": 65,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 0
+    },
+    "comment": "针对潜动作模型中的动作无关偏差问题，提出因果去偏框架CD-LAM，通过三个微调目标显著提升了动作可控性与下游机器人任务适应效率。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.07763v1": {
     "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
-    "evaluated_at": "2026-07-13T06:44:54",
+    "evaluated_at": "2026-07-14T06:55:06",
     "score": 63,
     "scores": {
       "method_innovation": 20,
@@ -592,40 +644,23 @@
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "深入分析了哈密顿视频动力学模型在非保守环境下的时间泛化失效机制并提出针对性修复策略，对世界模型多时间尺度预测有积极意义，但缺乏顶会背书与开源代码。",
+    "comment": "针对哈密顿视频动力学模型在非保守环境下的时间泛化失效问题进行了深入分析并提出修复方案，对世界模型的多时间尺度预测有积极意义，但缺乏开源资源和权威发表背景。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.06706v1": {
-    "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
-    "evaluated_at": "2026-07-13T06:44:54",
+  "2607.08894v1": {
+    "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+    "evaluated_at": "2026-07-14T06:55:06",
     "score": 61,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 12,
-      "topic_relevance": 12,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "该综述系统梳理了VLA模型在无人机与双臂操作中的应用，并探讨了世界模型等跨领域问题，但与核心世界模型研究关联度有限。",
-    "venue": "Drones",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.07534v1": {
-    "title": "Infinite Worlds with Versatile Interactions",
-    "evaluated_at": "2026-07-13T06:44:54",
-    "score": 59,
-    "scores": {
-      "method_innovation": 20,
+      "method_innovation": 22,
       "author_authority": 6,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
       "resource_completeness": 1
     },
-    "comment": "提出LingBot-World 2.0交互式世界模型，引入双智能体框架实现无界交互与实时渲染，但缺乏顶会验证与开源代码支撑。",
+    "comment": "结合分层世界模型与UCB1树搜索消除LLM推理调用的思路新颖，但实验结果过于完美且缺乏代码与权威发表背书。",
     "sources": [
       "arxiv"
     ]
