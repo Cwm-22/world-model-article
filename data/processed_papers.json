@@ -286,8 +286,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-14T06:56:59",
-    "pushed_post": "2026-07-14_top3_推文.md"
+    "pushed_at": "2026-07-15T06:56:41",
+    "pushed_post": "2026-07-15_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -303,7 +303,9 @@
     "comment": "该论文提出了一种基于假设驱动的开放世界机器人规划框架，通过结合基础模型与不确定性感知的世界模型扩展，有效解决了未知环境下的知识获取与任务执行问题，具有较强的创新性和实用价值。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-15T06:56:41",
+    "pushed_post": "2026-07-15_top3_推文.md"
   },
   "2607.03732v1": {
     "title": "ProxyUp: Training-Free Proxy-Conditioned Video Generation for Controllable Dynamics",
@@ -533,22 +535,6 @@
       "arxiv"
     ]
   },
-  "2607.05577v1": {
-    "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
-    "evaluated_at": "2026-07-13T06:44:54",
-    "score": 68,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出了一种基于叙事学的时间状态图记忆系统，用于长篇虚构小说的多跳问答，创新性地将世界模型应用于叙事结构建模，但缺乏公开代码且作者权威性有待验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.09661v1": {
     "title": "PanoWorld: Real-World Panoramic Generation",
     "evaluated_at": "2026-07-14T06:55:06",
@@ -601,9 +587,59 @@
       "arxiv"
     ]
   },
-  "2607.09091v1": {
-    "title": "Beyond Time Shifts: Adapting Omni-LLM as a Reference-Free Evaluator for Generative Audio-Visual Models",
-    "evaluated_at": "2026-07-14T06:55:06",
+  "2607.11643v1": {
+    "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 88,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 9
+    },
+    "comment": "提出38B参数的统一具身合成世界基础模型，将图像/视频生成扩展至多视角具身场景，在World Arena及真实机器人操作任务中展现出卓越的泛化与数据增强能力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-15T06:56:41",
+    "pushed_post": "2026-07-15_top3_推文.md"
+  },
+  "2607.11397v1": {
+    "title": "WALA Learning Executable Latent Actions from Action-Labeled Demonstrations and Action-Free Videos",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 71,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 9,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "提出WALA框架，通过在DINOv3特征和深度空间预测未来变化来学习可执行的潜在动作，将无动作视频的动力学监督与带标签演示的控制监督相结合，在仿真和真实机器人操作任务中取得SOTA表现。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.10630v1": {
+    "title": "World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出将预测性世界模型转化为角色条件对手进行多智能体自博弈微调，方法在min-max博弈与反事实信用分配结合上具有较高创新性，且在nuPlan等基准上验证了长尾场景的鲁棒性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.11073v1": {
+    "title": "AeroMELD: A Linear Embedding of Aerosol Populations for Diagnostics and Latent Dynamics",
+    "evaluated_at": "2026-07-15T06:55:58",
     "score": 67,
     "scores": {
       "method_innovation": 24,
@@ -612,55 +648,55 @@
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出基于Omni-LLM和R-GRPO的无参考音视频生成评估框架，将人类相对偏好转化为连续绝对指标，对世界模拟器的动态一致性评估有较高参考价值，但缺乏开源代码和顶会评审支撑。",
+    "comment": "提出了一种保持置换不变性和线性结构的气溶胶种群潜空间嵌入方法，为物理-ML混合模型中的潜动力学学习奠定了数学基础，但与世界模型主流方向关联度一般且暂无开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.09185v1": {
-    "title": "Causally Debiased Latent Action Model for Embodied Action Conditioned World Models",
-    "evaluated_at": "2026-07-14T06:55:06",
-    "score": 65,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 0
-    },
-    "comment": "针对潜动作模型中的动作无关偏差问题，提出因果去偏框架CD-LAM，通过三个微调目标显著提升了动作可控性与下游机器人任务适应效率。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.07763v1": {
-    "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
-    "evaluated_at": "2026-07-14T06:55:06",
-    "score": 63,
+  "2607.10608v1": {
+    "title": "The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 66,
     "scores": {
       "method_innovation": 20,
+      "author_authority": 18,
+      "topic_relevance": 10,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出E-P-R框架诊断智能体在多步轨迹中消费冲突记忆的过程，揭示了“合规陷阱”现象，但与世界模型核心定义关联较弱且暂未开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.11270v1": {
+    "title": "Towards Predictive, Aligned, and Scalable Robot Learning",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "针对哈密顿视频动力学模型在非保守环境下的时间泛化失效问题进行了深入分析并提出修复方案，对世界模型的多时间尺度预测有积极意义，但缺乏开源资源和权威发表背景。",
+    "comment": "提出Lumo-2潜在世界-动作模型，通过多阶段模态预对齐策略将动作与潜在世界动态对齐，在真实机器人任务上表现优异，但缺乏开源资源支撑。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.08894v1": {
-    "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
-    "evaluated_at": "2026-07-14T06:55:06",
-    "score": 61,
+  "2607.11673v1": {
+    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
+    "evaluated_at": "2026-07-15T06:55:58",
+    "score": 62,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 6,
+      "method_innovation": 20,
+      "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
-      "resource_completeness": 1
+      "resource_completeness": 2
     },
-    "comment": "结合分层世界模型与UCB1树搜索消除LLM推理调用的思路新颖，但实验结果过于完美且缺乏代码与权威发表背书。",
+    "comment": "提出基于空间生成原语(SGP)的通用3D世界模型，结合全景视频生成与3DGS重建实现多模态到3D世界的转换，但缺乏顶会验证与开源代码支持。",
     "sources": [
       "arxiv"
     ]
