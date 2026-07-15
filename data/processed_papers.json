@@ -117,7 +117,9 @@
     "comment": "提出统一视频-动作扩散模型，通过掩码调制实现视频与轨迹的联合训练与解耦推理，在自动驾驶世界模型中展现了良好的泛化性与推理效率。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-16T06:58:25",
+    "pushed_post": "2026-07-16_top3_推文.md"
   },
   "2607.05352v2": {
     "title": "Multiplayer Interactive World Models with Representation Autoencoders",
@@ -169,7 +171,9 @@
     "comment": "提出将3D空间锚定与光真实感渲染解耦的神经仿真框架Image2Sim，结合前馈特征高斯与几何感知单步像素流，从RGB-D序列大规模构建可交互导航环境，思路新颖且与世界模型高度相关，但缺乏代码与项目页公开，实验可验证性受限。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-16T06:58:25",
+    "pushed_post": "2026-07-16_top3_推文.md"
   },
   "2607.04978v1": {
     "title": "Qantara: Bridge-Flow Training for Multi-Paradigm JEPA Control",
@@ -286,8 +290,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-15T06:56:41",
-    "pushed_post": "2026-07-15_top3_推文.md"
+    "pushed_at": "2026-07-16T06:58:25",
+    "pushed_post": "2026-07-16_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -319,22 +323,6 @@
       "resource_completeness": 3
     },
     "comment": "提出无需训练的代理条件视频生成框架ProxyUp，通过区域级潜在加噪和随机流松弛实现物理动态控制，与世界模型的动态一致性高度相关，但缺乏开源代码和正式发表信息。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.06438v1": {
-    "title": "WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 69,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 15,
-      "topic_relevance": 14,
-      "experiment_feasibility": 15,
-      "resource_completeness": 1
-    },
-    "comment": "提出以手腕为门控分离身体运动与手部操作的人形机器人控制框架，有效解决了重定向过程中的接触力约束问题，创新性较强。",
     "sources": [
       "arxiv"
     ]
@@ -637,66 +625,114 @@
       "arxiv"
     ]
   },
-  "2607.11073v1": {
-    "title": "AeroMELD: A Linear Embedding of Aerosol Populations for Diagnostics and Latent Dynamics",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 67,
+  "2607.13017v1": {
+    "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 73,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 14,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 6
     },
-    "comment": "提出了一种保持置换不变性和线性结构的气溶胶种群潜空间嵌入方法，为物理-ML混合模型中的潜动力学学习奠定了数学基础，但与世界模型主流方向关联度一般且暂无开源代码。",
+    "comment": "提出以光流作为统一的视频原生动作表示，结合双流扩散框架实现世界动作模型，在机器人操作和世界建模任务上均取得显著效果。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.10608v1": {
-    "title": "The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 66,
+  "2607.12231v1": {
+    "title": "The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 67,
     "scores": {
       "method_innovation": 20,
-      "author_authority": 18,
-      "topic_relevance": 10,
-      "experiment_feasibility": 16,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出E-P-R框架诊断智能体在多步轨迹中消费冲突记忆的过程，揭示了“合规陷阱”现象，但与世界模型核心定义关联较弱且暂未开源代码。",
+    "comment": "提出基于显式时空事件图(GEST)与游戏引擎结合的合成视频生成系统，利用LLM作为导演生成可执行语义规范，保证了多角色协调与时空一致性，系统级创新较强但缺乏开源资源与严格对比实验。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13031v1": {
+    "title": "The Seriality Gap in Video Diffusion Models",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 0
+    },
+    "comment": "深入揭示了视频扩散模型在处理长因果链物理动力学时的“序列性差距”结构性缺陷，理论分析与受控实验结合紧密，但缺乏开源代码支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.12474v1": {
+    "title": "From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 19,
+      "topic_relevance": 19,
+      "experiment_feasibility": 5,
+      "resource_completeness": 0
+    },
+    "comment": "顶级学者团队提出的机制化世界模型概念框架，将科学发现视为知识组织问题，理论视野宏大，但作为立场性文章缺乏具体算法实现与实验验证。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.11270v1": {
     "title": "Towards Predictive, Aligned, and Scalable Robot Learning",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 65,
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 64,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出Lumo-2潜在世界-动作模型，通过多阶段模态预对齐策略将动作与潜在世界动态对齐，在真实机器人任务上表现优异，但缺乏开源资源支撑。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.11673v1": {
-    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 62,
-    "scores": {
-      "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出基于空间生成原语(SGP)的通用3D世界模型，结合全景视频生成与3DGS重建实现多模态到3D世界的转换，但缺乏顶会验证与开源代码支持。",
+    "comment": "提出潜在世界-动作模型Lumo-2，通过多阶段模态预对齐策略优化动作生成的潜在空间几何结构，在真实机器人任务上展现了较好的泛化与推理能力，但缺乏顶会验证与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.11689v1": {
+    "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 63,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 10,
+      "resource_completeness": 0
+    },
+    "comment": "该文是一篇关于世界动作模型与具身大脑的路线图综述，提出了模块化物理智能栈，概念整合性强但缺乏具体实验与代码支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.11673v2": {
+    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
+    "evaluated_at": "2026-07-16T06:57:37",
+    "score": 58,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 6,
+      "topic_relevance": 18,
+      "experiment_feasibility": 12,
+      "resource_completeness": 2
+    },
+    "comment": "提出以全景图+点云为统一空间生成原语(SGP)的多模态3D世界模型管线，将生成式全景视频与3DGS重建结合实现可探索3D世界，思路清晰但本质为已有技术的工程化串联，作者知名度与发表场所信息缺失，且无公开代码仓库支撑可复现性。",
     "sources": [
       "arxiv"
     ]
