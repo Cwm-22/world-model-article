@@ -189,7 +189,9 @@
     "comment": "提出多范式JEPA世界模型Qantara，通过桥流匹配实现单一模型支持潜空间规划、行为克隆和逆动力学，创新性强且实验效果显著。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-17T06:55:41",
+    "pushed_post": "2026-07-17_top3_推文.md"
   },
   "2607.04652v1": {
     "title": "KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation",
@@ -290,8 +292,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-16T06:58:25",
-    "pushed_post": "2026-07-16_top3_推文.md"
+    "pushed_at": "2026-07-17T06:55:41",
+    "pushed_post": "2026-07-17_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -657,82 +659,116 @@
       "arxiv"
     ]
   },
-  "2607.13031v1": {
-    "title": "The Seriality Gap in Video Diffusion Models",
-    "evaluated_at": "2026-07-16T06:57:37",
-    "score": 66,
+  "2607.13451v1": {
+    "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 79,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
+      "method_innovation": 25,
+      "author_authority": 15,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 0
+      "experiment_feasibility": 18,
+      "resource_completeness": 3
     },
-    "comment": "深入揭示了视频扩散模型在处理长因果链物理动力学时的“序列性差距”结构性缺陷，理论分析与受控实验结合紧密，但缺乏开源代码支撑。",
+    "comment": "结合弹簧质点物理引擎与神经网络残差修正，并拓展至3D高斯泼溅交互式模拟，在可变形物体动力学预测上展现了良好的创新性与应用潜力。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-17T06:55:41",
+    "pushed_post": "2026-07-17_top3_推文.md"
   },
-  "2607.12474v1": {
-    "title": "From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery",
-    "evaluated_at": "2026-07-16T06:57:37",
-    "score": 65,
+  "2607.14076v1": {
+    "title": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 73,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 19,
-      "topic_relevance": 19,
-      "experiment_feasibility": 5,
-      "resource_completeness": 0
+      "method_innovation": 20,
+      "author_authority": 12,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 3
     },
-    "comment": "顶级学者团队提出的机制化世界模型概念框架，将科学发现视为知识组织问题，理论视野宏大，但作为立场性文章缺乏具体算法实现与实验验证。",
+    "comment": "本文从动作-状态-观测循环的视角系统梳理了交互式世界模型，并发布了基于《黑神话：悟空》的大规模帧对齐游戏数据集，对状态感知的世界模型研究具有重要推动作用。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.11270v1": {
-    "title": "Towards Predictive, Aligned, and Scalable Robot Learning",
-    "evaluated_at": "2026-07-16T06:57:37",
+  "2607.14005v1": {
+    "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出多视角多模态驾驶世界模型，支持细粒度对象操作与分钟级流式生成，在可控性与长时序稳定性上具有显著创新，但缺乏开源资源与权威发表背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13539v1": {
+    "title": "ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 67,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 15,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将3D场景生成建模为VLM的渐进式推理与动作过程，并结合分层强化学习解决多目标奖励冲突，方法新颖，但缺乏顶会背书与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13681v1": {
+    "title": "Towards Spatial Supersensing in the Wild",
+    "evaluated_at": "2026-07-17T06:55:13",
     "score": 64,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出真实世界长视频空间感知基准VSI-Super-Wild，系统评估多模态模型在时空连贯性上的世界建模缺陷，但缺乏代码与发表背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13960v1": {
+    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 62,
+    "scores": {
+      "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出潜在世界-动作模型Lumo-2，通过多阶段模态预对齐策略优化动作生成的潜在空间几何结构，在真实机器人任务上展现了较好的泛化与推理能力，但缺乏顶会验证与开源资源。",
+    "comment": "提出Mixture-of-Transformers架构解耦视觉动态与动作生成以提升WAM推理效率，但缺乏顶会背书与开源代码，工程优化属性较强。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.11689v1": {
-    "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
-    "evaluated_at": "2026-07-16T06:57:37",
-    "score": 63,
+  "2607.13560v1": {
+    "title": "Grounded world models in biological organisms and future embodied AI",
+    "evaluated_at": "2026-07-17T06:55:13",
+    "score": 62,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 15,
-      "topic_relevance": 18,
-      "experiment_feasibility": 10,
-      "resource_completeness": 0
+      "method_innovation": 22,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 6,
+      "resource_completeness": 1
     },
-    "comment": "该文是一篇关于世界动作模型与具身大脑的路线图综述，提出了模块化物理智能栈，概念整合性强但缺乏具体实验与代码支撑。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.11673v2": {
-    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
-    "evaluated_at": "2026-07-16T06:57:37",
-    "score": 58,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 6,
-      "topic_relevance": 18,
-      "experiment_feasibility": 12,
-      "resource_completeness": 2
-    },
-    "comment": "提出以全景图+点云为统一空间生成原语(SGP)的多模态3D世界模型管线，将生成式全景视频与3DGS重建结合实现可探索3D世界，思路清晰但本质为已有技术的工程化串联，作者知名度与发表场所信息缺失，且无公开代码仓库支撑可复现性。",
+    "comment": "从神经科学视角探讨具身世界模型的构建机制，为未来具身AI摆脱被动语言训练提供了理论启发，但缺乏具体算法与实验验证。",
     "sources": [
       "arxiv"
     ]
