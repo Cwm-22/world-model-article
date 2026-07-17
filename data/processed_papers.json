@@ -292,8 +292,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-17T06:55:41",
-    "pushed_post": "2026-07-17_top3_推文.md"
+    "pushed_at": "2026-07-18T06:50:42",
+    "pushed_post": "2026-07-18_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -643,22 +643,6 @@
       "arxiv"
     ]
   },
-  "2607.12231v1": {
-    "title": "The GEST-Engine: From Event Graphs to Synthetic Video. A Full Technical Report",
-    "evaluated_at": "2026-07-16T06:57:37",
-    "score": 67,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于显式时空事件图(GEST)与游戏引擎结合的合成视频生成系统，利用LLM作为导演生成可执行语义规范，保证了多角色协调与时空一致性，系统级创新较强但缺乏开源资源与严格对比实验。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.13451v1": {
     "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
     "evaluated_at": "2026-07-17T06:55:13",
@@ -693,22 +677,6 @@
       "arxiv"
     ]
   },
-  "2607.14005v1": {
-    "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
-    "evaluated_at": "2026-07-17T06:55:13",
-    "score": 67,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出多视角多模态驾驶世界模型，支持细粒度对象操作与分钟级流式生成，在可控性与长时序稳定性上具有显著创新，但缺乏开源资源与权威发表背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.13539v1": {
     "title": "ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning",
     "evaluated_at": "2026-07-17T06:55:13",
@@ -725,50 +693,118 @@
       "arxiv"
     ]
   },
-  "2607.13681v1": {
-    "title": "Towards Spatial Supersensing in the Wild",
-    "evaluated_at": "2026-07-17T06:55:13",
-    "score": 64,
+  "2607.15065v1": {
+    "title": "DriftWorld: Fast World Modeling through Drifting",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 82,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 19,
+      "experiment_feasibility": 18,
       "resource_completeness": 2
     },
-    "comment": "提出真实世界长视频空间感知基准VSI-Super-Wild，系统评估多模态模型在时空连贯性上的世界建模缺陷，但缺乏代码与发表背书。",
+    "comment": "DriftWorld利用drifting生成模型替代扩散模型，在单次前向传播中实现30+fps的快速世界建模，显著提升了机器人规划和策略评估的效率。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-18T06:50:42",
+    "pushed_post": "2026-07-18_top3_推文.md"
+  },
+  "2607.14180v1": {
+    "title": "RENEW: Towards Learning World Models and Repairing Model Exploitation from Preferences",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 74,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 18,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
+    },
+    "comment": "将人类偏好引入世界模型动态学习以解决离线RL中的模型利用问题，创新性较好且作者权威，但实验环境偏简单且暂无开源代码。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-18T06:50:42",
+    "pushed_post": "2026-07-18_top3_推文.md"
+  },
+  "2607.15278v1": {
+    "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 5
+    },
+    "comment": "提出树状分层潜变量与稀疏注意力机制实现由粗到细的视频多步推理，在推理任务上显著优于基线且具备高数据效率，与世界建模高度契合。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.13960v1": {
-    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
-    "evaluated_at": "2026-07-17T06:55:13",
-    "score": 62,
+  "2607.14183v1": {
+    "title": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 71,
     "scores": {
       "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 15,
+      "experiment_feasibility": 18,
+      "resource_completeness": 8
+    },
+    "comment": "大规模第一人称操作数据集与工具链，为具身智能及世界模型提供数据基础设施，工程落地性强但方法创新偏弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.14005v1": {
+    "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 68,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
+    },
+    "comment": "提出多视角多模态驾驶世界模型，支持细粒度对象操作与分钟级流式生成，创新性较好但缺乏开源与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.14187v1": {
+    "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 66,
+    "scores": {
+      "method_innovation": 24,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出Mixture-of-Transformers架构解耦视觉动态与动作生成以提升WAM推理效率，但缺乏顶会背书与开源代码，工程优化属性较强。",
+    "comment": "提出统一多模态架构结合语言推理与视觉想象进行具身规划，创新性较好，但缺乏代码及顶会背书，真实机器人实验效果仍需进一步验证。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.13560v1": {
-    "title": "Grounded world models in biological organisms and future embodied AI",
-    "evaluated_at": "2026-07-17T06:55:13",
-    "score": 62,
+  "2607.13960v2": {
+    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+    "evaluated_at": "2026-07-18T06:46:12",
+    "score": 65,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 14,
-      "topic_relevance": 19,
-      "experiment_feasibility": 6,
-      "resource_completeness": 1
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
     },
-    "comment": "从神经科学视角探讨具身世界模型的构建机制，为未来具身AI摆脱被动语言训练提供了理论启发，但缺乏具体算法与实验验证。",
+    "comment": "提出以动作为中心的WAM框架，通过MoT架构分离视觉与动作解码以降低推理延迟，并引入AutoResearch自动化调参，但缺乏开源代码和权威发表信息。",
     "sources": [
       "arxiv"
     ]
