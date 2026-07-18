@@ -292,8 +292,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-18T06:50:42",
-    "pushed_post": "2026-07-18_top3_推文.md"
+    "pushed_at": "2026-07-19T06:46:47",
+    "pushed_post": "2026-07-19_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -457,22 +457,6 @@
       "resource_completeness": 2
     },
     "comment": "提出从头构建的因果视频-动作基础模型LingBot-VA 2.0，结合语义tokenizer与MoE架构实现实时闭环控制，在真实机器人任务中展现出良好的少样本泛化能力。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.06558v1": {
-    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "提出以生成式世界模型替代物理机器人进行数字遥操作数据采集的范式，结合深度感知骨骼条件化、渐进式人-机器人训练及流式自回归蒸馏实现40+ FPS实时交互生成，思路新颖且与世界模型主题高度契合，但仅有arXiv预印本、无代码开源与同行评审佐证，实验可信度与资源完整性尚待验证。",
     "sources": [
       "arxiv"
     ]
@@ -677,22 +661,6 @@
       "arxiv"
     ]
   },
-  "2607.13539v1": {
-    "title": "ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning",
-    "evaluated_at": "2026-07-17T06:55:13",
-    "score": 67,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 15,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "将3D场景生成建模为VLM的渐进式推理与动作过程，并结合分层强化学习解决多目标奖励冲突，方法新颖，但缺乏顶会背书与开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.15065v1": {
     "title": "DriftWorld: Fast World Modeling through Drifting",
     "evaluated_at": "2026-07-18T06:46:12",
@@ -763,48 +731,116 @@
   },
   "2607.14005v1": {
     "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
-    "evaluated_at": "2026-07-18T06:46:12",
-    "score": 68,
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 76,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "method_innovation": 26,
+      "author_authority": 13,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出多视角多模态驾驶世界模型M4World，通过多阶段训练实现分钟级稳定流式生成与细粒度物体操控，在自动驾驶世界模型领域具有较高创新性与实用价值。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-19T06:46:47",
+    "pushed_post": "2026-07-19_top3_推文.md"
+  },
+  "2607.15142v1": {
+    "title": "Concept-Guided Spatial Regularization for World Models in Atari Pong",
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 74,
+    "scores": {
+      "method_innovation": 19,
+      "author_authority": 14,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
       "resource_completeness": 3
     },
-    "comment": "提出多视角多模态驾驶世界模型，支持细粒度对象操作与分钟级流式生成，创新性较好但缺乏开源与顶会背书。",
+    "comment": "提出CGSReg辅助损失以解决Atari Pong世界模型中关键概念建模不足的问题，闭环诊断实验设计严谨，但方法本身创新性相对有限且缺乏代码开源。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-19T06:46:47",
+    "pushed_post": "2026-07-19_top3_推文.md"
+  },
+  "2607.14169v1": {
+    "title": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models",
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "深刻揭示了LLM合成代码世界模型中“验证正确但不适用规划”的鸿沟，提出定量的危险法则，指出预测准确率不应作为规划导向世界模型的唯一评估标准，理论洞察深刻且实验设计严谨。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.14187v1": {
     "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
-    "evaluated_at": "2026-07-18T06:46:12",
-    "score": 66,
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 67,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
+      "method_innovation": 22,
+      "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出统一多模态架构结合语言推理与视觉想象进行具身规划，创新性较好，但缺乏代码及顶会背书，真实机器人实验效果仍需进一步验证。",
+    "comment": "提出了统一语言推理与视觉状态预测的具身认知世界模型架构，结合自动化数据流水线与真机实验，但缺乏顶会背书与开源代码支持。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.13960v2": {
     "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
-    "evaluated_at": "2026-07-18T06:46:12",
-    "score": 65,
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 66,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
-      "topic_relevance": 18,
+      "topic_relevance": 19,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出以动作为中心的WAM框架，通过MoT架构分离视觉与动作解码以降低推理延迟，并引入AutoResearch自动化调参，但缺乏开源代码和权威发表信息。",
+    "comment": "通过解耦训练与推理并引入Mixture-of-Transformers架构有效降低了世界动作模型的推理延迟，但作者背景与开源资源缺乏支撑，学术权威性有待验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.14576v1": {
+    "title": "Sharp Stability Threshold and Certification for Designing Stable Residual Architectures",
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 64,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 7,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于次线性增长原理的残差架构稳定性阈值，从ODE与最优控制角度证明了q≤1的充要性，理论扎实但与世界模型主题直接关联较弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.14488v1": {
+    "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
+    "evaluated_at": "2026-07-19T06:45:42",
+    "score": 63,
+    "scores": {
+      "method_innovation": 21,
+      "author_authority": 12,
+      "topic_relevance": 5,
+      "experiment_feasibility": 18,
+      "resource_completeness": 7
+    },
+    "comment": "提出基于加速度的CBF-QP安全过滤器以确保RL策略在真实机器人上安全部署，真机实验扎实，但主题偏向机器人安全控制，与世界模型关联度较弱。",
     "sources": [
       "arxiv"
     ]
