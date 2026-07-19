@@ -75,7 +75,9 @@
     "title": "WorldBagel: Uncovering the Power of Unified Multimodal Models for Vision-Language-Action-World Modeling",
     "processed_at": "2026-07-07T14:51:01",
     "score": 73,
-    "evaluated_at": "2026-07-07T14:51:01"
+    "evaluated_at": "2026-07-07T14:51:01",
+    "pushed_at": "2026-07-20T06:49:08",
+    "pushed_post": "2026-07-20_top3_推文.md"
   },
   "2607.02865v1": {
     "title": "DREAMSTEER: Latent World Models Can Steer VLA Policies During Deployment Without Any Finetuning",
@@ -207,7 +209,9 @@
     "comment": "提出从冻结的视频世界模型中提取单步潜在速度作为运动可供性图，无需rollout即可为扩散策略提供方向性视觉先验，方法新颖且实验有效。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-20T06:49:08",
+    "pushed_post": "2026-07-20_top3_推文.md"
   },
   "2607.06216v1": {
     "title": "MoWorld: A Flash World Model",
@@ -292,8 +296,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-19T06:46:47",
-    "pushed_post": "2026-07-19_top3_推文.md"
+    "pushed_at": "2026-07-20T06:49:08",
+    "pushed_post": "2026-07-20_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -765,82 +769,114 @@
     "pushed_at": "2026-07-19T06:46:47",
     "pushed_post": "2026-07-19_top3_推文.md"
   },
-  "2607.14169v1": {
-    "title": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models",
-    "evaluated_at": "2026-07-19T06:45:42",
-    "score": 68,
+  "2607.13960v2": {
+    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+    "evaluated_at": "2026-07-20T06:48:39",
+    "score": 67,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "深刻揭示了LLM合成代码世界模型中“验证正确但不适用规划”的鸿沟，提出定量的危险法则，指出预测准确率不应作为规划导向世界模型的唯一评估标准，理论洞察深刻且实验设计严谨。",
+    "comment": "提出以动作为中心的WAM推理范式及Mixture-of-Transformers架构，有效降低了实时机器人控制的推理延迟，但缺乏开源资源及同行评审验证。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.14187v1": {
     "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
-    "evaluated_at": "2026-07-19T06:45:42",
+    "evaluated_at": "2026-07-20T06:48:39",
     "score": 67,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
+      "method_innovation": 24,
+      "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出了统一语言推理与视觉状态预测的具身认知世界模型架构，结合自动化数据流水线与真机实验，但缺乏顶会背书与开源代码支持。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.13960v2": {
-    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
-    "evaluated_at": "2026-07-19T06:45:42",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "通过解耦训练与推理并引入Mixture-of-Transformers架构有效降低了世界动作模型的推理延迟，但作者背景与开源资源缺乏支撑，学术权威性有待验证。",
+    "comment": "提出统一多模态架构将语言推理与视觉世界状态预测结合用于具身认知，创新性较强，但缺乏顶会背书与开源代码支持。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.14576v1": {
     "title": "Sharp Stability Threshold and Certification for Designing Stable Residual Architectures",
-    "evaluated_at": "2026-07-19T06:45:42",
-    "score": 64,
+    "evaluated_at": "2026-07-20T06:48:39",
+    "score": 63,
     "scores": {
       "method_innovation": 25,
-      "author_authority": 15,
-      "topic_relevance": 7,
-      "experiment_feasibility": 15,
+      "author_authority": 12,
+      "topic_relevance": 8,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出基于次线性增长原理的残差架构稳定性阈值，从ODE与最优控制角度证明了q≤1的充要性，理论扎实但与世界模型主题直接关联较弱。",
+    "comment": "通过ODE与最优控制理论建立深度残差架构稳定性的严格阈值，理论创新性强，但与世界模型主题关联较弱且缺乏开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.14488v1": {
     "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
-    "evaluated_at": "2026-07-19T06:45:42",
+    "evaluated_at": "2026-07-20T06:48:39",
     "score": 63,
     "scores": {
-      "method_innovation": 21,
-      "author_authority": 12,
-      "topic_relevance": 5,
-      "experiment_feasibility": 18,
-      "resource_completeness": 7
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 8,
+      "experiment_feasibility": 17,
+      "resource_completeness": 8
     },
-    "comment": "提出基于加速度的CBF-QP安全过滤器以确保RL策略在真实机器人上安全部署，真机实验扎实，但主题偏向机器人安全控制，与世界模型关联度较弱。",
+    "comment": "提出基于加速度的CBF-QP安全滤波器Acc-CBF-QP，在运行时对RL策略施加关节位置/速度/力矩/碰撞约束，在Kinova Gen3和Unitree H1真机上验证约束违反率显著下降，方法扎实但与世界模型主题关联较弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.14169v1": {
+    "title": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models",
+    "evaluated_at": "2026-07-20T06:48:39",
+    "score": 62,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 6,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
+    },
+    "comment": "深入分析了LLM合成代码世界模型中预测准确率与规划有效性之间的“验证-正确”鸿沟，理论推导与实验验证结合，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13612v1": {
+    "title": "The SIGReg Objective as Variational Free Energy: A Theoretical Active-Inference Account of JEPA World Models",
+    "evaluated_at": "2026-07-20T06:48:39",
+    "score": 61,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 5,
+      "resource_completeness": 2
+    },
+    "comment": "纯理论工作，将JEPA世界模型与主动推断的变分自由能建立严格数学联系并经Lean 4验证，创新性高但缺乏实验验证与代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.13539v1": {
+    "title": "ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning",
+    "evaluated_at": "2026-07-20T06:48:39",
+    "score": 60,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 8,
+      "topic_relevance": 13,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将CoT渐进式推理引入3D室内场景生成，提出分层解耦的GDPO强化学习方案解决多奖励冲突，方法创新性较好，但与世界模型核心主题关联度中等，且仅arXiv预印本、无代码开源，权威性与资源完整性不足。",
     "sources": [
       "arxiv"
     ]
