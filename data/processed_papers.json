@@ -296,8 +296,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-20T06:49:08",
-    "pushed_post": "2026-07-20_top3_推文.md"
+    "pushed_at": "2026-07-21T06:59:14",
+    "pushed_post": "2026-07-21_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -495,7 +495,9 @@
     "comment": "提出统一的生成式3D世界引擎EmbodiedGen V2，有效解决具身智能仿真环境构建的规模化问题，且具备出色的sim-to-real迁移效果，但缺乏开源代码支撑。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-21T06:59:14",
+    "pushed_post": "2026-07-21_top3_推文.md"
   },
   "2607.06291v1": {
     "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
@@ -801,82 +803,116 @@
       "arxiv"
     ]
   },
+  "2607.15898v1": {
+    "title": "Orbis 2: A Hierarchical World Model for Driving",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 91,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 10
+    },
+    "comment": "提出分层驾驶世界模型结合diffusion/teacher forcing两阶段训练，兼顾表征丰富度与自回归稳定性，在驾驶世界模型基准上达到SOTA。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-21T06:59:14",
+    "pushed_post": "2026-07-21_top3_推文.md"
+  },
+  "2607.16192v1": {
+    "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 72,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 17,
+      "experiment_feasibility": 15,
+      "resource_completeness": 6
+    },
+    "comment": "将视频预测模型的运动先验重新定向至未来3D场景流预测，以mask latent替代未来RGB并冻结大模型仅训练轻量adapter，思路新颖且数据效率高，但仅见于arXiv预印本，缺乏同行评审与代码公开确认。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.15901v1": {
+    "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 17,
+      "experiment_feasibility": 14,
+      "resource_completeness": 6
+    },
+    "comment": "将世界模型概念引入数据科学工作流领域，通过LLM模拟器与成本感知路由预测操作效果，实现显著的训练与推理加速，方向新颖但组件创新性有限，且目前仅有arXiv预印本与匿名代码，尚缺同行评审验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.15536v1": {
+    "title": "E3DGS: Unified Geometric-Photometric Equivariance for 3D Gaussian Splatting via Color-as-Geometry Embedding",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 67,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 12,
+      "resource_completeness": 2
+    },
+    "comment": "将球谐系数映射为几何张量以实现3D高斯泼溅的SE(3)等变性，理论创新强，但在高斯世界模型上的实验验证仍需更多同行评审支持。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.15550v1": {
+    "title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 64,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出安全增强世界模型（SAWM）用于移动GUI代理的执行前风险评估，创新性地将下一状态预测与安全筛选结合，实验效果显著。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.15620v1": {
+    "title": "AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots",
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 63,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 14,
+      "topic_relevance": 10,
+      "experiment_feasibility": 16,
+      "resource_completeness": 5
+    },
+    "comment": "结合LLM与PCA世界模型对开源液体处理机器人进行协议验证与运行时视觉监控，应用场景新颖但世界模型技术深度有限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2607.14576v1": {
     "title": "Sharp Stability Threshold and Certification for Designing Stable Residual Architectures",
-    "evaluated_at": "2026-07-20T06:48:39",
-    "score": 63,
+    "evaluated_at": "2026-07-21T06:58:16",
+    "score": 62,
     "scores": {
       "method_innovation": 25,
       "author_authority": 12,
       "topic_relevance": 8,
-      "experiment_feasibility": 16,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "通过ODE与最优控制理论建立深度残差架构稳定性的严格阈值，理论创新性强，但与世界模型主题关联较弱且缺乏开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.14488v1": {
-    "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
-    "evaluated_at": "2026-07-20T06:48:39",
-    "score": 63,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 8,
-      "experiment_feasibility": 17,
-      "resource_completeness": 8
-    },
-    "comment": "提出基于加速度的CBF-QP安全滤波器Acc-CBF-QP，在运行时对RL策略施加关节位置/速度/力矩/碰撞约束，在Kinova Gen3和Unitree H1真机上验证约束违反率显著下降，方法扎实但与世界模型主题关联较弱。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.14169v1": {
-    "title": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models",
-    "evaluated_at": "2026-07-20T06:48:39",
-    "score": 62,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 6,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
-      "resource_completeness": 1
-    },
-    "comment": "深入分析了LLM合成代码世界模型中预测准确率与规划有效性之间的“验证-正确”鸿沟，理论推导与实验验证结合，但缺乏顶会背书与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.13612v1": {
-    "title": "The SIGReg Objective as Variational Free Energy: A Theoretical Active-Inference Account of JEPA World Models",
-    "evaluated_at": "2026-07-20T06:48:39",
-    "score": 61,
-    "scores": {
-      "method_innovation": 26,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 5,
-      "resource_completeness": 2
-    },
-    "comment": "纯理论工作，将JEPA世界模型与主动推断的变分自由能建立严格数学联系并经Lean 4验证，创新性高但缺乏实验验证与代码开源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.13539v1": {
-    "title": "ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning",
-    "evaluated_at": "2026-07-20T06:48:39",
-    "score": 60,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 8,
-      "topic_relevance": 13,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "将CoT渐进式推理引入3D室内场景生成，提出分层解耦的GDPO强化学习方案解决多奖励冲突，方法创新性较好，但与世界模型核心主题关联度中等，且仅arXiv预印本、无代码开源，权威性与资源完整性不足。",
+    "comment": "提出基于ODE与最优控制的残差网络亚线性增长稳定性判据，理论性强，但与世界模型主题关联较弱。",
     "sources": [
       "arxiv"
     ]
