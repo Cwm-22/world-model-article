@@ -296,8 +296,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-22T06:54:35",
-    "pushed_post": "2026-07-22_top3_推文.md"
+    "pushed_at": "2026-07-23T07:00:18",
+    "pushed_post": "2026-07-23_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -465,22 +465,6 @@
       "arxiv"
     ]
   },
-  "2607.06640v1": {
-    "title": "The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "深入探讨了世界模型中价值等价的维度特性，指出标量奖励仅能提供一维投影，并在DreamerV3上进行了严谨的受控实验验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.07459v1": {
     "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
     "evaluated_at": "2026-07-13T06:44:54",
@@ -550,22 +534,6 @@
     ],
     "pushed_at": "2026-07-14T06:56:59",
     "pushed_post": "2026-07-14_top3_推文.md"
-  },
-  "2607.07287v2": {
-    "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
-    "evaluated_at": "2026-07-14T06:55:06",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出分层式触觉世界模型框架，将视觉语言规划与触觉预测及高频残差反馈解耦，有效提升了灵巧操作在干扰下的接触适应性与成功率。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.11643v1": {
     "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
@@ -807,38 +775,6 @@
       "arxiv"
     ]
   },
-  "2607.15901v1": {
-    "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
-    "evaluated_at": "2026-07-21T06:58:16",
-    "score": 67,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 17,
-      "experiment_feasibility": 14,
-      "resource_completeness": 6
-    },
-    "comment": "将世界模型概念引入数据科学工作流领域，通过LLM模拟器与成本感知路由预测操作效果，实现显著的训练与推理加速，方向新颖但组件创新性有限，且目前仅有arXiv预印本与匿名代码，尚缺同行评审验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.15536v1": {
-    "title": "E3DGS: Unified Geometric-Photometric Equivariance for 3D Gaussian Splatting via Color-as-Geometry Embedding",
-    "evaluated_at": "2026-07-21T06:58:16",
-    "score": 67,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 12,
-      "resource_completeness": 2
-    },
-    "comment": "将球谐系数映射为几何张量以实现3D高斯泼溅的SE(3)等变性，理论创新强，但在高斯世界模型上的实验验证仍需更多同行评审支持。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.18171v1": {
     "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
     "evaluated_at": "2026-07-22T06:54:03",
@@ -937,18 +873,118 @@
       "arxiv"
     ]
   },
-  "2607.17973v1": {
-    "title": "SAGE: Subgoal-Conditioned Action Generation for Latent World Model Planning",
-    "evaluated_at": "2026-07-22T06:54:03",
-    "score": 67,
+  "2607.19343v1": {
+    "title": "Masked Visual Actions for Unified World Modeling",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 84,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 20,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 0
+    },
+    "comment": "提出Masked Visual Actions作为像素级控制接口，统一了前向动力学预测与逆向机器人动作生成，作者阵容极其强大，方法创新性高且与世界模型主题高度契合。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-23T07:00:18",
+    "pushed_post": "2026-07-23_top3_推文.md"
+  },
+  "2607.18703v1": {
+    "title": "Generative World Renderer at the Speed of Play",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 81,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 17,
+      "topic_relevance": 19,
+      "experiment_feasibility": 18,
+      "resource_completeness": 3
+    },
+    "comment": "通过少步自回归流模型和轻量级蒸馏编解码器将生成式世界渲染器加速至实时30FPS，在保留场景结构与可控性的同时实现了高度可玩的生成式世界，落地性极强。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-23T07:00:18",
+    "pushed_post": "2026-07-23_top3_推文.md"
+  },
+  "2607.19038v1": {
+    "title": "FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 77,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将小说到电影的生成任务形式化为动态电影世界建模，通过多智能体协作实现实体的构建与演化，创新性强且高度契合世界模型主题，但缺乏代码开源限制了可复现性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.18709v1": {
+    "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 76,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 5
+    },
+    "comment": "提出统一的具身智能中间表示套件，将中间表示作为双向接口约束动作空间与世界模型预测，系统性强且与世界模型主题高度相关。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19191v1": {
+    "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 20,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种基于蒸馏与LongForcing的动作条件视频世界模型，结合多源数据与高效推理栈，在单卡桌面GPU上实现了实时长时闭环交互，工程与算法创新性强，但缺乏顶会背书与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.18715v1": {
+    "title": "DWM: Separating World Effects from Actions in Latent World Models",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 69,
     "scores": {
       "method_innovation": 22,
       "author_authority": 12,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
-      "resource_completeness": 0
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
     },
-    "comment": "该论文提出基于多时长子目标条件动作生成的潜在世界模型规划方法，有效缓解了长程规划中的动作空间爆炸问题，但实验基准较为简单且缺乏代码开源。",
+    "comment": "提出DWM将潜在世界模型的状态转移显式分解为动作驱动与动作不变两部分，通过对比学习与正交约束实现，在修改的控制基准上提升了CEM规划成功率，但缺乏代码开源且基准为自建变体。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19190v1": {
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "evaluated_at": "2026-07-23T06:59:47",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 5
+    },
+    "comment": "提出基于视觉语言代理的自动化Real2Sim框架，将真实机器人交互转换为可仿真的物理世界模型，覆盖多类物体与运动场景，具有较强的主题相关性与创新性，但缺乏顶会背书与代码开源信息。",
     "sources": [
       "arxiv"
     ]
