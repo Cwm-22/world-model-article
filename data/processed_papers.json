@@ -262,23 +262,6 @@
       "arxiv"
     ]
   },
-  "2607.06558": {
-    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
-    "evaluated_at": "2026-07-08T10:38:23",
-    "score": 70,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 11,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出以生成式世界模型替代物理机器人进行数字遥操作的数据采集范式，结合深度感知骨骼条件化与视频DiT渐进式训练实现实时交互生成，在Sim2Real双臂灵巧任务上验证有效，创新性突出但尚未见顶会收录与开源代码。",
-    "venue": "HuggingFace Daily",
-    "sources": [
-      "hf_daily"
-    ]
-  },
   "2607.06559v1": {
     "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
     "evaluated_at": "2026-07-08T11:41:54",
@@ -296,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-23T07:00:18",
-    "pushed_post": "2026-07-23_top3_推文.md"
+    "pushed_at": "2026-07-24T06:55:19",
+    "pushed_post": "2026-07-24_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -841,38 +824,6 @@
       "arxiv"
     ]
   },
-  "2607.17710v1": {
-    "title": "Planning with Transformers: Chain of Computation and Structured Context Windows",
-    "evaluated_at": "2026-07-22T06:54:03",
-    "score": 69,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 14,
-      "topic_relevance": 16,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出链式计算与结构化上下文窗口架构，将Transformer嵌入迭代循环以学习规划策略并预测世界模型，在经典符号规划任务上展现了强大的泛化与长序列推理能力。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.17523v1": {
-    "title": "Thinking in Video: Can Video Generators Really Reason About the Real World?",
-    "evaluated_at": "2026-07-22T06:54:03",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出CGDJ双判别评估框架检验视频生成模型的真实世界因果推理能力，揭示了感知与生成之间的显著差距，对“世界模拟器”叙事提出了有力质疑。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.19343v1": {
     "title": "Masked Visual Actions for Unified World Modeling",
     "evaluated_at": "2026-07-23T06:59:47",
@@ -923,7 +874,9 @@
     "comment": "将小说到电影的生成任务形式化为动态电影世界建模，通过多智能体协作实现实体的构建与演化，创新性强且高度契合世界模型主题，但缺乏代码开源限制了可复现性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-24T06:55:19",
+    "pushed_post": "2026-07-24_top3_推文.md"
   },
   "2607.18709v1": {
     "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
@@ -939,7 +892,9 @@
     "comment": "提出统一的具身智能中间表示套件，将中间表示作为双向接口约束动作空间与世界模型预测，系统性强且与世界模型主题高度相关。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-24T06:55:19",
+    "pushed_post": "2026-07-24_top3_推文.md"
   },
   "2607.19191v1": {
     "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
@@ -957,34 +912,114 @@
       "arxiv"
     ]
   },
+  "2607.19876v1": {
+    "title": "KineBench: Benchmarking Embodied World Models via IDM-Free Kinematic Grounding",
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出无IDM的闭环具身世界模型评估基准KineBench，利用视觉基础模型提取6D位姿并引入运动学指标，有效解决了动作提取的归因模糊问题，评估体系设计严谨且具启发性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.18924v1": {
+    "title": "Learning Explicit Physical Parameter Control and Benchmarking for Video Generation",
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 73,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 5
+    },
+    "comment": "提出包含13万物理模拟视频的数据集及对应基准，通过物理注意力机制实现图生视频的显式物理参数控制，对世界模型的物理规律建模有较高参考价值。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2607.18715v1": {
     "title": "DWM: Separating World Effects from Actions in Latent World Models",
-    "evaluated_at": "2026-07-23T06:59:47",
-    "score": 69,
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 71,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 24,
       "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出DWM将潜在世界模型的状态转移显式分解为动作驱动与动作不变两部分，通过对比学习与正交约束实现，在修改的控制基准上提升了CEM规划成功率，但缺乏代码开源且基准为自建变体。",
+    "comment": "提出在潜空间世界模型中将状态转移分解为动作驱动与动作不变的世界效应，通过对比学习与正交约束实现加性分解，在修改的控制基准上提升了规划成功率，但缺乏复杂视觉环境验证与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.19190v1": {
+  "2607.19190v2": {
     "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
-    "evaluated_at": "2026-07-23T06:59:47",
-    "score": 67,
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 69,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 5
+      "experiment_feasibility": 15,
+      "resource_completeness": 6
     },
-    "comment": "提出基于视觉语言代理的自动化Real2Sim框架，将真实机器人交互转换为可仿真的物理世界模型，覆盖多类物体与运动场景，具有较强的主题相关性与创新性，但缺乏顶会背书与代码开源信息。",
+    "comment": "利用视觉-语言代理自动化Real2Sim流程以构建基于物理的世界模型，统一处理多类交互场景，创新性较好，但作者权威性与开源资源尚待提升。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19719v1": {
+    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 68,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "结合Koopman算子与频谱约束改进Dreamer的长程稳定性，理论推导严谨，但缺乏开源代码与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19809v1": {
+    "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将DreamerV3世界模型与多智能体通信机制结合，利用历史潜在状态生成消息，在部分可观测任务中显著优于仅依赖当前观察的方法，但实验环境规模偏小且未开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19889v1": {
+    "title": "LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition",
+    "evaluated_at": "2026-07-24T06:54:53",
+    "score": 65,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将前向世界模型与逆动力学模型引入手术交互识别的视觉语言微调，方法新颖且与世界模型主题高度相关，但缺乏顶会验证与开源代码。",
     "sources": [
       "arxiv"
     ]
