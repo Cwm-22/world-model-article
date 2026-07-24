@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-24T06:55:19",
-    "pushed_post": "2026-07-24_top3_推文.md"
+    "pushed_at": "2026-07-25T07:00:20",
+    "pushed_post": "2026-07-25_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -328,22 +328,6 @@
       "resource_completeness": 2
     },
     "comment": "将安全关键系统的VV&A标准引入生成式世界模型，提出L0-L4准入阶梯，深刻揭示了视觉保真度与动作鲁棒性之间的背离现象，为世界模型作为测试预言机提供了严谨的认证框架。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.06988v1": {
-    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
-    "evaluated_at": "2026-07-10T07:10:22",
-    "score": 70,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出了一种新颖的测试时训练框架，通过自监督视频预测和键值记忆机制，利用无标签人类视频引导冻结的世界动作模型，在机器人操作任务中展现出良好的泛化能力。",
     "sources": [
       "arxiv"
     ]
@@ -960,66 +944,118 @@
       "arxiv"
     ]
   },
-  "2607.19190v2": {
-    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
-    "evaluated_at": "2026-07-24T06:54:53",
-    "score": 69,
+  "2607.21594v1": {
+    "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 77,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于世界状态寄存器的流式多智能体视频扩散模型WorldWeaver，通过显式状态建模与混合Transformer架构有效解决了多智能体场景下共享状态难以维持的问题，创新性较强。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-25T07:00:20",
+    "pushed_post": "2026-07-25_top3_推文.md"
+  },
+  "2607.21471v1": {
+    "title": "Future Rendering $\\neq$ Future Surface: A Benchmark and Dataset for Dynamic Surface Reconstruction Beyond the Observed Window",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 75,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 9
+    },
+    "comment": "提出FutureSurf基准，首次系统评估观测窗口外的动态表面重建，揭示了未来渲染质量与几何精度的解耦现象，填补了世界模型几何预测评估的空白。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-25T07:00:20",
+    "pushed_post": "2026-07-25_top3_推文.md"
+  },
+  "2607.20940v1": {
+    "title": "Ms. Forcing: Efficient Streaming Video Generation with Multi-Scale Patchification and Attention",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 70,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 12,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 6
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
     },
-    "comment": "利用视觉-语言代理自动化Real2Sim流程以构建基于物理的世界模型，统一处理多类交互场景，创新性较好，但作者权威性与开源资源尚待提升。",
+    "comment": "提出多尺度分块与注意力机制自适应匹配噪声级别，有效降低流式视频生成的计算成本并提升帧率，但缺乏代码开源限制了可复现性。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.19719v1": {
-    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
-    "evaluated_at": "2026-07-24T06:54:53",
-    "score": 68,
+  "2607.20653v1": {
+    "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 70,
     "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
+      "method_innovation": 24,
+      "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "结合Koopman算子与频谱约束改进Dreamer的长程稳定性，理论推导严谨，但缺乏开源代码与顶会背书。",
+    "comment": "结合可微MPM模拟器与神经网络的混合世界模型，通过材料推断与残差修正有效提升了可变形物体动力学预测的准确性与泛化性，但缺乏开源资源且作者权威性信息不足。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.19809v1": {
     "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
-    "evaluated_at": "2026-07-24T06:54:53",
-    "score": 66,
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 70,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "将DreamerV3世界模型与多智能体通信机制结合，利用历史潜在状态生成消息，在部分可观测任务中显著优于仅依赖当前观察的方法，但实验环境规模偏小且未开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.19889v1": {
-    "title": "LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition",
-    "evaluated_at": "2026-07-24T06:54:53",
-    "score": 65,
-    "scores": {
-      "method_innovation": 20,
+      "method_innovation": 25,
       "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将前向世界模型与逆动力学模型引入手术交互识别的视觉语言微调，方法新颖且与世界模型主题高度相关，但缺乏顶会验证与开源代码。",
+    "comment": "将DreamerV3世界模型的潜在状态历史信息用于多智能体通信，方法新颖且有效，但实验环境相对简单且缺乏开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19749v1": {
+    "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "论文精准定位了持续MBRL中Actor遗忘而世界模型保留的机制，并提出基于梦境排练的自我模仿方法，实验设计严谨但缺乏发表背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.20988v1": {
+    "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+    "evaluated_at": "2026-07-25T06:59:43",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出混合像素级与潜在特征的HyWorldVLA框架用于自动驾驶，在NAVSIM基准上验证了有效性与噪声鲁棒性，但缺乏代码开源且作者权威性待考。",
     "sources": [
       "arxiv"
     ]
