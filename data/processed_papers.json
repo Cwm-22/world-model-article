@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-25T07:00:20",
-    "pushed_post": "2026-07-25_top3_推文.md"
+    "pushed_at": "2026-07-27T06:59:17",
+    "pushed_post": "2026-07-27_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -332,22 +332,6 @@
       "arxiv"
     ]
   },
-  "2607.06925v1": {
-    "title": "Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix",
-    "evaluated_at": "2026-07-10T07:10:22",
-    "score": 70,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 13,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "揭示了目标条件世界模型中'指令泄漏'这一关键混淆因素——模型可能仅转录指令而非真正感知空间关系，并提出将目标移出动力学、监督读取路径的修复方案，诊断协议与修复方法具有普适价值，但整体偏分析诊断而非架构创新，且仅有arXiv预印本无代码开源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.08127v1": {
     "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
     "evaluated_at": "2026-07-11T06:59:03",
@@ -365,38 +349,6 @@
     ],
     "pushed_at": "2026-07-12T06:45:29",
     "pushed_post": "2026-07-12_top3_推文.md"
-  },
-  "2607.08375v1": {
-    "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 70,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出双层级世界认知VLA框架，结合语义推理与生成式世界模型，引入博弈论思维链与对齐解耦扩散Transformer，在NAVSIM上取得SOTA表现。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.08312v1": {
-    "title": "Write-Protected Discrete Bottlenecks for Language-Grounded World Models: A Structural Limitation and Sufficient Fix",
-    "evaluated_at": "2026-07-11T06:59:03",
-    "score": 70,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 17,
-      "resource_completeness": 2
-    },
-    "comment": "深入剖析了语言特征注入离散符号瓶颈的结构性缺陷，并提出基于无梯度记忆表与DP-Means的轻量级修复方案，实验设计严谨且极具启发性。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.08233v1": {
     "title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
@@ -602,7 +554,9 @@
     "comment": "本文从动作-状态-观测循环的视角系统梳理了交互式世界模型，并发布了基于《黑神话：悟空》的大规模帧对齐游戏数据集，对状态感知的世界模型研究具有重要推动作用。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-27T06:59:17",
+    "pushed_post": "2026-07-27_top3_推文.md"
   },
   "2607.15065v1": {
     "title": "DriftWorld: Fast World Modeling through Drifting",
@@ -1028,34 +982,116 @@
       "arxiv"
     ]
   },
-  "2607.19749v1": {
-    "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
-    "evaluated_at": "2026-07-25T06:59:43",
-    "score": 68,
+  "2607.18709v2": {
+    "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 79,
     "scores": {
       "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 5
+    },
+    "comment": "提出了一套全面的具身世界建模与机器人操作中间表示套件，通过密集标注的大规模数据集和多种下游任务，验证了中间表示在动作执行和未来状态预测中的双向接口作用。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-27T06:59:17",
+    "pushed_post": "2026-07-27_top3_推文.md"
+  },
+  "2607.19190v2": {
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 72,
+    "scores": {
+      "method_innovation": 23,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 7
     },
-    "comment": "论文精准定位了持续MBRL中Actor遗忘而世界模型保留的机制，并提出基于梦境排练的自我模仿方法，实验设计严谨但缺乏发表背书与开源代码。",
+    "comment": "提出基于视觉语言代理的自动化Real2Sim框架，将真实交互视频转化为可仿真的物理世界模型，在多类物体交互场景中验证了其低成本与高可行性。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.20988v1": {
     "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
-    "evaluated_at": "2026-07-25T06:59:43",
-    "score": 66,
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 71,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "method_innovation": 25,
+      "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出混合像素级与潜在特征的HyWorldVLA框架用于自动驾驶，在NAVSIM基准上验证了有效性与噪声鲁棒性，但缺乏代码开源且作者权威性待考。",
+    "comment": "提出混合像素级与潜在表示的自动驾驶世界模型HyWorldVLA，兼顾鲁棒性与可解释性，并在NAVSIM上验证了有效性及噪声鲁棒性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19719v1": {
+    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将Koopman算子谱约束引入Dreamer世界模型以提升长程潜在rollout的稳定性，理论推导扎实，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19749v1": {
+    "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 67,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 7,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "将持续学习中的灾难性遗忘精确定位为actor通道问题而非world model记忆问题，提出基于世界模型想象rollout的自模仿dream rehearsal方法，预注册实验设计严谨、统计报告规范，但单作者且无代码开源限制了可复现性与权威性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.19889v1": {
+    "title": "LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 62,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 15,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "结合前向世界模型与逆动力学模型指导手术场景下的视觉语言微调，方法具有一定创新性，但缺乏顶会认证与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.20152v1": {
+    "title": "Active Inference as a Convex Markov Decision Process",
+    "evaluated_at": "2026-07-27T06:58:32",
+    "score": 61,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 8,
+      "resource_completeness": 1
+    },
+    "comment": "将主动推理建模为凸MDP并结合世界模型学习与策略优化，理论创新性强，但缺乏实验验证与开源代码。",
     "sources": [
       "arxiv"
     ]
