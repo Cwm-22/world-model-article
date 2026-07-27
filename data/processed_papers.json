@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-27T06:59:17",
-    "pushed_post": "2026-07-27_top3_推文.md"
+    "pushed_at": "2026-07-28T06:59:14",
+    "pushed_post": "2026-07-28_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -608,7 +608,9 @@
     "comment": "提出树状分层潜变量与稀疏注意力机制实现由粗到细的视频多步推理，在推理任务上显著优于基线且具备高数据效率，与世界建模高度契合。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-28T06:59:14",
+    "pushed_post": "2026-07-28_top3_推文.md"
   },
   "2607.14183v1": {
     "title": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning",
@@ -713,22 +715,6 @@
     ],
     "pushed_at": "2026-07-22T06:54:35",
     "pushed_post": "2026-07-22_top3_推文.md"
-  },
-  "2607.18062v1": {
-    "title": "UniETP: Unifying Environments for Generalizable Embodied Task Planning",
-    "evaluated_at": "2026-07-22T06:54:03",
-    "score": 70,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 12,
-      "topic_relevance": 14,
-      "experiment_feasibility": 16,
-      "resource_completeness": 8
-    },
-    "comment": "提出统一四个主流具身模拟器接口的UniETP，构建了多难度数据集与评估系统，为具身任务规划提供了标准化的评测基准。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.17560v1": {
     "title": "Reinforcement Learning: From Algorithms To Foundation Models",
@@ -1032,66 +1018,116 @@
       "arxiv"
     ]
   },
-  "2607.19719v1": {
-    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
-    "evaluated_at": "2026-07-27T06:58:32",
-    "score": 68,
+  "2607.22430v1": {
+    "title": "On the Identifiability of Controlled World Models",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 77,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "首次为基于JEPA的受控世界模型建立联合可辨识性理论，揭示了动作覆盖度对状态与动态辨识的影响，理论深刻且具指导意义。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-07-28T06:59:14",
+    "pushed_post": "2026-07-28_top3_推文.md"
+  },
+  "2607.22530v1": {
+    "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 72,
     "scores": {
       "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 19,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 6
+    },
+    "comment": "首个结合视觉与触觉的机器人世界模型框架，通过仿真与真实数据混合预训练实现接触丰富操作的动作条件轨迹生成与策略评估，创新性突出。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.22535v1": {
+    "title": "Robot-Factored World Models via Robot Rendering",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 71,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将Koopman算子谱约束引入Dreamer世界模型以提升长程潜在rollout的稳定性，理论推导扎实，但缺乏顶会背书与开源代码。",
+    "comment": "提出通过机器人渲染和动作轨迹分解将机器人特定因素移出世界模型，有效解决了动作实现学习与未来状态泄露问题，并具备跨实体泛化能力。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.19749v1": {
     "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
-    "evaluated_at": "2026-07-27T06:58:32",
-    "score": 67,
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 69,
     "scores": {
-      "method_innovation": 23,
-      "author_authority": 7,
+      "method_innovation": 25,
+      "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 3
+      "resource_completeness": 2
     },
-    "comment": "将持续学习中的灾难性遗忘精确定位为actor通道问题而非world model记忆问题，提出基于世界模型想象rollout的自模仿dream rehearsal方法，预注册实验设计严谨、统计报告规范，但单作者且无代码开源限制了可复现性与权威性。",
+    "comment": "深入揭示了DreamerV3在持续学习中actor遗忘而世界模型保留的机制，并提出有效的dream rehearsal方法，实验设计严谨但缺乏公开代码资源。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.19889v1": {
-    "title": "LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition",
-    "evaluated_at": "2026-07-27T06:58:32",
-    "score": 62,
+  "2607.19719v1": {
+    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 69,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 15,
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 19,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "结合前向世界模型与逆动力学模型指导手术场景下的视觉语言微调，方法具有一定创新性，但缺乏顶会认证与开源代码。",
+    "comment": "结合Koopman算子与谱约束构建稳定的世界模型潜在动态，理论推导扎实，但缺乏顶会背书与开源代码，实验说服力受限。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.20152v1": {
-    "title": "Active Inference as a Convex Markov Decision Process",
-    "evaluated_at": "2026-07-27T06:58:32",
-    "score": 61,
+  "2607.21918v1": {
+    "title": "Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 68,
     "scores": {
-      "method_innovation": 24,
+      "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 8,
-      "resource_completeness": 1
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
     },
-    "comment": "将主动推理建模为凸MDP并结合世界模型学习与策略优化，理论创新性强，但缺乏实验验证与开源代码。",
+    "comment": "结合潜在条件扩散世界模型与目标条件Transformer解决机器人超声引导问题，具备真实闭环实验验证，但缺乏公开代码与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.21686v1": {
+    "title": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
+    "evaluated_at": "2026-07-28T06:58:38",
+    "score": 68,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "从运行时系统架构视角提出持久计算状态（PCS），挑战了世界模型状态回溯失败归因于模型本身的普遍观点，具有较高系统级创新性，但缺乏顶会验证与开源资源。",
     "sources": [
       "arxiv"
     ]
