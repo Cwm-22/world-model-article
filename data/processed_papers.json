@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-28T06:59:14",
-    "pushed_post": "2026-07-28_top3_推文.md"
+    "pushed_at": "2026-07-29T06:56:33",
+    "pushed_post": "2026-07-29_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -716,22 +716,6 @@
     "pushed_at": "2026-07-22T06:54:35",
     "pushed_post": "2026-07-22_top3_推文.md"
   },
-  "2607.17560v1": {
-    "title": "Reinforcement Learning: From Algorithms To Foundation Models",
-    "evaluated_at": "2026-07-22T06:54:03",
-    "score": 70,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 15,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "该博士论文系统性地探讨了强化学习在博弈算法与基础模型时代的应用，特别是在扩散世界模型与交互式视频世界模型方面具有较高参考价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.17521v1": {
     "title": "GeoWorldAD: Geometry World Action Model for Autonomous Driving",
     "evaluated_at": "2026-07-22T06:54:03",
@@ -1068,66 +1052,118 @@
       "arxiv"
     ]
   },
-  "2607.19749v1": {
-    "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
-    "evaluated_at": "2026-07-28T06:58:38",
-    "score": 69,
+  "2607.23969v1": {
+    "title": "LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 86,
     "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
+      "method_innovation": 26,
+      "author_authority": 16,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "experiment_feasibility": 17,
+      "resource_completeness": 9
     },
-    "comment": "深入揭示了DreamerV3在持续学习中actor遗忘而世界模型保留的机制，并提出有效的dream rehearsal方法，实验设计严谨但缺乏公开代码资源。",
+    "comment": "将JEPA作为世界锚点引入动作模型，通过预测语义对齐和各向同性语义自编码器解决模态差距，结合非对称MoT架构实现高效且鲁棒的机器人控制。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-29T06:56:33",
+    "pushed_post": "2026-07-29_top3_推文.md"
   },
-  "2607.19719v1": {
-    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination",
-    "evaluated_at": "2026-07-28T06:58:38",
-    "score": 69,
+  "2607.24159v1": {
+    "title": "DeVA: Decoupled Video-Action Model with physical guidance for robot policy learning",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 74,
     "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 19,
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "结合Koopman算子与谱约束构建稳定的世界模型潜在动态，理论推导扎实，但缺乏顶会背书与开源代码，实验说服力受限。",
+    "comment": "提出解耦的视频-动作专家架构并结合物理引导，有效提升了机器人策略学习在有限数据下的收敛速度与泛化能力，但缺乏开源代码支持。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-07-29T06:56:33",
+    "pushed_post": "2026-07-29_top3_推文.md"
   },
-  "2607.21918v1": {
-    "title": "Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound",
-    "evaluated_at": "2026-07-28T06:58:38",
-    "score": 68,
+  "2607.24112v1": {
+    "title": "Scaling GUI Agents with Visual State Transitions",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 71,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 10,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 3
     },
-    "comment": "结合潜在条件扩散世界模型与目标条件Transformer解决机器人超声引导问题，具备真实闭环实验验证，但缺乏公开代码与顶会背书。",
+    "comment": "通过联合优化正向与逆向动力学进行状态转换预训练，为GUI智能体构建了内部世界模型，方法具有一定创新性且实验验证充分，但缺乏开源资源与顶会背书。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.21686v1": {
-    "title": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
-    "evaluated_at": "2026-07-28T06:58:38",
-    "score": 68,
+  "2607.24425v1": {
+    "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 70,
     "scores": {
       "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 15,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "通过表征相似性分析与因果干预揭示了LLM概念几何结构的上下文依赖性及其受模型规模影响的机制，创新性高，但缺乏代码与机构背景信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.24267v1": {
+    "title": "FeelWorld: Visuo-Tactile World Model for Hierarchical Contact Prediction and Planning",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将触觉感知分层引入视觉世界模型并提出接触门控注意力机制，有效解决了接触丰富交互中的动力学预测与规划问题，创新性高，但缺乏顶会认证与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.24720v1": {
+    "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "从运行时系统架构视角提出持久计算状态（PCS），挑战了世界模型状态回溯失败归因于模型本身的普遍观点，具有较高系统级创新性，但缺乏顶会验证与开源资源。",
+    "comment": "系统性地研究了多轮长程规划中显式世界模型的构建与多教师在线策略蒸馏机制，理论分析深入但缺乏开源代码与顶会验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.24481v1": {
+    "title": "ArmnetBench v0.1: Parallel Real-World Evaluation of Manipulation Policies on a Low-Cost Arm Farm",
+    "evaluated_at": "2026-07-29T06:56:12",
+    "score": 55,
+    "scores": {
+      "method_innovation": 15,
+      "author_authority": 5,
+      "topic_relevance": 12,
+      "experiment_feasibility": 18,
+      "resource_completeness": 5
+    },
+    "comment": "提出低成本机械臂农场基准测试，其带质量标签的轨迹数据可支持下游预测世界模型学习，实验落地性强但方法创新性偏工程化。",
     "sources": [
       "arxiv"
     ]
