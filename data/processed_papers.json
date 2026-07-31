@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-07-31T07:03:34",
-    "pushed_post": "2026-07-31_top3_推文.md"
+    "pushed_at": "2026-08-01T06:57:49",
+    "pushed_post": "2026-08-01_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -1040,22 +1040,6 @@
       "arxiv"
     ]
   },
-  "2607.24425v1": {
-    "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
-    "evaluated_at": "2026-07-29T06:56:12",
-    "score": 70,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 15,
-      "experiment_feasibility": 18,
-      "resource_completeness": 2
-    },
-    "comment": "通过表征相似性分析与因果干预揭示了LLM概念几何结构的上下文依赖性及其受模型规模影响的机制，创新性高，但缺乏代码与机构背景信息。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.26056v1": {
     "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
     "evaluated_at": "2026-07-30T06:58:14",
@@ -1176,66 +1160,118 @@
       "arxiv"
     ]
   },
-  "2607.26579v1": {
-    "title": "ContactFlow: A video action conditioning that transfers across embodiments",
-    "evaluated_at": "2026-07-31T07:03:03",
-    "score": 70,
+  "2607.28624v1": {
+    "title": "PhiZero: A World Model Built Around Physical Language",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 79,
     "scores": {
-      "method_innovation": 23,
-      "author_authority": 13,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
     },
-    "comment": "提出基于3D接触点轨迹的跨本体动作表征Contact Flow，结合大规模视频生成模型构建操控世界模型，思路新颖且与主题高度契合，但仅arXiv预印本、无代码开源、缺乏同行评审验证。",
+    "comment": "PhiZero提出基于物理语言的先推理后渲染世界模型范式，通过离散表示显式建模世界动态，在物理连贯性生成与交互模拟方面展现了显著创新性。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-01T06:57:49",
+    "pushed_post": "2026-08-01_top3_推文.md"
+  },
+  "2607.27924v1": {
+    "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 79,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 6
+    },
+    "comment": "提出基于ODE的连续时间潜在世界模型ODEWorld，有效解决了表示崩塌问题并支持任意时间分辨率与后向预测，在视频生成与机器人控制任务上展现了良好的动力学抽象与视觉真实性。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-01T06:57:49",
+    "pushed_post": "2026-08-01_top3_推文.md"
+  },
+  "2607.28362v1": {
+    "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 75,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 5
+    },
+    "comment": "提出基于“影子对”和跨影子预测的统一动态表示方法，实现了视频世界模型中任意动作的帧级控制，概念新颖且无需微调，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.26712v1": {
-    "title": "ActSWM: Action-Sensitive World Models for Long-Horizon Planning in Open-World Games",
-    "evaluated_at": "2026-07-31T07:03:03",
-    "score": 69,
+  "2607.28391v1": {
+    "title": "TacWAM: Anchor-Guided World Action Model with Mechanics-Aware Tactile Prediction",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 73,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 19,
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出Context Collapse问题并将动作敏感性作为潜在rollout的约束，在Minecraft等开放世界游戏中验证了长视野规划的有效性，但缺乏顶会背书与开源代码。",
+    "comment": "提出结合触觉预测的世界动作模型TacWAM，通过多模态编码与锚点引导注意力机制有效解决接触丰富操作中的物理信息监督问题，真实世界实验验证充分，但缺乏开源代码与发表元信息支撑。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.27138v1": {
-    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-    "evaluated_at": "2026-07-31T07:03:03",
-    "score": 68,
+  "2607.28625v1": {
+    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 69,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 3
     },
-    "comment": "提出分布式潜在动作模型DLAM，通过对角高斯和时间约束改进VLA的潜在动态建模，在仿真与真实机器人任务上验证了有效性。",
+    "comment": "提出多尺度多模态同步的环境捕获引擎并构建大规模具身交互数据集，为世界模型和VLA系统提供了高质量的感知-动作闭环数据基础，但缺乏开源代码和发表信息。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.26789v1": {
-    "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
-    "evaluated_at": "2026-07-31T07:03:03",
-    "score": 65,
+  "2607.28487v1": {
+    "title": "AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将基于动作引导的潜在空间世界模型引入医学图像细粒度分割，通过分层解剖动作迭代优化解决嵌套重叠标签问题，方法新颖且HD95指标提升显著，但缺乏开源代码与顶会权威背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.28415v1": {
+    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+    "evaluated_at": "2026-08-01T06:57:25",
+    "score": 67,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出基于动作条件世界模型的执行时验证方法CheckVLA，有效解决长视距移动操作中的开环动作块误差累积问题，实验设计合理但缺乏开源代码与顶会背书。",
+    "comment": "提出基于分位数-分位数匹配的潜空间正则化方法，有效解决了现有世界模型中尾部梯度消失问题，但实验局限于控制环境且缺乏开源代码。",
     "sources": [
       "arxiv"
     ]
