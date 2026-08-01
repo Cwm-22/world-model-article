@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-08-01T06:57:49",
-    "pushed_post": "2026-08-01_top3_推文.md"
+    "pushed_at": "2026-08-02T06:53:01",
+    "pushed_post": "2026-08-02_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -299,22 +299,6 @@
     ],
     "pushed_at": "2026-07-15T06:56:41",
     "pushed_post": "2026-07-15_top3_推文.md"
-  },
-  "2607.03732v1": {
-    "title": "ProxyUp: Training-Free Proxy-Conditioned Video Generation for Controllable Dynamics",
-    "evaluated_at": "2026-07-09T07:04:46",
-    "score": 71,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 15,
-      "topic_relevance": 16,
-      "experiment_feasibility": 15,
-      "resource_completeness": 3
-    },
-    "comment": "提出无需训练的代理条件视频生成框架ProxyUp，通过区域级潜在加噪和随机流松弛实现物理动态控制，与世界模型的动态一致性高度相关，但缺乏开源代码和正式发表信息。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.07196v1": {
     "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
@@ -367,22 +351,6 @@
     ],
     "pushed_at": "2026-07-12T06:45:29",
     "pushed_post": "2026-07-12_top3_推文.md"
-  },
-  "2607.08639v1": {
-    "title": "Native Video-Action Pretraining for Generalizable Robot Control",
-    "evaluated_at": "2026-07-12T06:44:23",
-    "score": 71,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出从头构建的因果视频-动作基础模型LingBot-VA 2.0，结合语义tokenizer与MoE架构实现实时闭环控制，在真实机器人任务中展现出良好的少样本泛化能力。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.07459v1": {
     "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
@@ -1126,7 +1094,9 @@
     "comment": "深入探讨了潜在世界模型中物理参数的可识别性，提出POKEWORLD环境与证书门控协议，揭示了输入与预测目标对表征保留物理信息的决定性作用，理论价值与实验设计俱佳。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-02T06:53:01",
+    "pushed_post": "2026-08-02_top3_推文.md"
   },
   "2607.27036v1": {
     "title": "Mitigating Compounding Error via Video Representation Regularization",
@@ -1228,50 +1198,116 @@
       "arxiv"
     ]
   },
-  "2607.28625v1": {
-    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
-    "evaluated_at": "2026-08-01T06:57:25",
+  "2607.27599v1": {
+    "title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 84,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 18,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 7
+    },
+    "comment": "结合VLM推理与动作条件世界模型进行迭代规划与搜索，在泛化性与组合任务上展现出显著优势，作者背景权威且主题高度契合。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-02T06:53:01",
+    "pushed_post": "2026-08-02_top3_推文.md"
+  },
+  "2607.27017v2": {
+    "title": "What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations",
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 74,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出POKEWORLD环境和证书门控协议，深入探究潜在世界模型中物理参数的可识别性，揭示了输入与预测目标对表示保留的决定性作用，理论视角新颖且实验设计严谨。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.27511v1": {
+    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
+    "evaluated_at": "2026-08-02T06:52:40",
     "score": 69,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
     },
-    "comment": "提出多尺度多模态同步的环境捕获引擎并构建大规模具身交互数据集，为世界模型和VLA系统提供了高质量的感知-动作闭环数据基础，但缺乏开源代码和发表信息。",
+    "comment": "结合流匹配世界模型与共形预测实现手术机器人模仿学习的无监督失败检测，方法新颖且实验充分，但缺乏开源代码与顶会背书。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.28487v1": {
-    "title": "AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans",
-    "evaluated_at": "2026-08-01T06:57:25",
-    "score": 69,
+  "2607.27138v1": {
+    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 68,
     "scores": {
-      "method_innovation": 25,
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 17,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出分布式潜在动作模型DLAM，将对角高斯引入转移建模并通过归一化组合与反转约束增强时间一致性，在MetaWorld/LIBERO及真实场景验证有效，但仅arxiv预印本且无代码开源，创新性扎实但权威性与可复现性尚待验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.28625v1": {
+    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 3
     },
-    "comment": "将基于动作引导的潜在空间世界模型引入医学图像细粒度分割，通过分层解剖动作迭代优化解决嵌套重叠标签问题，方法新颖且HD95指标提升显著，但缺乏开源代码与顶会权威背书。",
+    "comment": "提出多模态同步采集引擎ACE并构建大规模人中心具身数据集ACE-Data-0，为世界模型和VLA系统提供了高质量的感知-动作闭环数据基础，但缺乏顶会背书与开源代码信息。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.28415v1": {
     "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
-    "evaluated_at": "2026-08-01T06:57:25",
-    "score": 67,
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 66,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出基于分位数-分位数匹配的潜空间正则化方法，有效解决了现有世界模型中尾部梯度消失问题，但实验局限于控制环境且缺乏开源代码。",
+    "comment": "提出QQ匹配替代EP目标以解决世界模型潜空间重尾偏差问题，方法具有一定创新性，但缺乏开源代码及顶会发表信息支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.28226v1": {
+    "title": "Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation",
+    "evaluated_at": "2026-08-02T06:52:40",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
+    },
+    "comment": "首篇系统梳理基于世界模型的具身AI全生命周期安全威胁与防御的综述，填补了世界模型安全评估与防御框架的空白。",
     "sources": [
       "arxiv"
     ]
