@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-08-02T06:53:01",
-    "pushed_post": "2026-08-02_top3_推文.md"
+    "pushed_at": "2026-08-03T06:54:13",
+    "pushed_post": "2026-08-03_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -1180,7 +1180,9 @@
     "comment": "提出基于“影子对”和跨影子预测的统一动态表示方法，实现了视频世界模型中任意动作的帧级控制，概念新颖且无需微调，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-03T06:54:13",
+    "pushed_post": "2026-08-03_top3_推文.md"
   },
   "2607.28391v1": {
     "title": "TacWAM: Anchor-Guided World Action Model with Mechanics-Aware Tactile Prediction",
@@ -1230,59 +1232,61 @@
     "comment": "提出POKEWORLD环境和证书门控协议，深入探究潜在世界模型中物理参数的可识别性，揭示了输入与预测目标对表示保留的决定性作用，理论视角新颖且实验设计严谨。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-03T06:54:13",
+    "pushed_post": "2026-08-03_top3_推文.md"
   },
-  "2607.27511v1": {
-    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
-    "evaluated_at": "2026-08-02T06:52:40",
-    "score": 69,
+  "2607.26789v1": {
+    "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
+    "evaluated_at": "2026-08-03T06:53:46",
+    "score": 72,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
+      "method_innovation": 24,
+      "author_authority": 12,
       "topic_relevance": 18,
-      "experiment_feasibility": 17,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "结合流匹配世界模型与共形预测实现手术机器人模仿学习的无监督失败检测，方法新颖且实验充分，但缺乏开源代码与顶会背书。",
+    "comment": "提出基于动作条件世界模型的CheckVLA用于长时程移动操作的执行时验证，方法新颖且仿真实验有效，但缺乏真实世界验证及开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.27138v1": {
-    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-    "evaluated_at": "2026-08-02T06:52:40",
+  "2607.27511v1": {
+    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
+    "evaluated_at": "2026-08-03T06:53:46",
     "score": 68,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 17,
-      "experiment_feasibility": 15,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出分布式潜在动作模型DLAM，将对角高斯引入转移建模并通过归一化组合与反转约束增强时间一致性，在MetaWorld/LIBERO及真实场景验证有效，但仅arxiv预印本且无代码开源，创新性扎实但权威性与可复现性尚待验证。",
+    "comment": "结合流匹配世界模型与保形预测进行手术机器人失败检测，方法新颖且在dVRK上验证了高检测率与低误报率，但缺乏开源代码与顶会背书。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.28625v1": {
     "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
-    "evaluated_at": "2026-08-02T06:52:40",
-    "score": 67,
+    "evaluated_at": "2026-08-03T06:53:46",
+    "score": 66,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
     },
-    "comment": "提出多模态同步采集引擎ACE并构建大规模人中心具身数据集ACE-Data-0，为世界模型和VLA系统提供了高质量的感知-动作闭环数据基础，但缺乏顶会背书与开源代码信息。",
+    "comment": "构建了多模态同步、多尺度的具身智能数据集ACE-Data-0，为世界模型和VLA系统提供了高质量的数据基础，但缺乏开源资源信息且作者团队知名度有限。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.28415v1": {
-    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
-    "evaluated_at": "2026-08-02T06:52:40",
+  "2607.26754v1": {
+    "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
+    "evaluated_at": "2026-08-03T06:53:46",
     "score": 66,
     "scores": {
       "method_innovation": 22,
@@ -1291,23 +1295,55 @@
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出QQ匹配替代EP目标以解决世界模型潜空间重尾偏差问题，方法具有一定创新性，但缺乏开源代码及顶会发表信息支撑。",
+    "comment": "提出混合Transformer架构联合预测视觉与游戏内部状态，有效提升了游戏世界模型的机制一致性，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.28226v1": {
-    "title": "Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation",
-    "evaluated_at": "2026-08-02T06:52:40",
+  "2607.28487v1": {
+    "title": "AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans",
+    "evaluated_at": "2026-08-03T06:53:46",
     "score": 65,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 10,
+      "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 1
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
     },
-    "comment": "首篇系统梳理基于世界模型的具身AI全生命周期安全威胁与防御的综述，填补了世界模型安全评估与防御框架的空白。",
+    "comment": "将世界模型的潜在状态空间与分层动作机制引入耳部CT细粒度分割，迭代推理思路新颖，但缺乏顶会背书与开源代码，权威性与可复现性受限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.28415v1": {
+    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+    "evaluated_at": "2026-08-03T06:53:46",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "针对隐式世界模型中EP正则化在尾部样本梯度消失的问题，提出分位数-分位数匹配方法QQWorld，理论分析合理且在控制环境中验证有效，但缺乏顶会背书及代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.27138v1": {
+    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+    "evaluated_at": "2026-08-03T06:53:46",
+    "score": 62,
+    "scores": {
+      "method_innovation": 21,
+      "author_authority": 8,
+      "topic_relevance": 15,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将潜动作建模为对角高斯分布并结合时序归一化组合与反转约束，在潜动力学一致性与下游策略性能上优于确定性基线，但整体框架仍依赖已有潜动作模型与flow-matching策略，创新增量有限且缺乏代码开源。",
     "sources": [
       "arxiv"
     ]
