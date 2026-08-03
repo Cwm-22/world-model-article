@@ -279,8 +279,8 @@
       "arxiv",
       "hf_daily"
     ],
-    "pushed_at": "2026-08-03T06:54:13",
-    "pushed_post": "2026-08-03_top3_推文.md"
+    "pushed_at": "2026-08-04T06:58:11",
+    "pushed_post": "2026-08-04_top3_推文.md"
   },
   "2607.06501v1": {
     "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
@@ -1252,98 +1252,134 @@
       "arxiv"
     ]
   },
-  "2607.27511v1": {
-    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 68,
+  "2607.29613v1": {
+    "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 78,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
+      "method_innovation": 25,
+      "author_authority": 15,
       "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "结合JEPA架构与世界模型目标提出WCM，有效解决VLA强化学习中Critic的部分可观测性问题，实验覆盖面广且包含真实世界验证，但缺乏开源代码支持。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-04T06:58:11",
+    "pushed_post": "2026-08-04_top3_推文.md"
+  },
+  "2607.28625v1": {
+    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 76,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 14,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种多模态、多尺度同步的具身数据采集引擎ACE，并构建了大规模数据集ACE-Data-0，为世界模型和VLA系统提供了高质量的对齐监督信号。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-04T06:58:11",
+    "pushed_post": "2026-08-04_top3_推文.md"
+  },
+  "2607.28737v1": {
+    "title": "Mirror Learning",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 74,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 17,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "结合流匹配世界模型与保形预测进行手术机器人失败检测，方法新颖且在dVRK上验证了高检测率与低误报率，但缺乏开源代码与顶会背书。",
+    "comment": "结合视频扩散模型与逆动力学模型，从第三人称视角生成伪第一人称数据以辅助模仿学习，巧妙利用了生成式世界模型的隐式结构。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.28625v1": {
-    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 66,
+  "2607.29302v1": {
+    "title": "BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 73,
     "scores": {
-      "method_innovation": 20,
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "提出结合动作条件与自回归预测的机器人世界模拟器BWM，作为数据引擎与策略评估器在WorldArena基准上表现优异且开源生态完整，但作者团队信息不透明。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.28993v1": {
+    "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 72,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "针对世界动作模型在视觉分布偏移下的训练分布幻觉问题，提出结合DINOv3语义特征与VAE动态的双空间预测及历史检索机制，有效提升了机器人操作在视觉干扰下的鲁棒性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.29031v1": {
+    "title": "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于JEPA的连续意图潜在世界模型，避免了密集的未来重建，在NAVIAM上取得优异性能且通过遮挡实验验证了模型对规划相关特征的关注。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2607.29393v1": {
+    "title": "AquaJEPA: Action-Conditioned Multimodal Predictive Representations for Underwater Robot Dynamics",
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 68,
+    "scores": {
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 18,
       "resource_completeness": 2
     },
-    "comment": "构建了多模态同步、多尺度的具身智能数据集ACE-Data-0，为世界模型和VLA系统提供了高质量的数据基础，但缺乏开源资源信息且作者团队知名度有限。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.26754v1": {
-    "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "提出混合Transformer架构联合预测视觉与游戏内部状态，有效提升了游戏世界模型的机制一致性，但缺乏顶会背书与开源代码。",
+    "comment": "将JEPA框架创新性地应用于水下机器人多模态感知与动作条件预测，实验设计严谨且包含详尽的统计显著性分析，但作者知名度有限且缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
   },
   "2607.28487v1": {
     "title": "AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 65,
+    "evaluated_at": "2026-08-04T06:57:40",
+    "score": 68,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 25,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将世界模型的潜在状态空间与分层动作机制引入耳部CT细粒度分割，迭代推理思路新颖，但缺乏顶会背书与开源代码，权威性与可复现性受限。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.28415v1": {
-    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 65,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "针对隐式世界模型中EP正则化在尾部样本梯度消失的问题，提出分位数-分位数匹配方法QQWorld，理论分析合理且在控制环境中验证有效，但缺乏顶会背书及代码开源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.27138v1": {
-    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-    "evaluated_at": "2026-08-03T06:53:46",
-    "score": 62,
-    "scores": {
-      "method_innovation": 21,
-      "author_authority": 8,
-      "topic_relevance": 15,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "将潜动作建模为对角高斯分布并结合时序归一化组合与反转约束，在潜动力学一致性与下游策略性能上优于确定性基线，但整体框架仍依赖已有潜动作模型与flow-matching策略，创新增量有限且缺乏代码开源。",
+    "comment": "将世界模型与分层动作引导的潜在空间动态推理引入医学图像细粒度分割，创新性强但缺乏开源资源和发表背书。",
     "sources": [
       "arxiv"
     ]
