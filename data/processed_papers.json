@@ -244,7 +244,9 @@
     "venue": "HuggingFace Daily",
     "sources": [
       "hf_daily"
-    ]
+    ],
+    "pushed_at": "2026-08-05T07:06:38",
+    "pushed_post": "2026-08-05_top3_推文.md"
   },
   "2607.06401v1": {
     "title": "A Definition and Roadmap for World Models",
@@ -370,22 +372,6 @@
     "pushed_at": "2026-07-21T06:59:14",
     "pushed_post": "2026-07-21_top3_推文.md"
   },
-  "2607.06291v1": {
-    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
-    "evaluated_at": "2026-07-13T06:44:54",
-    "score": 71,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 6
-    },
-    "comment": "全栈式可交互视频世界生成框架，覆盖数据到部署完整流程，工程系统贡献突出但方法层面创新性有限，作者团队信息与发表场所缺失导致权威性难以评估。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.09661v1": {
     "title": "PanoWorld: Real-World Panoramic Generation",
     "evaluated_at": "2026-07-14T06:55:06",
@@ -439,22 +425,6 @@
     ],
     "pushed_at": "2026-07-15T06:56:41",
     "pushed_post": "2026-07-15_top3_推文.md"
-  },
-  "2607.11397v1": {
-    "title": "WALA Learning Executable Latent Actions from Action-Labeled Demonstrations and Action-Free Videos",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 71,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 9,
-      "topic_relevance": 18,
-      "experiment_feasibility": 17,
-      "resource_completeness": 3
-    },
-    "comment": "提出WALA框架，通过在DINOv3特征和深度空间预测未来变化来学习可执行的潜在动作，将无动作视频的动力学监督与带标签演示的控制监督相结合，在仿真和真实机器人操作任务中取得SOTA表现。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.10630v1": {
     "title": "World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning",
@@ -786,7 +756,9 @@
     "comment": "提出无IDM的闭环具身世界模型评估基准KineBench，利用视觉基础模型提取6D位姿并引入运动学指标，有效解决了动作提取的归因模糊问题，评估体系设计严谨且具启发性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-05T07:06:38",
+    "pushed_post": "2026-08-05_top3_推文.md"
   },
   "2607.18924v1": {
     "title": "Learning Explicit Physical Parameter Control and Benchmarking for Video Generation",
@@ -1302,7 +1274,9 @@
     "comment": "结合视频扩散模型与逆动力学模型，从第三人称视角生成伪第一人称数据以辅助模仿学习，巧妙利用了生成式世界模型的隐式结构。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-05T07:06:38",
+    "pushed_post": "2026-08-05_top3_推文.md"
   },
   "2607.29302v1": {
     "title": "BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning",
@@ -1336,50 +1310,114 @@
       "arxiv"
     ]
   },
-  "2607.29031v1": {
-    "title": "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving",
-    "evaluated_at": "2026-08-04T06:57:40",
-    "score": 69,
+  "2608.02603v1": {
+    "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 73,
     "scores": {
       "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于JEPA的连续意图潜在世界模型，避免了密集的未来重建，在NAVIAM上取得优异性能且通过遮挡实验验证了模型对规划相关特征的关注。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2607.29393v1": {
-    "title": "AquaJEPA: Action-Conditioned Multimodal Predictive Representations for Underwater Robot Dynamics",
-    "evaluated_at": "2026-08-04T06:57:40",
-    "score": 68,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 18,
       "resource_completeness": 2
     },
-    "comment": "将JEPA框架创新性地应用于水下机器人多模态感知与动作条件预测，实验设计严谨且包含详尽的统计显著性分析，但作者知名度有限且缺乏开源资源。",
+    "comment": "提出了首个针对世界模型固有反应性的分层诊断基准WorldExam，填补了现有评估仅关注视觉质量和显式指令的空白，实验覆盖20个模型且分析深入，但缺乏开源资源信息。",
     "sources": [
       "arxiv"
     ]
   },
-  "2607.28487v1": {
-    "title": "AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans",
-    "evaluated_at": "2026-08-04T06:57:40",
+  "2608.01381v1": {
+    "title": "DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 73,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "提出轨迹引导的VLA框架与轻量级轨迹世界模型，通过测试时搜索实现动作对齐，有效提升了移动操作的成功率。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.01397v1": {
+    "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 70,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出在策略表示空间中直接学习几何感知的动作条件动态，结合EMA自引导预测与几何监督，在仿真与真实世界机器人任务中均展现出优异的泛化性能。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.01845v1": {
+    "title": "WorldDynCache: Risk-Controlled Latent Dynamics Approximation for Diffusion World Model",
+    "evaluated_at": "2026-08-05T07:03:20",
     "score": 68,
     "scores": {
-      "method_innovation": 25,
+      "method_innovation": 23,
+      "author_authority": 11,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出风险可控的潜空间动力学近似框架加速扩散世界模型推理，通过反事实锚点校准的潜转移风险估计器与条件相位感知的升维潜空间代理实现高质量缓存，方法思路新颖但尚无代码开源且仅停留在arXiv预印本阶段。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.02428v1": {
+    "title": "DF$^3$: World Modeling via Decoder-Free Feature Forecasting in Autonomous Navigation",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出无解码器的潜在空间特征预测框架DF3，通过可学习空间查询与MACF机制直接输出任务结果，在提升世界模型效率方面具有较好的创新性，但目前仅有arXiv预印本且缺乏开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.02578v1": {
+    "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将世界模型与分层动作引导的潜在空间动态推理引入医学图像细粒度分割，创新性强但缺乏开源资源和发表背书。",
+    "comment": "提出基于协调契约的选择性干预层CoWAM，结合世界动作模型在双臂任务中实现保守且有效的策略干预，但缺乏真实世界验证与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.01926v1": {
+    "title": "ProWorld: Progress-Aware Hyperbolic World Models for Long-Horizon Visual Goal Reaching",
+    "evaluated_at": "2026-08-05T07:03:20",
+    "score": 65,
+    "scores": {
+      "method_innovation": 23,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将双曲几何引入JEPA式视觉世界模型以建模长程任务的粗到细进度序结构，思路新颖且动机清晰，但目前仅有arXiv预印本、无代码开源且缺乏同行评审验证。",
     "sources": [
       "arxiv"
     ]
