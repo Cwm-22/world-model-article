@@ -774,7 +774,9 @@
     "comment": "提出包含13万物理模拟视频的数据集及对应基准，通过物理注意力机制实现图生视频的显式物理参数控制，对世界模型的物理规律建模有较高参考价值。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-06T06:57:32",
+    "pushed_post": "2026-08-06_top3_推文.md"
   },
   "2607.18715v1": {
     "title": "DWM: Separating World Effects from Actions in Latent World Models",
@@ -1170,7 +1172,9 @@
     "comment": "提出结合触觉预测的世界动作模型TacWAM，通过多模态编码与锚点引导注意力机制有效解决接触丰富操作中的物理信息监督问题，真实世界实验验证充分，但缺乏开源代码与发表元信息支撑。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-06T06:57:32",
+    "pushed_post": "2026-08-06_top3_推文.md"
   },
   "2607.27599v1": {
     "title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
@@ -1292,7 +1296,9 @@
     "comment": "提出结合动作条件与自回归预测的机器人世界模拟器BWM，作为数据引擎与策略评估器在WorldArena基准上表现优异且开源生态完整，但作者团队信息不透明。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-06T06:57:32",
+    "pushed_post": "2026-08-06_top3_推文.md"
   },
   "2607.28993v1": {
     "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
@@ -1342,41 +1348,41 @@
       "arxiv"
     ]
   },
-  "2608.01397v1": {
-    "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space",
-    "evaluated_at": "2026-08-05T07:03:20",
-    "score": 70,
+  "2608.03244v1": {
+    "title": "UniNav: A Unified World-Action Diffusion Model for Visual Navigation",
+    "evaluated_at": "2026-08-06T06:56:25",
+    "score": 69,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
+      "method_innovation": 25,
+      "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
     },
-    "comment": "提出在策略表示空间中直接学习几何感知的动作条件动态，结合EMA自引导预测与几何监督，在仿真与真实世界机器人任务中均展现出优异的泛化性能。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.01845v1": {
-    "title": "WorldDynCache: Risk-Controlled Latent Dynamics Approximation for Diffusion World Model",
-    "evaluated_at": "2026-08-05T07:03:20",
-    "score": 68,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 11,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "提出风险可控的潜空间动力学近似框架加速扩散世界模型推理，通过反事实锚点校准的潜转移风险估计器与条件相位感知的升维潜空间代理实现高质量缓存，方法思路新颖但尚无代码开源且仅停留在arXiv预印本阶段。",
+    "comment": "提出统一的世界-动作扩散模型UniNav，将未来视觉预测与轨迹生成结合于单一Transformer中，在导航基准上展现出优异的精度与推理效率。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.02428v1": {
     "title": "DF$^3$: World Modeling via Decoder-Free Feature Forecasting in Autonomous Navigation",
-    "evaluated_at": "2026-08-05T07:03:20",
+    "evaluated_at": "2026-08-06T06:56:25",
+    "score": 68,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出无解码器的潜在空间特征预测框架DF3，通过空间查询与MACF机制实现高效的世界模型状态预测与任务输出，创新性较好但缺乏开源资源与权威发表背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.02990v1": {
+    "title": "EmbodiedVAE: Disentangled Video VAE for Efficient and Controllable Embodied Manipulation",
+    "evaluated_at": "2026-08-06T06:56:25",
     "score": 66,
     "scores": {
       "method_innovation": 22,
@@ -1385,14 +1391,14 @@
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出无解码器的潜在空间特征预测框架DF3，通过可学习空间查询与MACF机制直接输出任务结果，在提升世界模型效率方面具有较好的创新性，但目前仅有arXiv预印本且缺乏开源代码。",
+    "comment": "针对具身操作世界模型提出解耦机械臂运动与背景的视频VAE，创新性较好，但目前仅为arXiv预印本且缺乏开源代码与同行评审验证。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.02578v1": {
-    "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
-    "evaluated_at": "2026-08-05T07:03:20",
+  "2608.02953v1": {
+    "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
+    "evaluated_at": "2026-08-06T06:56:25",
     "score": 65,
     "scores": {
       "method_innovation": 22,
@@ -1401,23 +1407,71 @@
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出基于协调契约的选择性干预层CoWAM，结合世界动作模型在双臂任务中实现保守且有效的策略干预，但缺乏真实世界验证与开源资源。",
+    "comment": "提出基于驾驶世界模型的天气转换方法，结合渐进式真实性引导与强化学习优化以兼顾真实感与场景保真度，创新性较好，但缺乏开源代码与发表信息支撑。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.01926v1": {
-    "title": "ProWorld: Progress-Aware Hyperbolic World Models for Long-Horizon Visual Goal Reaching",
-    "evaluated_at": "2026-08-05T07:03:20",
+  "2608.02365v1": {
+    "title": "Faster-WAM: Do World Action Models Need Deep Action Modules?",
+    "evaluated_at": "2026-08-06T06:56:25",
     "score": 65,
     "scores": {
-      "method_innovation": 23,
+      "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将双曲几何引入JEPA式视觉世界模型以建模长程任务的粗到细进度序结构，思路新颖且动机清晰，但目前仅有arXiv预印本、无代码开源且缺乏同行评审验证。",
+    "comment": "提出DoT架构将轻量级动作头与视频骨干解耦，在保持性能的同时大幅降低WAMs推理延迟，对世界模型在机器人控制中的落地有实际意义。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.02578v1": {
+    "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
+    "evaluated_at": "2026-08-06T06:56:25",
+    "score": 63,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于协调契约的选择性干预层CoWAM，结合世界动作模型在双臂任务中实现了安全且有效的策略干预，但缺乏真实世界验证与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.03618v1": {
+    "title": "Geospatial-Prior Guidance for 3D Semantic Scene Completion",
+    "evaluated_at": "2026-08-06T06:56:29",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 16,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "结合卫星图像与OSM地图作为软先验指导3D语义场景补全，在多源融合与可靠性权重设计上具有一定创新性，但缺乏顶会发表与开源代码信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.03413v1": {
+    "title": "Enactive Artificial Intelligence: A Decision-Centric Architecture for Complex Systems",
+    "evaluated_at": "2026-08-06T06:57:05",
+    "score": 54,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 12,
+      "topic_relevance": 16,
+      "experiment_feasibility": 8,
+      "resource_completeness": 0
+    },
+    "comment": "提出了一种结合组织与现场双世界模型的Enactive AI决策架构，概念新颖但偏理论与框架，缺乏具体实验验证与代码资源。",
     "sources": [
       "arxiv"
     ]
