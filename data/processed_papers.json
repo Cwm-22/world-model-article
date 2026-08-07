@@ -227,7 +227,9 @@
     "comment": "提出端到端的高效世界模型MoWorld，结合3D原生数据引擎与蒸馏推理优化实现NPU上的50FPS实时交互，工程与落地创新性强，但缺乏顶会背书与开源资源验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-08T06:37:28",
+    "pushed_post": "2026-08-08_top3_推文.md"
   },
   "2607.06559": {
     "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
@@ -262,7 +264,9 @@
     "comment": "本文系统性地给出了世界模型的科学定义与发展路线图，由多位领域知名学者联合撰写，对凝聚社区共识和指引未来研究方向具有重要意义。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-08T06:37:28",
+    "pushed_post": "2026-08-08_top3_推文.md"
   },
   "2607.06559v1": {
     "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
@@ -1384,22 +1388,6 @@
       "arxiv"
     ]
   },
-  "2608.03618v1": {
-    "title": "Geospatial-Prior Guidance for 3D Semantic Scene Completion",
-    "evaluated_at": "2026-08-06T06:56:29",
-    "score": 67,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 16,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
-    },
-    "comment": "结合卫星图像与OSM地图作为软先验指导3D语义场景补全，在多源融合与可靠性权重设计上具有一定创新性，但缺乏顶会发表与开源代码信息。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.06197v1": {
     "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
     "evaluated_at": "2026-08-07T09:31:05",
@@ -1432,7 +1420,9 @@
     "comment": "将多人游戏架构中的权威共享状态思想引入学习型世界模型，通过解耦逻辑引擎与渲染引擎实现多视角一致性与大规模可扩展性，思路新颖但实验仅在Snake等简单环境验证且缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-08T06:37:28",
+    "pushed_post": "2026-08-08_top3_推文.md"
   },
   "2608.06008v1": {
     "title": "Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features",
@@ -1466,66 +1456,130 @@
       "arxiv"
     ]
   },
-  "2608.06192v1": {
-    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
-    "evaluated_at": "2026-08-07T09:31:05",
-    "score": 67,
+  "2608.05891v1": {
+    "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 72,
     "scores": {
       "method_innovation": 25,
-      "author_authority": 16,
-      "topic_relevance": 8,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "将手-物交互压力估计转化为手部网格顶点上的视频预测问题，统一多源触觉数据并引入顶点锚定Transformer，创新性强但与世界模型核心主题关联较弱。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.05948v1": {
-    "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
-    "evaluated_at": "2026-08-07T09:31:05",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 12,
       "topic_relevance": 18,
-      "experiment_feasibility": 16,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出首个联合评估物理引擎与视频世界模型物理保真度的真实世界测量基准，诊断维度深入，但缺乏开源资源支持。",
+    "comment": "提出基于代码更新的移动GUI世界模型，将状态转移转化为HTML代码增量生成，创新性强且高度契合主题，但缺乏代码开源和顶会验证。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.06020v1": {
     "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
-    "evaluated_at": "2026-08-07T09:31:05",
-    "score": 64,
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 71,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 15,
+      "method_innovation": 18,
+      "author_authority": 18,
+      "topic_relevance": 16,
+      "experiment_feasibility": 14,
+      "resource_completeness": 5
+    },
+    "comment": "本文提出经济世界模型的六层能力阶梯与实现蓝图，作者阵容强大，为基于LLM的经济模拟系统提供了系统性综述与未来方向，但偏向理论与综述，缺乏具体模型实验。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.05948v1": {
+    "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 70,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 8,
+      "experiment_feasibility": 17,
       "resource_completeness": 3
     },
-    "comment": "提出经济世界模型的六层能力阶梯与实施蓝图，作者阵容强大，为基于LLM的智能体经济仿真提供了系统性综述与未来方向，但缺乏具体实验与代码支撑。",
+    "comment": "提出基于真实世界测量的物理保真度基准GAUGE，联合评估物理引擎与视频世界模型，揭示了现有模型在物理规律一致性上的不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06192v1": {
+    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 14,
+      "topic_relevance": 12,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将手物交互压力估计建模为手部顶点空间的视频预测问题，结合多源数据与顶点锚定Transformer，在单目视频压力估计上取得了较好的泛化效果。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06332v1": {
+    "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
+    },
+    "comment": "提出基于视觉动作表示和解耦运动学/环境动态的交互式世界模型，在机器人操作OOD泛化和下游策略提升上展现了良好潜力，但缺乏代码开源和同行评审信息。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.06164v1": {
     "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
-    "evaluated_at": "2026-08-07T09:31:05",
-    "score": 62,
+    "evaluated_at": "2026-08-08T06:33:45",
+    "score": 64,
     "scores": {
       "method_innovation": 20,
-      "author_authority": 8,
+      "author_authority": 10,
       "topic_relevance": 16,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "在可微弹簧-质量模型中引入弯曲约束以提升稀疏图下的物理重建稳定性，是对现有数字孪生方法的有效改进，但创新性相对增量且缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06374v1": {
+    "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+    "evaluated_at": "2026-08-08T06:34:05",
+    "score": 69,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
       "resource_completeness": 3
     },
-    "comment": "提出弯曲感知的可微弹簧-质量模型以解决物理图粗化时的机械约束不足问题，在物理数字孪生重建方向具有较好的实用价值，但创新性偏向增量改进且缺乏开源资源。",
+    "comment": "提出基于未来预测的共享动力学先验与具身特定MoE动作头，有效解决跨具身操作的动作对齐难题，实验结果优异但缺乏代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06161v1": {
+    "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
+    "evaluated_at": "2026-08-08T06:35:42",
+    "score": 62,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 14,
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
+    },
+    "comment": "结合Agentic RL与LLM生成奖励程序实现可控3D场景生成，方法有一定创新，但缺乏代码开源且与世界模型核心方向关联度中等。",
     "sources": [
       "arxiv"
     ]
