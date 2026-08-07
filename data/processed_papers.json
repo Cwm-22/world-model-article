@@ -1330,7 +1330,9 @@
     "comment": "提出了首个针对世界模型固有反应性的分层诊断基准WorldExam，填补了现有评估仅关注视觉质量和显式指令的空白，实验覆盖20个模型且分析深入，但缺乏开源资源信息。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-07T09:33:22",
+    "pushed_post": "2026-08-07_top3_推文.md"
   },
   "2608.01381v1": {
     "title": "DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation",
@@ -1346,7 +1348,9 @@
     "comment": "提出轨迹引导的VLA框架与轻量级轨迹世界模型，通过测试时搜索实现动作对齐，有效提升了移动操作的成功率。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-07T09:33:22",
+    "pushed_post": "2026-08-07_top3_推文.md"
   },
   "2608.03244v1": {
     "title": "UniNav: A Unified World-Action Diffusion Model for Visual Navigation",
@@ -1380,70 +1384,6 @@
       "arxiv"
     ]
   },
-  "2608.02990v1": {
-    "title": "EmbodiedVAE: Disentangled Video VAE for Efficient and Controllable Embodied Manipulation",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 66,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "针对具身操作世界模型提出解耦机械臂运动与背景的视频VAE，创新性较好，但目前仅为arXiv预印本且缺乏开源代码与同行评审验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.02953v1": {
-    "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 65,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于驾驶世界模型的天气转换方法，结合渐进式真实性引导与强化学习优化以兼顾真实感与场景保真度，创新性较好，但缺乏开源代码与发表信息支撑。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.02365v1": {
-    "title": "Faster-WAM: Do World Action Models Need Deep Action Modules?",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 65,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出DoT架构将轻量级动作头与视频骨干解耦，在保持性能的同时大幅降低WAMs推理延迟，对世界模型在机器人控制中的落地有实际意义。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.02578v1": {
-    "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 63,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于协调契约的选择性干预层CoWAM，结合世界动作模型在双臂任务中实现了安全且有效的策略干预，但缺乏真实世界验证与开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.03618v1": {
     "title": "Geospatial-Prior Guidance for 3D Semantic Scene Completion",
     "evaluated_at": "2026-08-06T06:56:29",
@@ -1460,18 +1400,132 @@
       "arxiv"
     ]
   },
-  "2608.03413v1": {
-    "title": "Enactive Artificial Intelligence: A Decision-Centric Architecture for Complex Systems",
-    "evaluated_at": "2026-08-06T06:57:05",
-    "score": 54,
+  "2608.06197v1": {
+    "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 83,
     "scores": {
-      "method_innovation": 18,
-      "author_authority": 12,
-      "topic_relevance": 16,
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 8
+    },
+    "comment": "提出通过“世界预演”将环境动力学内化到LLM策略中，构建支持决策的Agent世界模型，思路新颖且实验充分。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-07T09:33:22",
+    "pushed_post": "2026-08-07_top3_推文.md"
+  },
+  "2608.06257v1": {
+    "title": "MASS: Multiplayer World Models with Authoritative Shared State",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 73,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将多人游戏架构中的权威共享状态思想引入学习型世界模型，通过解耦逻辑引擎与渲染引擎实现多视角一致性与大规模可扩展性，思路新颖但实验仅在Snake等简单环境验证且缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06008v1": {
+    "title": "Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 72,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 3
+    },
+    "comment": "提出一种基于视频扩散模型中间特征的质量感知早退规划机制，有效降低了自动驾驶世界模型的推理延迟并保持优异性能。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06227v1": {
+    "title": "From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 18,
       "experiment_feasibility": 8,
       "resource_completeness": 0
     },
-    "comment": "提出了一种结合组织与现场双世界模型的Enactive AI决策架构，概念新颖但偏理论与框架，缺乏具体实验验证与代码资源。",
+    "comment": "结合主动推理、范畴论与整合信息论提出HDT-Net框架，理论创新性极强且作者权威性高，但偏向纯理论构建，缺乏实验验证与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06192v1": {
+    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 67,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 8,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将手-物交互压力估计转化为手部网格顶点上的视频预测问题，统一多源触觉数据并引入顶点锚定Transformer，创新性强但与世界模型核心主题关联较弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.05948v1": {
+    "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出首个联合评估物理引擎与视频世界模型物理保真度的真实世界测量基准，诊断维度深入，但缺乏开源资源支持。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06020v1": {
+    "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 64,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 8,
+      "resource_completeness": 3
+    },
+    "comment": "提出经济世界模型的六层能力阶梯与实施蓝图，作者阵容强大，为基于LLM的智能体经济仿真提供了系统性综述与未来方向，但缺乏具体实验与代码支撑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06164v1": {
+    "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
+    "evaluated_at": "2026-08-07T09:31:05",
+    "score": 62,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 16,
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
+    },
+    "comment": "提出弯曲感知的可微弹簧-质量模型以解决物理图粗化时的机械约束不足问题，在物理数字孪生重建方向具有较好的实用价值，但创新性偏向增量改进且缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
