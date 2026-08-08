@@ -320,7 +320,9 @@
     "comment": "将安全关键系统的VV&A标准引入生成式世界模型，提出L0-L4准入阶梯，深刻揭示了视觉保真度与动作鲁棒性之间的背离现象，为世界模型作为测试预言机提供了严谨的认证框架。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-09T06:26:07",
+    "pushed_post": "2026-08-09_top3_推文.md"
   },
   "2607.08127v1": {
     "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
@@ -638,7 +640,9 @@
     "comment": "将视频预测模型的运动先验重新定向至未来3D场景流预测，以mask latent替代未来RGB并冻结大模型仅训练轻量adapter，思路新颖且数据效率高，但仅见于arXiv预印本，缺乏同行评审与代码公开确认。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-09T06:26:07",
+    "pushed_post": "2026-08-09_top3_推文.md"
   },
   "2607.18171v1": {
     "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
@@ -1372,22 +1376,6 @@
       "arxiv"
     ]
   },
-  "2608.02428v1": {
-    "title": "DF$^3$: World Modeling via Decoder-Free Feature Forecasting in Autonomous Navigation",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 68,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出无解码器的潜在空间特征预测框架DF3，通过空间查询与MACF机制实现高效的世界模型状态预测与任务输出，创新性较好但缺乏开源资源与权威发表背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.06197v1": {
     "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
     "evaluated_at": "2026-08-07T09:31:05",
@@ -1504,54 +1492,6 @@
       "arxiv"
     ]
   },
-  "2608.06192v1": {
-    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
-    "evaluated_at": "2026-08-08T06:33:45",
-    "score": 68,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 14,
-      "topic_relevance": 12,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "将手物交互压力估计建模为手部顶点空间的视频预测问题，结合多源数据与顶点锚定Transformer，在单目视频压力估计上取得了较好的泛化效果。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.06332v1": {
-    "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
-    "evaluated_at": "2026-08-08T06:33:45",
-    "score": 67,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
-      "resource_completeness": 0
-    },
-    "comment": "提出基于视觉动作表示和解耦运动学/环境动态的交互式世界模型，在机器人操作OOD泛化和下游策略提升上展现了良好潜力，但缺乏代码开源和同行评审信息。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.06164v1": {
-    "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
-    "evaluated_at": "2026-08-08T06:33:45",
-    "score": 64,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 16,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "在可微弹簧-质量模型中引入弯曲约束以提升稀疏图下的物理重建稳定性，是对现有数字孪生方法的有效改进，但创新性相对增量且缺乏开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.06374v1": {
     "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
     "evaluated_at": "2026-08-08T06:34:05",
@@ -1568,18 +1508,132 @@
       "arxiv"
     ]
   },
-  "2608.06161v1": {
-    "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
-    "evaluated_at": "2026-08-08T06:35:42",
-    "score": 62,
+  "2608.05706v1": {
+    "title": "LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "针对多视角潜在动作模型中的外观泄露和视角变化问题，提出LAWM-3D，通过多视角不变动作token化、几何对齐约束和非单射RGB-D重建目标，有效提升了机器人世界模型的3D感知和泛化能力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-09T06:26:07",
+    "pushed_post": "2026-08-09_top3_推文.md"
+  },
+  "2608.06192v1": {
+    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 70,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 14,
+      "topic_relevance": 12,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出将手-物压力估计转化为手部网格上的视频预测问题，结合顶点锚定Transformer与接触门控机制，在多源数据上实现了较好的泛化，但与世界模型核心方向关联较弱且暂无开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06332v1": {
+    "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 69,
     "scores": {
       "method_innovation": 22,
       "author_authority": 12,
-      "topic_relevance": 14,
-      "experiment_feasibility": 14,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于视觉动作表示与运动学-环境解耦的机器人交互式世界模型，在未见场景下展现出良好的泛化能力与策略评估潜力，但缺乏开源资源与同行评审验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.05695v1": {
+    "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将风险感知世界模型引入LLM Agent运行时护栏以预测长程风险，方法新颖且契合主题，但缺乏顶会背书与开源代码，权威性与资源完整性有待提升。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.05799v1": {
+    "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
       "resource_completeness": 0
     },
-    "comment": "结合Agentic RL与LLM生成奖励程序实现可控3D场景生成，方法有一定创新，但缺乏代码开源且与世界模型核心方向关联度中等。",
+    "comment": "构建了跨具身世界模型评估基准XEWorld，揭示了当前模型依赖视觉相似性而非物理动态的泛化瓶颈，为解耦外观与物理动态提供了重要启发。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.05720v1": {
+    "title": "PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "针对JEPA世界模型中的物理状态表征坍塌问题，提出了PhyLatent训练目标，有效降低了三种失败模式的发生率并提升了MPC性能，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06164v1": {
+    "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
+    "evaluated_at": "2026-08-09T06:25:16",
+    "score": 64,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 16,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种弯曲感知的可微弹簧-质量模型，通过引入弯曲刚度和阻尼有效解决了粗化物理图时的机械欠约束问题，提升了可变形物体数字孪生的稳定性和准确性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06161v1": {
+    "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
+    "evaluated_at": "2026-08-09T06:25:40",
+    "score": 56,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 14,
+      "experiment_feasibility": 12,
+      "resource_completeness": 2
+    },
+    "comment": "结合智能体强化学习与LLM生成奖励程序实现可控3D场景生成，方法具有一定创新性，但缺乏顶会背书与开源代码，世界模型关联度中等。",
     "sources": [
       "arxiv"
     ]
