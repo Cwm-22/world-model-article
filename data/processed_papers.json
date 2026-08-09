@@ -870,7 +870,9 @@
     "comment": "提出基于视觉语言代理的自动化Real2Sim框架，将真实交互视频转化为可仿真的物理世界模型，在多类物体交互场景中验证了其低成本与高可行性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-10T06:28:17",
+    "pushed_post": "2026-08-10_top3_推文.md"
   },
   "2607.20988v1": {
     "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
@@ -1558,82 +1560,134 @@
       "arxiv"
     ]
   },
-  "2608.05695v1": {
-    "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 67,
+  "2608.05597v1": {
+    "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 79,
     "scores": {
       "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 8
+    },
+    "comment": "提出不确定性感知世界模型UA-NWM，将轨迹评分转化为条件OOD检测并分解预测误差，在航空导航任务中兼顾了鲁棒性与低延迟，且有真实无人机实验验证。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-10T06:28:17",
+    "pushed_post": "2026-08-10_top3_推文.md"
+  },
+  "2608.05674v1": {
+    "title": "JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment",
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 74,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 5
+    },
+    "comment": "提出双重动作对齐框架结合潜在动作条件的世界模型，有效利用异构人类视频数据扩展机器人操作学习，实验验证了良好的数据规模扩展性。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-10T06:28:17",
+    "pushed_post": "2026-08-10_top3_推文.md"
+  },
+  "2608.05720v1": {
+    "title": "PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models",
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 69,
+    "scores": {
+      "method_innovation": 25,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "将风险感知世界模型引入LLM Agent运行时护栏以预测长程风险，方法新颖且契合主题，但缺乏顶会背书与开源代码，权威性与资源完整性有待提升。",
+    "comment": "针对JEPA世界模型中物理表征的失效问题提出了三种训练路径，理论分析与实验验证结合较好，但缺乏知名作者背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.05799v1": {
     "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 66,
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 67,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 20,
       "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 17,
-      "resource_completeness": 0
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 5
     },
-    "comment": "构建了跨具身世界模型评估基准XEWorld，揭示了当前模型依赖视觉相似性而非物理动态的泛化瓶颈，为解耦外观与物理动态提供了重要启发。",
+    "comment": "提出跨具身智能世界模型测试床XEWorld，系统揭示了当前模型依赖2D视觉模式匹配而非物理动力学的泛化瓶颈，对世界模型架构创新有重要启发。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.05720v1": {
-    "title": "PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 65,
+  "2608.05695v1": {
+    "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 62,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
     },
-    "comment": "针对JEPA世界模型中的物理状态表征坍塌问题，提出了PhyLatent训练目标，有效降低了三种失败模式的发生率并提升了MPC性能，但缺乏顶会背书与开源代码。",
+    "comment": "DreamGuard创新性地利用风险感知世界模型预测轨迹未来状态，为LLM Agent提供长视野的主动安全护栏，但缺乏顶会背书和开源代码支持。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.06164v1": {
     "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 64,
+    "evaluated_at": "2026-08-10T06:27:15",
+    "score": 61,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 20,
       "author_authority": 8,
       "topic_relevance": 16,
-      "experiment_feasibility": 16,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出了一种弯曲感知的可微弹簧-质量模型，通过引入弯曲刚度和阻尼有效解决了粗化物理图时的机械欠约束问题，提升了可变形物体数字孪生的稳定性和准确性。",
+    "comment": "提出弯曲感知的可微分弹簧-质量模型以改进可变形物体的物理重建与预测，在数字孪生方向具有一定创新性，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.06161v1": {
     "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
-    "evaluated_at": "2026-08-09T06:25:40",
-    "score": 56,
+    "evaluated_at": "2026-08-10T06:27:19",
+    "score": 66,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 14,
-      "experiment_feasibility": 12,
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 16,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "结合智能体强化学习与LLM生成奖励程序实现可控3D场景生成，方法具有一定创新性，但缺乏顶会背书与开源代码，世界模型关联度中等。",
+    "comment": "提出结合LLM生成奖励程序的迭代智能体强化学习框架iARCS，有效提升了3D场景生成在可走性、可达性等功能性约束上的表现，对具身智能数据合成具有较高价值，但缺乏代码开源限制了可复现性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.06014v1": {
+    "title": "Iterate or Widen? When Test-Time Refinement Helps LiDAR Scene Completion: A Controlled Study of Evidence Geometry, Training Coverage, and Compute",
+    "evaluated_at": "2026-08-10T06:27:43",
+    "score": 55,
+    "scores": {
+      "method_innovation": 15,
+      "author_authority": 8,
+      "topic_relevance": 12,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "通过严谨的控制实验探究了LiDAR场景补全中测试时迭代细化与模型加宽的权衡，揭示了基于几何条件的经验边界，但方法创新性有限且与世界模型核心主题关联较弱。",
     "sources": [
       "arxiv"
     ]
