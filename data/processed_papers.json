@@ -1612,82 +1612,136 @@
       "arxiv"
     ]
   },
-  "2608.05799v1": {
-    "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
-    "evaluated_at": "2026-08-10T06:27:15",
-    "score": 67,
+  "2608.07408v1": {
+    "title": "Addressable Memory for Video World Models",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 76,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
+      "method_innovation": 25,
+      "author_authority": 15,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 5
+      "resource_completeness": 2
     },
-    "comment": "提出跨具身智能世界模型测试床XEWorld，系统揭示了当前模型依赖2D视觉模式匹配而非物理动力学的泛化瓶颈，对世界模型架构创新有重要启发。",
+    "comment": "针对视频世界模型长时序生成中RoPE导致的记忆失效问题，提出无需训练的WorldTrace框架及LoopBench基准，有效提升了时间一致性与情景回忆能力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-11T06:37:09",
+    "pushed_post": "2026-08-11_top3_推文.md"
+  },
+  "2608.07420v1": {
+    "title": "Beyond Myopic World Models: Long-Horizon End-to-End Training for Direct Future Prediction",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 75,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出非递归的直接预测世界模型(DPWM)，通过端到端的长时程目标优化解决自回归展开的误差累积问题，创新性强且直击世界模型痛点。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-11T06:37:09",
+    "pushed_post": "2026-08-11_top3_推文.md"
+  },
+  "2608.07077v1": {
+    "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "通过机制可解释性方法揭示大语言模型在汉诺塔任务中构建了涌现世界模型但在推理链中发生衰减，并通过表示注入部分恢复性能，对理解LLM世界模型具有深刻启发。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-11T06:37:09",
+    "pushed_post": "2026-08-11_top3_推文.md"
+  },
+  "2608.07107v1": {
+    "title": "MemWM: Memory-Augmented Text-Based World Model",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 70,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出记忆增强的文本世界模型MemWM，通过引入外部记忆库缓解状态预测中的事实遗漏与转移错误，在ALFWorld等三个文本环境上取得显著提升，但缺乏代码开源且方法创新性较为常规。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.05695v1": {
-    "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-    "evaluated_at": "2026-08-10T06:27:15",
-    "score": 62,
+  "2608.06770v1": {
+    "title": "Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 69,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "method_innovation": 23,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
-      "resource_completeness": 0
-    },
-    "comment": "DreamGuard创新性地利用风险感知世界模型预测轨迹未来状态，为LLM Agent提供长视野的主动安全护栏，但缺乏顶会背书和开源代码支持。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.06164v1": {
-    "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
-    "evaluated_at": "2026-08-10T06:27:15",
-    "score": 61,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 16,
-      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出弯曲感知的可微分弹簧-质量模型以改进可变形物体的物理重建与预测，在数字孪生方向具有一定创新性，但缺乏顶会背书与开源代码。",
+    "comment": "提出了一种基于多模态控制专家和分层锚点的外科世界模型，在可控外科视频生成方面具有较好的创新性，但目前仅为预印本且缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.06161v1": {
-    "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
-    "evaluated_at": "2026-08-10T06:27:19",
-    "score": 66,
+  "2608.06706v1": {
+    "title": "Dueling World Models: Advantage-Style Action Channels for Common-Mode Distractor Rejection",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 69,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 16,
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出结合LLM生成奖励程序的迭代智能体强化学习框架iARCS，有效提升了3D场景生成在可走性、可达性等功能性约束上的表现，对具身智能数据合成具有较高价值，但缺乏代码开源限制了可复现性。",
+    "comment": "借鉴Dueling思想，通过在潜在动力学中减去动作平均效应来消除动作无关干扰，方法简洁且具理论保证，但缺乏代码开源和顶会背书。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.06014v1": {
-    "title": "Iterate or Widen? When Test-Time Refinement Helps LiDAR Scene Completion: A Controlled Study of Evidence Geometry, Training Coverage, and Compute",
-    "evaluated_at": "2026-08-10T06:27:43",
-    "score": 55,
+  "2608.06799v1": {
+    "title": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models",
+    "evaluated_at": "2026-08-11T06:34:28",
+    "score": 67,
     "scores": {
-      "method_innovation": 15,
+      "method_innovation": 22,
       "author_authority": 8,
-      "topic_relevance": 12,
-      "experiment_feasibility": 18,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
       "resource_completeness": 2
     },
-    "comment": "通过严谨的控制实验探究了LiDAR场景补全中测试时迭代细化与模型加宽的权衡，揭示了基于几何条件的经验边界，但方法创新性有限且与世界模型核心主题关联较弱。",
+    "comment": "针对JEPA世界模型中latent状态不可识别的问题，提出物理状态接地方法PSG-JEPA，在机器人控制任务上验证了其有效性，但缺乏开源代码支持。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.07409v1": {
+    "title": "UniJEPA: A Unified Joint-Embedding Predictive Architecture for Task-Agnostic Visual World Modeling",
+    "evaluated_at": "2026-08-11T06:35:47",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将图像级光度预测与视频级时序动力学统一到单一共享潜空间的JEPA框架，无需EMA/stop-gradient即可证明抗坍塌，思路新颖但缺乏代码与同行评审支撑，作者权威性不足。",
     "sources": [
       "arxiv"
     ]
