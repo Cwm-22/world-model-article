@@ -1362,22 +1362,6 @@
     "pushed_at": "2026-08-07T09:33:22",
     "pushed_post": "2026-08-07_top3_推文.md"
   },
-  "2608.03244v1": {
-    "title": "UniNav: A Unified World-Action Diffusion Model for Visual Navigation",
-    "evaluated_at": "2026-08-06T06:56:25",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 3
-    },
-    "comment": "提出统一的世界-动作扩散模型UniNav，将未来视觉预测与轨迹生成结合于单一Transformer中，在导航基准上展现出优异的精度与推理效率。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.06197v1": {
     "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
     "evaluated_at": "2026-08-07T09:31:05",
@@ -1430,22 +1414,6 @@
       "arxiv"
     ]
   },
-  "2608.06227v1": {
-    "title": "From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks",
-    "evaluated_at": "2026-08-07T09:31:05",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 18,
-      "topic_relevance": 18,
-      "experiment_feasibility": 8,
-      "resource_completeness": 0
-    },
-    "comment": "结合主动推理、范畴论与整合信息论提出HDT-Net框架，理论创新性极强且作者权威性高，但偏向纯理论构建，缺乏实验验证与开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.05891v1": {
     "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
     "evaluated_at": "2026-08-08T06:33:45",
@@ -1490,22 +1458,6 @@
       "resource_completeness": 3
     },
     "comment": "提出基于真实世界测量的物理保真度基准GAUGE，联合评估物理引擎与视频世界模型，揭示了现有模型在物理规律一致性上的不足。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.06374v1": {
-    "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
-    "evaluated_at": "2026-08-08T06:34:05",
-    "score": 69,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
-    },
-    "comment": "提出基于未来预测的共享动力学先验与具身特定MoE动作头，有效解决跨具身操作的动作对齐难题，实验结果优异但缺乏代码开源。",
     "sources": [
       "arxiv"
     ]
@@ -1714,34 +1666,136 @@
       "arxiv"
     ]
   },
-  "2608.06799v1": {
-    "title": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models",
-    "evaluated_at": "2026-08-11T06:34:28",
-    "score": 67,
+  "2608.10232v1": {
+    "title": "FACT: Failure-Aware Causal Training for World-Action Models",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 85,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 6
+    },
+    "comment": "提出了一种失败感知的因果世界-动作模型训练方法，利用失败轨迹监督动作后果以减少对成功演示的依赖，在双臂操作任务上验证了有效性，创新性与落地性俱佳。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-13T06:37:54",
+    "pushed_post": "2026-08-13_top3_推文.md"
+  },
+  "2608.10449v1": {
+    "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 77,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 7
+    },
+    "comment": "提出PBD-AG框架通过解耦稳定基线与动态增量构建持久世界模型，结合不确定性感知的主动视角选择，有效提升了长期服务机器人在动态环境下的感知与对象追踪可靠性。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-13T06:37:54",
+    "pushed_post": "2026-08-13_top3_推文.md"
+  },
+  "2608.11017v1": {
+    "title": "R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 74,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 15,
+      "topic_relevance": 17,
+      "experiment_feasibility": 14,
+      "resource_completeness": 6
+    },
+    "comment": "提出相对4D场景图记忆用于长视频自我中心问答，通过分离锚点与动态对象避免全局对齐，在EgoLifeQA上验证了有效性，但缺乏顶会发表记录。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-13T06:37:54",
+    "pushed_post": "2026-08-13_top3_推文.md"
+  },
+  "2608.10439v1": {
+    "title": "Stream Forcing: Constructing Unified Training Trajectory for Robust Streaming Video Generation",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 70,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
       "topic_relevance": 18,
-      "experiment_feasibility": 17,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "针对JEPA世界模型中latent状态不可识别的问题，提出物理状态接地方法PSG-JEPA，在机器人控制任务上验证了其有效性，但缺乏开源代码支持。",
+    "comment": "该论文提出Stream Forcing框架解决流式视频扩散模型的训练-推理不匹配问题，对世界模型的在线帧预测有较高参考价值，但缺乏开源代码和同行评审验证。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.07409v1": {
-    "title": "UniJEPA: A Unified Joint-Embedding Predictive Architecture for Task-Agnostic Visual World Modeling",
-    "evaluated_at": "2026-08-11T06:35:47",
+  "2608.11174v1": {
+    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 69,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出VIScore指标从编码器、预测器和规划器三方面诊断潜在世界模型的规划质量，创新性强且实验验证了其与规划成功率的强相关性，但缺乏开源代码和发表场所信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10618v1": {
+    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出以世界模型为中心的自动驾驶赛车智能体以探索具身智能的认知与物理极限，结合真实高速赛车数据与仿真实验，具有较高的主题相关性与实验落地性，但未见开源代码且作者团队影响力一般。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10386v1": {
+    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
+    "evaluated_at": "2026-08-13T06:37:36",
     "score": 65,
     "scores": {
       "method_innovation": 22,
       "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 14,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将图像级光度预测与视频级时序动力学统一到单一共享潜空间的JEPA框架，无需EMA/stop-gradient即可证明抗坍塌，思路新颖但缺乏代码与同行评审支撑，作者权威性不足。",
+    "comment": "将潜空间世界模型与离线SAC算法结合以提升自动驾驶样本效率，分析了短时域展开与n步目标估计的作用，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.11204v1": {
+    "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+    "evaluated_at": "2026-08-13T06:37:36",
+    "score": 63,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出Surgical WAM将世界模型与动作模型结合，利用无动作视频预训练提升手术机器人学习的数据效率，在模拟任务中效果显著，但缺乏真实环境验证且未开源代码。",
     "sources": [
       "arxiv"
     ]
