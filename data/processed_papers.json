@@ -922,7 +922,9 @@
     "comment": "首个结合视觉与触觉的机器人世界模型框架，通过仿真与真实数据混合预训练实现接触丰富操作的动作条件轨迹生成与策略评估，创新性突出。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-14T06:40:19",
+    "pushed_post": "2026-08-14_top3_推文.md"
   },
   "2607.22535v1": {
     "title": "Robot-Factored World Models via Robot Rendering",
@@ -1496,22 +1498,6 @@
       "arxiv"
     ]
   },
-  "2608.06332v1": {
-    "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 69,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于视觉动作表示与运动学-环境解耦的机器人交互式世界模型，在未见场景下展现出良好的泛化能力与策略评估潜力，但缺乏开源资源与同行评审验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.05597v1": {
     "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
     "evaluated_at": "2026-08-10T06:27:15",
@@ -1547,22 +1533,6 @@
     ],
     "pushed_at": "2026-08-10T06:28:17",
     "pushed_post": "2026-08-10_top3_推文.md"
-  },
-  "2608.05720v1": {
-    "title": "PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models",
-    "evaluated_at": "2026-08-10T06:27:15",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "针对JEPA世界模型中物理表征的失效问题提出了三种训练路径，理论分析与实验验证结合较好，但缺乏知名作者背书与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2608.07408v1": {
     "title": "Addressable Memory for Video World Models",
@@ -1752,50 +1722,134 @@
       "arxiv"
     ]
   },
-  "2608.10618v1": {
-    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
-    "evaluated_at": "2026-08-13T06:37:36",
-    "score": 66,
+  "2608.10449v2": {
+    "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 79,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 18,
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 19,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 8
     },
-    "comment": "提出以世界模型为中心的自动驾驶赛车智能体以探索具身智能的认知与物理极限，结合真实高速赛车数据与仿真实验，具有较高的主题相关性与实验落地性，但未见开源代码且作者团队影响力一般。",
+    "comment": "提出基线-增量主动图框架解耦静态与动态对象，结合不确定性感知与可见性门控构建持久世界模型，对长周期机器人感知有较好启发，但当前仅停留在arXiv阶段且缺乏顶会背书。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-14T06:40:19",
+    "pushed_post": "2026-08-14_top3_推文.md"
+  },
+  "2608.11601v1": {
+    "title": "How Can Driving World Models Do Counterfactual Prediction?",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 73,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 0
+    },
+    "comment": "该论文从因果推理角度深刻剖析了驾驶世界模型在反事实预测中的理论缺陷，并提出了简单的无需训练的基线方法与受控仿真基准进行验证，理论洞察力强但缺乏代码开源支撑。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-14T06:40:19",
+    "pushed_post": "2026-08-14_top3_推文.md"
+  },
+  "2608.12078v1": {
+    "title": "Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 72,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 15,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "该论文通过受控实验深入分析了对象中心世界模型中表征质量与鲁棒性对规划的影响，指出预训练特征是鲁棒性的关键，具有较好的实证指导价值，但方法创新性偏弱且缺乏代码开源。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.10386v1": {
-    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
-    "evaluated_at": "2026-08-13T06:37:36",
-    "score": 65,
+  "2608.11174v2": {
+    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 69,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "将潜空间世界模型与离线SAC算法结合以提升自动驾驶样本效率，分析了短时域展开与n步目标估计的作用，但缺乏顶会背书与开源代码。",
+    "comment": "提出VIScore指标以诊断世界模型中规划相关的潜在空间质量，通过综合评估编码器、预测器和规划器，在跨任务成功率上展现出优于现有指标的相关性，但缺乏开源代码支撑。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.11204v1": {
     "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-    "evaluated_at": "2026-08-13T06:37:36",
-    "score": 63,
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 66,
     "scores": {
-      "method_innovation": 18,
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 0
+    },
+    "comment": "提出基于Cosmos Policy的Surgical WAM，利用无动作视频预训练学习视觉动态先验以提升手术机器人控制的数据效率，在模拟任务中验证了有效性，但缺乏真实环境测试与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10618v1": {
+    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 15,
+      "experiment_feasibility": 16,
+      "resource_completeness": 0
+    },
+    "comment": "提出以世界模型为中心的自动驾驶赛车智能体，通过闭环优化探索具身智能的认知与物理极限，真实赛车实验极具挑战性但缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10386v1": {
+    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
+    "evaluated_at": "2026-08-14T06:38:26",
+    "score": 62,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出Surgical WAM将世界模型与动作模型结合，利用无动作视频预训练提升手术机器人学习的数据效率，在模拟任务中效果显著，但缺乏真实环境验证且未开源代码。",
+    "comment": "将Dreamer的潜空间世界模型与off-policy SAC结合用于自动驾驶，通过短时域rollout和n-step估计平衡数据效率与模型偏差，方法有一定创新性但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.11019v1": {
+    "title": "DEFT: Data-Efficient Frequency-domain Top-k Sampling via Inverse Discrete Fourier Transform for Spatiotemporal Dynamical Systems Modeling",
+    "evaluated_at": "2026-08-14T06:39:09",
+    "score": 58,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 12,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于频域采样的数据高效生成方法DEFT，结合理论泛化界，在PDE求解与电池退化预测中展现出优异的数据效率与跨化学体系迁移能力，但与世界模型核心主题关联较弱且缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
