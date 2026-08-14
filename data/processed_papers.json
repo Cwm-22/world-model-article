@@ -1604,22 +1604,6 @@
       "arxiv"
     ]
   },
-  "2608.06770v1": {
-    "title": "Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts",
-    "evaluated_at": "2026-08-11T06:34:28",
-    "score": 69,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "提出了一种基于多模态控制专家和分层锚点的外科世界模型，在可控外科视频生成方面具有较好的创新性，但目前仅为预印本且缺乏开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.06706v1": {
     "title": "Dueling World Models: Advantage-Style Action Channels for Common-Mode Distractor Rejection",
     "evaluated_at": "2026-08-11T06:34:28",
@@ -1790,66 +1774,136 @@
       "arxiv"
     ]
   },
-  "2608.11204v1": {
-    "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-    "evaluated_at": "2026-08-14T06:38:26",
-    "score": 66,
+  "2608.13552v1": {
+    "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 88,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 10
+    },
+    "comment": "提出基于多模态Agent玩家与世界模型交互以完成长期目标的PlayWorld基准，填补了世界模型在长时序交互能力评估上的空白，实验设计合理且开源了代码与数据。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-15T06:20:22",
+    "pushed_post": "2026-08-15_top3_推文.md"
+  },
+  "2608.13556v1": {
+    "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 77,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 6
+    },
+    "comment": "利用冻结视觉基础模型构建视频生成潜空间，有效解决重建与生成目标不一致问题，并在未来视频预测任务中展现出世界模型的潜力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-15T06:20:22",
+    "pushed_post": "2026-08-15_top3_推文.md"
+  },
+  "2608.13546v1": {
+    "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 76,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "该论文提出外部化世界状态与线性扩展监督机制，有效解决了交互式世界模型长程生成中的记忆成本与低延迟冲突，并在WBench等基准上达到SOTA。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-15T06:20:22",
+    "pushed_post": "2026-08-15_top3_推文.md"
+  },
+  "2608.13489v1": {
+    "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 73,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 19,
-      "experiment_feasibility": 15,
-      "resource_completeness": 0
+      "experiment_feasibility": 17,
+      "resource_completeness": 5
     },
-    "comment": "提出基于Cosmos Policy的Surgical WAM，利用无动作视频预训练学习视觉动态先验以提升手术机器人控制的数据效率，在模拟任务中验证了有效性，但缺乏真实环境测试与开源代码。",
+    "comment": "该论文提出动作条件视频世界模型DreamX-Phi 1.0，结合SE(3)几何编码与SAM3/V-JEPA一致性约束，在WorldArena 2.0挑战赛中取得优异成绩，有效解决了机器人操作中的动作与物体一致性问题。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.10618v1": {
-    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
-    "evaluated_at": "2026-08-14T06:38:26",
-    "score": 66,
+  "2608.13014v1": {
+    "title": "EgoPHI: Estimating Contact and Force from Egocentric Vision",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 10,
+      "experiment_feasibility": 18,
+      "resource_completeness": 3
+    },
+    "comment": "首个从单目RGB联合估计手物交互密集接触与3D力的方法，通过物理仿真生成监督并构建真实世界力传感数据集验证sim-to-real，但与世界模型核心关联较弱。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13049v1": {
+    "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 70,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出H2R-Bench基准，系统评估视频世界模型在跨具身（人-机器人）操作视频生成中的能力，填补了该领域评估标准的空白，但当前模型在具身一致性与功能交互上仍显不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13438v1": {
+    "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 69,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 14,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 0
+    },
+    "comment": "提出基于动作条件潜在世界模型的接触前执行监控方法ContactGuard，通过在潜在空间预测短期动作后果实现机器人操作的提前中止，创新性强且高度契合世界模型主题，但缺乏开源代码与正式发表记录。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13518v1": {
+    "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+    "evaluated_at": "2026-08-15T06:19:36",
+    "score": 67,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 0
+      "resource_completeness": 1
     },
-    "comment": "提出以世界模型为中心的自动驾驶赛车智能体，通过闭环优化探索具身智能的认知与物理极限，真实赛车实验极具挑战性但缺乏开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.10386v1": {
-    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
-    "evaluated_at": "2026-08-14T06:38:26",
-    "score": 62,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "将Dreamer的潜空间世界模型与off-policy SAC结合用于自动驾驶，通过短时域rollout和n-step估计平衡数据效率与模型偏差，方法有一定创新性但缺乏顶会背书与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.11019v1": {
-    "title": "DEFT: Data-Efficient Frequency-domain Top-k Sampling via Inverse Discrete Fourier Transform for Spatiotemporal Dynamical Systems Modeling",
-    "evaluated_at": "2026-08-14T06:39:09",
-    "score": 58,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 12,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出基于频域采样的数据高效生成方法DEFT，结合理论泛化界，在PDE求解与电池退化预测中展现出优异的数据效率与跨化学体系迁移能力，但与世界模型核心主题关联较弱且缺乏开源资源。",
+    "comment": "提出干预感知的临床世界模型用于房颤消融术后预测，将不规则临床事件融入3D潜在状态演化，创新性强且实验有效，但缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
