@@ -1604,22 +1604,6 @@
       "arxiv"
     ]
   },
-  "2608.06706v1": {
-    "title": "Dueling World Models: Advantage-Style Action Channels for Common-Mode Distractor Rejection",
-    "evaluated_at": "2026-08-11T06:34:28",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "借鉴Dueling思想，通过在潜在动力学中减去动作平均效应来消除动作无关干扰，方法简洁且具理论保证，但缺乏代码开源和顶会背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.10232v1": {
     "title": "FACT: Failure-Aware Causal Training for World-Action Models",
     "evaluated_at": "2026-08-13T06:37:36",
@@ -1690,22 +1674,6 @@
       "arxiv"
     ]
   },
-  "2608.11174v1": {
-    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
-    "evaluated_at": "2026-08-13T06:37:36",
-    "score": 69,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出VIScore指标从编码器、预测器和规划器三方面诊断潜在世界模型的规划质量，创新性强且实验验证了其与规划成功率的强相关性，但缺乏开源代码和发表场所信息。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.10449v2": {
     "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
     "evaluated_at": "2026-08-14T06:38:26",
@@ -1754,22 +1722,6 @@
       "resource_completeness": 3
     },
     "comment": "该论文通过受控实验深入分析了对象中心世界模型中表征质量与鲁棒性对规划的影响，指出预训练特征是鲁棒性的关键，具有较好的实证指导价值，但方法创新性偏弱且缺乏代码开源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.11174v2": {
-    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
-    "evaluated_at": "2026-08-14T06:38:26",
-    "score": 69,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出VIScore指标以诊断世界模型中规划相关的潜在空间质量，通过综合评估编码器、预测器和规划器，在跨任务成功率上展现出优于现有指标的相关性，但缺乏开源代码支撑。",
     "sources": [
       "arxiv"
     ]
@@ -1876,34 +1828,136 @@
       "arxiv"
     ]
   },
+  "2608.12904v1": {
+    "title": "HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 82,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 8
+    },
+    "comment": "提出首个面向医学CT影像的多模态世界模型HounsWorld，统一了读取、重建与模拟三大任务，创新性强且开源资源完整，但缺乏顶会背书。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-16T06:19:50",
+    "pushed_post": "2026-08-16_top3_推文.md"
+  },
+  "2608.12939v1": {
+    "title": "Diagnosing JEPA World Models with Action-Conditioned Predictive Consistency",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 78,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "本文针对JEPA世界模型在视觉扰动下的鲁棒性问题，提出了基于动作条件预测一致性的诊断方法ACPC及IR/SR指标，理论分析严谨且实验验证充分，但缺乏公开代码资源。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-16T06:19:50",
+    "pushed_post": "2026-08-16_top3_推文.md"
+  },
+  "2608.12854v1": {
+    "title": "BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 77,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "提出BrainWAM框架通过动作空间协调语义先验与预测性世界模型，解决注意力分配不匹配问题，并在NAVSIM基准上达到SOTA，创新性与落地性俱佳。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-16T06:19:50",
+    "pushed_post": "2026-08-16_top3_推文.md"
+  },
   "2608.13438v1": {
     "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
-    "evaluated_at": "2026-08-15T06:19:36",
-    "score": 69,
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 72,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 14,
+      "author_authority": 15,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
-      "resource_completeness": 0
+      "resource_completeness": 2
     },
-    "comment": "提出基于动作条件潜在世界模型的接触前执行监控方法ContactGuard，通过在潜在空间预测短期动作后果实现机器人操作的提前中止，创新性强且高度契合世界模型主题，但缺乏开源代码与正式发表记录。",
+    "comment": "提出基于动作条件潜在世界模型的接触前执行监控方法ContactGuard，通过潜在空间预测与轻量级探针实现早期失败预警，在机器人操作中具有较高实用价值，但缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13103v1": {
+    "title": "S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出一种基于稀疏事件证据的分层世界模型，通过变长时间段预测有效解决长程手术机器人操作中的奖励稀疏问题，但实验仅在单一仿真环境中验证且缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.12564v1": {
+    "title": "Scaling Automatic Research Agents via World Models",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出WMRL利用世界模型替代环境执行以解决自动研究代理RL训练的扩展瓶颈，并通过去偏和降噪优化不完美世界模型，在加速训练的同时提升性能，具有较好的理论与实验支撑。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.13518v1": {
     "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
-    "evaluated_at": "2026-08-15T06:19:36",
+    "evaluated_at": "2026-08-16T06:18:50",
     "score": 67,
     "scores": {
       "method_innovation": 22,
       "author_authority": 10,
       "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出干预感知的临床世界模型用于房颤消融术后预测，通过3D潜在状态与时序事件演化实现动态风险预测，但缺乏外部验证与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.12959v1": {
+    "title": "The Objective Is the Bottleneck: Latent World Models Encode What Their Planners Cannot Use",
+    "evaluated_at": "2026-08-16T06:18:50",
+    "score": 60,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 5,
+      "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 1
     },
-    "comment": "提出干预感知的临床世界模型用于房颤消融术后预测，将不规则临床事件融入3D潜在状态演化，创新性强且实验有效，但缺乏开源资源。",
+    "comment": "本文深刻诊断了潜在世界模型中基于平方潜在距离的CEM规划器存在的目标函数瓶颈，指出预测器并非长程规划失效的根源，并通过仅替换目标函数（无需重训练）大幅提升了规划成功率，对世界模型的规划机制设计具有重要启发意义。",
     "sources": [
       "arxiv"
     ]
