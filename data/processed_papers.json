@@ -1098,7 +1098,9 @@
     "comment": "首次揭示了视频世界模型自回归误差累积与隐藏表示维度坍塌的内在联系，并提出轻量级正则化方法有效缓解该问题，洞察深刻但缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-17T06:19:07",
+    "pushed_post": "2026-08-17_top3_推文.md"
   },
   "2607.26924v1": {
     "title": "Temporally Centered SIGReg Improves Multi-Task LeWorldModel Learning: From Analysis to Method",
@@ -1114,7 +1116,9 @@
     "comment": "针对多任务世界模型中边缘高斯化导致的表征混叠问题，提出将SIGReg应用于时间中心化残差，理论分析透彻且在LIBERO上提升显著，但缺乏开源代码支撑。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-17T06:19:07",
+    "pushed_post": "2026-08-17_top3_推文.md"
   },
   "2607.28624v1": {
     "title": "PhiZero: A World Model Built Around Physical Language",
@@ -1448,22 +1452,6 @@
       "arxiv"
     ]
   },
-  "2608.05948v1": {
-    "title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
-    "evaluated_at": "2026-08-08T06:33:45",
-    "score": 70,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 17,
-      "resource_completeness": 3
-    },
-    "comment": "提出基于真实世界测量的物理保真度基准GAUGE，联合评估物理引擎与视频世界模型，揭示了现有模型在物理规律一致性上的不足。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.05706v1": {
     "title": "LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models",
     "evaluated_at": "2026-08-09T06:25:16",
@@ -1481,22 +1469,6 @@
     ],
     "pushed_at": "2026-08-09T06:26:07",
     "pushed_post": "2026-08-09_top3_推文.md"
-  },
-  "2608.06192v1": {
-    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
-    "evaluated_at": "2026-08-09T06:25:16",
-    "score": 70,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 14,
-      "topic_relevance": 12,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
-    },
-    "comment": "提出将手-物压力估计转化为手部网格上的视频预测问题，结合顶点锚定Transformer与接触门控机制，在多源数据上实现了较好的泛化，但与世界模型核心方向关联较弱且暂无开源代码。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2608.05597v1": {
     "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
@@ -1587,22 +1559,6 @@
     ],
     "pushed_at": "2026-08-11T06:37:09",
     "pushed_post": "2026-08-11_top3_推文.md"
-  },
-  "2608.07107v1": {
-    "title": "MemWM: Memory-Augmented Text-Based World Model",
-    "evaluated_at": "2026-08-11T06:34:28",
-    "score": 70,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出记忆增强的文本世界模型MemWM，通过引入外部记忆库缓解状态预测中的事实遗漏与转移错误，在ALFWorld等三个文本环境上取得显著提升，但缺乏代码开源且方法创新性较为常规。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2608.10232v1": {
     "title": "FACT: Failure-Aware Causal Training for World-Action Models",
@@ -1794,7 +1750,9 @@
     "comment": "该论文提出动作条件视频世界模型DreamX-Phi 1.0，结合SE(3)几何编码与SAM3/V-JEPA一致性约束，在WorldArena 2.0挑战赛中取得优异成绩，有效解决了机器人操作中的动作与物体一致性问题。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-17T06:19:07",
+    "pushed_post": "2026-08-17_top3_推文.md"
   },
   "2608.13014v1": {
     "title": "EgoPHI: Estimating Contact and Force from Egocentric Vision",
@@ -1930,34 +1888,130 @@
       "arxiv"
     ]
   },
-  "2608.13518v1": {
-    "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
-    "evaluated_at": "2026-08-16T06:18:50",
-    "score": 67,
+  "2608.11204v1": {
+    "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 72,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 10,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出Surgical WAM将世界模型与动作预测结合，利用无动作视频预训练提升手术机器人在有限标签数据下的闭环控制性能，创新性适中且模拟实验提升显著，但缺乏真实环境验证与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.11174v2": {
+    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 69,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出干预感知的临床世界模型用于房颤消融术后预测，通过3D潜在状态与时序事件演化实现动态风险预测，但缺乏外部验证与开源代码。",
+    "comment": "提出VIScore指标以诊断潜在世界模型中编码器、预测器和规划器的规划相关性，填补了潜在空间属性与规划成功之间的评估空白，但缺乏公开代码资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13518v1": {
+    "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 68,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "将世界模型引入临床术后预测，通过3D潜在状态结合异步事件进行时序演化，在房颤消融数据集上验证了复发预测与干预编辑的有效性，但缺乏开源代码与外部验证。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.12959v1": {
     "title": "The Objective Is the Bottleneck: Latent World Models Encode What Their Planners Cannot Use",
-    "evaluated_at": "2026-08-16T06:18:50",
-    "score": 60,
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 67,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 5,
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "本文深刻诊断了潜在世界模型中基于平方潜在距离的规划目标在长视野任务中的失效问题，并提出基于可达性的目标函数替代方案，实验设计精巧且极具启发性，但作者权威性与资源完整性略显不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10386v1": {
+    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 67,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 20,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "将Dreamer潜空间世界模型与离线SAC算法结合以提升自动驾驶样本效率，并验证了短时域rollout与n步估计的有效性，但方法偏向已有框架组合且缺乏开源代码与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10618v1": {
+    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 64,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
+      "resource_completeness": 0
+    },
+    "comment": "论文将世界模型引入自动驾驶赛车的极限工况探索，结合真实车辆与全尺寸仿真验证了闭环优化策略的有效性，但缺乏开源代码及知名机构背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.10915v2": {
+    "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+    "evaluated_at": "2026-08-17T06:17:44",
+    "score": 59,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 16,
+      "experiment_feasibility": 8,
       "resource_completeness": 1
     },
-    "comment": "本文深刻诊断了潜在世界模型中基于平方潜在距离的CEM规划器存在的目标函数瓶颈，指出预测器并非长程规划失效的根源，并通过仅替换目标函数（无需重训练）大幅提升了规划成功率，对世界模型的规划机制设计具有重要启发意义。",
+    "comment": "提出以人为中心的Combodied Agents范式，将个人世界模型作为核心组件预测人类状态轨迹，概念创新性强但缺乏具体实验验证与代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13456v1": {
+    "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
+    "evaluated_at": "2026-08-17T06:18:18",
+    "score": 55,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 5,
+      "resource_completeness": 1
+    },
+    "comment": "从因果视角提出统一的世界模型理论框架，整合因果表示学习与对象中心学习，理论关联度高，但缺乏具体模型实现与实验验证。",
     "sources": [
       "arxiv"
     ]
