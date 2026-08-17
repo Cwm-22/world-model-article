@@ -1936,82 +1936,136 @@
       "arxiv"
     ]
   },
-  "2608.12959v1": {
-    "title": "The Objective Is the Bottleneck: Latent World Models Encode What Their Planners Cannot Use",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 67,
+  "2608.13552v2": {
+    "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 86,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 9
+    },
+    "comment": "提出基于多模态智能体交互的长期目标导向世界模型评测基准，填补了动态交互评估的空白，具有较高的行业参考价值。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-18T06:23:42",
+    "pushed_post": "2026-08-18_top3_推文.md"
+  },
+  "2608.14490v1": {
+    "title": "Twin: Playing an Unknown Game with a Test-Time Digital Twin",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 79,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
       "topic_relevance": 19,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "提出测试时通过编码代理构建可执行世界模型以解决未知游戏任务，在ARC-AGI-3上取得极高通过率，创新性强且实验充分，但缺乏公开代码资源。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-18T06:23:42",
+    "pushed_post": "2026-08-18_top3_推文.md"
+  },
+  "2608.14530v1": {
+    "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 73,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "提出显式解耦的世界模型架构，通过预测3D状态、零参数渲染几何与扩散模型合成外观，有效解决了长程一致性与可控性问题，创新性强但缺乏开源资源与发表信息佐证。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-18T06:23:42",
+    "pushed_post": "2026-08-18_top3_推文.md"
+  },
+  "2608.14022v1": {
+    "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 70,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "本文深刻诊断了潜在世界模型中基于平方潜在距离的规划目标在长视野任务中的失效问题，并提出基于可达性的目标函数替代方案，实验设计精巧且极具启发性，但作者权威性与资源完整性略显不足。",
+    "comment": "提出渐进式因果训练框架将双向视频生成器转化为少步交互式世界模型，在Minecraft和FPS游戏中验证了低延迟与高控制精度的平衡，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.10386v1": {
-    "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 67,
+  "2608.13678v1": {
+    "title": "hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 70,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 20,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "将Dreamer潜空间世界模型与离线SAC算法结合以提升自动驾驶样本效率，并验证了短时域rollout与n步估计的有效性，但方法偏向已有框架组合且缺乏开源代码与顶会背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.10618v1": {
-    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 64,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 8,
+      "method_innovation": 24,
+      "author_authority": 12,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
       "resource_completeness": 0
     },
-    "comment": "论文将世界模型引入自动驾驶赛车的极限工况探索，结合真实车辆与全尺寸仿真验证了闭环优化策略的有效性，但缺乏开源代码及知名机构背书。",
+    "comment": "提出基于分层世界模型的推理时引导方法hint2，结合高层任务进展与低层安全约束，有效解决了短视界策略在复杂LTL规范下的执行难题，并在CALVIN和真机实验中验证了有效性。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.10915v2": {
-    "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 59,
+  "2608.14379v1": {
+    "title": "Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 68,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 12,
+      "author_authority": 8,
       "topic_relevance": 16,
-      "experiment_feasibility": 8,
-      "resource_completeness": 1
+      "experiment_feasibility": 17,
+      "resource_completeness": 5
     },
-    "comment": "提出以人为中心的Combodied Agents范式，将个人世界模型作为核心组件预测人类状态轨迹，概念创新性强但缺乏具体实验验证与代码开源。",
+    "comment": "提出ReflexBench与ReflexVLA，通过潜在未来预测与多帧融合增强VLA在动态操作中的时间推理能力，结合系统级优化降低延迟，具有一定的世界模型属性与实用价值。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.13456v1": {
-    "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
-    "evaluated_at": "2026-08-17T06:18:18",
-    "score": 55,
+  "2608.14125v1": {
+    "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 58,
     "scores": {
-      "method_innovation": 20,
+      "method_innovation": 16,
       "author_authority": 10,
-      "topic_relevance": 19,
-      "experiment_feasibility": 5,
-      "resource_completeness": 1
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
     },
-    "comment": "从因果视角提出统一的世界模型理论框架，整合因果表示学习与对象中心学习，理论关联度高，但缺乏具体模型实现与实验验证。",
+    "comment": "在LeWM基础上引入潜在轨迹成本(LTC)作为端点距离的补充信号，方法属于增量改进，实验验证了路径感知规划的有效性，但缺乏代码开源且尚未经顶会评审。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.13901v1": {
+    "title": "Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems",
+    "evaluated_at": "2026-08-18T06:22:21",
+    "score": 57,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 5,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于本体的诊断与验证门控接口以增强现有世界模型的故障修复能力，在仿真环境中取得较好效果，但缺乏真实机器人验证且未开源代码。",
     "sources": [
       "arxiv"
     ]
