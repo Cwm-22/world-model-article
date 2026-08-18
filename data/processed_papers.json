@@ -1904,38 +1904,6 @@
       "arxiv"
     ]
   },
-  "2608.11174v2": {
-    "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 69,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出VIScore指标以诊断潜在世界模型中编码器、预测器和规划器的规划相关性，填补了潜在空间属性与规划成功之间的评估空白，但缺乏公开代码资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.13518v1": {
-    "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
-    "evaluated_at": "2026-08-17T06:17:44",
-    "score": 68,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "将世界模型引入临床术后预测，通过3D潜在状态结合异步事件进行时序演化，在房颤消融数据集上验证了复发预测与干预编辑的有效性，但缺乏开源代码与外部验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.13552v2": {
     "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
     "evaluated_at": "2026-08-18T06:22:21",
@@ -2022,50 +1990,136 @@
       "arxiv"
     ]
   },
-  "2608.14379v1": {
-    "title": "Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation",
-    "evaluated_at": "2026-08-18T06:22:21",
-    "score": 68,
+  "2608.16829v1": {
+    "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 82,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 6
+    },
+    "comment": "提出CaliBench基准，通过物理可解释的离散空间和正交分解指标（可评分性与校准度）评估视频世界模型的随机动态，揭示了现有模型在物理校准上的显著缺陷。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-19T06:23:23",
+    "pushed_post": "2026-08-19_top3_推文.md"
+  },
+  "2608.16234v1": {
+    "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 76,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
+    },
+    "comment": "结合3D高斯与视觉语言大模型特征，构建了统一场景理解、推理、编辑与多模态生成的驾驶世界模型，创新性强且作者团队权威，但当前仅有arxiv预印本且代码尚未开源。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-19T06:23:23",
+    "pushed_post": "2026-08-19_top3_推文.md"
+  },
+  "2608.16651v1": {
+    "title": "Orbit-Planner: Towards Latent World Models for On-Orbit Obstacle Avoidance of Satellite Agents",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 73,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 8,
-      "topic_relevance": 16,
-      "experiment_feasibility": 17,
-      "resource_completeness": 5
-    },
-    "comment": "提出ReflexBench与ReflexVLA，通过潜在未来预测与多帧融合增强VLA在动态操作中的时间推理能力，结合系统级优化降低延迟，具有一定的世界模型属性与实用价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.14125v1": {
-    "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
-    "evaluated_at": "2026-08-18T06:22:21",
-    "score": 58,
-    "scores": {
-      "method_innovation": 16,
       "author_authority": 10,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 0
+      "experiment_feasibility": 15,
+      "resource_completeness": 8
     },
-    "comment": "在LeWM基础上引入潜在轨迹成本(LTC)作为端点距离的补充信号，方法属于增量改进，实验验证了路径感知规划的有效性，但缺乏代码开源且尚未经顶会评审。",
+    "comment": "针对在轨避障提出两阶段潜在世界模型与物理探针，在Isaac Sim中验证了闭环避障有效性，方法具备一定创新性与工程落地价值。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-19T06:23:23",
+    "pushed_post": "2026-08-19_top3_推文.md"
+  },
+  "2608.16885v1": {
+    "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出了一种结合世界模型引导测试时计算的分层机器人基础模型，有效提升了长时程机器人操作任务的闭环成功率，但缺乏开源代码和明确的机构背景信息。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.13901v1": {
-    "title": "Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems",
-    "evaluated_at": "2026-08-18T06:22:21",
-    "score": 57,
+  "2608.16287v1": {
+    "title": "SCALE: State-Calibrated Latent Embeddings for JEPA Planning in the Right Geometry",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 71,
     "scores": {
-      "method_innovation": 18,
-      "author_authority": 5,
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "针对JEPA世界模型规划中潜在空间几何属性对状态信息利用的影响，提出SCALE轻量级正则化器对齐潜在距离与状态距离，实验设计严谨且有效提升了规划性能。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.16859v1": {
+    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 70,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 15,
+      "resource_completeness": 5
+    },
+    "comment": "提出基于多智能体证据树的世界模型评估框架HarnessEval-W，填补了可解释性评估的空白，但案例规模偏小且缺乏顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.16002v1": {
+    "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 65,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 14,
+      "topic_relevance": 8,
+      "experiment_feasibility": 17,
       "resource_completeness": 2
     },
-    "comment": "提出基于本体的诊断与验证门控接口以增强现有世界模型的故障修复能力，在仿真环境中取得较好效果，但缺乏真实机器人验证且未开源代码。",
+    "comment": "提出基于图结构的不确定性传播框架RUPA用于LLM Agent轨迹级可靠性评估，方法新颖且实验充分，但与世界模型主题关联较弱且暂无开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.16490v1": {
+    "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+    "evaluated_at": "2026-08-19T06:21:26",
+    "score": 64,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 12,
+      "topic_relevance": 12,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出自适应初始化与多尺度重建模块实现0.1秒实时LiDAR场景补全，有效解决了传统方法速度慢与固定噪声尺度限制的问题，但偏向3D感知且暂无开源代码。",
     "sources": [
       "arxiv"
     ]
