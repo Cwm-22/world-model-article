@@ -1614,22 +1614,6 @@
     "pushed_at": "2026-08-13T06:37:54",
     "pushed_post": "2026-08-13_top3_推文.md"
   },
-  "2608.10439v1": {
-    "title": "Stream Forcing: Constructing Unified Training Trajectory for Robust Streaming Video Generation",
-    "evaluated_at": "2026-08-13T06:37:36",
-    "score": 70,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "该论文提出Stream Forcing框架解决流式视频扩散模型的训练-推理不匹配问题，对世界模型的在线帧预测有较高参考价值，但缺乏开源代码和同行评审验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.10449v2": {
     "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
     "evaluated_at": "2026-08-14T06:38:26",
@@ -1766,22 +1750,6 @@
       "resource_completeness": 3
     },
     "comment": "首个从单目RGB联合估计手物交互密集接触与3D力的方法，通过物理仿真生成监督并构建真实世界力传感数据集验证sim-to-real，但与世界模型核心关联较弱。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.13049v1": {
-    "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
-    "evaluated_at": "2026-08-15T06:19:36",
-    "score": 70,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出H2R-Bench基准，系统评估视频世界模型在跨具身（人-机器人）操作视频生成中的能力，填补了该领域评估标准的空白，但当前模型在具身一致性与功能交互上仍显不足。",
     "sources": [
       "arxiv"
     ]
@@ -1958,22 +1926,6 @@
     "pushed_at": "2026-08-18T06:23:42",
     "pushed_post": "2026-08-18_top3_推文.md"
   },
-  "2608.14022v1": {
-    "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
-    "evaluated_at": "2026-08-18T06:22:21",
-    "score": 70,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出渐进式因果训练框架将双向视频生成器转化为少步交互式世界模型，在Minecraft和FPS游戏中验证了低延迟与高控制精度的平衡，但缺乏顶会背书与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.13678v1": {
     "title": "hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance",
     "evaluated_at": "2026-08-18T06:22:21",
@@ -2092,34 +2044,136 @@
       "arxiv"
     ]
   },
-  "2608.16002v1": {
-    "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
-    "evaluated_at": "2026-08-19T06:21:26",
-    "score": 65,
+  "2608.17163v1": {
+    "title": "Q-Learning With World Models",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 83,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 14,
-      "topic_relevance": 8,
-      "experiment_feasibility": 17,
+      "method_innovation": 25,
+      "author_authority": 18,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
       "resource_completeness": 2
     },
-    "comment": "提出基于图结构的不确定性传播框架RUPA用于LLM Agent轨迹级可靠性评估，方法新颖且实验充分，但与世界模型主题关联较弱且暂无开源代码。",
+    "comment": "提出QWM框架将世界模型与Q-learning结合进行测试时搜索以避免复合偏差，由顶尖学者提出，在机器人操作基准上展现了优异的样本效率与性能。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-20T06:24:06",
+    "pushed_post": "2026-08-20_top3_推文.md"
+  },
+  "2608.17542v1": {
+    "title": "No Gaussian Required: Contrastive Inverse Dynamics for JEPA World Models",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 80,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 9
+    },
+    "comment": "提出基于逆动力学对比学习（Action-NCE）的无分布防坍塌机制替代高斯正则化，在JEPA世界模型中取得了显著效果且不增加推理开销，创新性与实验支撑良好。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-20T06:24:06",
+    "pushed_post": "2026-08-20_top3_推文.md"
+  },
+  "2608.18077v1": {
+    "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 78,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出基于动作流的通用世界模型Hydra-0，通过像素运动统一跨具身控制接口并发现逆模式，创新性强且作者阵容豪华，但缺乏顶会与开源代码信息。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-20T06:24:06",
+    "pushed_post": "2026-08-20_top3_推文.md"
+  },
+  "2608.17956v1": {
+    "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 68,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "理论分析了连续Code World Models中采样验证的危险定律及LLM合成模型的可识别性边界，实验设计严谨但缺乏公开代码资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.17959v1": {
+    "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "提出神经符号世界模型通过解耦观测重建与奖励预测实现零样本任务迁移，思路新颖，但目前仅有arXiv预印本且缺乏顶会背书与开源代码，权威性与落地性有待验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.17496v1": {
+    "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "结合动作条件JEPA世界模型与确定性安全护盾实现异构机器人的安全部署，方法设计新颖且仿真验证有效，但缺乏真机实验与开源代码，实际落地性仍待考察。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.16490v1": {
     "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
-    "evaluated_at": "2026-08-19T06:21:26",
-    "score": 64,
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 58,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
+      "method_innovation": 20,
+      "author_authority": 10,
       "topic_relevance": 12,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 0
     },
-    "comment": "提出自适应初始化与多尺度重建模块实现0.1秒实时LiDAR场景补全，有效解决了传统方法速度慢与固定噪声尺度限制的问题，但偏向3D感知且暂无开源代码。",
+    "comment": "提出RapidLiDAR通过自适应初始化与多尺度体素/BEV特征提取替代传统点邻域操作，在保持SOTA性能的同时将推理速度提升至10Hz，但与世界模型核心主题关联度相对有限且暂无开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.16349v1": {
+    "title": "AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment",
+    "evaluated_at": "2026-08-20T06:22:48",
+    "score": 57,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 8,
+      "topic_relevance": 12,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "构建了交互式虚拟驾驶舱环境与航空智能体基准，引入状态转换与安全门控评估框架，为LLM在航空领域的程序执行与安全合规测试提供了可复现平台，但与世界模型核心算法的直接关联较弱。",
     "sources": [
       "arxiv"
     ]
