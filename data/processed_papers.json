@@ -1242,7 +1242,9 @@
     "comment": "提出基于动作条件世界模型的CheckVLA用于长时程移动操作的执行时验证，方法新颖且仿真实验有效，但缺乏真实世界验证及开源代码。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-21T06:28:44",
+    "pushed_post": "2026-08-21_top3_推文.md"
   },
   "2607.29613v1": {
     "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
@@ -1330,7 +1332,9 @@
     "comment": "针对世界动作模型在视觉分布偏移下的训练分布幻觉问题，提出结合DINOv3语义特征与VAE动态的双空间预测及历史检索机制，有效提升了机器人操作在视觉干扰下的鲁棒性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-21T06:28:44",
+    "pushed_post": "2026-08-21_top3_推文.md"
   },
   "2608.02603v1": {
     "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
@@ -2098,82 +2102,132 @@
     "pushed_at": "2026-08-20T06:24:06",
     "pushed_post": "2026-08-20_top3_推文.md"
   },
-  "2608.17956v1": {
-    "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
-    "evaluated_at": "2026-08-20T06:22:48",
-    "score": 68,
+  "2608.18484v1": {
+    "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 75,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 7
+    },
+    "comment": "提出免训练的块稀疏注意力机制SparsePR，通过响应耦合划分与探针拟合残差重建加速视频与世界模型，在保持生成质量的同时实现显著端到端加速。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-21T06:28:44",
+    "pushed_post": "2026-08-21_top3_推文.md"
+  },
+  "2608.17959v1": {
+    "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 72,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 13,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出神经符号世界模型解耦观察重建与奖励预测以实现零样本任务迁移，创新性较好，但缺乏顶会背书与开源代码验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.19085v1": {
+    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 69,
     "scores": {
       "method_innovation": 25,
       "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 16,
-      "resource_completeness": 1
+      "resource_completeness": 2
     },
-    "comment": "理论分析了连续Code World Models中采样验证的危险定律及LLM合成模型的可识别性边界，实验设计严谨但缺乏公开代码资源。",
+    "comment": "提出DA-WAM框架将预测表示学习与轨迹评分统一于单一决策目标，有效解决了自动驾驶世界模型中预测与决策脱节的问题，在NAVSIM上取得SOTA。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.17959v1": {
-    "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
-    "evaluated_at": "2026-08-20T06:22:48",
-    "score": 66,
+  "2608.18234v1": {
+    "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 69,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
+      "method_innovation": 25,
+      "author_authority": 8,
       "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出神经符号世界模型通过解耦观测重建与奖励预测实现零样本任务迁移，思路新颖，但目前仅有arXiv预印本且缺乏顶会背书与开源代码，权威性与落地性有待验证。",
+    "comment": "首次将行为世界模型引入人形全身控制，通过联合预测动作、状态与潜在命令分布实现环境交互下的鲁棒控制，并在真实硬件上验证了出色的地形交互与跌倒恢复能力。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.18669v1": {
+    "title": "Reinforced Planning with Latent World Models",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "提出RP1方法通过强化学习训练神经规划器以改进多步计划，可即插即用至预训练潜在世界模型，在多项任务上显著优于手工搜索算法且效率大幅提升，但作者知名度与开源资源尚缺。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.17496v1": {
     "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
-    "evaluated_at": "2026-08-20T06:22:48",
+    "evaluated_at": "2026-08-21T06:24:58",
+    "score": 67,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 13,
+      "resource_completeness": 2
+    },
+    "comment": "将动作条件JEPA世界模型与基于模型的安全护盾结合用于异构机器人安全部署，思路新颖，但缺乏真机实验且未开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.17956v1": {
+    "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+    "evaluated_at": "2026-08-21T06:24:58",
     "score": 66,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 24,
       "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "结合动作条件JEPA世界模型与确定性安全护盾实现异构机器人的安全部署，方法设计新颖且仿真验证有效，但缺乏真机实验与开源代码，实际落地性仍待考察。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.16490v1": {
-    "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
-    "evaluated_at": "2026-08-20T06:22:48",
-    "score": 58,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 12,
-      "experiment_feasibility": 16,
       "resource_completeness": 0
     },
-    "comment": "提出RapidLiDAR通过自适应初始化与多尺度体素/BEV特征提取替代传统点邻域操作，在保持SOTA性能的同时将推理速度提升至10Hz，但与世界模型核心主题关联度相对有限且暂无开源资源。",
+    "comment": "理论分析了连续代码世界模型中采样验证的危险定律，创新性强，但缺乏顶会背书与开源资源，且单作者预印本的实验落地性有待验证。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.16349v1": {
-    "title": "AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment",
-    "evaluated_at": "2026-08-20T06:22:48",
-    "score": 57,
+  "2608.18840v1": {
+    "title": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "evaluated_at": "2026-08-21T06:27:18",
+    "score": 64,
     "scores": {
-      "method_innovation": 18,
-      "author_authority": 8,
-      "topic_relevance": 12,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 16,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
     },
-    "comment": "构建了交互式虚拟驾驶舱环境与航空智能体基准，引入状态转换与安全门控评估框架，为LLM在航空领域的程序执行与安全合规测试提供了可复现平台，但与世界模型核心算法的直接关联较弱。",
+    "comment": "提出基于代码的具身交互场景生成框架RoomWright，通过使用驱动推理与触发-条件-效果规则建模对象间因果依赖，为世界模型和策略学习提供了可执行的交互环境，但缺乏顶会背书与开源资源。",
     "sources": [
       "arxiv"
     ]
