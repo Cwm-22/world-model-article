@@ -1422,7 +1422,9 @@
     "comment": "提出一种基于视频扩散模型中间特征的质量感知早退规划机制，有效降低了自动驾驶世界模型的推理延迟并保持优异性能。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-22T06:25:05",
+    "pushed_post": "2026-08-22_top3_推文.md"
   },
   "2608.05891v1": {
     "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
@@ -2136,22 +2138,6 @@
       "arxiv"
     ]
   },
-  "2608.19085v1": {
-    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
-    "evaluated_at": "2026-08-21T06:24:58",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出DA-WAM框架将预测表示学习与轨迹评分统一于单一决策目标，有效解决了自动驾驶世界模型中预测与决策脱节的问题，在NAVSIM上取得SOTA。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.18234v1": {
     "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
     "evaluated_at": "2026-08-21T06:24:58",
@@ -2168,66 +2154,134 @@
       "arxiv"
     ]
   },
-  "2608.18669v1": {
-    "title": "Reinforced Planning with Latent World Models",
-    "evaluated_at": "2026-08-21T06:24:58",
+  "2608.20065v1": {
+    "title": "Orthogonal JEPA: Factorized Predictive States for Latent World Models",
+    "evaluated_at": "2026-08-22T06:22:02",
+    "score": 79,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 16,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "针对标准JEPA单一预测路径的局限性，提出正交预测因式分解机制将潜在状态解耦为多组件并行预测，有效缓解表示坍塌并提升复杂系统的长时程建模与规划能力，实验设计跨领域且极具说服力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-22T06:25:05",
+    "pushed_post": "2026-08-22_top3_推文.md"
+  },
+  "2608.19779v1": {
+    "title": "An Irreducible Quantum Advantage in Aligning World Models with Reality",
+    "evaluated_at": "2026-08-22T06:22:02",
+    "score": 73,
+    "scores": {
+      "method_innovation": 27,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 10,
+      "resource_completeness": 2
+    },
+    "comment": "理论证明量子世界模型在记忆受限下对齐真实世界的不可约优势，为世界模型的记忆瓶颈提供了全新量子视角。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-22T06:25:05",
+    "pushed_post": "2026-08-22_top3_推文.md"
+  },
+  "2608.19492v1": {
+    "title": "Beyond Multimodal Alignment: Certifying Physical Language through Response Substitution and Ordered Execution",
+    "evaluated_at": "2026-08-22T06:22:02",
+    "score": 72,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "提出DBOSC与操作能力层次结构，将多模态对齐与物理执行解耦并分别验证，理论创新性强但缺乏代码与顶会背书。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.19661v1": {
+    "title": "World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind Farms",
+    "evaluated_at": "2026-08-22T06:22:02",
+    "score": 71,
+    "scores": {
+      "method_innovation": 21,
+      "author_authority": 13,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "结合LLM与物理世界模型进行AUV/ASV海上导航规划，在GazeboSim中验证了显著的误差降低效果，但缺乏开源代码且方法组合创新性有限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.19085v2": {
+    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+    "evaluated_at": "2026-08-22T06:22:02",
     "score": 68,
     "scores": {
       "method_innovation": 24,
       "author_authority": 8,
       "topic_relevance": 19,
-      "experiment_feasibility": 16,
-      "resource_completeness": 1
-    },
-    "comment": "提出RP1方法通过强化学习训练神经规划器以改进多步计划，可即插即用至预训练潜在世界模型，在多项任务上显著优于手工搜索算法且效率大幅提升，但作者知名度与开源资源尚缺。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.17496v1": {
-    "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
-    "evaluated_at": "2026-08-21T06:24:58",
-    "score": 67,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 13,
-      "resource_completeness": 2
-    },
-    "comment": "将动作条件JEPA世界模型与基于模型的安全护盾结合用于异构机器人安全部署，思路新颖，但缺乏真机实验且未开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.17956v1": {
-    "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
-    "evaluated_at": "2026-08-21T06:24:58",
-    "score": 66,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
+      "experiment_feasibility": 17,
       "resource_completeness": 0
     },
-    "comment": "理论分析了连续代码世界模型中采样验证的危险定律，创新性强，但缺乏顶会背书与开源资源，且单作者预印本的实验落地性有待验证。",
+    "comment": "提出DA-WAM框架将预测性表示学习与轨迹规划统一在单一目标下，通过动作条件预测和动量监督提升自动驾驶世界模型的决策对齐能力，实验在NAVSIM上验证有效但缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.18840v1": {
-    "title": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
-    "evaluated_at": "2026-08-21T06:27:18",
-    "score": 64,
+  "2608.19804v1": {
+    "title": "ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control",
+    "evaluated_at": "2026-08-22T06:22:02",
+    "score": 67,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 16,
-      "experiment_feasibility": 14,
+      "method_innovation": 23,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "提出基于代码的具身交互场景生成框架RoomWright，通过使用驱动推理与触发-条件-效果规则建模对象间因果依赖，为世界模型和策略学习提供了可执行的交互环境，但缺乏顶会背书与开源资源。",
+    "comment": "结合物理热力学先验与扩散模型构建HVAC控制世界模型，有效解决了热惯性与OOD泛化问题，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.20114v1": {
+    "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+    "evaluated_at": "2026-08-22T06:22:03",
+    "score": 66,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "针对腿式移动操作提出解耦的全身世界-动作模型，通过分离相机自我运动与基座/手臂动作实现参数高效的联合预测与控制，但缺乏顶会背书与开源代码。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.20212v1": {
+    "title": "Unwarping the Lens: A Physics-Grounded Approach to Video Glasses Removal",
+    "evaluated_at": "2026-08-22T06:23:36",
+    "score": 56,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 16,
+      "topic_relevance": 2,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "结合商业生成模型先验与物理透镜光学模拟的视频眼镜去除方法，虽在人脸编辑领域落地性强，但与世界模型主题关联度极低。",
     "sources": [
       "arxiv"
     ]
