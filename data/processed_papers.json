@@ -1440,7 +1440,9 @@
     "comment": "提出基于代码更新的移动GUI世界模型，将状态转移转化为HTML代码增量生成，创新性强且高度契合主题，但缺乏代码开源和顶会验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-23T06:23:41",
+    "pushed_post": "2026-08-23_top3_推文.md"
   },
   "2608.06020v1": {
     "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
@@ -1670,7 +1672,9 @@
     "comment": "该论文通过受控实验深入分析了对象中心世界模型中表征质量与鲁棒性对规划的影响，指出预训练特征是鲁棒性的关键，具有较好的实证指导价值，但方法创新性偏弱且缺乏代码开源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-23T06:23:41",
+    "pushed_post": "2026-08-23_top3_推文.md"
   },
   "2608.13552v1": {
     "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
@@ -2138,22 +2142,6 @@
       "arxiv"
     ]
   },
-  "2608.18234v1": {
-    "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
-    "evaluated_at": "2026-08-21T06:24:58",
-    "score": 69,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "首次将行为世界模型引入人形全身控制，通过联合预测动作、状态与潜在命令分布实现环境交互下的鲁棒控制，并在真实硬件上验证了出色的地形交互与跌倒恢复能力。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.20065v1": {
     "title": "Orthogonal JEPA: Factorized Predictive States for Latent World Models",
     "evaluated_at": "2026-08-22T06:22:02",
@@ -2222,66 +2210,132 @@
       "arxiv"
     ]
   },
+  "2608.18234v1": {
+    "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+    "evaluated_at": "2026-08-23T06:20:00",
+    "score": 75,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "提出首个用于人形全身控制的行为世界模型，通过因果Transformer联合预测动作、状态与潜在命令分布，在地形交互与跌倒恢复任务上展现出卓越的鲁棒性与跨机器人迁移能力。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-23T06:23:41",
+    "pushed_post": "2026-08-23_top3_推文.md"
+  },
+  "2608.20114v1": {
+    "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+    "evaluated_at": "2026-08-23T06:20:00",
+    "score": 72,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 9,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 3
+    },
+    "comment": "提出解耦的全身世界-动作模型DECOWAM，通过分离相机自我运动与底盘/机械臂动作实现参数高效的联合视觉预测与控制，并发布了真实机器人数据集ARMDOG，但缺乏开源代码且任务完成率未见显著突破。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2608.19085v2": {
     "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
-    "evaluated_at": "2026-08-22T06:22:02",
-    "score": 68,
+    "evaluated_at": "2026-08-23T06:20:00",
+    "score": 71,
     "scores": {
       "method_innovation": 24,
       "author_authority": 8,
       "topic_relevance": 19,
       "experiment_feasibility": 17,
-      "resource_completeness": 0
+      "resource_completeness": 3
     },
-    "comment": "提出DA-WAM框架将预测性表示学习与轨迹规划统一在单一目标下，通过动作条件预测和动量监督提升自动驾驶世界模型的决策对齐能力，实验在NAVSIM上验证有效但缺乏开源资源。",
+    "comment": "提出DA-WAM框架将预测表示学习与轨迹规划统一在单一目标下，通过动作条件预测和动量编码器提升自动驾驶世界模型的决策对齐能力，在NAVSIM基准上取得SOTA。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.19804v1": {
-    "title": "ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control",
-    "evaluated_at": "2026-08-22T06:22:02",
+  "2608.17956v1": {
+    "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+    "evaluated_at": "2026-08-23T06:20:00",
+    "score": 71,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 8,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 1
+    },
+    "comment": "理论与实验结合紧密，严格证明了连续代码世界模型中采样验证的危险法则及模式遗漏的不可识别性，但作为单作者预印本且缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.18669v1": {
+    "title": "Reinforced Planning with Latent World Models",
+    "evaluated_at": "2026-08-23T06:20:00",
     "score": 67,
     "scores": {
-      "method_innovation": 23,
+      "method_innovation": 24,
       "author_authority": 8,
-      "topic_relevance": 18,
+      "topic_relevance": 19,
       "experiment_feasibility": 16,
-      "resource_completeness": 2
+      "resource_completeness": 0
     },
-    "comment": "结合物理热力学先验与扩散模型构建HVAC控制世界模型，有效解决了热惯性与OOD泛化问题，但缺乏顶会背书与开源代码。",
+    "comment": "提出RP1方法通过强化学习训练神经规划器以改进多步计划，可即插即用于预训练潜在世界模型，在多项任务上显著优于手工搜索且大幅降低计算开销，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.20114v1": {
-    "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
-    "evaluated_at": "2026-08-22T06:22:03",
+  "2608.18746v1": {
+    "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+    "evaluated_at": "2026-08-23T06:20:00",
     "score": 66,
     "scores": {
-      "method_innovation": 22,
+      "method_innovation": 24,
       "author_authority": 8,
       "topic_relevance": 19,
       "experiment_feasibility": 15,
-      "resource_completeness": 2
+      "resource_completeness": 0
     },
-    "comment": "针对腿式移动操作提出解耦的全身世界-动作模型，通过分离相机自我运动与基座/手臂动作实现参数高效的联合预测与控制，但缺乏顶会背书与开源代码。",
+    "comment": "提出决策-度量对齐概念以诊断和改进JEPA式潜在世界模型在MPC中的欧氏距离代价，理论分析与动作条件目标结合较好，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.20212v1": {
     "title": "Unwarping the Lens: A Physics-Grounded Approach to Video Glasses Removal",
-    "evaluated_at": "2026-08-22T06:23:36",
-    "score": 56,
+    "evaluated_at": "2026-08-23T06:20:10",
+    "score": 65,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 16,
-      "topic_relevance": 2,
-      "experiment_feasibility": 16,
+      "method_innovation": 24,
+      "author_authority": 17,
+      "topic_relevance": 5,
+      "experiment_feasibility": 17,
       "resource_completeness": 2
     },
-    "comment": "结合商业生成模型先验与物理透镜光学模拟的视频眼镜去除方法，虽在人脸编辑领域落地性强，但与世界模型主题关联度极低。",
+    "comment": "结合商业生成模型先验与物理光学模拟的视频眼镜移除方法，在人脸编辑领域创新性较强，但与世界模型主题关联度极低。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.20111v1": {
+    "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
+    "evaluated_at": "2026-08-23T06:21:33",
+    "score": 58,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 12,
+      "resource_completeness": 0
+    },
+    "comment": "该综述系统梳理了端到端自动驾驶向规划导向演进的脉络，并深入探讨了世界模型等新兴范式及评估基准的转变，但缺乏顶会背书与开源资源。",
     "sources": [
       "arxiv"
     ]
