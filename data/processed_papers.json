@@ -1832,7 +1832,9 @@
     "comment": "提出基于动作条件潜在世界模型的接触前执行监控方法ContactGuard，通过潜在空间预测与轻量级探针实现早期失败预警，在机器人操作中具有较高实用价值，但缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-24T06:18:15",
+    "pushed_post": "2026-08-24_top3_推文.md"
   },
   "2608.13103v1": {
     "title": "S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation",
@@ -1880,7 +1882,9 @@
     "comment": "提出Surgical WAM将世界模型与动作预测结合，利用无动作视频预训练提升手术机器人在有限标签数据下的闭环控制性能，创新性适中且模拟实验提升显著，但缺乏真实环境验证与开源代码。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-24T06:18:15",
+    "pushed_post": "2026-08-24_top3_推文.md"
   },
   "2608.13552v2": {
     "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
@@ -1935,22 +1939,6 @@
     ],
     "pushed_at": "2026-08-18T06:23:42",
     "pushed_post": "2026-08-18_top3_推文.md"
-  },
-  "2608.13678v1": {
-    "title": "hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance",
-    "evaluated_at": "2026-08-18T06:22:21",
-    "score": 70,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 0
-    },
-    "comment": "提出基于分层世界模型的推理时引导方法hint2，结合高层任务进展与低层安全约束，有效解决了短视界策略在复杂LTL规范下的执行难题，并在CALVIN和真机实验中验证了有效性。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2608.16829v1": {
     "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
@@ -2140,7 +2128,9 @@
     "comment": "提出神经符号世界模型解耦观察重建与奖励预测以实现零样本任务迁移，创新性较好，但缺乏顶会背书与开源代码验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-24T06:18:15",
+    "pushed_post": "2026-08-24_top3_推文.md"
   },
   "2608.20065v1": {
     "title": "Orthogonal JEPA: Factorized Predictive States for Latent World Models",
@@ -2276,66 +2266,130 @@
       "arxiv"
     ]
   },
-  "2608.18669v1": {
-    "title": "Reinforced Planning with Latent World Models",
-    "evaluated_at": "2026-08-23T06:20:00",
-    "score": 67,
+  "2608.19804v1": {
+    "title": "ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 16,
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
       "resource_completeness": 0
     },
-    "comment": "提出RP1方法通过强化学习训练神经规划器以改进多步计划，可即插即用于预训练潜在世界模型，在多项任务上显著优于手工搜索且大幅降低计算开销，但缺乏顶会背书与开源代码。",
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.18840v1": {
+    "title": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
   },
   "2608.18746v1": {
     "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
-    "evaluated_at": "2026-08-23T06:20:00",
-    "score": 66,
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 19,
-      "experiment_feasibility": 15,
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
       "resource_completeness": 0
     },
-    "comment": "提出决策-度量对齐概念以诊断和改进JEPA式潜在世界模型在MPC中的欧氏距离代价，理论分析与动作条件目标结合较好，但缺乏顶会背书与开源代码。",
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.18669v1": {
+    "title": "Reinforced Planning with Latent World Models",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.17496v1": {
+    "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.18184v1": {
+    "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.17095v1": {
+    "title": "Inference-Time Attention Steering for Vision-Language-Action Driving Models",
+    "evaluated_at": "2026-08-24T06:18:13",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
   },
   "2608.20212v1": {
     "title": "Unwarping the Lens: A Physics-Grounded Approach to Video Glasses Removal",
-    "evaluated_at": "2026-08-23T06:20:10",
-    "score": 65,
+    "evaluated_at": "2026-08-24T06:18:14",
+    "score": 0,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 17,
-      "topic_relevance": 5,
-      "experiment_feasibility": 17,
-      "resource_completeness": 2
-    },
-    "comment": "结合商业生成模型先验与物理光学模拟的视频眼镜移除方法，在人脸编辑领域创新性较强，但与世界模型主题关联度极低。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.20111v1": {
-    "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
-    "evaluated_at": "2026-08-23T06:21:33",
-    "score": 58,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 12,
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
       "resource_completeness": 0
     },
-    "comment": "该综述系统梳理了端到端自动驾驶向规划导向演进的脉络，并深入探讨了世界模型等新兴范式及评估基准的转变，但缺乏顶会背书与开源资源。",
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
