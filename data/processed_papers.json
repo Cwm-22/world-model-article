@@ -2352,82 +2352,152 @@
       "arxiv"
     ]
   },
-  "2608.20111v1": {
-    "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 62,
+  "2608.22764v1": {
+    "title": "LpWM: A Case for Sparse Representations in World Models",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 84,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 20,
+      "topic_relevance": 20,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "Yann LeCun团队探讨JEPA世界模型中稀疏表示的几何结构，理论结合实验证明稀疏编码能有效降低预测器复杂度并提升规划成功率，但当前仅见arXiv预印本且缺乏开源代码。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-26T06:26:31",
+    "pushed_post": "2026-08-26_top3_推文.md"
+  },
+  "2608.23565v1": {
+    "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 76,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 20,
+      "experiment_feasibility": 18,
+      "resource_completeness": 0
+    },
+    "comment": "针对交互式世界模型中控制与记忆的视野矛盾，提出混合注意力窗口与姿态索引地标库的长短期记忆分离机制，在长轨迹回访与实时流式生成上展现出卓越的实验效果。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-26T06:26:31",
+    "pushed_post": "2026-08-26_top3_推文.md"
+  },
+  "2608.23486v1": {
+    "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 76,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出以点云几何空间替代像素空间作为自动驾驶世界模型的状态表征，有效解耦外观与动态，为世界动作模型提供了更符合物理空间的新视角。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-26T06:26:31",
+    "pushed_post": "2026-08-26_top3_推文.md"
+  },
+  "2608.23383v1": {
+    "title": "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 76,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 6
+    },
+    "comment": "提出统一的视听生成系统JoyAI-Echo-1.5，结合跨镜头记忆与几何感知控制实现长时序叙事与交互式世界模型，在WBench等基准上表现领先。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.23070v1": {
+    "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 74,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 8,
+      "topic_relevance": 20,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "首篇系统性评估生成式世界模型与传统模拟器差距的综述，提出八维能力框架并指出状态反馈等关键短板，对领域发展极具指导价值。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.22750v1": {
+    "title": "MOSH-WM: Mask-Grounded Soft-Hamiltonian Dynamics for Object-Centric World Models",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 71,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 5
+    },
+    "comment": "结合掩码空间矩与软哈密顿动力学的对象中心世界模型，物理先验引入提升了长时序预测稳定性，但仅在合成数据集验证且作者影响力未知。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.23248v1": {
+    "title": "Future Querying: Can LLMs Serve as Implicit Medical World Models?",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 68,
     "scores": {
       "method_innovation": 20,
       "author_authority": 12,
       "topic_relevance": 18,
-      "experiment_feasibility": 12,
-      "resource_completeness": 0
-    },
-    "comment": "该综述以规划为导向系统梳理了端到端自动驾驶的演变，明确将世界模型作为关键范式与验证挑战，对理解评估协议与未来方向具较高参考价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.20212v1": {
-    "title": "Unwarping the Lens: A Physics-Grounded Approach to Video Glasses Removal",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 57,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 16,
-      "topic_relevance": 1,
-      "experiment_feasibility": 17,
-      "resource_completeness": 1
-    },
-    "comment": "结合商业生成模型先验与物理透镜光学模拟的视频眼镜去除方法，虽在人脸编辑领域具有创新性，但与世界模型主题关联度极低。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.20761v1": {
-    "title": "Fuzzy-MoE: Interpretable Regime-Conditioned Expert Routing for Non-Stationary Multivariate Time Series Forecasting",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 55,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 5,
       "experiment_feasibility": 16,
       "resource_completeness": 2
     },
-    "comment": "结合模糊逻辑与混合专家模型实现可解释的非平稳时间序列预测，方法具有一定创新性，但与世界模型主题关联度较弱且缺乏开源代码。",
+    "comment": "提出future querying范式将LLM作为隐式医学世界模型，在MIMIC-IV等数据上验证了其捕获临床动态的能力，具有一定的医学落地价值。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.21075v1": {
-    "title": "AudioWorldSim: Realistic Binaural Audio Datasets For World Models",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 54,
+  "2608.23189v1": {
+    "title": "EchoWM: Open and Enterable Omnimodal World Models",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 67,
     "scores": {
-      "method_innovation": 8,
-      "author_authority": 10,
-      "topic_relevance": 15,
-      "experiment_feasibility": 12,
-      "resource_completeness": 9
-    },
-    "comment": "基于SoundSpaces 2.0的开源音频数据集生成平台，为音频世界模型研究提供了工具支持，但方法创新性有限且缺乏严格的实验验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.20891v1": {
-    "title": "IMU-Free Body-Frame State Estimation with Sparse Scene Flow for Quadcopters",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 51,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 5,
-      "topic_relevance": 12,
-      "experiment_feasibility": 12,
+      "method_innovation": 23,
+      "author_authority": 9,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "提出无IMU的纯视觉无人机状态估计与稀疏场景流生成方法，作为下游世界模型的测量源，方法扎实但与世界模型核心关联较弱且缺乏顶会与开源支撑。",
+    "comment": "EchoWM 提出全模态可进入世界模型，支持音视频联合生成与连续轨迹控制，方法设计系统且切题，但缺乏顶会背书与开源资源，权威性与可复现性存疑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.23452v1": {
+    "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
+    "evaluated_at": "2026-08-26T06:25:00",
+    "score": 64,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 0
+    },
+    "comment": "提出基于潜在状态世界模型的无奖励持续学习框架以应对太空机器人硬件退化，方法具有一定创新性，但实验仅限仿真且未开源代码资源。",
     "sources": [
       "arxiv"
     ]
