@@ -2026,22 +2026,6 @@
       "arxiv"
     ]
   },
-  "2608.16859v1": {
-    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
-    "evaluated_at": "2026-08-19T06:21:26",
-    "score": 70,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 5
-    },
-    "comment": "提出基于多智能体证据树的世界模型评估框架HarnessEval-W，填补了可解释性评估的空白，但案例规模偏小且缺乏顶会背书。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.17163v1": {
     "title": "Q-Learning With World Models",
     "evaluated_at": "2026-08-20T06:22:48",
@@ -2336,22 +2320,6 @@
       "arxiv"
     ]
   },
-  "2608.20936v1": {
-    "title": "Graph-Operator World Models for Morphology-Parameter Generalization in Continuous Control",
-    "evaluated_at": "2026-08-25T06:23:30",
-    "score": 70,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出GraphOp-WM通过图算子将世界模型转移分解为形态无关基和形态条件算子，有效提升了连续控制中跨形态参数的泛化能力，但缺乏顶会背书与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.22764v1": {
     "title": "LpWM: A Case for Sparse Representations in World Models",
     "evaluated_at": "2026-08-26T06:25:00",
@@ -2454,50 +2422,138 @@
       "arxiv"
     ]
   },
-  "2608.23248v1": {
-    "title": "Future Querying: Can LLMs Serve as Implicit Medical World Models?",
-    "evaluated_at": "2026-08-26T06:25:00",
-    "score": 68,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出future querying范式将LLM作为隐式医学世界模型，在MIMIC-IV等数据上验证了其捕获临床动态的能力，具有一定的医学落地价值。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.23189v1": {
-    "title": "EchoWM: Open and Enterable Omnimodal World Models",
-    "evaluated_at": "2026-08-26T06:25:00",
-    "score": 67,
-    "scores": {
-      "method_innovation": 23,
-      "author_authority": 9,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "EchoWM 提出全模态可进入世界模型，支持音视频联合生成与连续轨迹控制，方法设计系统且切题，但缺乏顶会背书与开源资源，权威性与可复现性存疑。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.23452v1": {
-    "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
-    "evaluated_at": "2026-08-26T06:25:00",
-    "score": 64,
+  "2608.25572v1": {
+    "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 82,
     "scores": {
       "method_innovation": 22,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 0
+      "author_authority": 18,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 6
     },
-    "comment": "提出基于潜在状态世界模型的无奖励持续学习框架以应对太空机器人硬件退化，方法具有一定创新性，但实验仅限仿真且未开源代码资源。",
+    "comment": "针对动作条件世界模型的后训练提出置信度引导的主动学习框架，通过多粒度置信度聚合实现高效数据选择与局部增强，方法创新性较好且实验设计合理。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-27T10:55:52",
+    "pushed_post": "2026-08-27_top3_推文.md"
+  },
+  "2608.25927v1": {
+    "title": "Code World Model: Coding Agent as World Brain",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 80,
+    "scores": {
+      "method_innovation": 27,
+      "author_authority": 17,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "提出将代码代理作为世界大脑以分离世界演化与视觉实现的新颖框架，通过代理视频桥接可执行状态与视觉生成，为构建具备持久状态和开放演化能力的世界模型提供了新范式。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "arxiv",
+      "hf_daily"
+    ],
+    "pushed_at": "2026-08-27T10:55:52",
+    "pushed_post": "2026-08-27_top3_推文.md"
+  },
+  "2608.25479v1": {
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 78,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 15,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "首次将相机与物体运动统一为3D点轨迹表示并蒸馏为因果流式模型，实现20 FPS的4D可控流式视频生成，向闭环时空可控世界模型迈出关键一步，但仅以预印本发布且未开源资源。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-27T10:55:52",
+    "pushed_post": "2026-08-27_top3_推文.md"
+  },
+  "2608.25659v1": {
+    "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 77,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "将3D高斯世界模型以轻量token形式融入VLA主干，推理时无需在线解码，在仿真和真实机器人操作上均取得显著成效。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.24885v1": {
+    "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 77,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "针对动作条件世界模型在非专家动作下失效的问题，提出了WorldEcho诊断基准与WorldSync对齐方法，有效提升了世界模型作为策略学习模拟器的可靠性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.25518v1": {
+    "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 76,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 16,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 1
+    },
+    "comment": "提出利用游戏引擎作为可验证环境结合人类反馈进行世界模型RL后训练的新范式，理念新颖且直击数据与奖励信号痛点，但缺乏具体实验验证与开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.25956v1": {
+    "title": "4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 74,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 15,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 1
+    },
+    "comment": "提出基于4DGS的以对象为中心的世界动作模型，通过分离动静表示实现背景复用与动态对象预测，创新性较好，但实验仅限KITTI-MOT且缺乏开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.25666v1": {
+    "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
+    "evaluated_at": "2026-08-27T10:53:48",
+    "score": 66,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 8,
+      "topic_relevance": 14,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "结合QP投影与采样MPC并利用物理模拟器作为在线世界模型，在双臂接触富集操作上实现了较好的实时性与sim-to-real迁移，但方法创新性属增量且作者权威性一般。",
     "sources": [
       "arxiv"
     ]
