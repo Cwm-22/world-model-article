@@ -432,22 +432,6 @@
     "pushed_at": "2026-07-15T06:56:41",
     "pushed_post": "2026-07-15_top3_推文.md"
   },
-  "2607.10630v1": {
-    "title": "World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning",
-    "evaluated_at": "2026-07-15T06:55:58",
-    "score": 71,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出将预测性世界模型转化为角色条件对手进行多智能体自博弈微调，方法在min-max博弈与反事实信用分配结合上具有较高创新性，且在nuPlan等基准上验证了长尾场景的鲁棒性。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.13017v1": {
     "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
     "evaluated_at": "2026-07-16T06:57:37",
@@ -555,22 +539,6 @@
     ],
     "pushed_at": "2026-07-28T06:59:14",
     "pushed_post": "2026-07-28_top3_推文.md"
-  },
-  "2607.14183v1": {
-    "title": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning",
-    "evaluated_at": "2026-07-18T06:46:12",
-    "score": 71,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 15,
-      "experiment_feasibility": 18,
-      "resource_completeness": 8
-    },
-    "comment": "大规模第一人称操作数据集与工具链，为具身智能及世界模型提供数据基础设施，工程落地性强但方法创新偏弱。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.14005v1": {
     "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
@@ -734,22 +702,6 @@
     "pushed_at": "2026-07-24T06:55:19",
     "pushed_post": "2026-07-24_top3_推文.md"
   },
-  "2607.19191v1": {
-    "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
-    "evaluated_at": "2026-07-23T06:59:47",
-    "score": 71,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 8,
-      "topic_relevance": 20,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出了一种基于蒸馏与LongForcing的动作条件视频世界模型，结合多源数据与高效推理栈，在单卡桌面GPU上实现了实时长时闭环交互，工程与算法创新性强，但缺乏顶会背书与开源资源。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.19876v1": {
     "title": "KineBench: Benchmarking Embodied World Models via IDM-Free Kinematic Grounding",
     "evaluated_at": "2026-07-24T06:54:53",
@@ -785,22 +737,6 @@
     ],
     "pushed_at": "2026-08-06T06:57:32",
     "pushed_post": "2026-08-06_top3_推文.md"
-  },
-  "2607.18715v1": {
-    "title": "DWM: Separating World Effects from Actions in Latent World Models",
-    "evaluated_at": "2026-07-24T06:54:53",
-    "score": 71,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出在潜空间世界模型中将状态转移分解为动作驱动与动作不变的世界效应，通过对比学习与正交约束实现加性分解，在修改的控制基准上提升了规划成功率，但缺乏复杂视觉环境验证与开源代码。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.21594v1": {
     "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
@@ -2492,7 +2428,9 @@
     "comment": "将3D高斯世界模型以轻量token形式融入VLA主干，推理时无需在线解码，在仿真和真实机器人操作上均取得显著成效。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-28T13:59:30",
+    "pushed_post": "2026-08-28_top3_推文.md"
   },
   "2608.24885v1": {
     "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
@@ -2542,18 +2480,136 @@
       "arxiv"
     ]
   },
+  "2608.27345v1": {
+    "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 85,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 9
+    },
+    "comment": "提出概率对齐概念并构建PAWBench基准，从分布层面评估视频生成模型作为世界模型的能力，填补了现有评估体系的空白。",
+    "venue": "HuggingFace Daily",
+    "sources": [
+      "arxiv",
+      "hf_daily"
+    ],
+    "pushed_at": "2026-08-28T13:59:30",
+    "pushed_post": "2026-08-28_top3_推文.md"
+  },
+  "2608.27406v1": {
+    "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 84,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 10
+    },
+    "comment": "提出跨具身形态的动作条件视频世界模型框架，通过统一动作空间与课程学习策略实现零样本物理仿真，创新性强且开源资源完整，但作为arxiv预印本尚缺乏顶会同行评审背书。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-28T13:59:30",
+    "pushed_post": "2026-08-28_top3_推文.md"
+  },
+  "2608.26788v1": {
+    "title": "Decoupling Planning and Control for Instructable Agents",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 76,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 16,
+      "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 1
+    },
+    "comment": "提出Instruct-to-Act框架解耦VLM规划与世界模型控制，通过指令重标注实现高频具身动作执行，在多智能体环境中验证了有效性。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27328v1": {
+    "title": "R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 73,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
+    },
+    "comment": "提出R2M-Bench基准，通过相对一致性指标有效区分视频世界模型的重访记忆与通用时间稳定性，缓解了慢动作捷径问题，评估设计扎实但缺乏开源资源信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27033v1": {
+    "title": "Riemann-1.0: An Embodied World Action Model for Physical AI",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 71,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "提出统一因果自回归的世界动作模型框架，将机器人策略执行与世界模拟融合，在仿真与真实任务上表现优异，但缺乏代码开源且未经同行评审验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2608.25666v1": {
     "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
-    "evaluated_at": "2026-08-27T10:53:48",
-    "score": 66,
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 71,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 8,
-      "topic_relevance": 14,
-      "experiment_feasibility": 16,
+      "method_innovation": 22,
+      "author_authority": 9,
+      "topic_relevance": 15,
+      "experiment_feasibility": 17,
       "resource_completeness": 8
     },
-    "comment": "结合QP投影与采样MPC并利用物理模拟器作为在线世界模型，在双臂接触富集操作上实现了较好的实时性与sim-to-real迁移，但方法创新性属增量且作者权威性一般。",
+    "comment": "结合GPU加速物理模拟器作为在线世界模型，提出QP引导的采样MPC解决双臂接触富集操作，具备良好的sim-to-real迁移能力。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26737v1": {
+    "title": "Generative Semantic Scene Completion",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 70,
+    "scores": {
+      "method_innovation": 25,
+      "author_authority": 10,
+      "topic_relevance": 15,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "提出基于离散扩散的生成式语义场景补全框架，通过数据合成、条件生成与流匹配改进三重角色，在SemanticKITTI上取得SOTA单次单样本结果，创新性强但缺乏代码开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26214v1": {
+    "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
+    "evaluated_at": "2026-08-28T13:58:10",
+    "score": 67,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 2
+    },
+    "comment": "该综述系统梳理了手术视频生成从扩散模型到世界模型的演进，提出了从视觉合成到因果动力学建模的范式转变，对医疗垂直领域的世界模型研究具有较好的框架性指导意义。",
     "sources": [
       "arxiv"
     ]
