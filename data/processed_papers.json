@@ -810,22 +810,6 @@
     "pushed_at": "2026-08-10T06:28:17",
     "pushed_post": "2026-08-10_top3_推文.md"
   },
-  "2607.20988v1": {
-    "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
-    "evaluated_at": "2026-07-27T06:58:32",
-    "score": 71,
-    "scores": {
-      "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 2
-    },
-    "comment": "提出混合像素级与潜在表示的自动驾驶世界模型HyWorldVLA，兼顾鲁棒性与可解释性，并在NAVSIM上验证了有效性及噪声鲁棒性。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.22430v1": {
     "title": "On the Identifiability of Controlled World Models",
     "evaluated_at": "2026-07-28T06:58:38",
@@ -862,22 +846,6 @@
     "pushed_at": "2026-08-14T06:40:19",
     "pushed_post": "2026-08-14_top3_推文.md"
   },
-  "2607.22535v1": {
-    "title": "Robot-Factored World Models via Robot Rendering",
-    "evaluated_at": "2026-07-28T06:58:38",
-    "score": 71,
-    "scores": {
-      "method_innovation": 24,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "提出通过机器人渲染和动作轨迹分解将机器人特定因素移出世界模型，有效解决了动作实现学习与未来状态泄露问题，并具备跨实体泛化能力。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2607.23969v1": {
     "title": "LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments",
     "evaluated_at": "2026-07-29T06:56:12",
@@ -913,22 +881,6 @@
     ],
     "pushed_at": "2026-07-29T06:56:33",
     "pushed_post": "2026-07-29_top3_推文.md"
-  },
-  "2607.24112v1": {
-    "title": "Scaling GUI Agents with Visual State Transitions",
-    "evaluated_at": "2026-07-29T06:56:12",
-    "score": 71,
-    "scores": {
-      "method_innovation": 22,
-      "author_authority": 12,
-      "topic_relevance": 18,
-      "experiment_feasibility": 16,
-      "resource_completeness": 3
-    },
-    "comment": "通过联合优化正向与逆向动力学进行状态转换预训练，为GUI智能体构建了内部世界模型，方法具有一定创新性且实验验证充分，但缺乏开源资源与顶会背书。",
-    "sources": [
-      "arxiv"
-    ]
   },
   "2607.26056v1": {
     "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
@@ -2446,7 +2398,9 @@
     "comment": "针对动作条件世界模型在非专家动作下失效的问题，提出了WorldEcho诊断基准与WorldSync对齐方法，有效提升了世界模型作为策略学习模拟器的可靠性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-29T11:31:38",
+    "pushed_post": "2026-08-29_top3_推文.md"
   },
   "2608.25518v1": {
     "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
@@ -2582,34 +2536,134 @@
       "arxiv"
     ]
   },
+  "2608.24680v1": {
+    "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 81,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 17,
+      "resource_completeness": 9
+    },
+    "comment": "提出全栈式游戏UI移除框架与GameCleaner模型，有效解决游戏视频训练世界模型时的UI偏差问题，数据与代码开源度高，具有较高实用价值。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-29T11:31:38",
+    "pushed_post": "2026-08-29_top3_推文.md"
+  },
+  "2608.24855v1": {
+    "title": "LeFlow: Generative Latent Flow Planning for World Models",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 78,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 12,
+      "topic_relevance": 18,
+      "experiment_feasibility": 16,
+      "resource_completeness": 8
+    },
+    "comment": "将世界模型规划摊销为潜在空间的生成式轨迹建模，利用rectified flow生成轨迹并配合逆动力学解码，有效降低了在线规划开销，创新性与主题契合度高。",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-08-29T11:31:38",
+    "pushed_post": "2026-08-29_top3_推文.md"
+  },
+  "2608.25479v2": {
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 77,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 15,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 1
+    },
+    "comment": "提出统一的3D点轨迹表示结合因果流式推理，首次实现交互式4D可控流式视频生成，为闭环时空控制的世界模型提供了新范式，但当前缺乏代码开源和同行评审验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26200v1": {
+    "title": "GameWAM: A World Action Model for Video Games",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 71,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 5
+    },
+    "comment": "首次将世界模型与动作策略统一于原生游戏交互的GameWAM，通过流匹配与块循环控制实现长时序视觉与动作联合生成，并揭示了LASI这一生成控制失效模式，创新性显著但实验细节与代码开源情况尚待完善。",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2608.26737v1": {
     "title": "Generative Semantic Scene Completion",
-    "evaluated_at": "2026-08-28T13:58:10",
+    "evaluated_at": "2026-08-29T11:29:51",
     "score": 70,
     "scores": {
       "method_innovation": 25,
-      "author_authority": 10,
-      "topic_relevance": 15,
-      "experiment_feasibility": 18,
+      "author_authority": 12,
+      "topic_relevance": 14,
+      "experiment_feasibility": 17,
       "resource_completeness": 2
     },
-    "comment": "提出基于离散扩散的生成式语义场景补全框架，通过数据合成、条件生成与流匹配改进三重角色，在SemanticKITTI上取得SOTA单次单样本结果，创新性强但缺乏代码开源。",
+    "comment": "将语义场景补全重构为离散扩散生成任务，提出统一框架实现数据合成、场景生成与补全细化，在SemanticKITTI上取得SOTA。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26239v1": {
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 68,
+    "scores": {
+      "method_innovation": 24,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "将逐尺度自回归引入具身世界模型，结合多尺度记忆压缩与策略对齐实现长时程动作可控仿真，方法新颖但尚缺顶会背书与开源资源。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.26214v1": {
     "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
-    "evaluated_at": "2026-08-28T13:58:10",
-    "score": 67,
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 60,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 12,
+      "method_innovation": 15,
+      "author_authority": 10,
       "topic_relevance": 18,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "该综述系统梳理了手术视频生成从扩散模型到世界模型的演进，提出了从视觉合成到因果动力学建模的范式转变，对医疗垂直领域的世界模型研究具有较好的框架性指导意义。",
+    "comment": "首篇系统梳理手术视频生成到世界模型演进的综述，提出了从视觉合成到因果动力学建模的分类框架，对领域发展具有较好的指引价值。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27367v1": {
+    "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+    "evaluated_at": "2026-08-29T11:29:51",
+    "score": 57,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 5,
+      "topic_relevance": 18,
+      "experiment_feasibility": 12,
+      "resource_completeness": 2
+    },
+    "comment": "提出一种基于任务复杂度动态扩展JEPA世界模型ViT编码器宽度和深度的SCG方法，在模拟环境中展现了良好的参数效率，但缺乏顶会背书、真实复杂场景验证及开源代码支持。",
     "sources": [
       "arxiv"
     ]
