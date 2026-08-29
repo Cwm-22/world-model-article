@@ -1332,22 +1332,6 @@
     "pushed_at": "2026-08-23T06:23:41",
     "pushed_post": "2026-08-23_top3_推文.md"
   },
-  "2608.06020v1": {
-    "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
-    "evaluated_at": "2026-08-08T06:33:45",
-    "score": 71,
-    "scores": {
-      "method_innovation": 18,
-      "author_authority": 18,
-      "topic_relevance": 16,
-      "experiment_feasibility": 14,
-      "resource_completeness": 5
-    },
-    "comment": "本文提出经济世界模型的六层能力阶梯与实现蓝图，作者阵容强大，为基于LLM的经济模拟系统提供了系统性综述与未来方向，但偏向理论与综述，缺乏具体模型实验。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.05706v1": {
     "title": "LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models",
     "evaluated_at": "2026-08-09T06:25:16",
@@ -2276,7 +2260,9 @@
     "comment": "提出统一的视听生成系统JoyAI-Echo-1.5，结合跨镜头记忆与几何感知控制实现长时序叙事与交互式世界模型，在WBench等基准上表现领先。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-30T07:55:05",
+    "pushed_post": "2026-08-30_top3_推文.md"
   },
   "2608.23070v1": {
     "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
@@ -2586,7 +2572,9 @@
     "comment": "提出统一的3D点轨迹表示结合因果流式推理，首次实现交互式4D可控流式视频生成，为闭环时空控制的世界模型提供了新范式，但当前缺乏代码开源和同行评审验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-30T07:55:05",
+    "pushed_post": "2026-08-30_top3_推文.md"
   },
   "2608.26200v1": {
     "title": "GameWAM: A World Action Model for Video Games",
@@ -2604,66 +2592,132 @@
       "arxiv"
     ]
   },
-  "2608.26737v1": {
-    "title": "Generative Semantic Scene Completion",
-    "evaluated_at": "2026-08-29T11:29:51",
-    "score": 70,
+  "2608.24199v2": {
+    "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 90,
     "scores": {
-      "method_innovation": 25,
-      "author_authority": 12,
-      "topic_relevance": 14,
-      "experiment_feasibility": 17,
-      "resource_completeness": 2
+      "method_innovation": 26,
+      "author_authority": 19,
+      "topic_relevance": 19,
+      "experiment_feasibility": 19,
+      "resource_completeness": 7
     },
-    "comment": "将语义场景补全重构为离散扩散生成任务，提出统一框架实现数据合成、场景生成与补全细化，在SemanticKITTI上取得SOTA。",
+    "comment": "首个支持实时人类与策略控制的交互式手术世界模型，通过师生蒸馏实现160 FPS流式推理，在单卡Blackwell GPU上完成多接口部署，极具落地价值。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-08-30T07:55:05",
+    "pushed_post": "2026-08-30_top3_推文.md"
   },
   "2608.26239v1": {
     "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
-    "evaluated_at": "2026-08-29T11:29:51",
-    "score": 68,
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 76,
     "scores": {
-      "method_innovation": 24,
-      "author_authority": 10,
-      "topic_relevance": 18,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 19,
+      "experiment_feasibility": 16,
+      "resource_completeness": 3
     },
-    "comment": "将逐尺度自回归引入具身世界模型，结合多尺度记忆压缩与策略对齐实现长时程动作可控仿真，方法新颖但尚缺顶会背书与开源资源。",
+    "comment": "提出基于逐尺度自回归的长时程世界模型WALL-SS，结合粗到细生成与策略对齐优化，有效解决长时程动作漂移与不一致问题，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.26214v1": {
-    "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
-    "evaluated_at": "2026-08-29T11:29:51",
-    "score": 60,
+  "2608.24534v1": {
+    "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 75,
     "scores": {
-      "method_innovation": 15,
-      "author_authority": 10,
+      "method_innovation": 24,
+      "author_authority": 14,
       "topic_relevance": 18,
+      "experiment_feasibility": 17,
+      "resource_completeness": 2
+    },
+    "comment": "结合HGNN生理世界模型与知识图谱约束进行临床LLM偏好优化，创新性强且实验严谨，但缺乏公开代码资源且仍需真实临床数据验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26737v1": {
+    "title": "Generative Semantic Scene Completion",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 74,
+    "scores": {
+      "method_innovation": 26,
+      "author_authority": 12,
+      "topic_relevance": 16,
+      "experiment_feasibility": 18,
+      "resource_completeness": 2
+    },
+    "comment": "将LiDAR场景补全重构为离散扩散生成任务，提出数据合成、条件生成与单步细化三重框架，在SemanticKITTI上取得SOTA，创新性强且实验扎实，但与世界模型核心定义略有距离且暂未开源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.24136v1": {
+    "title": "Steering Recurrent Reasoners at Inference Time with Readout Feedback",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 64,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 17,
+      "topic_relevance": 8,
       "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "首篇系统梳理手术视频生成到世界模型演进的综述，提出了从视觉合成到因果动力学建模的分类框架，对领域发展具有较好的指引价值。",
+    "comment": "提出RoFB测试时干预方法通过闭环反馈引导循环模型的潜在动态，在推理任务上有效，但与世界模型核心主题关联较弱且缺乏开源资源。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.27367v1": {
     "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
-    "evaluated_at": "2026-08-29T11:29:51",
-    "score": 57,
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 62,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 5,
+      "method_innovation": 22,
+      "author_authority": 8,
       "topic_relevance": 18,
       "experiment_feasibility": 12,
       "resource_completeness": 2
     },
-    "comment": "提出一种基于任务复杂度动态扩展JEPA世界模型ViT编码器宽度和深度的SCG方法，在模拟环境中展现了良好的参数效率，但缺乏顶会背书、真实复杂场景验证及开源代码支持。",
+    "comment": "提出针对JEPA世界模型的渐进式网络生长方法(SCG)与SIGReg正则化，在简化环境中验证了极高的参数效率与无损扩展性，但缺乏真实复杂视觉数据集验证且单作者权威性受限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.26214v1": {
+    "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 59,
+    "scores": {
+      "method_innovation": 15,
+      "author_authority": 10,
+      "topic_relevance": 18,
+      "experiment_feasibility": 15,
+      "resource_completeness": 1
+    },
+    "comment": "首篇系统梳理手术视频生成向世界模型演进的综述，提出了从视觉合成到因果动力学建模的分类框架，但缺乏配套开源资源。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.25017v1": {
+    "title": "Rollout-Decoded Reconstruction for Long-Horizon Prediction in Latent World Models",
+    "evaluated_at": "2026-08-30T07:53:46",
+    "score": 53,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 5,
+      "topic_relevance": 19,
+      "experiment_feasibility": 11,
+      "resource_completeness": 0
+    },
+    "comment": "提出RDR损失项以缩小潜空间世界模型训练与评估时的分布偏移，在混沌系统上验证有效，但实验规模偏小且缺乏代码开源。",
     "sources": [
       "arxiv"
     ]
