@@ -2406,7 +2406,9 @@
     "comment": "提出基于4DGS的以对象为中心的世界动作模型，通过分离动静表示实现背景复用与动态对象预测，创新性较好，但实验仅限KITTI-MOT且缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-02T07:55:20",
+    "pushed_post": "2026-09-02_top3_推文.md"
   },
   "2608.27345v1": {
     "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
@@ -2478,7 +2480,9 @@
     "comment": "提出R2M-Bench基准，通过相对一致性指标有效区分视频世界模型的重访记忆与通用时间稳定性，缓解了慢动作捷径问题，评估设计扎实但缺乏开源资源信息。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-02T07:55:20",
+    "pushed_post": "2026-09-02_top3_推文.md"
   },
   "2608.27033v1": {
     "title": "Riemann-1.0: An Embodied World Action Model for Physical AI",
@@ -2650,7 +2654,9 @@
     "comment": "将LiDAR场景补全重构为离散扩散生成任务，提出数据合成、条件生成与单步细化三重框架，在SemanticKITTI上取得SOTA，创新性强且实验扎实，但与世界模型核心定义略有距离且暂未开源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-02T07:55:20",
+    "pushed_post": "2026-09-02_top3_推文.md"
   },
   "2608.24101v1": {
     "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
@@ -2682,22 +2688,6 @@
       "resource_completeness": 2
     },
     "comment": "将特权物理轨迹与视觉观测视为同一动作条件轨迹的双视图并以共享预测器交叉预测，是对 JEPA 式世界模型表征坍缩问题的清晰且有一定新意的改进，消融揭示增益来自潜空间几何而非可解码性颇具洞察；但作者团队知名度与发表场所信息缺失、无代码仓库，且需与特权教师蒸馏类已有工作更严格地区分。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.23863v2": {
-    "title": "DreamLedger: Where to Refuse World-Model Imagination Using Execution-Settled Credit",
-    "evaluated_at": "2026-08-31T08:15:58",
-    "score": 64,
-    "scores": {
-      "method_innovation": 21,
-      "author_authority": 8,
-      "topic_relevance": 18,
-      "experiment_feasibility": 15,
-      "resource_completeness": 2
-    },
-    "comment": "将世界模型可靠性从瞬时内部信号重构为持久、可审计的执行结算信用账本，账本化门控视角新颖且实验横跨三种主流模型底座与真机验证，但本质是模型外挂信任层而非模型级突破，作者团队影响力与顶会背书缺失，且元信息中未见代码仓库，可复现性存疑。",
     "sources": [
       "arxiv"
     ]
@@ -2766,66 +2756,130 @@
       "arxiv"
     ]
   },
-  "2608.28065v1": {
-    "title": "Learning to Allocate Incentives for Incentivized Advertising via Offline Model-Based Reinforcement Learning",
-    "evaluated_at": "2026-09-01T09:01:04",
-    "score": 61,
+  "2608.30692v1": {
+    "title": "Can Video World Models Track Unobserved World States?",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 71,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 13,
-      "experiment_feasibility": 16,
+      "method_innovation": 21,
+      "author_authority": 14,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
       "resource_completeness": 2
     },
-    "comment": "该文将离线模型强化学习（世界模型+保守策略优化+反事实评分器）首次应用于激励广告的序列化激励分配问题，工业级数据与在线A/B验证落地性扎实，但方法层面主要是IQL、TD3+BC等已有技术的组合应用，世界模型仅作为工具而非方法论创新，且无顶会发表信息、无公开代码与数据，可复现性受限。",
+    "comment": "以动作条件化的Shell Game作为S5状态追踪的视觉类比，巧妙解耦渲染与隐状态推断，揭示扩散像素目标无法监督隐状态、状态须驻留于架构（如可负特征值的线性注意力与TTT快权重）方能外推的机制性洞见，是高质量的诊断分析工作，但属arXiv预印本、未见顶会评审与代码开源，且以受控合成任务为主，真实世界模型场景的验证有限。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.26214v1": {
-    "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
-    "evaluated_at": "2026-09-01T09:01:04",
-    "score": 57,
+  "2608.30067v1": {
+    "title": "How do World Models and Policies Compose in LLM Agents? A Joint Spectral and Behavioral Account",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 69,
     "scores": {
-      "method_innovation": 12,
+      "method_innovation": 21,
+      "author_authority": 13,
+      "topic_relevance": 19,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "该工作从谱几何（低秩更新、输入子空间共享、输出近正交）与行为探索双视角系统剖析LLM智能体中世界模型与策略训练的参数组合机制，并提出免训练合并与在线世界模型损失两种干预手段验证结论，问题切入新颖、分析链条完整，但目前仅为arXiv预印本、无顶会背书与代码开源，实验规模与环境设置细节不明，结论外推性有待检验。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.29910v1": {
+    "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 69,
+    "scores": {
+      "method_innovation": 21,
       "author_authority": 11,
-      "topic_relevance": 18,
-      "experiment_feasibility": 13,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
       "resource_completeness": 3
     },
-    "comment": "该综述将2024-2026年手术视频生成文献划分为无条件生成、条件生成与世界建模生成三类，准确捕捉了从像素保真度到因果动力学建模的范式转变，与世界模型主题高度契合；但作为综述缺乏方法层面的原创贡献，且目前仅有arXiv预印本、无顶会录用或代码仓库佐证，作者权威性与资源完整性证据不足，其汇总的公开数据集定量结果对后续研究具有一定参考价值。",
+    "comment": "作为 Matrix-Game 3.0 的迭代升级，以零参数 patch-memory + tiled-PRoPE、静动解耦表征和两阶段蒸馏实现分钟级实时交互世界生成，方向高度契合但创新属增量式；作者阵容非原核心团队且仅有 arXiv 来源，缺乏顶会评审、被引与代码仓库佐证，实验声明虽全面但可信度待验证。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.28541v1": {
-    "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
-    "evaluated_at": "2026-09-01T09:01:18",
-    "score": 62,
+  "2608.30897v1": {
+    "title": "CAER: Causal Action Effect Reweighting for World Model Training",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 66,
     "scores": {
-      "method_innovation": 23,
-      "author_authority": 6,
-      "topic_relevance": 18,
+      "method_innovation": 21,
+      "author_authority": 11,
+      "topic_relevance": 19,
       "experiment_feasibility": 13,
       "resource_completeness": 2
     },
-    "comment": "将规范选择(gauge)视角引入认证世界模型的不可达区域拓扑盲区分析，'拓扑相对可达性'与维度匹配缓解原则概念新颖、受控实验设计精巧，但仅基于最小环形合成仪器与LLM合成模型，单一作者、无会议背书与代码开源，普适性与落地证据不足。",
+    "comment": "CAER利用动作条件有无的预测差分在线定位受影响token并重分配监督权重，直击世界模型训练中背景token主导梯度的痛点，思路简洁且免标注可扩展，但'因果'论证偏启发式敏感性分析，且元信息仅见arXiv预印本、无发表场所/被引/代码支撑，实验细节与可复现性存疑。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.28491v1": {
-    "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
-    "evaluated_at": "2026-09-01T09:03:02",
-    "score": 54,
+  "2608.31025v1": {
+    "title": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 65,
     "scores": {
-      "method_innovation": 18,
-      "author_authority": 4,
-      "topic_relevance": 18,
-      "experiment_feasibility": 12,
+      "method_innovation": 22,
+      "author_authority": 11,
+      "topic_relevance": 16,
+      "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "该工作将机器人视频预测显式分解为语义粒子动力学与末帧外观生成，0.28M参数的轻量化设计与负对照/多种子/Oracle分析体现了规范的实验方法论，但语言grounding仅带来2.8-3.1%差异、LPIPS未超持久性基线，且仅为无代码、无同行评审信号的arXiv预印本，方法有效性与影响力均待验证。",
+    "comment": "该工作提出以仿真特权物理状态（位移场、变形梯度场）作为中间表示来桥接单目视频与内在动力学，规避外观与几何捷径，思路清晰且与世界模型的物理先验方向高度契合，并配套构建了配对数据基准；但特权蒸馏式对齐并非全新范式，且目前仅为arXiv预印本，无会议评审、被引与代码开源信息支撑，方法有效性与可复现性有待社区验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.30237v1": {
+    "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 65,
+    "scores": {
+      "method_innovation": 22,
+      "author_authority": 9,
+      "topic_relevance": 19,
+      "experiment_feasibility": 13,
+      "resource_completeness": 2
+    },
+    "comment": "Motus2将策略、动作条件模拟器与价值评估器统一为共享权重的三接口闭环世界模型，并辅以立体自我中心数据与触觉扩展，思路契合自进化具身智能方向，但'通用'与'自我进化'的主张宏大，且仅有arXiv预印本、无顶会评审与开源代码支撑，泛化与闭环改进效果尚待严格验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.29772v1": {
+    "title": "Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving",
+    "evaluated_at": "2026-09-02T07:48:54",
+    "score": 65,
+    "scores": {
+      "method_innovation": 21,
+      "author_authority": 11,
+      "topic_relevance": 17,
+      "experiment_feasibility": 14,
+      "resource_completeness": 2
+    },
+    "comment": "SAGE将世界模型预测产生的'恐惧'(风险+不确定性)与'好奇心'(新颖性)内在信号用于自适应干预与选择性模仿学习，实现自动驾驶后训练持续改进，框架完整且与世界模型主题高度契合，但核心组件多为不确定性估计、好奇心探索与专家干预等已有技术的组合，且目前仅为arXiv预印本，无顶会评审记录、无开源代码，实验虽覆盖CARLA/Waymo/真实机器人但落地验证深度有限。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.29998v1": {
+    "title": "The Intervention Gap in Latent World Models",
+    "evaluated_at": "2026-09-02T07:51:24",
+    "score": 55,
+    "scores": {
+      "method_innovation": 16,
+      "author_authority": 5,
+      "topic_relevance": 19,
+      "experiment_feasibility": 13,
+      "resource_completeness": 2
+    },
+    "comment": "该论文提出'规划期干预保真度'这一新颖审计指标并设计capture-gated匹配干预审计，在TD-MPC2/DreamerV3等主流世界模型上系统揭示了想象干预效应失效（任务方向旋转且增益过大）这一被奖励拟合误差掩盖的缺陷，主题高度契合世界模型方向；但属单作者arXiv预印本，无发表场所、被引与代码仓库支撑，自研模型细节与可复现性存疑，贡献偏诊断审计而非建模方法创新。",
     "sources": [
       "arxiv"
     ]
