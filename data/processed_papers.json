@@ -2262,7 +2262,9 @@
     "comment": "首篇系统性评估生成式世界模型与传统模拟器差距的综述，提出八维能力框架并指出状态反馈等关键短板，对领域发展极具指导价值。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-01T09:05:35",
+    "pushed_post": "2026-09-01_top3_推文.md"
   },
   "2608.22750v1": {
     "title": "MOSH-WM: Mask-Grounded Soft-Hamiltonian Dynamics for Object-Centric World Models",
@@ -2612,7 +2614,9 @@
     "comment": "提出基于逐尺度自回归的长时程世界模型WALL-SS，结合粗到细生成与策略对齐优化，有效解决长时程动作漂移与不一致问题，但缺乏顶会背书与开源代码。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-01T09:05:35",
+    "pushed_post": "2026-09-01_top3_推文.md"
   },
   "2608.24534v1": {
     "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
@@ -2628,7 +2632,9 @@
     "comment": "结合HGNN生理世界模型与知识图谱约束进行临床LLM偏好优化，创新性强且实验严谨，但缺乏公开代码资源且仍需真实临床数据验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-01T09:05:35",
+    "pushed_post": "2026-09-01_top3_推文.md"
   },
   "2608.26737v1": {
     "title": "Generative Semantic Scene Completion",
@@ -2696,82 +2702,130 @@
       "arxiv"
     ]
   },
-  "2608.24136v1": {
-    "title": "Steering Recurrent Reasoners at Inference Time with Readout Feedback",
-    "evaluated_at": "2026-08-31T08:15:58",
-    "score": 62,
+  "2608.27996v1": {
+    "title": "Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data",
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 68,
     "scores": {
-      "method_innovation": 20,
-      "author_authority": 15,
-      "topic_relevance": 11,
+      "method_innovation": 22,
+      "author_authority": 16,
+      "topic_relevance": 14,
       "experiment_feasibility": 14,
       "resource_completeness": 2
     },
-    "comment": "提出无需重训练的Readout Feedback闭环机制，将中间读出概率转化为成对耦合力注入循环模型潜动力学，是推理时干预的新颖视角且作者阵容（松尾研等）权威，但实验局限于数独/迷宫谜题、六组中仅四组有效，与世界模型的环境动力学建模核心议题关联较弱，且目前仅有arXiv预印本、无代码与同行评审佐证。",
+    "comment": "该文将数字孪生/世界模型合成数据的sim-to-real有效性检验形式化为统计决策问题，提出双重自适应的anytime-valid符号翻转检验aeSFT，问题定义新颖且理论保证严谨；作者阵容强大（Simeone、Popovski、尤肖虎等），但方法本质是统计检验而非世界模型构建，实验集中于无线通信场景且暂无代码与正式发表信息。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27508v1": {
+    "title": "WM-R1: Training GUI Agents to Reason and leverage World Models with Reinforcement Learning",
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 68,
+    "scores": {
+      "method_innovation": 21,
+      "author_authority": 8,
+      "topic_relevance": 18,
+      "experiment_feasibility": 14,
+      "resource_completeness": 7
+    },
+    "comment": "首次将世界模型作为GUI智能体RL训练的状态转移源并嵌入推理过程，替代真实Android环境交互，思路新颖且与世界模型主题高度契合；但作者团队影响力与发表场所信息有限（仅arXiv），2000任务的评测规模与结论稳健性尚待同行评审验证。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27345v2": {
+    "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 67,
+    "scores": {
+      "method_innovation": 19,
+      "author_authority": 11,
+      "topic_relevance": 19,
+      "experiment_feasibility": 15,
+      "resource_completeness": 3
+    },
+    "comment": "该工作首次将世界模型评估从单视频合理性提升到分布级'概率对齐'准则，概念框架新颖且切中视频生成式世界模型的核心痛点，但作为基准类论文方法创新有限，50个场景规模偏小，且元信息中未见代码仓库与正式发表场所，落地与可复现性存疑。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.27609v1": {
+    "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 66,
+    "scores": {
+      "method_innovation": 19,
+      "author_authority": 10,
+      "topic_relevance": 17,
+      "experiment_feasibility": 14,
+      "resource_completeness": 6
+    },
+    "comment": "PHR-VLA通过特权未来动力学潜表征对齐为VLA注入前瞻式规划推理，与世界模型的未来动态建模高度契合且有真机验证，但方法本质是既有特权学习/辅助监督范式的延伸，Meta-World上仅约1%的提升暴露泛化性不足，且目前仅为arXiv预印本、缺乏顶会评审与代码开源确认。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.28065v1": {
+    "title": "Learning to Allocate Incentives for Incentivized Advertising via Offline Model-Based Reinforcement Learning",
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 61,
+    "scores": {
+      "method_innovation": 20,
+      "author_authority": 10,
+      "topic_relevance": 13,
+      "experiment_feasibility": 16,
+      "resource_completeness": 2
+    },
+    "comment": "该文将离线模型强化学习（世界模型+保守策略优化+反事实评分器）首次应用于激励广告的序列化激励分配问题，工业级数据与在线A/B验证落地性扎实，但方法层面主要是IQL、TD3+BC等已有技术的组合应用，世界模型仅作为工具而非方法论创新，且无顶会发表信息、无公开代码与数据，可复现性受限。",
     "sources": [
       "arxiv"
     ]
   },
   "2608.26214v1": {
     "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
-    "evaluated_at": "2026-08-31T08:15:58",
-    "score": 59,
+    "evaluated_at": "2026-09-01T09:01:04",
+    "score": 57,
     "scores": {
-      "method_innovation": 14,
+      "method_innovation": 12,
       "author_authority": 11,
       "topic_relevance": 18,
       "experiment_feasibility": 13,
       "resource_completeness": 3
     },
-    "comment": "该综述首次系统梳理了手术视频生成从扩散模型到世界模型的范式演进，提出无条件/条件/世界建模三类划分并汇总公开数据集上的定量结果，主题与世界模型方向高度契合，但作为仅见于arXiv的综述工作，缺乏同行评审场所与被引验证，且无代码或论文列表仓库支撑，方法层面亦无原创贡献。",
+    "comment": "该综述将2024-2026年手术视频生成文献划分为无条件生成、条件生成与世界建模生成三类，准确捕捉了从像素保真度到因果动力学建模的范式转变，与世界模型主题高度契合；但作为综述缺乏方法层面的原创贡献，且目前仅有arXiv预印本、无顶会录用或代码仓库佐证，作者权威性与资源完整性证据不足，其汇总的公开数据集定量结果对后续研究具有一定参考价值。",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.27367v1": {
-    "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
-    "evaluated_at": "2026-08-31T08:17:01",
-    "score": 56,
+  "2608.28541v1": {
+    "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+    "evaluated_at": "2026-09-01T09:01:18",
+    "score": 62,
     "scores": {
-      "method_innovation": 19,
-      "author_authority": 5,
-      "topic_relevance": 19,
-      "experiment_feasibility": 12,
-      "resource_completeness": 1
-    },
-    "comment": "将函数保持式宽度/深度渐进扩张与防坍缩正则化引入JEPA世界模型编码器的思路新颖且切题，但核心机制承袭Net2Net、实验仅为小规模合成环境（60维动力学/2D导航），加之单一作者、仅arXiv预印本且无代码开源，方法有效性与影响力尚待同行评审和标准基准验证。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.25017v1": {
-    "title": "Rollout-Decoded Reconstruction for Long-Horizon Prediction in Latent World Models",
-    "evaluated_at": "2026-08-31T08:17:36",
-    "score": 57,
-    "scores": {
-      "method_innovation": 19,
+      "method_innovation": 23,
       "author_authority": 6,
+      "topic_relevance": 18,
+      "experiment_feasibility": 13,
+      "resource_completeness": 2
+    },
+    "comment": "将规范选择(gauge)视角引入认证世界模型的不可达区域拓扑盲区分析，'拓扑相对可达性'与维度匹配缓解原则概念新颖、受控实验设计精巧，但仅基于最小环形合成仪器与LLM合成模型，单一作者、无会议背书与代码开源，普适性与落地证据不足。",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2608.28491v1": {
+    "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
+    "evaluated_at": "2026-09-01T09:03:02",
+    "score": 54,
+    "scores": {
+      "method_innovation": 18,
+      "author_authority": 4,
       "topic_relevance": 18,
       "experiment_feasibility": 12,
       "resource_completeness": 2
     },
-    "comment": "RDR以单一损失项将训练目标与自由 rollout 部署对齐，方法简洁优雅且评估方法论严谨（预注册配置、留出种子、零权重退化为标准目标），但'在自身 rollout 上训练'的核心思想与 scheduled sampling 等暴露偏差缓解策略一脉相承，且实验仅覆盖单一混沌 PDE 系统（KS 方程），缺乏标准世界模型基准（如 Atari/DMC/视频预测）验证，作者亦坦承控制实验尚属初步。",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2608.25344v1": {
-    "title": "CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos",
-    "evaluated_at": "2026-08-31T08:17:59",
-    "score": 56,
-    "scores": {
-      "method_innovation": 20,
-      "author_authority": 10,
-      "topic_relevance": 10,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
-    },
-    "comment": "CoRE以冻结预测器上的结构化干预生成分级预测效应目标并蒸馏至学生模型，从粗粒度视频监督中恢复时间与实体级风险证据，学习原理清晰且在DoTA/UCF-Crime等三基准验证，但该工作本质是弱监督归因与异常定位，与世界模型的环境动力学建模核心关联较弱，且目前仅有arXiv预印本、无顶会背书与开源代码。",
+    "comment": "该工作将机器人视频预测显式分解为语义粒子动力学与末帧外观生成，0.28M参数的轻量化设计与负对照/多种子/Oracle分析体现了规范的实验方法论，但语言grounding仅带来2.8-3.1%差异、LPIPS未超持久性基线，且仅为无代码、无同行评审信号的arXiv预印本，方法有效性与影响力均待验证。",
     "sources": [
       "arxiv"
     ]
