@@ -1706,7 +1706,9 @@
     "comment": "提出一种基于稀疏事件证据的分层世界模型，通过变长时间段预测有效解决长程手术机器人操作中的奖励稀疏问题，但实验仅在单一仿真环境中验证且缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-03T07:49:33",
+    "pushed_post": "2026-09-03_top3_推文.md"
   },
   "2608.12564v1": {
     "title": "Scaling Automatic Research Agents via World Models",
@@ -2022,7 +2024,9 @@
     "comment": "提出DBOSC与操作能力层次结构，将多模态对齐与物理执行解耦并分别验证，理论创新性强但缺乏代码与顶会背书。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-03T07:49:33",
+    "pushed_post": "2026-09-03_top3_推文.md"
   },
   "2608.19661v1": {
     "title": "World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind Farms",
@@ -2072,7 +2076,9 @@
     "comment": "提出解耦的全身世界-动作模型DECOWAM，通过分离相机自我运动与底盘/机械臂动作实现参数高效的联合视觉预测与控制，并发布了真实机器人数据集ARMDOG，但缺乏开源代码且任务完成率未见显著突破。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-03T07:49:33",
+    "pushed_post": "2026-09-03_top3_推文.md"
   },
   "2608.19085v2": {
     "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
@@ -2740,22 +2746,6 @@
       "arxiv"
     ]
   },
-  "2608.27609v1": {
-    "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
-    "evaluated_at": "2026-09-01T09:01:04",
-    "score": 66,
-    "scores": {
-      "method_innovation": 19,
-      "author_authority": 10,
-      "topic_relevance": 17,
-      "experiment_feasibility": 14,
-      "resource_completeness": 6
-    },
-    "comment": "PHR-VLA通过特权未来动力学潜表征对齐为VLA注入前瞻式规划推理，与世界模型的未来动态建模高度契合且有真机验证，但方法本质是既有特权学习/辅助监督范式的延伸，Meta-World上仅约1%的提升暴露泛化性不足，且目前仅为arXiv预印本、缺乏顶会评审与代码开源确认。",
-    "sources": [
-      "arxiv"
-    ]
-  },
   "2608.30692v1": {
     "title": "Can Video World Models Track Unobserved World States?",
     "evaluated_at": "2026-09-02T07:48:54",
@@ -2820,66 +2810,130 @@
       "arxiv"
     ]
   },
-  "2608.31025v1": {
-    "title": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
-    "evaluated_at": "2026-09-02T07:48:54",
-    "score": 65,
+  "2609.01383v1": {
+    "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 11,
-      "topic_relevance": 16,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
     },
-    "comment": "该工作提出以仿真特权物理状态（位移场、变形梯度场）作为中间表示来桥接单目视频与内在动力学，规避外观与几何捷径，思路清晰且与世界模型的物理先验方向高度契合，并配套构建了配对数据基准；但特权蒸馏式对齐并非全新范式，且目前仅为arXiv预印本，无会议评审、被引与代码开源信息支撑，方法有效性与可复现性有待社区验证。",
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.30237v1": {
-    "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
-    "evaluated_at": "2026-09-02T07:48:54",
-    "score": 65,
+  "2609.01215v1": {
+    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
     "scores": {
-      "method_innovation": 22,
-      "author_authority": 9,
-      "topic_relevance": 19,
-      "experiment_feasibility": 13,
-      "resource_completeness": 2
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
     },
-    "comment": "Motus2将策略、动作条件模拟器与价值评估器统一为共享权重的三接口闭环世界模型，并辅以立体自我中心数据与触觉扩展，思路契合自进化具身智能方向，但'通用'与'自我进化'的主张宏大，且仅有arXiv预印本、无顶会评审与开源代码支撑，泛化与闭环改进效果尚待严格验证。",
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.29772v1": {
-    "title": "Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving",
-    "evaluated_at": "2026-09-02T07:48:54",
-    "score": 65,
+  "2609.00776v1": {
+    "title": "Solaris: Towards Interfaces That Are Generated, Not Coded",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
     "scores": {
-      "method_innovation": 21,
-      "author_authority": 11,
-      "topic_relevance": 17,
-      "experiment_feasibility": 14,
-      "resource_completeness": 2
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
     },
-    "comment": "SAGE将世界模型预测产生的'恐惧'(风险+不确定性)与'好奇心'(新颖性)内在信号用于自适应干预与选择性模仿学习，实现自动驾驶后训练持续改进，框架完整且与世界模型主题高度契合，但核心组件多为不确定性估计、好奇心探索与专家干预等已有技术的组合，且目前仅为arXiv预印本，无顶会评审记录、无开源代码，实验虽覆盖CARLA/Waymo/真实机器人但落地验证深度有限。",
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
   },
-  "2608.29998v1": {
-    "title": "The Intervention Gap in Latent World Models",
-    "evaluated_at": "2026-09-02T07:51:24",
-    "score": 55,
+  "2609.00455v1": {
+    "title": "Towards a Belief-Based World Model for LLM Agents",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
     "scores": {
-      "method_innovation": 16,
-      "author_authority": 5,
-      "topic_relevance": 19,
-      "experiment_feasibility": 13,
-      "resource_completeness": 2
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
     },
-    "comment": "该论文提出'规划期干预保真度'这一新颖审计指标并设计capture-gated匹配干预审计，在TD-MPC2/DreamerV3等主流世界模型上系统揭示了想象干预效应失效（任务方向旋转且增益过大）这一被奖励拟合误差掩盖的缺陷，主题高度契合世界模型方向；但属单作者arXiv预印本，无发表场所、被引与代码仓库支撑，自研模型细节与可复现性存疑，贡献偏诊断审计而非建模方法创新。",
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.00188v1": {
+    "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.00161v1": {
+    "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.00106v1": {
+    "title": "Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations",
+    "evaluated_at": "2026-09-03T07:49:31",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.01560v1": {
+    "title": "H3-World: Turning Language Understanding into World Control",
+    "evaluated_at": "2026-09-03T07:49:32",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
     ]
