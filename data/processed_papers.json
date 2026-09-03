@@ -1724,7 +1724,9 @@
     "comment": "提出WMRL利用世界模型替代环境执行以解决自动研究代理RL训练的扩展瓶颈，并通过去偏和降噪优化不完美世界模型，在加速训练的同时提升性能，具有较好的理论与实验支撑。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-04T07:46:13",
+    "pushed_post": "2026-09-04_top3_推文.md"
   },
   "2608.11204v1": {
     "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
@@ -1866,7 +1868,9 @@
     "comment": "提出了一种结合世界模型引导测试时计算的分层机器人基础模型，有效提升了长时程机器人操作任务的闭环成功率，但缺乏开源代码和明确的机构背景信息。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-04T07:46:13",
+    "pushed_post": "2026-09-04_top3_推文.md"
   },
   "2608.16287v1": {
     "title": "SCALE: State-Calibrated Latent Embeddings for JEPA Planning in the Right Geometry",
@@ -1882,7 +1886,9 @@
     "comment": "针对JEPA世界模型规划中潜在空间几何属性对状态信息利用的影响，提出SCALE轻量级正则化器对齐潜在距离与状态距离，实验设计严谨且有效提升了规划性能。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-04T07:46:13",
+    "pushed_post": "2026-09-04_top3_推文.md"
   },
   "2608.17163v1": {
     "title": "Q-Learning With World Models",
@@ -2810,9 +2816,9 @@
       "arxiv"
     ]
   },
-  "2609.01383v1": {
-    "title": "InSight: A Benchmark for Agentic Claim Verification in Interactive Visualizations",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02886v1": {
+    "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2826,9 +2832,9 @@
       "arxiv"
     ]
   },
-  "2609.01215v1": {
-    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02885v1": {
+    "title": "Discriminative World Models for Web Agents",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2842,9 +2848,9 @@
       "arxiv"
     ]
   },
-  "2609.00776v1": {
-    "title": "Solaris: Towards Interfaces That Are Generated, Not Coded",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02864v1": {
+    "title": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2858,9 +2864,9 @@
       "arxiv"
     ]
   },
-  "2609.00455v1": {
-    "title": "Towards a Belief-Based World Model for LLM Agents",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02797v1": {
+    "title": "Dutch Books for Language Models",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2874,9 +2880,9 @@
       "arxiv"
     ]
   },
-  "2609.00188v1": {
-    "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02688v1": {
+    "title": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2890,9 +2896,9 @@
       "arxiv"
     ]
   },
-  "2609.00161v1": {
-    "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02542v1": {
+    "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2906,9 +2912,9 @@
       "arxiv"
     ]
   },
-  "2609.00106v1": {
-    "title": "Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations",
-    "evaluated_at": "2026-09-03T07:49:31",
+  "2609.02531v1": {
+    "title": "Spatially Aware World Action Model via Geometric Latent Diffusion",
+    "evaluated_at": "2026-09-04T07:46:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2922,9 +2928,41 @@
       "arxiv"
     ]
   },
-  "2609.01560v1": {
-    "title": "H3-World: Turning Language Understanding into World Control",
-    "evaluated_at": "2026-09-03T07:49:32",
+  "2609.02339v1": {
+    "title": "AGI Maze Prediction Datasets: A Compact Benchmark for Learning World Dynamics with Transformers",
+    "evaluated_at": "2026-09-04T07:46:08",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.02126v1": {
+    "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+    "evaluated_at": "2026-09-04T07:46:08",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.02046v1": {
+    "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+    "evaluated_at": "2026-09-04T07:46:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
