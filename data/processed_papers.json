@@ -2048,7 +2048,9 @@
     "comment": "结合LLM与物理世界模型进行AUV/ASV海上导航规划，在GazeboSim中验证了显著的误差降低效果，但缺乏开源代码且方法组合创新性有限。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-05T07:41:19",
+    "pushed_post": "2026-09-05_top3_推文.md"
   },
   "2608.18234v1": {
     "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
@@ -2100,7 +2102,9 @@
     "comment": "提出DA-WAM框架将预测表示学习与轨迹规划统一在单一目标下，通过动作条件预测和动量编码器提升自动驾驶世界模型的决策对齐能力，在NAVSIM基准上取得SOTA。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-05T07:41:19",
+    "pushed_post": "2026-09-05_top3_推文.md"
   },
   "2608.17956v1": {
     "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
@@ -2116,7 +2120,9 @@
     "comment": "理论与实验结合紧密，严格证明了连续代码世界模型中采样验证的危险法则及模式遗漏的不可识别性，但作为单作者预印本且缺乏开源资源。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-05T07:41:19",
+    "pushed_post": "2026-09-05_top3_推文.md"
   },
   "2608.20974v1": {
     "title": "WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving",
@@ -2816,9 +2822,9 @@
       "arxiv"
     ]
   },
-  "2609.02886v1": {
-    "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.04193v1": {
+    "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2832,9 +2838,9 @@
       "arxiv"
     ]
   },
-  "2609.02885v1": {
-    "title": "Discriminative World Models for Web Agents",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.04034v1": {
+    "title": "Editable Visual Design",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2848,9 +2854,9 @@
       "arxiv"
     ]
   },
-  "2609.02864v1": {
-    "title": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03952v1": {
+    "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2864,9 +2870,9 @@
       "arxiv"
     ]
   },
-  "2609.02797v1": {
-    "title": "Dutch Books for Language Models",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03931v1": {
+    "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2880,9 +2886,9 @@
       "arxiv"
     ]
   },
-  "2609.02688v1": {
-    "title": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03927v1": {
+    "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2896,9 +2902,9 @@
       "arxiv"
     ]
   },
-  "2609.02542v1": {
-    "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03919v1": {
+    "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2912,9 +2918,9 @@
       "arxiv"
     ]
   },
-  "2609.02531v1": {
-    "title": "Spatially Aware World Action Model via Geometric Latent Diffusion",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03891v1": {
+    "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2928,9 +2934,9 @@
       "arxiv"
     ]
   },
-  "2609.02339v1": {
-    "title": "AGI Maze Prediction Datasets: A Compact Benchmark for Learning World Dynamics with Transformers",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03834v1": {
+    "title": "Semantic Bayesian World Models",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2944,9 +2950,9 @@
       "arxiv"
     ]
   },
-  "2609.02126v1": {
-    "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
-    "evaluated_at": "2026-09-04T07:46:08",
+  "2609.03774v1": {
+    "title": "Rethinking World Models for Safety-Critical Embodied Systems",
+    "evaluated_at": "2026-09-05T07:41:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2960,9 +2966,9 @@
       "arxiv"
     ]
   },
-  "2609.02046v1": {
-    "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
-    "evaluated_at": "2026-09-04T07:46:10",
+  "2609.03697v1": {
+    "title": "Symmetries and Causality: Causal Effect Identification Beyond IID Data",
+    "evaluated_at": "2026-09-05T07:41:03",
     "score": 0,
     "scores": {
       "method_innovation": 0,
