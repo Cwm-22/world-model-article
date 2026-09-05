@@ -2192,7 +2192,9 @@
     "comment": "提出从冻结的世界动作模型蒸馏未来感知表征的ForeTime-VLA，通过预测未来token与过渡时间显著提升传送带动态抓取性能，真实机器人实验验证了方法的有效性。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-06T07:32:19",
+    "pushed_post": "2026-09-06_top3_推文.md"
   },
   "2608.22764v1": {
     "title": "LpWM: A Case for Sparse Representations in World Models",
@@ -2298,7 +2300,9 @@
     "comment": "结合掩码空间矩与软哈密顿动力学的对象中心世界模型，物理先验引入提升了长时序预测稳定性，但仅在合成数据集验证且作者影响力未知。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-06T07:32:19",
+    "pushed_post": "2026-09-06_top3_推文.md"
   },
   "2608.25572v1": {
     "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
@@ -2516,7 +2520,9 @@
     "comment": "提出统一因果自回归的世界动作模型框架，将机器人策略执行与世界模拟融合，在仿真与真实任务上表现优异，但缺乏代码开源且未经同行评审验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-06T07:32:19",
+    "pushed_post": "2026-09-06_top3_推文.md"
   },
   "2608.25666v1": {
     "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
@@ -2824,7 +2830,7 @@
   },
   "2609.04193v1": {
     "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2840,7 +2846,7 @@
   },
   "2609.04034v1": {
     "title": "Editable Visual Design",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2856,7 +2862,7 @@
   },
   "2609.03952v1": {
     "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2872,7 +2878,7 @@
   },
   "2609.03931v1": {
     "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2888,7 +2894,7 @@
   },
   "2609.03927v1": {
     "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2904,7 +2910,7 @@
   },
   "2609.03919v1": {
     "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2920,7 +2926,7 @@
   },
   "2609.03891v1": {
     "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2936,7 +2942,7 @@
   },
   "2609.03834v1": {
     "title": "Semantic Bayesian World Models",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2952,7 +2958,7 @@
   },
   "2609.03774v1": {
     "title": "Rethinking World Models for Safety-Critical Embodied Systems",
-    "evaluated_at": "2026-09-05T07:41:02",
+    "evaluated_at": "2026-09-06T07:32:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2968,7 +2974,7 @@
   },
   "2609.03697v1": {
     "title": "Symmetries and Causality: Causal Effect Identification Beyond IID Data",
-    "evaluated_at": "2026-09-05T07:41:03",
+    "evaluated_at": "2026-09-06T07:32:12",
     "score": 0,
     "scores": {
       "method_innovation": 0,
