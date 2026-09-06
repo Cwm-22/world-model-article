@@ -2538,7 +2538,9 @@
     "comment": "结合GPU加速物理模拟器作为在线世界模型，提出QP引导的采样MPC解决双臂接触富集操作，具备良好的sim-to-real迁移能力。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-07T07:27:24",
+    "pushed_post": "2026-09-07_top3_推文.md"
   },
   "2608.24680v1": {
     "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
@@ -2608,7 +2610,9 @@
     "comment": "首次将世界模型与动作策略统一于原生游戏交互的GameWAM，通过流匹配与块循环控制实现长时序视觉与动作联合生成，并揭示了LASI这一生成控制失效模式，创新性显著但实验细节与代码开源情况尚待完善。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-07T07:27:24",
+    "pushed_post": "2026-09-07_top3_推文.md"
   },
   "2608.24199v2": {
     "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics",
@@ -2778,7 +2782,9 @@
     "comment": "以动作条件化的Shell Game作为S5状态追踪的视觉类比，巧妙解耦渲染与隐状态推断，揭示扩散像素目标无法监督隐状态、状态须驻留于架构（如可负特征值的线性注意力与TTT快权重）方能外推的机制性洞见，是高质量的诊断分析工作，但属arXiv预印本、未见顶会评审与代码开源，且以受控合成任务为主，真实世界模型场景的验证有限。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-07T07:27:24",
+    "pushed_post": "2026-09-07_top3_推文.md"
   },
   "2608.30067v1": {
     "title": "How do World Models and Policies Compose in LLM Agents? A Joint Spectral and Behavioral Account",
@@ -2830,7 +2836,7 @@
   },
   "2609.04193v1": {
     "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2846,7 +2852,7 @@
   },
   "2609.04034v1": {
     "title": "Editable Visual Design",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2862,7 +2868,7 @@
   },
   "2609.03952v1": {
     "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2878,7 +2884,7 @@
   },
   "2609.03931v1": {
     "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2894,7 +2900,7 @@
   },
   "2609.03927v1": {
     "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2904,13 +2910,14 @@
       "resource_completeness": 0
     },
     "comment": "（评估失败，已跳过）",
+    "venue": "Trans. Mach. Learn. Res.",
     "sources": [
       "arxiv"
     ]
   },
   "2609.03919v1": {
     "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2926,7 +2933,7 @@
   },
   "2609.03891v1": {
     "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2942,7 +2949,7 @@
   },
   "2609.03834v1": {
     "title": "Semantic Bayesian World Models",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2958,7 +2965,7 @@
   },
   "2609.03774v1": {
     "title": "Rethinking World Models for Safety-Critical Embodied Systems",
-    "evaluated_at": "2026-09-06T07:32:11",
+    "evaluated_at": "2026-09-07T07:27:22",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2974,7 +2981,7 @@
   },
   "2609.03697v1": {
     "title": "Symmetries and Causality: Causal Effect Identification Beyond IID Data",
-    "evaluated_at": "2026-09-06T07:32:12",
+    "evaluated_at": "2026-09-07T07:27:24",
     "score": 0,
     "scores": {
       "method_innovation": 0,
