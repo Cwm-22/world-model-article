@@ -2718,7 +2718,9 @@
     "comment": "将特权物理轨迹与视觉观测视为同一动作条件轨迹的双视图并以共享预测器交叉预测，是对 JEPA 式世界模型表征坍缩问题的清晰且有一定新意的改进，消融揭示增益来自潜空间几何而非可解码性颇具洞察；但作者团队知名度与发表场所信息缺失、无代码仓库，且需与特权教师蒸馏类已有工作更严格地区分。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-08T07:57:18",
+    "pushed_post": "2026-09-08_top3_推文.md"
   },
   "2608.27996v1": {
     "title": "Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data",
@@ -2800,7 +2802,9 @@
     "comment": "该工作从谱几何（低秩更新、输入子空间共享、输出近正交）与行为探索双视角系统剖析LLM智能体中世界模型与策略训练的参数组合机制，并提出免训练合并与在线世界模型损失两种干预手段验证结论，问题切入新颖、分析链条完整，但目前仅为arXiv预印本、无顶会背书与代码开源，实验规模与环境设置细节不明，结论外推性有待检验。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-08T07:57:18",
+    "pushed_post": "2026-09-08_top3_推文.md"
   },
   "2608.29910v1": {
     "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
@@ -2816,7 +2820,9 @@
     "comment": "作为 Matrix-Game 3.0 的迭代升级，以零参数 patch-memory + tiled-PRoPE、静动解耦表征和两阶段蒸馏实现分钟级实时交互世界生成，方向高度契合但创新属增量式；作者阵容非原核心团队且仅有 arXiv 来源，缺乏顶会评审、被引与代码仓库佐证，实验声明虽全面但可信度待验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-08T07:57:18",
+    "pushed_post": "2026-09-08_top3_推文.md"
   },
   "2608.30897v1": {
     "title": "CAER: Causal Action Effect Reweighting for World Model Training",
@@ -2834,9 +2840,9 @@
       "arxiv"
     ]
   },
-  "2609.04193v1": {
-    "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-    "evaluated_at": "2026-09-07T07:27:22",
+  "2609.04911v1": {
+    "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
+    "evaluated_at": "2026-09-08T07:57:15",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2850,9 +2856,105 @@
       "arxiv"
     ]
   },
-  "2609.04034v1": {
+  "2609.04894v1": {
+    "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04851v1": {
+    "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04464v1": {
+    "title": "Achieving Asymptotic Near-Optimality Without $δ$-Similarity",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04364v1": {
+    "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04350v1": {
+    "title": "Adapting from Downturns: Prediction of Long-Term Conversational-Skill Development in Mental-Health Crisis Counselors",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04193v1": {
+    "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+    "evaluated_at": "2026-09-08T07:57:15",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.04034v2": {
     "title": "Editable Visual Design",
-    "evaluated_at": "2026-09-07T07:27:22",
+    "evaluated_at": "2026-09-08T07:57:15",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2868,7 +2970,7 @@
   },
   "2609.03952v1": {
     "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
-    "evaluated_at": "2026-09-07T07:27:22",
+    "evaluated_at": "2026-09-08T07:57:15",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2884,104 +2986,7 @@
   },
   "2609.03931v1": {
     "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03927v1": {
-    "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "venue": "Trans. Mach. Learn. Res.",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03919v1": {
-    "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03891v1": {
-    "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03834v1": {
-    "title": "Semantic Bayesian World Models",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03774v1": {
-    "title": "Rethinking World Models for Safety-Critical Embodied Systems",
-    "evaluated_at": "2026-09-07T07:27:22",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.03697v1": {
-    "title": "Symmetries and Causality: Causal Effect Identification Beyond IID Data",
-    "evaluated_at": "2026-09-07T07:27:24",
+    "evaluated_at": "2026-09-08T07:57:16",
     "score": 0,
     "scores": {
       "method_innovation": 0,
