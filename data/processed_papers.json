@@ -2736,7 +2736,9 @@
     "comment": "该文将数字孪生/世界模型合成数据的sim-to-real有效性检验形式化为统计决策问题，提出双重自适应的anytime-valid符号翻转检验aeSFT，问题定义新颖且理论保证严谨；作者阵容强大（Simeone、Popovski、尤肖虎等），但方法本质是统计检验而非世界模型构建，实验集中于无线通信场景且暂无代码与正式发表信息。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-09T07:48:59",
+    "pushed_post": "2026-09-09_top3_推文.md"
   },
   "2608.27508v1": {
     "title": "WM-R1: Training GUI Agents to Reason and leverage World Models with Reinforcement Learning",
@@ -2752,7 +2754,9 @@
     "comment": "首次将世界模型作为GUI智能体RL训练的状态转移源并嵌入推理过程，替代真实Android环境交互，思路新颖且与世界模型主题高度契合；但作者团队影响力与发表场所信息有限（仅arXiv），2000任务的评测规模与结论稳健性尚待同行评审验证。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-09T07:48:59",
+    "pushed_post": "2026-09-09_top3_推文.md"
   },
   "2608.27345v2": {
     "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
@@ -2768,7 +2772,9 @@
     "comment": "该工作首次将世界模型评估从单视频合理性提升到分布级'概率对齐'准则，概念框架新颖且切中视频生成式世界模型的核心痛点，但作为基准类论文方法创新有限，50个场景规模偏小，且元信息中未见代码仓库与正式发表场所，落地与可复现性存疑。",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-09T07:48:59",
+    "pushed_post": "2026-09-09_top3_推文.md"
   },
   "2608.30692v1": {
     "title": "Can Video World Models Track Unobserved World States?",
@@ -2842,7 +2848,7 @@
   },
   "2609.04911v1": {
     "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2858,7 +2864,7 @@
   },
   "2609.04894v1": {
     "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2874,7 +2880,7 @@
   },
   "2609.04851v1": {
     "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2890,7 +2896,7 @@
   },
   "2609.04464v1": {
     "title": "Achieving Asymptotic Near-Optimality Without $δ$-Similarity",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2906,7 +2912,7 @@
   },
   "2609.04364v1": {
     "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2922,7 +2928,7 @@
   },
   "2609.04350v1": {
     "title": "Adapting from Downturns: Prediction of Long-Term Conversational-Skill Development in Mental-Health Crisis Counselors",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2938,7 +2944,7 @@
   },
   "2609.04193v1": {
     "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2954,7 +2960,7 @@
   },
   "2609.04034v2": {
     "title": "Editable Visual Design",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2970,7 +2976,7 @@
   },
   "2609.03952v1": {
     "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
-    "evaluated_at": "2026-09-08T07:57:15",
+    "evaluated_at": "2026-09-09T07:48:42",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2986,7 +2992,7 @@
   },
   "2609.03931v1": {
     "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
-    "evaluated_at": "2026-09-08T07:57:16",
+    "evaluated_at": "2026-09-09T07:48:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
