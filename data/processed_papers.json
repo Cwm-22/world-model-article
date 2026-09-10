@@ -2884,9 +2884,63 @@
     "pushed_at": "2026-09-10T07:48:10",
     "pushed_post": "2026-09-10_top3_推文.md"
   },
-  "2609.08342v1": {
-    "title": "VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.10540v1": {
+    "title": "Programmable World Model",
+    "evaluated_at": "2026-09-11T07:40:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-11T07:40:48",
+    "pushed_post": "2026-09-11_top3_推文.md"
+  },
+  "2609.10506v1": {
+    "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+    "evaluated_at": "2026-09-11T07:40:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-11T07:40:48",
+    "pushed_post": "2026-09-11_top3_推文.md"
+  },
+  "2609.10464v1": {
+    "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+    "evaluated_at": "2026-09-11T07:40:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-11T07:40:48",
+    "pushed_post": "2026-09-11_top3_推文.md"
+  },
+  "2609.10404v1": {
+    "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2900,9 +2954,9 @@
       "arxiv"
     ]
   },
-  "2609.08250v1": {
-    "title": "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.09941v1": {
+    "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2916,9 +2970,9 @@
       "arxiv"
     ]
   },
-  "2609.08230v1": {
-    "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.09828v1": {
+    "title": "RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2932,26 +2986,9 @@
       "arxiv"
     ]
   },
-  "2609.08162v1": {
-    "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
-    "evaluated_at": "2026-09-10T07:48:07",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "venue": "AAAI Conference on Artificial Intelligence",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2609.07719v1": {
-    "title": "A radiographic world model for clinical reasoning and evidence generation",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.09776v1": {
+    "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2965,9 +3002,9 @@
       "arxiv"
     ]
   },
-  "2609.07611v1": {
-    "title": "AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.09630v1": {
+    "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2981,9 +3018,9 @@
       "arxiv"
     ]
   },
-  "2609.07532v1": {
-    "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling",
-    "evaluated_at": "2026-09-10T07:48:07",
+  "2609.09627v1": {
+    "title": "Seven Sources of Physical AI Capability Formation",
+    "evaluated_at": "2026-09-11T07:40:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -2997,9 +3034,9 @@
       "arxiv"
     ]
   },
-  "2609.07470v1": {
-    "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
-    "evaluated_at": "2026-09-10T07:48:09",
+  "2609.09597v1": {
+    "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+    "evaluated_at": "2026-09-11T07:40:45",
     "score": 0,
     "scores": {
       "method_innovation": 0,
