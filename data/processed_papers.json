@@ -2937,5 +2937,171 @@
     ],
     "pushed_at": "2026-09-11T07:40:48",
     "pushed_post": "2026-09-11_top3_推文.md"
+  },
+  "2609.15801v1": {
+    "title": "When Should a World Model Move? Loss-Conditioned State Execution",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-16T07:56:40",
+    "pushed_post": "2026-09-16_top3_推文.md"
+  },
+  "2609.15781v1": {
+    "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-16T07:56:40",
+    "pushed_post": "2026-09-16_top3_推文.md"
+  },
+  "2609.15770v1": {
+    "title": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-16T07:56:40",
+    "pushed_post": "2026-09-16_top3_推文.md"
+  },
+  "2609.15683v1": {
+    "title": "V-ICAL Bench: Evaluating Video In-Context Learning for Multimodal Agents in Interactive Environments",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15503v1": {
+    "title": "SyntheticDoc: A Large Synthetic Dataset for Document Unwarping and Illumination Correction",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15392v1": {
+    "title": "ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15382v1": {
+    "title": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15289v1": {
+    "title": "Math for AI safety: an invitation for mathematicians",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15189v1": {
+    "title": "Reconstructing Is Not Acting: Action-Centric Latent Dynamics Modeling",
+    "evaluated_at": "2026-09-16T07:56:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.15113v1": {
+    "title": "Legislating World-Model-Based Planning with Legal Reasoning",
+    "evaluated_at": "2026-09-16T07:56:39",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
   }
 }
