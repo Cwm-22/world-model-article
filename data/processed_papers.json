@@ -3046,9 +3046,63 @@
     "pushed_at": "2026-09-17T08:03:15",
     "pushed_post": "2026-09-17_top3_推文.md"
   },
-  "2609.17112v1": {
-    "title": "Not Another Text Benchmark: Putting the \"Visual\" Back in Visual Question Answering for Large Video Models",
-    "evaluated_at": "2026-09-17T08:03:12",
+  "2609.19142v1": {
+    "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+    "evaluated_at": "2026-09-18T07:53:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-18T07:53:42",
+    "pushed_post": "2026-09-18_top3_推文.md"
+  },
+  "2609.19128v1": {
+    "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+    "evaluated_at": "2026-09-18T07:53:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-18T07:53:42",
+    "pushed_post": "2026-09-18_top3_推文.md"
+  },
+  "2609.18776v1": {
+    "title": "TRACER: Adaptive Multi-Robot Social Navigation via Joint Human-Response Prediction and Interaction-Aware Replanning",
+    "evaluated_at": "2026-09-18T07:53:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-18T07:53:42",
+    "pushed_post": "2026-09-18_top3_推文.md"
+  },
+  "2609.18555v1": {
+    "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3062,9 +3116,9 @@
       "arxiv"
     ]
   },
-  "2609.17099v1": {
-    "title": "GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos",
-    "evaluated_at": "2026-09-17T08:03:13",
+  "2609.18455v1": {
+    "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3078,9 +3132,9 @@
       "arxiv"
     ]
   },
-  "2609.16778v1": {
-    "title": "Unifying Semantic Priors and High-Frequency Traces: Enhancing V-JEPA with Mixture-of-Experts for Robust Synthetic Image Forensics",
-    "evaluated_at": "2026-09-17T08:03:13",
+  "2609.18442v1": {
+    "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3094,9 +3148,9 @@
       "arxiv"
     ]
   },
-  "2609.16724v1": {
-    "title": "CorrRisk-WM: Corridor-Conditioned Risk World Modeling for Safety-Critical Trajectory Planning",
-    "evaluated_at": "2026-09-17T08:03:13",
+  "2609.18430v1": {
+    "title": "StrucPhysVideo: Learning Physical Dynamics from Structured Captions and Robot Actions",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3110,9 +3164,9 @@
       "arxiv"
     ]
   },
-  "2609.16705v1": {
-    "title": "The Robot Data Factory",
-    "evaluated_at": "2026-09-17T08:03:13",
+  "2609.18326v1": {
+    "title": "UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3126,9 +3180,9 @@
       "arxiv"
     ]
   },
-  "2609.16697v1": {
-    "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
-    "evaluated_at": "2026-09-17T08:03:13",
+  "2609.18323v1": {
+    "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+    "evaluated_at": "2026-09-18T07:53:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3142,9 +3196,9 @@
       "arxiv"
     ]
   },
-  "2609.16679v1": {
-    "title": "AI for Games in the Foundation Model Era",
-    "evaluated_at": "2026-09-17T08:03:14",
+  "2609.18193v1": {
+    "title": "WAVE-Go: World-Model Navigation with Adaptive Execution for Wheel-Legged Robots",
+    "evaluated_at": "2026-09-18T07:53:20",
     "score": 0,
     "scores": {
       "method_innovation": 0,
