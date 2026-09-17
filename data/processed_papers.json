@@ -2992,9 +2992,63 @@
     "pushed_at": "2026-09-16T07:56:40",
     "pushed_post": "2026-09-16_top3_推文.md"
   },
-  "2609.15683v1": {
-    "title": "V-ICAL Bench: Evaluating Video In-Context Learning for Multimodal Agents in Interactive Environments",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.17413v1": {
+    "title": "SSC-Priors: Exploring Semantic and Visibility Priors to Boost Lidar Semantic Scene Completion",
+    "evaluated_at": "2026-09-17T08:03:12",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-17T08:03:15",
+    "pushed_post": "2026-09-17_top3_推文.md"
+  },
+  "2609.17372v1": {
+    "title": "XPACE: Joint World and Action Modeling from Heterogeneous Experience",
+    "evaluated_at": "2026-09-17T08:03:12",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-17T08:03:15",
+    "pushed_post": "2026-09-17_top3_推文.md"
+  },
+  "2609.17325v1": {
+    "title": "Intrinsic Motivation in Reinforcement Learning: A Research Agenda for Adaptive Self-Organisation",
+    "evaluated_at": "2026-09-17T08:03:12",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-17T08:03:15",
+    "pushed_post": "2026-09-17_top3_推文.md"
+  },
+  "2609.17112v1": {
+    "title": "Not Another Text Benchmark: Putting the \"Visual\" Back in Visual Question Answering for Large Video Models",
+    "evaluated_at": "2026-09-17T08:03:12",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3008,9 +3062,9 @@
       "arxiv"
     ]
   },
-  "2609.15503v1": {
-    "title": "SyntheticDoc: A Large Synthetic Dataset for Document Unwarping and Illumination Correction",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.17099v1": {
+    "title": "GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos",
+    "evaluated_at": "2026-09-17T08:03:13",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3024,9 +3078,9 @@
       "arxiv"
     ]
   },
-  "2609.15392v1": {
-    "title": "ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.16778v1": {
+    "title": "Unifying Semantic Priors and High-Frequency Traces: Enhancing V-JEPA with Mixture-of-Experts for Robust Synthetic Image Forensics",
+    "evaluated_at": "2026-09-17T08:03:13",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3040,9 +3094,9 @@
       "arxiv"
     ]
   },
-  "2609.15382v1": {
-    "title": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.16724v1": {
+    "title": "CorrRisk-WM: Corridor-Conditioned Risk World Modeling for Safety-Critical Trajectory Planning",
+    "evaluated_at": "2026-09-17T08:03:13",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3056,9 +3110,9 @@
       "arxiv"
     ]
   },
-  "2609.15289v1": {
-    "title": "Math for AI safety: an invitation for mathematicians",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.16705v1": {
+    "title": "The Robot Data Factory",
+    "evaluated_at": "2026-09-17T08:03:13",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3072,9 +3126,9 @@
       "arxiv"
     ]
   },
-  "2609.15189v1": {
-    "title": "Reconstructing Is Not Acting: Action-Centric Latent Dynamics Modeling",
-    "evaluated_at": "2026-09-16T07:56:37",
+  "2609.16697v1": {
+    "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
+    "evaluated_at": "2026-09-17T08:03:13",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3088,9 +3142,9 @@
       "arxiv"
     ]
   },
-  "2609.15113v1": {
-    "title": "Legislating World-Model-Based Planning with Legal Reasoning",
-    "evaluated_at": "2026-09-16T07:56:39",
+  "2609.16679v1": {
+    "title": "AI for Games in the Foundation Model Era",
+    "evaluated_at": "2026-09-17T08:03:14",
     "score": 0,
     "scores": {
       "method_innovation": 0,
