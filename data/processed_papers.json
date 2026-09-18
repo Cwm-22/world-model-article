@@ -3100,9 +3100,63 @@
     "pushed_at": "2026-09-18T07:53:42",
     "pushed_post": "2026-09-18_top3_推文.md"
   },
-  "2609.18555v1": {
-    "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.20649v1": {
+    "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+    "evaluated_at": "2026-09-19T07:51:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-19T07:51:20",
+    "pushed_post": "2026-09-19_top3_推文.md"
+  },
+  "2609.20604v1": {
+    "title": "Semantic SLAM in Precision Agriculture using Bayesian Inference",
+    "evaluated_at": "2026-09-19T07:51:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-19T07:51:20",
+    "pushed_post": "2026-09-19_top3_推文.md"
+  },
+  "2609.20451v1": {
+    "title": "Seismic Site Response Prediction from Sparse Observations Using Finite-Element-Pretrained Latent Dynamics",
+    "evaluated_at": "2026-09-19T07:51:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-19T07:51:20",
+    "pushed_post": "2026-09-19_top3_推文.md"
+  },
+  "2609.20334v1": {
+    "title": "Structured Four-Stage Legal Translation: From Natural-Language Traffic Rules to PROLOG",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3116,9 +3170,9 @@
       "arxiv"
     ]
   },
-  "2609.18455v1": {
-    "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.20034v1": {
+    "title": "Astronex-World 1.0: Real-Time Interactive World Model Foundation",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3132,9 +3186,9 @@
       "arxiv"
     ]
   },
-  "2609.18442v1": {
-    "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.19881v1": {
+    "title": "BinoGen: Scaling egocentric binocular data for embodied visual perception and learning",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3148,9 +3202,9 @@
       "arxiv"
     ]
   },
-  "2609.18430v1": {
-    "title": "StrucPhysVideo: Learning Physical Dynamics from Structured Captions and Robot Actions",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.19863v1": {
+    "title": "Feeling Terrain Before Crossing: World Models for Off-Road Navigation",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3164,9 +3218,9 @@
       "arxiv"
     ]
   },
-  "2609.18326v1": {
-    "title": "UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.19674v1": {
+    "title": "Conservation Buys Stability and Factoring Buys Counterfactuals in Physical World Models",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3180,9 +3234,9 @@
       "arxiv"
     ]
   },
-  "2609.18323v1": {
-    "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-    "evaluated_at": "2026-09-18T07:53:18",
+  "2609.19600v1": {
+    "title": "WorldContact: A Contact-Centric World Model for Scalable Robot Learning",
+    "evaluated_at": "2026-09-19T07:51:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3196,9 +3250,9 @@
       "arxiv"
     ]
   },
-  "2609.18193v1": {
-    "title": "WAVE-Go: World-Model Navigation with Adaptive Execution for Wheel-Legged Robots",
-    "evaluated_at": "2026-09-18T07:53:20",
+  "2609.19551v1": {
+    "title": "Continual Enterprise World Model Discovery in Dynamic Systems",
+    "evaluated_at": "2026-09-19T07:51:20",
     "score": 0,
     "scores": {
       "method_innovation": 0,
