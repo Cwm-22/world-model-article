@@ -3156,7 +3156,7 @@
   },
   "2609.20334v1": {
     "title": "Structured Four-Stage Legal Translation: From Natural-Language Traffic Rules to PROLOG",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3168,11 +3168,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-20T07:53:14",
+    "pushed_post": "2026-09-20_top3_推文.md"
   },
   "2609.20034v1": {
     "title": "Astronex-World 1.0: Real-Time Interactive World Model Foundation",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3184,11 +3186,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-20T07:53:14",
+    "pushed_post": "2026-09-20_top3_推文.md"
   },
   "2609.19881v1": {
     "title": "BinoGen: Scaling egocentric binocular data for embodied visual perception and learning",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3200,11 +3204,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-20T07:53:14",
+    "pushed_post": "2026-09-20_top3_推文.md"
   },
   "2609.19863v1": {
     "title": "Feeling Terrain Before Crossing: World Models for Off-Road Navigation",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3220,7 +3226,7 @@
   },
   "2609.19674v1": {
     "title": "Conservation Buys Stability and Factoring Buys Counterfactuals in Physical World Models",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3236,7 +3242,7 @@
   },
   "2609.19600v1": {
     "title": "WorldContact: A Contact-Centric World Model for Scalable Robot Learning",
-    "evaluated_at": "2026-09-19T07:51:18",
+    "evaluated_at": "2026-09-20T07:53:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3252,7 +3258,55 @@
   },
   "2609.19551v1": {
     "title": "Continual Enterprise World Model Discovery in Dynamic Systems",
-    "evaluated_at": "2026-09-19T07:51:20",
+    "evaluated_at": "2026-09-20T07:53:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.19315v1": {
+    "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
+    "evaluated_at": "2026-09-20T07:53:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.18555v1": {
+    "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
+    "evaluated_at": "2026-09-20T07:53:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.18455v2": {
+    "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
+    "evaluated_at": "2026-09-20T07:53:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
