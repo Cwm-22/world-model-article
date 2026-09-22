@@ -3316,9 +3316,63 @@
     "pushed_at": "2026-09-22T08:34:04",
     "pushed_post": "2026-09-22_top3_推文.md"
   },
-  "2609.21748v1": {
-    "title": "World Modeling in Transformers",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24984v1": {
+    "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+    "evaluated_at": "2026-09-23T07:58:34",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-23T07:58:37",
+    "pushed_post": "2026-09-23_top3_推文.md"
+  },
+  "2609.24976v1": {
+    "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+    "evaluated_at": "2026-09-23T07:58:34",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-23T07:58:37",
+    "pushed_post": "2026-09-23_top3_推文.md"
+  },
+  "2609.24749v1": {
+    "title": "D-JEPA: A Decision-Aligned Latent World Model",
+    "evaluated_at": "2026-09-23T07:58:34",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-23T07:58:37",
+    "pushed_post": "2026-09-23_top3_推文.md"
+  },
+  "2609.24682v1": {
+    "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3332,9 +3386,9 @@
       "arxiv"
     ]
   },
-  "2609.21740v1": {
-    "title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24626v1": {
+    "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3348,9 +3402,9 @@
       "arxiv"
     ]
   },
-  "2609.21712v1": {
-    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24352v1": {
+    "title": "Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3364,9 +3418,9 @@
       "arxiv"
     ]
   },
-  "2609.21502v1": {
-    "title": "Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24313v1": {
+    "title": "NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3380,9 +3434,9 @@
       "arxiv"
     ]
   },
-  "2609.21482v1": {
-    "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24308v1": {
+    "title": "HappyWorld-Bench",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3396,9 +3450,9 @@
       "arxiv"
     ]
   },
-  "2609.21474v1": {
-    "title": "MT-WAM: Reorienting the One-Pass Predictive Representation Toward Action Generation",
-    "evaluated_at": "2026-09-22T08:34:01",
+  "2609.24289v1": {
+    "title": "TTSE: A Two-Track Online Self-Evolution Framework",
+    "evaluated_at": "2026-09-23T07:58:34",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3412,9 +3466,9 @@
       "arxiv"
     ]
   },
-  "2609.21448v1": {
-    "title": "Robotic Multiphase Interaction: Manipulating Coupled Liquid and Solid Dynamics with a World Model",
-    "evaluated_at": "2026-09-22T08:34:03",
+  "2609.24048v1": {
+    "title": "What Matters in Designing World Action Models: An Empirical Study",
+    "evaluated_at": "2026-09-23T07:58:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
