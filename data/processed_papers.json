@@ -3262,9 +3262,63 @@
     "pushed_at": "2026-09-21T07:50:03",
     "pushed_post": "2026-09-21_top3_推文.md"
   },
-  "2609.19551v1": {
-    "title": "Continual Enterprise World Model Discovery in Dynamic Systems",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.22055v1": {
+    "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
+    "evaluated_at": "2026-09-22T08:34:01",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-22T08:34:04",
+    "pushed_post": "2026-09-22_top3_推文.md"
+  },
+  "2609.21906v1": {
+    "title": "Intervention Granularity Matters: Coherent Treatment Bundles in Counterfactual Simulation with Clinical World Models",
+    "evaluated_at": "2026-09-22T08:34:01",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-22T08:34:04",
+    "pushed_post": "2026-09-22_top3_推文.md"
+  },
+  "2609.21787v1": {
+    "title": "Compact but Moving: Intervention-Relevant Geometry in Recurrent World Models",
+    "evaluated_at": "2026-09-22T08:34:01",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-22T08:34:04",
+    "pushed_post": "2026-09-22_top3_推文.md"
+  },
+  "2609.21748v1": {
+    "title": "World Modeling in Transformers",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3278,9 +3332,9 @@
       "arxiv"
     ]
   },
-  "2609.19315v1": {
-    "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.21740v1": {
+    "title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3294,9 +3348,9 @@
       "arxiv"
     ]
   },
-  "2609.18555v1": {
-    "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.21712v1": {
+    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3310,9 +3364,9 @@
       "arxiv"
     ]
   },
-  "2609.18455v2": {
-    "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.21502v1": {
+    "title": "Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3326,9 +3380,9 @@
       "arxiv"
     ]
   },
-  "2609.18442v1": {
-    "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.21482v1": {
+    "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3342,9 +3396,9 @@
       "arxiv"
     ]
   },
-  "2609.18430v1": {
-    "title": "StrucPhysVideo: Learning Physical Dynamics from Structured Captions and Robot Actions",
-    "evaluated_at": "2026-09-21T07:50:01",
+  "2609.21474v1": {
+    "title": "MT-WAM: Reorienting the One-Pass Predictive Representation Toward Action Generation",
+    "evaluated_at": "2026-09-22T08:34:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3358,9 +3412,9 @@
       "arxiv"
     ]
   },
-  "2609.18326v1": {
-    "title": "UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents",
-    "evaluated_at": "2026-09-21T07:50:03",
+  "2609.21448v1": {
+    "title": "Robotic Multiphase Interaction: Manipulating Coupled Liquid and Solid Dynamics with a World Model",
+    "evaluated_at": "2026-09-22T08:34:03",
     "score": 0,
     "scores": {
       "method_innovation": 0,
