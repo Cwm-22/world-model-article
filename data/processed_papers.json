@@ -3424,9 +3424,63 @@
     "pushed_at": "2026-09-24T08:12:37",
     "pushed_post": "2026-09-24_top3_推文.md"
   },
-  "2609.26425v1": {
-    "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.28466v1": {
+    "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+    "evaluated_at": "2026-09-25T08:14:59",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-25T08:15:04",
+    "pushed_post": "2026-09-25_top3_推文.md"
+  },
+  "2609.28416v1": {
+    "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+    "evaluated_at": "2026-09-25T08:14:59",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-25T08:15:04",
+    "pushed_post": "2026-09-25_top3_推文.md"
+  },
+  "2609.28414v1": {
+    "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
+    "evaluated_at": "2026-09-25T08:14:59",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-25T08:15:04",
+    "pushed_post": "2026-09-25_top3_推文.md"
+  },
+  "2609.28393v1": {
+    "title": "PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3440,9 +3494,9 @@
       "arxiv"
     ]
   },
-  "2609.26314v1": {
-    "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.28258v1": {
+    "title": "Generalizable Robotic Insertion with World Models",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3456,9 +3510,9 @@
       "arxiv"
     ]
   },
-  "2609.26299v1": {
-    "title": "ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.28099v1": {
+    "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3472,9 +3526,9 @@
       "arxiv"
     ]
   },
-  "2609.26293v1": {
-    "title": "Dual-Frontier: When Can an Agent Trust Its World Model?",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.28064v1": {
+    "title": "SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3488,9 +3542,9 @@
       "arxiv"
     ]
   },
-  "2609.26007v1": {
-    "title": "Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.28049v1": {
+    "title": "Prompt, Probe, Train, or Annotate? Single-camera sports video understanding in amateur settings",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3504,9 +3558,9 @@
       "arxiv"
     ]
   },
-  "2609.25652v1": {
-    "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
-    "evaluated_at": "2026-09-24T08:12:35",
+  "2609.27656v1": {
+    "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+    "evaluated_at": "2026-09-25T08:14:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3520,9 +3574,9 @@
       "arxiv"
     ]
   },
-  "2609.25541v1": {
-    "title": "A JEPA Recipe for Tabular Foundation Models",
-    "evaluated_at": "2026-09-24T08:12:36",
+  "2609.27621v1": {
+    "title": "SHRAV: State-Hypothesis-Reason-Action-Verify Framework for Physical Modeling and Inverse Design",
+    "evaluated_at": "2026-09-25T08:15:01",
     "score": 0,
     "scores": {
       "method_innovation": 0,
