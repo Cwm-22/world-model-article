@@ -3478,9 +3478,63 @@
     "pushed_at": "2026-09-25T08:15:04",
     "pushed_post": "2026-09-25_top3_推文.md"
   },
-  "2609.28393v1": {
-    "title": "PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.30264v1": {
+    "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+    "evaluated_at": "2026-09-26T08:21:08",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-26T08:21:11",
+    "pushed_post": "2026-09-26_top3_推文.md"
+  },
+  "2609.30249v1": {
+    "title": "RAPID: Robot Agentic Programming from Demonstrations",
+    "evaluated_at": "2026-09-26T08:21:08",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-26T08:21:11",
+    "pushed_post": "2026-09-26_top3_推文.md"
+  },
+  "2609.30214v1": {
+    "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
+    "evaluated_at": "2026-09-26T08:21:08",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-26T08:21:11",
+    "pushed_post": "2026-09-26_top3_推文.md"
+  },
+  "2609.30198v1": {
+    "title": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
+    "evaluated_at": "2026-09-26T08:21:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3494,9 +3548,9 @@
       "arxiv"
     ]
   },
-  "2609.28258v1": {
-    "title": "Generalizable Robotic Insertion with World Models",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.30036v1": {
+    "title": "Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think",
+    "evaluated_at": "2026-09-26T08:21:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3510,9 +3564,9 @@
       "arxiv"
     ]
   },
-  "2609.28099v1": {
-    "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.29171v1": {
+    "title": "Representation World Model: Learning States, Transition and Executable Plans in Representation",
+    "evaluated_at": "2026-09-26T08:21:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3526,9 +3580,9 @@
       "arxiv"
     ]
   },
-  "2609.28064v1": {
-    "title": "SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.29092v1": {
+    "title": "DAWN: Noise-Robust Quadruped Parkour via Depth-Denoising World Models",
+    "evaluated_at": "2026-09-26T08:21:08",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3542,9 +3596,9 @@
       "arxiv"
     ]
   },
-  "2609.28049v1": {
-    "title": "Prompt, Probe, Train, or Annotate? Single-camera sports video understanding in amateur settings",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.28969v1": {
+    "title": "Sim-to-Real Aware End-to-End Learning Environment for Micromobility",
+    "evaluated_at": "2026-09-26T08:21:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3558,9 +3612,9 @@
       "arxiv"
     ]
   },
-  "2609.27656v1": {
-    "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
-    "evaluated_at": "2026-09-25T08:14:59",
+  "2609.28931v1": {
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+    "evaluated_at": "2026-09-26T08:21:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3574,9 +3628,9 @@
       "arxiv"
     ]
   },
-  "2609.27621v1": {
-    "title": "SHRAV: State-Hypothesis-Reason-Action-Verify Framework for Physical Modeling and Inverse Design",
-    "evaluated_at": "2026-09-25T08:15:01",
+  "2609.28927v1": {
+    "title": "Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation",
+    "evaluated_at": "2026-09-26T08:21:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
