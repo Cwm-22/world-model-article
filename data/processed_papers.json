@@ -3534,7 +3534,7 @@
   },
   "2609.30198v1": {
     "title": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
-    "evaluated_at": "2026-09-26T08:21:08",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3546,11 +3546,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-27T08:13:17",
+    "pushed_post": "2026-09-27_top3_推文.md"
   },
   "2609.30036v1": {
     "title": "Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think",
-    "evaluated_at": "2026-09-26T08:21:08",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3562,11 +3564,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-27T08:13:17",
+    "pushed_post": "2026-09-27_top3_推文.md"
   },
   "2609.29171v1": {
     "title": "Representation World Model: Learning States, Transition and Executable Plans in Representation",
-    "evaluated_at": "2026-09-26T08:21:08",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3578,11 +3582,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-09-27T08:13:17",
+    "pushed_post": "2026-09-27_top3_推文.md"
   },
   "2609.29092v1": {
     "title": "DAWN: Noise-Robust Quadruped Parkour via Depth-Denoising World Models",
-    "evaluated_at": "2026-09-26T08:21:08",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3598,7 +3604,7 @@
   },
   "2609.28969v1": {
     "title": "Sim-to-Real Aware End-to-End Learning Environment for Micromobility",
-    "evaluated_at": "2026-09-26T08:21:09",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3614,7 +3620,7 @@
   },
   "2609.28931v1": {
     "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
-    "evaluated_at": "2026-09-26T08:21:09",
+    "evaluated_at": "2026-09-27T08:12:58",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3630,7 +3636,55 @@
   },
   "2609.28927v1": {
     "title": "Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation",
-    "evaluated_at": "2026-09-26T08:21:10",
+    "evaluated_at": "2026-09-27T08:12:58",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.28670v1": {
+    "title": "Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies",
+    "evaluated_at": "2026-09-27T08:12:58",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.28654v1": {
+    "title": "Training Object Permanence in World Models",
+    "evaluated_at": "2026-09-27T08:12:58",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2609.28393v1": {
+    "title": "PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",
+    "evaluated_at": "2026-09-27T08:12:59",
     "score": 0,
     "scores": {
       "method_innovation": 0,
