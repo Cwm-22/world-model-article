@@ -3640,9 +3640,63 @@
     "pushed_at": "2026-09-28T08:17:17",
     "pushed_post": "2026-09-28_top3_推文.md"
   },
-  "2609.28927v1": {
-    "title": "Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32837v1": {
+    "title": "Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation",
+    "evaluated_at": "2026-09-29T09:26:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-29T09:26:57",
+    "pushed_post": "2026-09-29_top3_推文.md"
+  },
+  "2609.32761v1": {
+    "title": "From Feed-Forward to Flow: Unifying Reconstruction and Generation Is Easier Than You Think",
+    "evaluated_at": "2026-09-29T09:26:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-29T09:26:57",
+    "pushed_post": "2026-09-29_top3_推文.md"
+  },
+  "2609.32692v1": {
+    "title": "World Agent: Can Language Models Keep a World Running?",
+    "evaluated_at": "2026-09-29T09:26:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-09-29T09:26:57",
+    "pushed_post": "2026-09-29_top3_推文.md"
+  },
+  "2609.32679v1": {
+    "title": "The GUI Is Not the State: Diagnosing State Aliasing in GUI World Models",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3656,9 +3710,9 @@
       "arxiv"
     ]
   },
-  "2609.28670v1": {
-    "title": "Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32657v1": {
+    "title": "World Models with Predictable Long-Horizon Marginals",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3672,9 +3726,9 @@
       "arxiv"
     ]
   },
-  "2609.28654v1": {
-    "title": "Training Object Permanence in World Models",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32626v1": {
+    "title": "World SLAM Model: Joint World Modeling for SLAM and Navigation",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3688,9 +3742,9 @@
       "arxiv"
     ]
   },
-  "2609.28393v1": {
-    "title": "PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32591v1": {
+    "title": "Think Fast, Plan Selectively: Adaptive Deliberation for Efficient Data-Driven MPC",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3704,9 +3758,9 @@
       "arxiv"
     ]
   },
-  "2609.28258v1": {
-    "title": "Generalizable Robotic Insertion with World Models",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32512v1": {
+    "title": "What Do Latent Predictive Vehicle Representations Retain? Measuring State, Geometry, and Local Response",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3720,9 +3774,9 @@
       "arxiv"
     ]
   },
-  "2609.28099v1": {
-    "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
-    "evaluated_at": "2026-09-28T08:17:08",
+  "2609.32460v1": {
+    "title": "REMEDY: How Far Is Video Generation from Medical Education World Models?",
+    "evaluated_at": "2026-09-29T09:26:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3736,9 +3790,9 @@
       "arxiv"
     ]
   },
-  "2609.28064v1": {
-    "title": "SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference",
-    "evaluated_at": "2026-09-28T08:17:10",
+  "2609.32456v1": {
+    "title": "Seeing Parts, Reasoning about Worlds: Visual Inference under Partial Observation",
+    "evaluated_at": "2026-09-29T09:26:49",
     "score": 0,
     "scores": {
       "method_innovation": 0,
