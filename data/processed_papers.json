@@ -3801,5 +3801,171 @@
     ],
     "pushed_at": "2026-10-03T08:54:35",
     "pushed_post": "2026-10-03_top3_推文.md"
+  },
+  "2610.08033v1": {
+    "title": "Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-07T09:15:35",
+    "pushed_post": "2026-10-07_top3_推文.md"
+  },
+  "2610.07949v1": {
+    "title": "Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-07T09:15:35",
+    "pushed_post": "2026-10-07_top3_推文.md"
+  },
+  "2610.07922v1": {
+    "title": "OpenWAM: An Open Framework for Composable World-Action Models",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-07T09:15:35",
+    "pushed_post": "2026-10-07_top3_推文.md"
+  },
+  "2610.07704v1": {
+    "title": "Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07599v1": {
+    "title": "Modeling Latent Disturbances for Robust Decision-Making in World Models",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07540v1": {
+    "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07383v1": {
+    "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07381v1": {
+    "title": "GeoWM: Efficient Direct World Modeling in Explicit Geometry",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07376v1": {
+    "title": "MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments",
+    "evaluated_at": "2026-10-07T09:14:53",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.07355v1": {
+    "title": "Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object",
+    "evaluated_at": "2026-10-07T09:14:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
   }
 }
