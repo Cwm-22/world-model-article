@@ -3856,9 +3856,63 @@
     "pushed_at": "2026-10-07T09:15:35",
     "pushed_post": "2026-10-07_top3_推文.md"
   },
-  "2610.07704v1": {
-    "title": "Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09940v1": {
+    "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
+    "evaluated_at": "2026-10-08T09:32:49",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-08T09:32:52",
+    "pushed_post": "2026-10-08_top3_推文.md"
+  },
+  "2610.09785v1": {
+    "title": "UltraWorld: Learning Interactive Ultrasound World Models from Untracked Clinical Videos with Acoustic Sampling Map",
+    "evaluated_at": "2026-10-08T09:32:49",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-08T09:32:52",
+    "pushed_post": "2026-10-08_top3_推文.md"
+  },
+  "2610.09763v1": {
+    "title": "Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving",
+    "evaluated_at": "2026-10-08T09:32:49",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-08T09:32:52",
+    "pushed_post": "2026-10-08_top3_推文.md"
+  },
+  "2610.09759v1": {
+    "title": "Unrolled Flow Models for Reasoning",
+    "evaluated_at": "2026-10-08T09:32:49",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3872,9 +3926,9 @@
       "arxiv"
     ]
   },
-  "2610.07599v1": {
-    "title": "Modeling Latent Disturbances for Robust Decision-Making in World Models",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09734v1": {
+    "title": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
+    "evaluated_at": "2026-10-08T09:32:49",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3888,9 +3942,9 @@
       "arxiv"
     ]
   },
-  "2610.07540v1": {
-    "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09514v1": {
+    "title": "STRIKE: Learning Visual State Transitions for Physical World Modeling",
+    "evaluated_at": "2026-10-08T09:32:49",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3904,9 +3958,9 @@
       "arxiv"
     ]
   },
-  "2610.07383v1": {
-    "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09462v1": {
+    "title": "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks",
+    "evaluated_at": "2026-10-08T09:32:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3920,9 +3974,9 @@
       "arxiv"
     ]
   },
-  "2610.07381v1": {
-    "title": "GeoWM: Efficient Direct World Modeling in Explicit Geometry",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09457v1": {
+    "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
+    "evaluated_at": "2026-10-08T09:32:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3936,9 +3990,9 @@
       "arxiv"
     ]
   },
-  "2610.07376v1": {
-    "title": "MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments",
-    "evaluated_at": "2026-10-07T09:14:53",
+  "2610.09438v1": {
+    "title": "Controllable Crowd Generation through World-Model Planning",
+    "evaluated_at": "2026-10-08T09:32:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3952,9 +4006,9 @@
       "arxiv"
     ]
   },
-  "2610.07355v1": {
-    "title": "Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object",
-    "evaluated_at": "2026-10-07T09:14:55",
+  "2610.09335v1": {
+    "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+    "evaluated_at": "2026-10-08T09:32:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
