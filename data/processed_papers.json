@@ -3910,9 +3910,63 @@
     "pushed_at": "2026-10-08T09:32:52",
     "pushed_post": "2026-10-08_top3_推文.md"
   },
-  "2610.09759v1": {
-    "title": "Unrolled Flow Models for Reasoning",
-    "evaluated_at": "2026-10-08T09:32:49",
+  "2610.11617v1": {
+    "title": "TAM: Task-Aware Memory Distillation for Efficient Spatiotemporal Prediction",
+    "evaluated_at": "2026-10-09T09:43:26",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-09T09:43:28",
+    "pushed_post": "2026-10-09_top3_推文.md"
+  },
+  "2610.11591v1": {
+    "title": "Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception",
+    "evaluated_at": "2026-10-09T09:43:26",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-09T09:43:28",
+    "pushed_post": "2026-10-09_top3_推文.md"
+  },
+  "2610.11552v1": {
+    "title": "Safe, Persistent, and Evolving Agent Harness for Understanding Partially Observable Worlds",
+    "evaluated_at": "2026-10-09T09:43:26",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-09T09:43:28",
+    "pushed_post": "2026-10-09_top3_推文.md"
+  },
+  "2610.11527v1": {
+    "title": "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3926,9 +3980,9 @@
       "arxiv"
     ]
   },
-  "2610.09734v1": {
-    "title": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
-    "evaluated_at": "2026-10-08T09:32:49",
+  "2610.11444v1": {
+    "title": "Learning to Retrieve: Internalizing Memory Retrieval for Video World Models",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3942,9 +3996,9 @@
       "arxiv"
     ]
   },
-  "2610.09514v1": {
-    "title": "STRIKE: Learning Visual State Transitions for Physical World Modeling",
-    "evaluated_at": "2026-10-08T09:32:49",
+  "2610.11416v1": {
+    "title": "Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3958,9 +4012,9 @@
       "arxiv"
     ]
   },
-  "2610.09462v1": {
-    "title": "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks",
-    "evaluated_at": "2026-10-08T09:32:50",
+  "2610.11384v1": {
+    "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3974,9 +4028,9 @@
       "arxiv"
     ]
   },
-  "2610.09457v1": {
-    "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
-    "evaluated_at": "2026-10-08T09:32:50",
+  "2610.11382v1": {
+    "title": "PlanWAM: Planning-Shaped Future Representations for End-to-End Autonomous Driving",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3990,9 +4044,9 @@
       "arxiv"
     ]
   },
-  "2610.09438v1": {
-    "title": "Controllable Crowd Generation through World-Model Planning",
-    "evaluated_at": "2026-10-08T09:32:50",
+  "2610.11376v1": {
+    "title": "CRISP: Fixing Flying Pixels in Latent LiDAR Generation via Diffusion Decoding",
+    "evaluated_at": "2026-10-09T09:43:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4006,9 +4060,9 @@
       "arxiv"
     ]
   },
-  "2610.09335v1": {
-    "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
-    "evaluated_at": "2026-10-08T09:32:51",
+  "2610.11253v1": {
+    "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+    "evaluated_at": "2026-10-09T09:43:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
