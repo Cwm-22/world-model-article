@@ -3964,9 +3964,63 @@
     "pushed_at": "2026-10-09T09:43:28",
     "pushed_post": "2026-10-09_top3_推文.md"
   },
-  "2610.11527v1": {
-    "title": "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12468v1": {
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "evaluated_at": "2026-10-10T09:29:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-10T09:29:26",
+    "pushed_post": "2026-10-10_top3_推文.md"
+  },
+  "2610.12464v1": {
+    "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+    "evaluated_at": "2026-10-10T09:29:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-10T09:29:26",
+    "pushed_post": "2026-10-10_top3_推文.md"
+  },
+  "2610.12461v1": {
+    "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+    "evaluated_at": "2026-10-10T09:29:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-10T09:29:26",
+    "pushed_post": "2026-10-10_top3_推文.md"
+  },
+  "2610.12459v1": {
+    "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3980,9 +4034,9 @@
       "arxiv"
     ]
   },
-  "2610.11444v1": {
-    "title": "Learning to Retrieve: Internalizing Memory Retrieval for Video World Models",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12417v1": {
+    "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -3996,9 +4050,9 @@
       "arxiv"
     ]
   },
-  "2610.11416v1": {
-    "title": "Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12412v1": {
+    "title": "WorldCast: Distributed Multiplayer World Models",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4012,9 +4066,9 @@
       "arxiv"
     ]
   },
-  "2610.11384v1": {
-    "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12407v1": {
+    "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4028,9 +4082,9 @@
       "arxiv"
     ]
   },
-  "2610.11382v1": {
-    "title": "PlanWAM: Planning-Shaped Future Representations for End-to-End Autonomous Driving",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12382v1": {
+    "title": "WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4044,9 +4098,9 @@
       "arxiv"
     ]
   },
-  "2610.11376v1": {
-    "title": "CRISP: Fixing Flying Pixels in Latent LiDAR Generation via Diffusion Decoding",
-    "evaluated_at": "2026-10-09T09:43:26",
+  "2610.12374v1": {
+    "title": "AgentGarten: Code Worlds for Evolving Agents",
+    "evaluated_at": "2026-10-10T09:29:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4060,9 +4114,9 @@
       "arxiv"
     ]
   },
-  "2610.11253v1": {
-    "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
-    "evaluated_at": "2026-10-09T09:43:28",
+  "2610.12368v1": {
+    "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
+    "evaluated_at": "2026-10-10T09:29:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
