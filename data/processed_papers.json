@@ -4020,7 +4020,7 @@
   },
   "2610.12459v1": {
     "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4032,11 +4032,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-11T08:39:47",
+    "pushed_post": "2026-10-11_top3_推文.md"
   },
   "2610.12417v1": {
     "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4048,11 +4050,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-11T08:39:47",
+    "pushed_post": "2026-10-11_top3_推文.md"
   },
   "2610.12412v1": {
     "title": "WorldCast: Distributed Multiplayer World Models",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4064,11 +4068,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-11T08:39:47",
+    "pushed_post": "2026-10-11_top3_推文.md"
   },
   "2610.12407v1": {
     "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4084,7 +4090,7 @@
   },
   "2610.12382v1": {
     "title": "WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4100,7 +4106,7 @@
   },
   "2610.12374v1": {
     "title": "AgentGarten: Code Worlds for Evolving Agents",
-    "evaluated_at": "2026-10-10T09:29:23",
+    "evaluated_at": "2026-10-11T08:39:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4116,7 +4122,55 @@
   },
   "2610.12368v1": {
     "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
-    "evaluated_at": "2026-10-10T09:29:25",
+    "evaluated_at": "2026-10-11T08:39:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.12333v1": {
+    "title": "RiCo: Neural Simulation of Rigid-Body Interactions via Local Contact Reasoning",
+    "evaluated_at": "2026-10-11T08:39:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.12299v1": {
+    "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+    "evaluated_at": "2026-10-11T08:39:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.12285v1": {
+    "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+    "evaluated_at": "2026-10-11T08:39:32",
     "score": 0,
     "scores": {
       "method_innovation": 0,
