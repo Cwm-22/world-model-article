@@ -4126,9 +4126,63 @@
     "pushed_at": "2026-10-12T08:56:24",
     "pushed_post": "2026-10-12_top3_推文.md"
   },
-  "2610.12368v1": {
-    "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13823v1": {
+    "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+    "evaluated_at": "2026-10-13T10:49:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-13T10:49:32",
+    "pushed_post": "2026-10-13_top3_推文.md"
+  },
+  "2610.13816v1": {
+    "title": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+    "evaluated_at": "2026-10-13T10:49:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-13T10:49:32",
+    "pushed_post": "2026-10-13_top3_推文.md"
+  },
+  "2610.13781v1": {
+    "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+    "evaluated_at": "2026-10-13T10:49:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-13T10:49:32",
+    "pushed_post": "2026-10-13_top3_推文.md"
+  },
+  "2610.13706v1": {
+    "title": "GLIMPSE: Global-Local Indexing with Multi-Precision Spectral Encoding for Explorable Video World Models",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4142,9 +4196,9 @@
       "arxiv"
     ]
   },
-  "2610.12333v1": {
-    "title": "RiCo: Neural Simulation of Rigid-Body Interactions via Local Contact Reasoning",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13614v1": {
+    "title": "Some remarks on the connection between generative diffusion and optimal transport",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4158,9 +4212,9 @@
       "arxiv"
     ]
   },
-  "2610.12299v1": {
-    "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13522v1": {
+    "title": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4174,9 +4228,9 @@
       "arxiv"
     ]
   },
-  "2610.12285v1": {
-    "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13504v1": {
+    "title": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4190,9 +4244,9 @@
       "arxiv"
     ]
   },
-  "2610.12194v1": {
-    "title": "MiniWAM: Learning Compact Future Targets for Efficient World-Action Modeling",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13438v1": {
+    "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4206,9 +4260,9 @@
       "arxiv"
     ]
   },
-  "2610.12026v1": {
-    "title": "Humanoid World Action Model With Joint State--Action Generation",
-    "evaluated_at": "2026-10-12T08:56:22",
+  "2610.13409v1": {
+    "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+    "evaluated_at": "2026-10-13T10:49:30",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4222,9 +4276,9 @@
       "arxiv"
     ]
   },
-  "2610.12016v1": {
-    "title": "CausalDreamer: Learning Predictive World Models with Latent Disentanglement",
-    "evaluated_at": "2026-10-12T08:56:24",
+  "2610.13217v1": {
+    "title": "Golden Anchor for Video Generation",
+    "evaluated_at": "2026-10-13T10:49:31",
     "score": 0,
     "scores": {
       "method_innovation": 0,
