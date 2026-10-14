@@ -4182,7 +4182,7 @@
   },
   "2610.13706v1": {
     "title": "GLIMPSE: Global-Local Indexing with Multi-Precision Spectral Encoding for Explorable Video World Models",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4194,11 +4194,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-14T08:50:32",
+    "pushed_post": "2026-10-14_top3_推文.md"
   },
   "2610.13614v1": {
     "title": "Some remarks on the connection between generative diffusion and optimal transport",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4210,11 +4212,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-14T08:50:32",
+    "pushed_post": "2026-10-14_top3_推文.md"
   },
   "2610.13522v1": {
     "title": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4226,11 +4230,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-14T08:50:32",
+    "pushed_post": "2026-10-14_top3_推文.md"
   },
   "2610.13504v1": {
     "title": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4246,7 +4252,7 @@
   },
   "2610.13438v1": {
     "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4262,7 +4268,7 @@
   },
   "2610.13409v1": {
     "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
-    "evaluated_at": "2026-10-13T10:49:30",
+    "evaluated_at": "2026-10-14T08:50:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4278,7 +4284,55 @@
   },
   "2610.13217v1": {
     "title": "Golden Anchor for Video Generation",
-    "evaluated_at": "2026-10-13T10:49:31",
+    "evaluated_at": "2026-10-14T08:50:29",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.13194v1": {
+    "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+    "evaluated_at": "2026-10-14T08:50:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.13172v1": {
+    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+    "evaluated_at": "2026-10-14T08:50:30",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.13164v1": {
+    "title": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
+    "evaluated_at": "2026-10-14T08:50:31",
     "score": 0,
     "scores": {
       "method_innovation": 0,
