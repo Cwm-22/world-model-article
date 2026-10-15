@@ -4234,9 +4234,63 @@
     "pushed_at": "2026-10-14T08:50:32",
     "pushed_post": "2026-10-14_top3_推文.md"
   },
-  "2610.13504v1": {
-    "title": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning",
-    "evaluated_at": "2026-10-14T08:50:29",
+  "2610.18873v1": {
+    "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+    "evaluated_at": "2026-10-15T08:16:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-15T08:16:25",
+    "pushed_post": "2026-10-15_top3_推文.md"
+  },
+  "2610.18852v1": {
+    "title": "ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation",
+    "evaluated_at": "2026-10-15T08:16:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-15T08:16:25",
+    "pushed_post": "2026-10-15_top3_推文.md"
+  },
+  "2610.18826v1": {
+    "title": "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions",
+    "evaluated_at": "2026-10-15T08:16:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-15T08:16:25",
+    "pushed_post": "2026-10-15_top3_推文.md"
+  },
+  "2610.18779v1": {
+    "title": "GAD: Geometry Attention Distillation for Consistent Video Generation",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4250,9 +4304,9 @@
       "arxiv"
     ]
   },
-  "2610.13438v1": {
-    "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-    "evaluated_at": "2026-10-14T08:50:29",
+  "2610.18774v1": {
+    "title": "GreenWAM: A World Foundation Model for Robotics",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4266,9 +4320,9 @@
       "arxiv"
     ]
   },
-  "2610.13409v1": {
-    "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
-    "evaluated_at": "2026-10-14T08:50:29",
+  "2610.18699v1": {
+    "title": "RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4282,9 +4336,9 @@
       "arxiv"
     ]
   },
-  "2610.13217v1": {
-    "title": "Golden Anchor for Video Generation",
-    "evaluated_at": "2026-10-14T08:50:29",
+  "2610.18697v1": {
+    "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4298,9 +4352,9 @@
       "arxiv"
     ]
   },
-  "2610.13194v1": {
-    "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
-    "evaluated_at": "2026-10-14T08:50:30",
+  "2610.18650v1": {
+    "title": "ForkCast: Predictive Recovery for Vision-Language-Action Policies via Counterfactual Futures",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4314,9 +4368,9 @@
       "arxiv"
     ]
   },
-  "2610.13172v1": {
-    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
-    "evaluated_at": "2026-10-14T08:50:30",
+  "2610.18645v1": {
+    "title": "ST-GRU PredRNN-V2: A GRU-Based Reformulation of PredRNN-V2 for Video Prediction",
+    "evaluated_at": "2026-10-15T08:16:23",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4330,9 +4384,9 @@
       "arxiv"
     ]
   },
-  "2610.13164v1": {
-    "title": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
-    "evaluated_at": "2026-10-14T08:50:31",
+  "2610.18637v1": {
+    "title": "Grid or Nodes? Probing Object Memory in World Models Under Partial Observability",
+    "evaluated_at": "2026-10-15T08:16:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
