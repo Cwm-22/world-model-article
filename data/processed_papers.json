@@ -4344,7 +4344,7 @@
   },
   "2610.22340v1": {
     "title": "Dexterity from Supervised Play",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4356,11 +4356,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-18T07:43:45",
+    "pushed_post": "2026-10-18_top3_推文.md"
   },
   "2610.22311v1": {
     "title": "Velox: Spatial Memory Makes World Models Efficient",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4372,11 +4374,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-18T07:43:45",
+    "pushed_post": "2026-10-18_top3_推文.md"
   },
   "2610.22041v1": {
     "title": "Plans Are Not Executions: Adapting Frozen World-Model Planners to Controller-Induced Execution Shift",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4388,11 +4392,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-18T07:43:45",
+    "pushed_post": "2026-10-18_top3_推文.md"
   },
   "2610.21985v1": {
     "title": "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4408,7 +4414,7 @@
   },
   "2610.21922v1": {
     "title": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4424,7 +4430,7 @@
   },
   "2610.21910v1": {
     "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
-    "evaluated_at": "2026-10-17T08:09:57",
+    "evaluated_at": "2026-10-18T07:43:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4440,7 +4446,55 @@
   },
   "2610.21795v1": {
     "title": "Single-stage joint diffusion of sky images and clear-sky index for ultra-short-term irradiance forecasting: what the frame-to-irradiance stage discards",
-    "evaluated_at": "2026-10-17T08:09:58",
+    "evaluated_at": "2026-10-18T07:43:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21686v1": {
+    "title": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models",
+    "evaluated_at": "2026-10-18T07:43:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21668v1": {
+    "title": "Edit4D: Editable 4D Scene Generation with Textual Control",
+    "evaluated_at": "2026-10-18T07:43:37",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21612v1": {
+    "title": "Learning Intrinsic Dynamics in Latent World Models",
+    "evaluated_at": "2026-10-18T07:43:38",
     "score": 0,
     "scores": {
       "method_innovation": 0,
