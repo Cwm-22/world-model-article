@@ -4398,7 +4398,7 @@
   },
   "2610.21985v1": {
     "title": "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4410,11 +4410,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-19T07:53:53",
+    "pushed_post": "2026-10-19_top3_推文.md"
   },
   "2610.21922v1": {
     "title": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4426,11 +4428,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-19T07:53:53",
+    "pushed_post": "2026-10-19_top3_推文.md"
   },
   "2610.21910v1": {
     "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4442,11 +4446,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-19T07:53:53",
+    "pushed_post": "2026-10-19_top3_推文.md"
   },
   "2610.21795v1": {
     "title": "Single-stage joint diffusion of sky images and clear-sky index for ultra-short-term irradiance forecasting: what the frame-to-irradiance stage discards",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4462,7 +4468,7 @@
   },
   "2610.21686v1": {
     "title": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4478,7 +4484,7 @@
   },
   "2610.21668v1": {
     "title": "Edit4D: Editable 4D Scene Generation with Textual Control",
-    "evaluated_at": "2026-10-18T07:43:37",
+    "evaluated_at": "2026-10-19T07:53:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4494,7 +4500,55 @@
   },
   "2610.21612v1": {
     "title": "Learning Intrinsic Dynamics in Latent World Models",
-    "evaluated_at": "2026-10-18T07:43:38",
+    "evaluated_at": "2026-10-19T07:53:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21434v1": {
+    "title": "Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution",
+    "evaluated_at": "2026-10-19T07:53:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21374v1": {
+    "title": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion",
+    "evaluated_at": "2026-10-19T07:53:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.21370v1": {
+    "title": "Same Target, Different Origins: Aligning Latent Rollout for Consistent PDE Emulation",
+    "evaluated_at": "2026-10-19T07:53:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
