@@ -4558,9 +4558,63 @@
     "pushed_at": "2026-10-21T08:22:21",
     "pushed_post": "2026-10-21_top3_推文.md"
   },
-  "2610.26828v1": {
-    "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28631v1": {
+    "title": "AEON: Unifying Video and 3D World Models",
+    "evaluated_at": "2026-10-22T08:25:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-22T08:25:11",
+    "pushed_post": "2026-10-22_top3_推文.md"
+  },
+  "2610.28613v1": {
+    "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+    "evaluated_at": "2026-10-22T08:25:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-22T08:25:11",
+    "pushed_post": "2026-10-22_top3_推文.md"
+  },
+  "2610.28594v1": {
+    "title": "Learning the 4D World through Point Trajectory Forecasting",
+    "evaluated_at": "2026-10-22T08:25:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-22T08:25:11",
+    "pushed_post": "2026-10-22_top3_推文.md"
+  },
+  "2610.28555v1": {
+    "title": "Learning Computational Structure for Sample-Efficient Prediction",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4574,9 +4628,9 @@
       "arxiv"
     ]
   },
-  "2610.26816v1": {
-    "title": "Real-Time Radar Semantic and Panoptic Scene Understanding",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28554v1": {
+    "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4590,9 +4644,9 @@
       "arxiv"
     ]
   },
-  "2610.26813v1": {
-    "title": "PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28483v1": {
+    "title": "Exploring Temporal Context-Aware Physical Grounding in Latent World Models",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4606,9 +4660,9 @@
       "arxiv"
     ]
   },
-  "2610.26811v1": {
-    "title": "State World Models: Execute the Rules, Generate the Pixels",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28164v1": {
+    "title": "From Predictive Geometry to Action: Learning Complementary Predictive Representations for Embodied Manipulation",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4622,9 +4676,9 @@
       "arxiv"
     ]
   },
-  "2610.26757v1": {
-    "title": "Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28090v1": {
+    "title": "From Complex Histories to Simple Predictors: Predictive Dimension in Dynamic Graph Learning",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4638,9 +4692,9 @@
       "arxiv"
     ]
   },
-  "2610.26711v1": {
-    "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
-    "evaluated_at": "2026-10-21T08:22:15",
+  "2610.28086v1": {
+    "title": "MoDDiT: Simple Token Routing in Diffusion Transformers",
+    "evaluated_at": "2026-10-22T08:25:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4654,9 +4708,9 @@
       "arxiv"
     ]
   },
-  "2610.26564v1": {
-    "title": "PrismWAM: Decoupling State Representations in World Action Models",
-    "evaluated_at": "2026-10-21T08:22:16",
+  "2610.28074v1": {
+    "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
+    "evaluated_at": "2026-10-22T08:25:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
