@@ -4612,9 +4612,63 @@
     "pushed_at": "2026-10-22T08:25:11",
     "pushed_post": "2026-10-22_top3_推文.md"
   },
-  "2610.28555v1": {
-    "title": "Learning Computational Structure for Sample-Efficient Prediction",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.30136v1": {
+    "title": "Agentic World Action Models",
+    "evaluated_at": "2026-10-23T08:45:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-23T08:45:55",
+    "pushed_post": "2026-10-23_top3_推文.md"
+  },
+  "2610.30129v1": {
+    "title": "Rethinking Video Autoencoders for Interactive World Models",
+    "evaluated_at": "2026-10-23T08:45:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-23T08:45:55",
+    "pushed_post": "2026-10-23_top3_推文.md"
+  },
+  "2610.30125v1": {
+    "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+    "evaluated_at": "2026-10-23T08:45:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-23T08:45:55",
+    "pushed_post": "2026-10-23_top3_推文.md"
+  },
+  "2610.30120v1": {
+    "title": "ALPS: Visual State Encoders for World Models",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4628,9 +4682,9 @@
       "arxiv"
     ]
   },
-  "2610.28554v1": {
-    "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.30116v1": {
+    "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4644,9 +4698,9 @@
       "arxiv"
     ]
   },
-  "2610.28483v1": {
-    "title": "Exploring Temporal Context-Aware Physical Grounding in Latent World Models",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.29989v1": {
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4660,9 +4714,9 @@
       "arxiv"
     ]
   },
-  "2610.28164v1": {
-    "title": "From Predictive Geometry to Action: Learning Complementary Predictive Representations for Embodied Manipulation",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.29435v1": {
+    "title": "Events, Not Pixels: Where World Models Get the Return Wrong",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4676,9 +4730,9 @@
       "arxiv"
     ]
   },
-  "2610.28090v1": {
-    "title": "From Complex Histories to Simple Predictors: Predictive Dimension in Dynamic Graph Learning",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.29408v1": {
+    "title": "LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4692,9 +4746,9 @@
       "arxiv"
     ]
   },
-  "2610.28086v1": {
-    "title": "MoDDiT: Simple Token Routing in Diffusion Transformers",
-    "evaluated_at": "2026-10-22T08:25:09",
+  "2610.29308v1": {
+    "title": "LLM-Based Exogenous World Modeling for Dynamic Scheduling",
+    "evaluated_at": "2026-10-23T08:45:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4708,9 +4762,9 @@
       "arxiv"
     ]
   },
-  "2610.28074v1": {
-    "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
-    "evaluated_at": "2026-10-22T08:25:10",
+  "2610.29246v1": {
+    "title": "DepState-JEPA: Learning Depth-Grounded State Representation for Visual Perception and Manipulation",
+    "evaluated_at": "2026-10-23T08:45:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
