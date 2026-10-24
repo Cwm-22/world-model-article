@@ -4722,7 +4722,7 @@
   },
   "2610.31474v1": {
     "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4734,11 +4734,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-25T07:58:59",
+    "pushed_post": "2026-10-25_top3_推文.md"
   },
   "2610.31194v1": {
     "title": "Inside-JEPA: From Prediction to Relational Grounding in Latent World Models",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4750,11 +4752,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-25T07:58:59",
+    "pushed_post": "2026-10-25_top3_推文.md"
   },
   "2610.31066v1": {
     "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4766,11 +4770,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-25T07:58:59",
+    "pushed_post": "2026-10-25_top3_推文.md"
   },
   "2610.30988v1": {
     "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4786,7 +4792,7 @@
   },
   "2610.30814v1": {
     "title": "DRILL: Training World Models to Improve Policies, Not Predict Pixels",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4802,7 +4808,7 @@
   },
   "2610.30810v1": {
     "title": "Adaptive Aerial Loco-Manipulation Policy Learning via LLM-Assisted Proactive Task Generation",
-    "evaluated_at": "2026-10-24T08:20:04",
+    "evaluated_at": "2026-10-25T07:58:43",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4818,7 +4824,55 @@
   },
   "2610.30789v1": {
     "title": "An Introduction to World Models for Generalist Agents",
-    "evaluated_at": "2026-10-24T08:20:06",
+    "evaluated_at": "2026-10-25T07:58:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30781v1": {
+    "title": "DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models",
+    "evaluated_at": "2026-10-25T07:58:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30724v1": {
+    "title": "Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning",
+    "evaluated_at": "2026-10-25T07:58:43",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30657v1": {
+    "title": "Anticipating Social Consequences with Distributional World Models",
+    "evaluated_at": "2026-10-25T07:58:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
