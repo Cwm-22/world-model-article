@@ -4776,7 +4776,7 @@
   },
   "2610.30988v1": {
     "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4788,11 +4788,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-26T07:56:18",
+    "pushed_post": "2026-10-26_top3_推文.md"
   },
   "2610.30814v1": {
     "title": "DRILL: Training World Models to Improve Policies, Not Predict Pixels",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4804,11 +4806,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-26T07:56:18",
+    "pushed_post": "2026-10-26_top3_推文.md"
   },
   "2610.30810v1": {
     "title": "Adaptive Aerial Loco-Manipulation Policy Learning via LLM-Assisted Proactive Task Generation",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4820,11 +4824,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-10-26T07:56:18",
+    "pushed_post": "2026-10-26_top3_推文.md"
   },
   "2610.30789v1": {
     "title": "An Introduction to World Models for Generalist Agents",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4840,7 +4846,7 @@
   },
   "2610.30781v1": {
     "title": "DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4856,7 +4862,7 @@
   },
   "2610.30724v1": {
     "title": "Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning",
-    "evaluated_at": "2026-10-25T07:58:43",
+    "evaluated_at": "2026-10-26T07:56:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4872,7 +4878,56 @@
   },
   "2610.30657v1": {
     "title": "Anticipating Social Consequences with Distributional World Models",
-    "evaluated_at": "2026-10-25T07:58:44",
+    "evaluated_at": "2026-10-26T07:56:02",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30606v1": {
+    "title": "CMAR-search: Commonsense and Memory Augmented Reasoning for Object Search in Dynamic Interactive Environments",
+    "evaluated_at": "2026-10-26T07:56:02",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30519v1": {
+    "title": "Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis",
+    "evaluated_at": "2026-10-26T07:56:02",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.30488v1": {
+    "title": "From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?",
+    "evaluated_at": "2026-10-26T07:56:03",
     "score": 0,
     "scores": {
       "method_innovation": 0,
