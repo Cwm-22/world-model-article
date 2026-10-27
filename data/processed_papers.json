@@ -4828,9 +4828,63 @@
     "pushed_at": "2026-10-26T07:56:18",
     "pushed_post": "2026-10-26_top3_推文.md"
   },
-  "2610.30789v1": {
-    "title": "An Introduction to World Models for Generalist Agents",
-    "evaluated_at": "2026-10-26T07:56:02",
+  "2610.33941v1": {
+    "title": "TurboWAM: Learning What Matters for Fast World Action Models",
+    "evaluated_at": "2026-10-27T09:04:39",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-27T09:04:43",
+    "pushed_post": "2026-10-27_top3_推文.md"
+  },
+  "2610.33894v1": {
+    "title": "WMEval: Evaluating Interactive World Models Grounded on Physical Simulations",
+    "evaluated_at": "2026-10-27T09:04:39",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-27T09:04:43",
+    "pushed_post": "2026-10-27_top3_推文.md"
+  },
+  "2610.33807v1": {
+    "title": "RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models",
+    "evaluated_at": "2026-10-27T09:04:39",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-27T09:04:43",
+    "pushed_post": "2026-10-27_top3_推文.md"
+  },
+  "2610.33722v1": {
+    "title": "Latent dynamics for reconstructing fine-scale PDE trajectories from coarse observations",
+    "evaluated_at": "2026-10-27T09:04:39",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4844,9 +4898,9 @@
       "arxiv"
     ]
   },
-  "2610.30781v1": {
-    "title": "DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models",
-    "evaluated_at": "2026-10-26T07:56:02",
+  "2610.33589v1": {
+    "title": "Mix Forcing: Causal Pre-Training via Mixture Attention for Interactive World Models",
+    "evaluated_at": "2026-10-27T09:04:39",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4860,9 +4914,9 @@
       "arxiv"
     ]
   },
-  "2610.30724v1": {
-    "title": "Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning",
-    "evaluated_at": "2026-10-26T07:56:02",
+  "2610.33566v1": {
+    "title": "Distilling Dense Trajectory Teachers For Large-Motion Video World Models",
+    "evaluated_at": "2026-10-27T09:04:39",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4876,9 +4930,9 @@
       "arxiv"
     ]
   },
-  "2610.30657v1": {
-    "title": "Anticipating Social Consequences with Distributional World Models",
-    "evaluated_at": "2026-10-26T07:56:02",
+  "2610.33565v1": {
+    "title": "WorldFailBench: Do World Models Understand Policy Failures?",
+    "evaluated_at": "2026-10-27T09:04:39",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4892,26 +4946,9 @@
       "arxiv"
     ]
   },
-  "2610.30606v1": {
-    "title": "CMAR-search: Commonsense and Memory Augmented Reasoning for Object Search in Dynamic Interactive Environments",
-    "evaluated_at": "2026-10-26T07:56:02",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "venue": "IEEE International Conference on Robotics and Automation",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2610.30519v1": {
-    "title": "Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis",
-    "evaluated_at": "2026-10-26T07:56:02",
+  "2610.33169v1": {
+    "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+    "evaluated_at": "2026-10-27T09:04:39",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4925,9 +4962,25 @@
       "arxiv"
     ]
   },
-  "2610.30488v1": {
-    "title": "From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?",
-    "evaluated_at": "2026-10-26T07:56:03",
+  "2610.32977v1": {
+    "title": "UniAction: Unified Action Conditioning for World Models",
+    "evaluated_at": "2026-10-27T09:04:39",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.32965v1": {
+    "title": "RynnUnify: Towards Unified Embodied Brain",
+    "evaluated_at": "2026-10-27T09:04:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
