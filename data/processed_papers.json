@@ -4882,9 +4882,63 @@
     "pushed_at": "2026-10-27T09:04:43",
     "pushed_post": "2026-10-27_top3_推文.md"
   },
-  "2610.33722v1": {
-    "title": "Latent dynamics for reconstructing fine-scale PDE trajectories from coarse observations",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.35773v1": {
+    "title": "A Unified Arena for LLM Agents across Diverse Eurogame",
+    "evaluated_at": "2026-10-28T08:56:50",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-28T08:56:51",
+    "pushed_post": "2026-10-28_top3_推文.md"
+  },
+  "2610.35636v1": {
+    "title": "Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation",
+    "evaluated_at": "2026-10-28T08:56:50",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-28T08:56:51",
+    "pushed_post": "2026-10-28_top3_推文.md"
+  },
+  "2610.35529v1": {
+    "title": "WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU",
+    "evaluated_at": "2026-10-28T08:56:50",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-28T08:56:51",
+    "pushed_post": "2026-10-28_top3_推文.md"
+  },
+  "2610.35504v1": {
+    "title": "Model reduction in time: Learning flow maps for reducing stochastic dynamical systems in time",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4898,9 +4952,9 @@
       "arxiv"
     ]
   },
-  "2610.33589v1": {
-    "title": "Mix Forcing: Causal Pre-Training via Mixture Attention for Interactive World Models",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.35385v1": {
+    "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4914,9 +4968,9 @@
       "arxiv"
     ]
   },
-  "2610.33566v1": {
-    "title": "Distilling Dense Trajectory Teachers For Large-Motion Video World Models",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.35044v1": {
+    "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4930,9 +4984,9 @@
       "arxiv"
     ]
   },
-  "2610.33565v1": {
-    "title": "WorldFailBench: Do World Models Understand Policy Failures?",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.34921v1": {
+    "title": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4946,9 +5000,9 @@
       "arxiv"
     ]
   },
-  "2610.33169v1": {
-    "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.34833v1": {
+    "title": "Streaming Recurrent Memory",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4962,9 +5016,9 @@
       "arxiv"
     ]
   },
-  "2610.32977v1": {
-    "title": "UniAction: Unified Action Conditioning for World Models",
-    "evaluated_at": "2026-10-27T09:04:39",
+  "2610.34797v1": {
+    "title": "TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting",
+    "evaluated_at": "2026-10-28T08:56:50",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -4978,9 +5032,9 @@
       "arxiv"
     ]
   },
-  "2610.32965v1": {
-    "title": "RynnUnify: Towards Unified Embodied Brain",
-    "evaluated_at": "2026-10-27T09:04:40",
+  "2610.34663v1": {
+    "title": "Video World Models Need Predictable Latents",
+    "evaluated_at": "2026-10-28T08:56:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
