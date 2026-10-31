@@ -4989,5 +4989,171 @@
     ],
     "pushed_at": "2026-10-29T09:30:00",
     "pushed_post": "2026-10-29_top3_推文.md"
+  },
+  "2610.40637v1": {
+    "title": "world2vec: Mechanistic world models through latent dynamics learning",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-31T09:24:48",
+    "pushed_post": "2026-10-31_top3_推文.md"
+  },
+  "2610.40636v1": {
+    "title": "Probing Spatial State Representations in Visual Foundation Models",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-31T09:24:48",
+    "pushed_post": "2026-10-31_top3_推文.md"
+  },
+  "2610.40614v1": {
+    "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-10-31T09:24:48",
+    "pushed_post": "2026-10-31_top3_推文.md"
+  },
+  "2610.40607v1": {
+    "title": "Fight World Model: Customizable Combat through Visual Interaction Proxies",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40503v1": {
+    "title": "Algebraic World Model: From Exploration to Proofs",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40401v1": {
+    "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40373v1": {
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40356v1": {
+    "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40339v1": {
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "evaluated_at": "2026-10-31T09:24:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.40191v1": {
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "evaluated_at": "2026-10-31T09:24:47",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
   }
 }
