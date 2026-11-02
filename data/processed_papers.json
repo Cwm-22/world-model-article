@@ -5100,7 +5100,7 @@
   },
   "2610.40373v1": {
     "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5112,11 +5112,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-02T09:13:11",
+    "pushed_post": "2026-11-02_top3_推文.md"
   },
   "2610.40356v1": {
     "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5128,11 +5130,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-02T09:13:11",
+    "pushed_post": "2026-11-02_top3_推文.md"
   },
   "2610.40339v1": {
     "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5144,11 +5148,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-02T09:13:11",
+    "pushed_post": "2026-11-02_top3_推文.md"
   },
   "2610.40191v1": {
     "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5164,7 +5170,7 @@
   },
   "2610.40030v1": {
     "title": "Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5180,7 +5186,7 @@
   },
   "2610.39931v1": {
     "title": "Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows",
-    "evaluated_at": "2026-11-01T08:39:54",
+    "evaluated_at": "2026-11-02T09:12:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5196,7 +5202,55 @@
   },
   "2610.39812v1": {
     "title": "GROME: GROunding Factorized MEmory into Video World Models",
-    "evaluated_at": "2026-11-01T08:39:55",
+    "evaluated_at": "2026-11-02T09:12:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.39721v1": {
+    "title": "WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration",
+    "evaluated_at": "2026-11-02T09:12:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.39619v1": {
+    "title": "FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration",
+    "evaluated_at": "2026-11-02T09:12:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2610.39547v1": {
+    "title": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
+    "evaluated_at": "2026-11-02T09:12:56",
     "score": 0,
     "scores": {
       "method_innovation": 0,
