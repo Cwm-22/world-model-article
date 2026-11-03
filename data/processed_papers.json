@@ -5152,9 +5152,63 @@
     "pushed_at": "2026-11-02T09:13:11",
     "pushed_post": "2026-11-02_top3_推文.md"
   },
-  "2610.40191v1": {
-    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.01139v1": {
+    "title": "World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits",
+    "evaluated_at": "2026-11-03T11:16:52",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-03T11:17:08",
+    "pushed_post": "2026-11-03_top3_推文.md"
+  },
+  "2611.01039v1": {
+    "title": "pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model",
+    "evaluated_at": "2026-11-03T11:16:52",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-03T11:17:08",
+    "pushed_post": "2026-11-03_top3_推文.md"
+  },
+  "2611.01001v1": {
+    "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
+    "evaluated_at": "2026-11-03T11:16:52",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-03T11:17:08",
+    "pushed_post": "2026-11-03_top3_推文.md"
+  },
+  "2611.00951v1": {
+    "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5168,9 +5222,9 @@
       "arxiv"
     ]
   },
-  "2610.40030v1": {
-    "title": "Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.00758v1": {
+    "title": "Old Is Not False: Valid-Time Memory for Interactive Video World Models",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5184,9 +5238,9 @@
       "arxiv"
     ]
   },
-  "2610.39931v1": {
-    "title": "Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.00634v1": {
+    "title": "PREM: Prediction-Regulated Memory for Robot Manipulation",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5200,9 +5254,9 @@
       "arxiv"
     ]
   },
-  "2610.39812v1": {
-    "title": "GROME: GROunding Factorized MEmory into Video World Models",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.00612v1": {
+    "title": "Roz: A Taste Test for World Model Latents",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5216,9 +5270,9 @@
       "arxiv"
     ]
   },
-  "2610.39721v1": {
-    "title": "WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.00596v1": {
+    "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5232,9 +5286,9 @@
       "arxiv"
     ]
   },
-  "2610.39619v1": {
-    "title": "FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration",
-    "evaluated_at": "2026-11-02T09:12:55",
+  "2611.00513v1": {
+    "title": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
+    "evaluated_at": "2026-11-03T11:16:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5248,9 +5302,9 @@
       "arxiv"
     ]
   },
-  "2610.39547v1": {
-    "title": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
-    "evaluated_at": "2026-11-02T09:12:56",
+  "2611.00455v1": {
+    "title": "TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation",
+    "evaluated_at": "2026-11-03T11:16:53",
     "score": 0,
     "scores": {
       "method_innovation": 0,
