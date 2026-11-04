@@ -5206,9 +5206,63 @@
     "pushed_at": "2026-11-03T11:17:08",
     "pushed_post": "2026-11-03_top3_推文.md"
   },
-  "2611.00951v1": {
-    "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.03634v1": {
+    "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+    "evaluated_at": "2026-11-04T09:52:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-04T09:53:00",
+    "pushed_post": "2026-11-04_top3_推文.md"
+  },
+  "2611.03626v1": {
+    "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
+    "evaluated_at": "2026-11-04T09:52:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-04T09:53:00",
+    "pushed_post": "2026-11-04_top3_推文.md"
+  },
+  "2611.03428v1": {
+    "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+    "evaluated_at": "2026-11-04T09:52:44",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-04T09:53:00",
+    "pushed_post": "2026-11-04_top3_推文.md"
+  },
+  "2611.03294v1": {
+    "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5222,9 +5276,9 @@
       "arxiv"
     ]
   },
-  "2611.00758v1": {
-    "title": "Old Is Not False: Valid-Time Memory for Interactive Video World Models",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.02922v1": {
+    "title": "An intelligent satellite must do nothing well",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5238,9 +5292,9 @@
       "arxiv"
     ]
   },
-  "2611.00634v1": {
-    "title": "PREM: Prediction-Regulated Memory for Robot Manipulation",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.02876v1": {
+    "title": "Identifiable Signed Causal Learning via Latent Stochastic Differential Equations for Inferring Brain Dynamic Effective Connectivity",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5254,9 +5308,9 @@
       "arxiv"
     ]
   },
-  "2611.00612v1": {
-    "title": "Roz: A Taste Test for World Model Latents",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.02815v1": {
+    "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5270,9 +5324,9 @@
       "arxiv"
     ]
   },
-  "2611.00596v1": {
-    "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.02807v1": {
+    "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5286,9 +5340,9 @@
       "arxiv"
     ]
   },
-  "2611.00513v1": {
-    "title": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
-    "evaluated_at": "2026-11-03T11:16:52",
+  "2611.02782v1": {
+    "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+    "evaluated_at": "2026-11-04T09:52:44",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5302,9 +5356,9 @@
       "arxiv"
     ]
   },
-  "2611.00455v1": {
-    "title": "TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation",
-    "evaluated_at": "2026-11-03T11:16:53",
+  "2611.02699v1": {
+    "title": "Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up",
+    "evaluated_at": "2026-11-04T09:52:45",
     "score": 0,
     "scores": {
       "method_innovation": 0,
