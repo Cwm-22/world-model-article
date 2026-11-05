@@ -5260,9 +5260,63 @@
     "pushed_at": "2026-11-04T09:53:00",
     "pushed_post": "2026-11-04_top3_推文.md"
   },
-  "2611.03294v1": {
-    "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.05280v1": {
+    "title": "YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction",
+    "evaluated_at": "2026-11-05T09:58:40",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-05T09:58:42",
+    "pushed_post": "2026-11-05_top3_推文.md"
+  },
+  "2611.05072v1": {
+    "title": "Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving",
+    "evaluated_at": "2026-11-05T09:58:40",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-05T09:58:42",
+    "pushed_post": "2026-11-05_top3_推文.md"
+  },
+  "2611.05062v1": {
+    "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+    "evaluated_at": "2026-11-05T09:58:40",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-05T09:58:42",
+    "pushed_post": "2026-11-05_top3_推文.md"
+  },
+  "2611.04879v1": {
+    "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5276,9 +5330,9 @@
       "arxiv"
     ]
   },
-  "2611.02922v1": {
-    "title": "An intelligent satellite must do nothing well",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.04873v1": {
+    "title": "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5292,9 +5346,9 @@
       "arxiv"
     ]
   },
-  "2611.02876v1": {
-    "title": "Identifiable Signed Causal Learning via Latent Stochastic Differential Equations for Inferring Brain Dynamic Effective Connectivity",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.04870v1": {
+    "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5308,9 +5362,9 @@
       "arxiv"
     ]
   },
-  "2611.02815v1": {
-    "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.04760v1": {
+    "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5324,9 +5378,9 @@
       "arxiv"
     ]
   },
-  "2611.02807v1": {
-    "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.04711v1": {
+    "title": "Cycle WAM: Coupling Action and Video through Cycle Consistency",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5340,9 +5394,9 @@
       "arxiv"
     ]
   },
-  "2611.02782v1": {
-    "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
-    "evaluated_at": "2026-11-04T09:52:44",
+  "2611.04583v1": {
+    "title": "Multi-Path Mamba Diffusion for 3D Point Cloud Semantic Scene Completion",
+    "evaluated_at": "2026-11-05T09:58:40",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5352,13 +5406,14 @@
       "resource_completeness": 0
     },
     "comment": "（评估失败，已跳过）",
+    "venue": "2025 IEEE International Conference on Image Processing Workshops (ICIPW)",
     "sources": [
       "arxiv"
     ]
   },
-  "2611.02699v1": {
-    "title": "Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up",
-    "evaluated_at": "2026-11-04T09:52:45",
+  "2611.04566v1": {
+    "title": "A research world model of power engineering learns its dynamics and reveals what-ifs",
+    "evaluated_at": "2026-11-05T09:58:41",
     "score": 0,
     "scores": {
       "method_innovation": 0,
