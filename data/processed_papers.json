@@ -5314,9 +5314,63 @@
     "pushed_at": "2026-11-05T09:58:42",
     "pushed_post": "2026-11-05_top3_推文.md"
   },
-  "2611.04879v1": {
-    "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06901v1": {
+    "title": "Motion-guided Contrastive Regularization For Latent World Models",
+    "evaluated_at": "2026-11-06T09:58:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-06T09:58:20",
+    "pushed_post": "2026-11-06_top3_推文.md"
+  },
+  "2611.06793v1": {
+    "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
+    "evaluated_at": "2026-11-06T09:58:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-06T09:58:20",
+    "pushed_post": "2026-11-06_top3_推文.md"
+  },
+  "2611.06748v1": {
+    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+    "evaluated_at": "2026-11-06T09:58:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-06T09:58:20",
+    "pushed_post": "2026-11-06_top3_推文.md"
+  },
+  "2611.06637v1": {
+    "title": "Human Motion Prediction via Continual Prior Compensation",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5330,9 +5384,9 @@
       "arxiv"
     ]
   },
-  "2611.04873v1": {
-    "title": "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06627v1": {
+    "title": "Interactive World Simulation with Cosmos for Physical AI",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5346,9 +5400,9 @@
       "arxiv"
     ]
   },
-  "2611.04870v1": {
-    "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06544v1": {
+    "title": "MKD2World: A Typed Spatial MarkDown World Model For Web Agents",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5362,9 +5416,9 @@
       "arxiv"
     ]
   },
-  "2611.04760v1": {
-    "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06120v1": {
+    "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5378,9 +5432,9 @@
       "arxiv"
     ]
   },
-  "2611.04711v1": {
-    "title": "Cycle WAM: Coupling Action and Video through Cycle Consistency",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06118v1": {
+    "title": "Online Adaptation to Latent Physical Properties for Learning from Demonstration",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5394,9 +5448,9 @@
       "arxiv"
     ]
   },
-  "2611.04583v1": {
-    "title": "Multi-Path Mamba Diffusion for 3D Point Cloud Semantic Scene Completion",
-    "evaluated_at": "2026-11-05T09:58:40",
+  "2611.06061v1": {
+    "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
+    "evaluated_at": "2026-11-06T09:58:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5406,14 +5460,13 @@
       "resource_completeness": 0
     },
     "comment": "（评估失败，已跳过）",
-    "venue": "2025 IEEE International Conference on Image Processing Workshops (ICIPW)",
     "sources": [
       "arxiv"
     ]
   },
-  "2611.04566v1": {
-    "title": "A research world model of power engineering learns its dynamics and reveals what-ifs",
-    "evaluated_at": "2026-11-05T09:58:41",
+  "2611.05907v1": {
+    "title": "Does Your Trial Simulator Know What the Drug Does? An Intervention-Blind Test of Interventional Validity on 7,207 Registered Trials",
+    "evaluated_at": "2026-11-06T09:58:20",
     "score": 0,
     "scores": {
       "method_innovation": 0,
