@@ -5368,9 +5368,63 @@
     "pushed_at": "2026-11-06T09:58:20",
     "pushed_post": "2026-11-06_top3_推文.md"
   },
-  "2611.06637v1": {
-    "title": "Human Motion Prediction via Continual Prior Compensation",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.08392v1": {
+    "title": "Learning a patient world model for health system simulation in intensive care",
+    "evaluated_at": "2026-11-07T09:34:48",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-07T09:35:04",
+    "pushed_post": "2026-11-07_top3_推文.md"
+  },
+  "2611.08338v1": {
+    "title": "GPWM: Modeling the World as 3D Particle Motion",
+    "evaluated_at": "2026-11-07T09:34:48",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-07T09:35:04",
+    "pushed_post": "2026-11-07_top3_推文.md"
+  },
+  "2611.08156v1": {
+    "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+    "evaluated_at": "2026-11-07T09:34:48",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-07T09:35:04",
+    "pushed_post": "2026-11-07_top3_推文.md"
+  },
+  "2611.08128v1": {
+    "title": "FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5384,9 +5438,9 @@
       "arxiv"
     ]
   },
-  "2611.06627v1": {
-    "title": "Interactive World Simulation with Cosmos for Physical AI",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.08113v1": {
+    "title": "Identifying Neural Dynamics Using Nonlinear Interventional State Space Models",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5400,9 +5454,9 @@
       "arxiv"
     ]
   },
-  "2611.06544v1": {
-    "title": "MKD2World: A Typed Spatial MarkDown World Model For Web Agents",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.07939v1": {
+    "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5416,9 +5470,9 @@
       "arxiv"
     ]
   },
-  "2611.06120v1": {
-    "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.07912v1": {
+    "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5432,9 +5486,9 @@
       "arxiv"
     ]
   },
-  "2611.06118v1": {
-    "title": "Online Adaptation to Latent Physical Properties for Learning from Demonstration",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.07900v1": {
+    "title": "Structure from Collision via Hypothesis-Space Reasoning",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5448,9 +5502,9 @@
       "arxiv"
     ]
   },
-  "2611.06061v1": {
-    "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
-    "evaluated_at": "2026-11-06T09:58:18",
+  "2611.07873v1": {
+    "title": "PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation",
+    "evaluated_at": "2026-11-07T09:34:48",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5464,9 +5518,9 @@
       "arxiv"
     ]
   },
-  "2611.05907v1": {
-    "title": "Does Your Trial Simulator Know What the Drug Does? An Intervention-Blind Test of Interventional Validity on 7,207 Registered Trials",
-    "evaluated_at": "2026-11-06T09:58:20",
+  "2611.07867v1": {
+    "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
+    "evaluated_at": "2026-11-07T09:34:49",
     "score": 0,
     "scores": {
       "method_innovation": 0,
