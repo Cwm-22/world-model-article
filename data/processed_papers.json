@@ -5476,9 +5476,63 @@
     "pushed_at": "2026-11-09T09:24:43",
     "pushed_post": "2026-11-09_top3_推文.md"
   },
-  "2611.07912v1": {
-    "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10894v1": {
+    "title": "Zero-Shot VLA Adaptation with Retrieved Guidance",
+    "evaluated_at": "2026-11-10T11:57:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-10T11:57:18",
+    "pushed_post": "2026-11-10_top3_推文.md"
+  },
+  "2611.10806v1": {
+    "title": "WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures",
+    "evaluated_at": "2026-11-10T11:57:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-10T11:57:18",
+    "pushed_post": "2026-11-10_top3_推文.md"
+  },
+  "2611.10660v1": {
+    "title": "Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning",
+    "evaluated_at": "2026-11-10T11:57:09",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-10T11:57:18",
+    "pushed_post": "2026-11-10_top3_推文.md"
+  },
+  "2611.10658v1": {
+    "title": "The Delta Gap: Cellular World Models for Perturbation Response Prediction Are Far Harder Than Global Correlation Implies",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5492,9 +5546,9 @@
       "arxiv"
     ]
   },
-  "2611.07900v1": {
-    "title": "Structure from Collision via Hypothesis-Space Reasoning",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10632v1": {
+    "title": "Latent-WAM++: Shaping World and Action Representations for End-to-End Autonomous Driving",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5508,9 +5562,9 @@
       "arxiv"
     ]
   },
-  "2611.07873v1": {
-    "title": "PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10523v1": {
+    "title": "Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5524,9 +5578,9 @@
       "arxiv"
     ]
   },
-  "2611.07867v1": {
-    "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10435v1": {
+    "title": "Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5540,9 +5594,9 @@
       "arxiv"
     ]
   },
-  "2611.07850v1": {
-    "title": "Learning Robotic World Models with Semantic and Visual Feedback",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10392v1": {
+    "title": "Tiresias: Towards Language-Conditioned World Models",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5556,9 +5610,9 @@
       "arxiv"
     ]
   },
-  "2611.07730v1": {
-    "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
-    "evaluated_at": "2026-11-09T09:24:39",
+  "2611.10385v1": {
+    "title": "A Topological Encoder Decoder Framework for Temporal Graph Learning",
+    "evaluated_at": "2026-11-10T11:57:09",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5572,9 +5626,9 @@
       "arxiv"
     ]
   },
-  "2611.07473v1": {
-    "title": "Echoes of Error: Residual-Directional Local Rollout Consistency for Timeseries Forecasting",
-    "evaluated_at": "2026-11-09T09:24:40",
+  "2611.10771v1": {
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "evaluated_at": "2026-11-10T11:57:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5584,8 +5638,10 @@
       "resource_completeness": 0
     },
     "comment": "（评估失败，已跳过）",
+    "venue": "HuggingFace Daily",
     "sources": [
-      "arxiv"
+      "arxiv",
+      "hf_daily"
     ]
   }
 }
