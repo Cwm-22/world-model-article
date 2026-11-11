@@ -5530,9 +5530,63 @@
     "pushed_at": "2026-11-10T11:57:18",
     "pushed_post": "2026-11-10_top3_推文.md"
   },
-  "2611.10658v1": {
-    "title": "The Delta Gap: Cellular World Models for Perturbation Response Prediction Are Far Harder Than Global Correlation Implies",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12865v1": {
+    "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+    "evaluated_at": "2026-11-11T09:41:17",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-11T09:41:19",
+    "pushed_post": "2026-11-11_top3_推文.md"
+  },
+  "2611.12818v1": {
+    "title": "Simulating Vein Compressibility for Ultrasound-Guided Femoral Access: Speed, Accuracy, and Phantom Validation",
+    "evaluated_at": "2026-11-11T09:41:17",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-11T09:41:19",
+    "pushed_post": "2026-11-11_top3_推文.md"
+  },
+  "2611.12755v1": {
+    "title": "From Granger causality to causal structure in dynamical systems",
+    "evaluated_at": "2026-11-11T09:41:17",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-11T09:41:19",
+    "pushed_post": "2026-11-11_top3_推文.md"
+  },
+  "2611.12732v1": {
+    "title": "$Σ$-LeWM: Learning World Models via S-Information for Robot Control",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5546,9 +5600,9 @@
       "arxiv"
     ]
   },
-  "2611.10632v1": {
-    "title": "Latent-WAM++: Shaping World and Action Representations for End-to-End Autonomous Driving",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12678v1": {
+    "title": "Library of Hands: Fix the Hands, Not the World Model",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5562,9 +5616,9 @@
       "arxiv"
     ]
   },
-  "2611.10523v1": {
-    "title": "Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12557v1": {
+    "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5578,9 +5632,9 @@
       "arxiv"
     ]
   },
-  "2611.10435v1": {
-    "title": "Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12353v1": {
+    "title": "QCC-WM: Linking Macro-State Dynamics and Visual Generation via Quotient Causal Construction",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5594,9 +5648,9 @@
       "arxiv"
     ]
   },
-  "2611.10392v1": {
-    "title": "Tiresias: Towards Language-Conditioned World Models",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12324v1": {
+    "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5610,9 +5664,9 @@
       "arxiv"
     ]
   },
-  "2611.10385v1": {
-    "title": "A Topological Encoder Decoder Framework for Temporal Graph Learning",
-    "evaluated_at": "2026-11-10T11:57:09",
+  "2611.12319v1": {
+    "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+    "evaluated_at": "2026-11-11T09:41:17",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5626,9 +5680,9 @@
       "arxiv"
     ]
   },
-  "2611.10771v1": {
-    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-    "evaluated_at": "2026-11-10T11:57:11",
+  "2611.12295v1": {
+    "title": "Be My Eye: Learning to See Beyond a Robot's Own Perspective",
+    "evaluated_at": "2026-11-11T09:41:18",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5638,10 +5692,8 @@
       "resource_completeness": 0
     },
     "comment": "（评估失败，已跳过）",
-    "venue": "HuggingFace Daily",
     "sources": [
-      "arxiv",
-      "hf_daily"
+      "arxiv"
     ]
   }
 }
