@@ -5692,9 +5692,63 @@
     "pushed_at": "2026-11-13T10:21:23",
     "pushed_post": "2026-11-13_top3_推文.md"
   },
-  "2611.14815v1": {
-    "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.17318v1": {
+    "title": "Spatial Foundry: A Multimodal Dataset for Spatial Intelligence",
+    "evaluated_at": "2026-11-14T09:57:28",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-14T09:57:30",
+    "pushed_post": "2026-11-14_top3_推文.md"
+  },
+  "2611.17060v1": {
+    "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+    "evaluated_at": "2026-11-14T09:57:28",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-14T09:57:30",
+    "pushed_post": "2026-11-14_top3_推文.md"
+  },
+  "2611.16840v1": {
+    "title": "Kosmo-GFM: A Production-Ready Geometry Foundation Model",
+    "evaluated_at": "2026-11-14T09:57:28",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-14T09:57:30",
+    "pushed_post": "2026-11-14_top3_推文.md"
+  },
+  "2611.16742v1": {
+    "title": "Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5708,9 +5762,9 @@
       "arxiv"
     ]
   },
-  "2611.14365v1": {
-    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.16647v1": {
+    "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5724,9 +5778,9 @@
       "arxiv"
     ]
   },
-  "2611.14048v1": {
-    "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.16645v1": {
+    "title": "Rethinking Actions: Continuity-Aware Priors for World-Model Planning",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5740,9 +5794,9 @@
       "arxiv"
     ]
   },
-  "2611.13592v1": {
-    "title": "Few-Shot Residual Adaptation of Pretrained Latent World Models",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.16579v1": {
+    "title": "ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5756,9 +5810,9 @@
       "arxiv"
     ]
   },
-  "2611.13576v1": {
-    "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.16424v1": {
+    "title": "PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5772,9 +5826,9 @@
       "arxiv"
     ]
   },
-  "2611.13528v1": {
-    "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
-    "evaluated_at": "2026-11-13T10:21:08",
+  "2611.16422v1": {
+    "title": "BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU",
+    "evaluated_at": "2026-11-14T09:57:28",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5788,9 +5842,9 @@
       "arxiv"
     ]
   },
-  "2611.13348v1": {
-    "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
-    "evaluated_at": "2026-11-13T10:21:09",
+  "2611.16375v1": {
+    "title": "Recursive State-Augmented Language Models: Persistent Latent-State Adaptation of Pretrained Language Models",
+    "evaluated_at": "2026-11-14T09:57:29",
     "score": 0,
     "scores": {
       "method_innovation": 0,
