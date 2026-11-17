@@ -5799,5 +5799,171 @@
     ],
     "pushed_at": "2026-11-15T09:29:56",
     "pushed_post": "2026-11-15_top3_推文.md"
+  },
+  "2611.20107v1": {
+    "title": "SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-17T12:18:22",
+    "pushed_post": "2026-11-17_top3_推文.md"
+  },
+  "2611.20090v1": {
+    "title": "Latent World Modeling for Point-Cloud Video Pretraining",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-17T12:18:22",
+    "pushed_post": "2026-11-17_top3_推文.md"
+  },
+  "2611.19969v1": {
+    "title": "Value and Policy Calibration from Execution Feedback for Socially Compatible Driving",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-17T12:18:22",
+    "pushed_post": "2026-11-17_top3_推文.md"
+  },
+  "2611.19857v1": {
+    "title": "PanDWM: Panoramic 4D Driving World Models",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19822v1": {
+    "title": "The Flip Test: Video World Models Fail to Learn the World State",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19796v1": {
+    "title": "The Sense Paradigm for World Models",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19771v1": {
+    "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19676v1": {
+    "title": "Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19559v1": {
+    "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+    "evaluated_at": "2026-11-17T12:18:18",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.19466v1": {
+    "title": "Successive Convexification in Learned World Models for Safe Offline Planning",
+    "evaluated_at": "2026-11-17T12:18:19",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
   }
 }
