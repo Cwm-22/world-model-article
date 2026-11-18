@@ -5854,9 +5854,63 @@
     "pushed_at": "2026-11-17T12:18:22",
     "pushed_post": "2026-11-17_top3_推文.md"
   },
-  "2611.19857v1": {
-    "title": "PanDWM: Panoramic 4D Driving World Models",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22691v1": {
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+    "evaluated_at": "2026-11-18T11:17:36",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-18T11:17:38",
+    "pushed_post": "2026-11-18_top3_推文.md"
+  },
+  "2611.22686v1": {
+    "title": "CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction",
+    "evaluated_at": "2026-11-18T11:17:36",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-18T11:17:38",
+    "pushed_post": "2026-11-18_top3_推文.md"
+  },
+  "2611.22669v1": {
+    "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",
+    "evaluated_at": "2026-11-18T11:17:36",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-18T11:17:38",
+    "pushed_post": "2026-11-18_top3_推文.md"
+  },
+  "2611.22561v1": {
+    "title": "Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5870,9 +5924,9 @@
       "arxiv"
     ]
   },
-  "2611.19822v1": {
-    "title": "The Flip Test: Video World Models Fail to Learn the World State",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22543v1": {
+    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5886,9 +5940,9 @@
       "arxiv"
     ]
   },
-  "2611.19796v1": {
-    "title": "The Sense Paradigm for World Models",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22537v1": {
+    "title": "Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5902,9 +5956,9 @@
       "arxiv"
     ]
   },
-  "2611.19771v1": {
-    "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22497v1": {
+    "title": "Towards Data-Efficient, Real-Time World Models",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5918,9 +5972,9 @@
       "arxiv"
     ]
   },
-  "2611.19676v1": {
-    "title": "Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22491v1": {
+    "title": "Progress Predicts Policy",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5934,9 +5988,9 @@
       "arxiv"
     ]
   },
-  "2611.19559v1": {
-    "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
-    "evaluated_at": "2026-11-17T12:18:18",
+  "2611.22483v1": {
+    "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
+    "evaluated_at": "2026-11-18T11:17:36",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5950,9 +6004,9 @@
       "arxiv"
     ]
   },
-  "2611.19466v1": {
-    "title": "Successive Convexification in Learned World Models for Safe Offline Planning",
-    "evaluated_at": "2026-11-17T12:18:19",
+  "2611.22470v1": {
+    "title": "Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning",
+    "evaluated_at": "2026-11-18T11:17:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
