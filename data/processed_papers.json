@@ -5908,9 +5908,63 @@
     "pushed_at": "2026-11-18T11:17:38",
     "pushed_post": "2026-11-18_top3_推文.md"
   },
-  "2611.22561v1": {
-    "title": "Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.23746v1": {
+    "title": "ZERITH V2.5: From Predictive Power to Policy Learnability",
+    "evaluated_at": "2026-11-19T10:55:25",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-19T10:55:29",
+    "pushed_post": "2026-11-19_top3_推文.md"
+  },
+  "2611.23727v1": {
+    "title": "GTA: Generative Tower of Agents for Scalable Holonic Scene Generation",
+    "evaluated_at": "2026-11-19T10:55:25",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-19T10:55:29",
+    "pushed_post": "2026-11-19_top3_推文.md"
+  },
+  "2611.23685v1": {
+    "title": "Measuring the Conservatism of Latent Safety Filters for World Models",
+    "evaluated_at": "2026-11-19T10:55:25",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-19T10:55:29",
+    "pushed_post": "2026-11-19_top3_推文.md"
+  },
+  "2611.23620v1": {
+    "title": "How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5924,9 +5978,9 @@
       "arxiv"
     ]
   },
-  "2611.22543v1": {
-    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.23118v1": {
+    "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5940,9 +5994,9 @@
       "arxiv"
     ]
   },
-  "2611.22537v1": {
-    "title": "Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.22998v1": {
+    "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5956,9 +6010,9 @@
       "arxiv"
     ]
   },
-  "2611.22497v1": {
-    "title": "Towards Data-Efficient, Real-Time World Models",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.22994v1": {
+    "title": "Making Future-Predictive Representations Actionable",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5972,9 +6026,9 @@
       "arxiv"
     ]
   },
-  "2611.22491v1": {
-    "title": "Progress Predicts Policy",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.22981v1": {
+    "title": "SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5988,9 +6042,9 @@
       "arxiv"
     ]
   },
-  "2611.22483v1": {
-    "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
-    "evaluated_at": "2026-11-18T11:17:36",
+  "2611.22954v1": {
+    "title": "Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives",
+    "evaluated_at": "2026-11-19T10:55:25",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6004,9 +6058,9 @@
       "arxiv"
     ]
   },
-  "2611.22470v1": {
-    "title": "Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning",
-    "evaluated_at": "2026-11-18T11:17:37",
+  "2611.22880v1": {
+    "title": "Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving",
+    "evaluated_at": "2026-11-19T10:55:26",
     "score": 0,
     "scores": {
       "method_innovation": 0,
