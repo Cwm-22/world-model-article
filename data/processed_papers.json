@@ -5962,9 +5962,63 @@
     "pushed_at": "2026-11-19T10:55:29",
     "pushed_post": "2026-11-19_top3_推文.md"
   },
-  "2611.23620v1": {
-    "title": "How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25415v1": {
+    "title": "Stuck in Place: Stall Diagnosis and Remedies for JEPA Planners",
+    "evaluated_at": "2026-11-20T10:49:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-20T10:50:10",
+    "pushed_post": "2026-11-20_top3_推文.md"
+  },
+  "2611.25413v1": {
+    "title": "WAMotor: Accelerating World Action Models via Speculative Inference under Dual Nonuniform Denoising Dynamics",
+    "evaluated_at": "2026-11-20T10:49:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-20T10:50:10",
+    "pushed_post": "2026-11-20_top3_推文.md"
+  },
+  "2611.25347v1": {
+    "title": "Search or Scoring? Diagnosing Why Visual World-Model Planners Fail",
+    "evaluated_at": "2026-11-20T10:49:55",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-20T10:50:10",
+    "pushed_post": "2026-11-20_top3_推文.md"
+  },
+  "2611.25336v1": {
+    "title": "MoRE: Mixture-of-Experts for Multi-Physics Robotic World Models",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5978,9 +6032,9 @@
       "arxiv"
     ]
   },
-  "2611.23118v1": {
-    "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25251v1": {
+    "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -5994,9 +6048,9 @@
       "arxiv"
     ]
   },
-  "2611.22998v1": {
-    "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25243v1": {
+    "title": "Verify2Act: Critic-Guided Latent World Models for Verifying Language-Conditioned Manipulation Plans",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6010,9 +6064,9 @@
       "arxiv"
     ]
   },
-  "2611.22994v1": {
-    "title": "Making Future-Predictive Representations Actionable",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25204v1": {
+    "title": "Identity World Model: Recognizing People in an Imagined Latent World",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6026,9 +6080,9 @@
       "arxiv"
     ]
   },
-  "2611.22981v1": {
-    "title": "SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25194v1": {
+    "title": "MADJEPA: Enhanced Multi-Stage Joint-Embedding Predictive Architecture for Medical Anomaly Detection",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6042,9 +6096,9 @@
       "arxiv"
     ]
   },
-  "2611.22954v1": {
-    "title": "Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives",
-    "evaluated_at": "2026-11-19T10:55:25",
+  "2611.25134v1": {
+    "title": "GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning",
+    "evaluated_at": "2026-11-20T10:49:55",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6058,9 +6112,9 @@
       "arxiv"
     ]
   },
-  "2611.22880v1": {
-    "title": "Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving",
-    "evaluated_at": "2026-11-19T10:55:26",
+  "2611.24940v1": {
+    "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+    "evaluated_at": "2026-11-20T10:49:56",
     "score": 0,
     "scores": {
       "method_innovation": 0,
