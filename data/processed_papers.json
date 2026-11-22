@@ -6072,7 +6072,7 @@
   },
   "2611.26433v1": {
     "title": "AdaPixFlow: Learning Continuous-Time 3D Dynamics Across Scenes from Sparse Multi-view Observations",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6084,11 +6084,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-22T09:52:52",
+    "pushed_post": "2026-11-22_top3_推文.md"
   },
   "2611.26419v1": {
     "title": "FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6100,11 +6102,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-22T09:52:52",
+    "pushed_post": "2026-11-22_top3_推文.md"
   },
   "2611.26366v1": {
     "title": "World Models Favor Learned Priors over Visual Evidence",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6116,11 +6120,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-22T09:52:52",
+    "pushed_post": "2026-11-22_top3_推文.md"
   },
   "2611.26218v1": {
     "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6136,7 +6142,7 @@
   },
   "2611.26211v1": {
     "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6152,7 +6158,7 @@
   },
   "2611.26145v1": {
     "title": "Can World Models Predict Rice Growth? Toward Agricultural World Models",
-    "evaluated_at": "2026-11-21T10:58:20",
+    "evaluated_at": "2026-11-22T09:52:51",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6168,7 +6174,55 @@
   },
   "2611.25980v1": {
     "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-    "evaluated_at": "2026-11-21T10:58:21",
+    "evaluated_at": "2026-11-22T09:52:51",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.25946v1": {
+    "title": "Point Dynamics as Proxy for Robotic World Models",
+    "evaluated_at": "2026-11-22T09:52:51",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.25927v1": {
+    "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+    "evaluated_at": "2026-11-22T09:52:51",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.25838v1": {
+    "title": "ContextRenderer: Dynamic-Context Video Generation for Interactive Game Worlds",
+    "evaluated_at": "2026-11-22T09:52:52",
     "score": 0,
     "scores": {
       "method_innovation": 0,
