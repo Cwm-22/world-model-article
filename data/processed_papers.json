@@ -6124,9 +6124,63 @@
     "pushed_at": "2026-11-22T09:52:52",
     "pushed_post": "2026-11-22_top3_推文.md"
   },
-  "2611.26218v1": {
-    "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.27173v1": {
+    "title": "PACE-WM: Parallel World Modeling with Action History for Visual Planning",
+    "evaluated_at": "2026-11-23T10:11:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-23T10:12:01",
+    "pushed_post": "2026-11-23_top3_推文.md"
+  },
+  "2611.27164v1": {
+    "title": "PhysForce: Physics-aware Force Control for Interactive Video World Model",
+    "evaluated_at": "2026-11-23T10:11:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-23T10:12:01",
+    "pushed_post": "2026-11-23_top3_推文.md"
+  },
+  "2611.27149v1": {
+    "title": "Where Structure Enters a World Model: From Predictive Fit to Physical Rollout",
+    "evaluated_at": "2026-11-23T10:11:46",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-23T10:12:01",
+    "pushed_post": "2026-11-23_top3_推文.md"
+  },
+  "2611.27132v1": {
+    "title": "Spatiotemporal Landslide Runout Reconstruction from Sparse Observations with LAPIS-SHRED",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6140,9 +6194,9 @@
       "arxiv"
     ]
   },
-  "2611.26211v1": {
-    "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.27124v1": {
+    "title": "A Plan or an Adversarial Example? A Round-Trip Check for Latent World Models",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6156,9 +6210,9 @@
       "arxiv"
     ]
   },
-  "2611.26145v1": {
-    "title": "Can World Models Predict Rice Growth? Toward Agricultural World Models",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.27029v1": {
+    "title": "Mind World Models: Joint Learning of Motor EEG Representations and Action-Conditioned World Dynamics",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6172,9 +6226,9 @@
       "arxiv"
     ]
   },
-  "2611.25980v1": {
-    "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.27024v1": {
+    "title": "ReactDrive: Self-Reactive Driving World Model",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6188,9 +6242,9 @@
       "arxiv"
     ]
   },
-  "2611.25946v1": {
-    "title": "Point Dynamics as Proxy for Robotic World Models",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.26996v1": {
+    "title": "PonderPounce-WM: When Does Predicting the Future Help Context-Dependent Robot Control?",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6204,9 +6258,9 @@
       "arxiv"
     ]
   },
-  "2611.25927v1": {
-    "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
-    "evaluated_at": "2026-11-22T09:52:51",
+  "2611.26981v1": {
+    "title": "ViewDreamer: A Robot World Model beyond Fixed Camera Setups",
+    "evaluated_at": "2026-11-23T10:11:46",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6220,9 +6274,9 @@
       "arxiv"
     ]
   },
-  "2611.25838v1": {
-    "title": "ContextRenderer: Dynamic-Context Video Generation for Interactive Game Worlds",
-    "evaluated_at": "2026-11-22T09:52:52",
+  "2611.26867v1": {
+    "title": "SonoAtlasWorld: Anatomy-Grounded Ultrasound World Models for Wide-Range Scanning",
+    "evaluated_at": "2026-11-23T10:11:47",
     "score": 0,
     "scores": {
       "method_innovation": 0,
