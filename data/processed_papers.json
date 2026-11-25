@@ -6232,9 +6232,63 @@
     "pushed_at": "2026-11-24T13:43:39",
     "pushed_post": "2026-11-24_top3_推文.md"
   },
-  "2611.30219v1": {
-    "title": "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32944v1": {
+    "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+    "evaluated_at": "2026-11-25T12:46:00",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-25T12:46:18",
+    "pushed_post": "2026-11-25_top3_推文.md"
+  },
+  "2611.32900v1": {
+    "title": "Motion Conditioned World Modeling for Embodied Visual Tracking",
+    "evaluated_at": "2026-11-25T12:46:00",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-25T12:46:18",
+    "pushed_post": "2026-11-25_top3_推文.md"
+  },
+  "2611.32825v1": {
+    "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
+    "evaluated_at": "2026-11-25T12:46:00",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-25T12:46:18",
+    "pushed_post": "2026-11-25_top3_推文.md"
+  },
+  "2611.32811v1": {
+    "title": "Interactive Neural Computers",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6248,9 +6302,9 @@
       "arxiv"
     ]
   },
-  "2611.30120v1": {
-    "title": "AxE: Benchmarking Agent-Environment Generalization of Video World Models via Grounded Events",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32786v1": {
+    "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6264,9 +6318,9 @@
       "arxiv"
     ]
   },
-  "2611.30064v1": {
-    "title": "How Latent Transition Geometry Matters for Planning in World Models",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32776v1": {
+    "title": "Learning World Models through Contrastive Identification of Actions",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6280,9 +6334,9 @@
       "arxiv"
     ]
   },
-  "2611.30042v1": {
-    "title": "SWAM: State-aware World Action Model for Multi-Agent 3D Environments",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32745v1": {
+    "title": "MemAnchorWorld: A Sparse World Model with Horizon-Conditioned Memory Retrieval for Autonomous Driving",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6296,9 +6350,9 @@
       "arxiv"
     ]
   },
-  "2611.30022v1": {
-    "title": "MOVER: Planning Beyond Motion",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32665v1": {
+    "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6312,9 +6366,9 @@
       "arxiv"
     ]
   },
-  "2611.30007v1": {
-    "title": "One Latent World for Heterogeneous LiDARs: A Scan Pattern Agnostic 4D World Model via Direct Ray Decoding",
-    "evaluated_at": "2026-11-24T13:43:36",
+  "2611.32663v1": {
+    "title": "Economic World Model",
+    "evaluated_at": "2026-11-25T12:46:00",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6328,9 +6382,9 @@
       "arxiv"
     ]
   },
-  "2611.30004v1": {
-    "title": "EnvTrap: Revealing the Environment-Only Attack Surface in Embodied AI via Consequence-Blind Action Execution",
-    "evaluated_at": "2026-11-24T13:43:38",
+  "2611.32654v1": {
+    "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
+    "evaluated_at": "2026-11-25T12:46:02",
     "score": 0,
     "scores": {
       "method_innovation": 0,
