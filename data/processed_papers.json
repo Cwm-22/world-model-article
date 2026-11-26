@@ -6286,9 +6286,63 @@
     "pushed_at": "2026-11-25T12:46:18",
     "pushed_post": "2026-11-25_top3_推文.md"
   },
-  "2611.32811v1": {
-    "title": "Interactive Neural Computers",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.34302v1": {
+    "title": "Co-World Model for Human-Video-to-Robot Transfer via Co-Constructed Shared Latent Dynamics",
+    "evaluated_at": "2026-11-26T11:55:35",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-26T11:55:39",
+    "pushed_post": "2026-11-26_top3_推文.md"
+  },
+  "2611.34288v1": {
+    "title": "Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models",
+    "evaluated_at": "2026-11-26T11:55:35",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-26T11:55:39",
+    "pushed_post": "2026-11-26_top3_推文.md"
+  },
+  "2611.34130v1": {
+    "title": "WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics",
+    "evaluated_at": "2026-11-26T11:55:35",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-26T11:55:39",
+    "pushed_post": "2026-11-26_top3_推文.md"
+  },
+  "2611.34115v1": {
+    "title": "A Simple Yet Effective Agent for Open-World Aerial Object Search",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6302,9 +6356,9 @@
       "arxiv"
     ]
   },
-  "2611.32786v1": {
-    "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.34054v1": {
+    "title": "CARE-WM: Same-Horizon Self-Conditioning with Constraint-Adaptive Regularization for Latent World Models",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6318,9 +6372,9 @@
       "arxiv"
     ]
   },
-  "2611.32776v1": {
-    "title": "Learning World Models through Contrastive Identification of Actions",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.33993v1": {
+    "title": "Aegis-VLA: Reliability-Gated Action Refinement via a Trajectory World Model for Dynamic Object Manipulation",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6334,9 +6388,9 @@
       "arxiv"
     ]
   },
-  "2611.32745v1": {
-    "title": "MemAnchorWorld: A Sparse World Model with Horizon-Conditioned Memory Retrieval for Autonomous Driving",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.33939v1": {
+    "title": "CondUQ: Calibrated Conditional Uncertainty Quantification Using Distribution Matching",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6350,9 +6404,9 @@
       "arxiv"
     ]
   },
-  "2611.32665v1": {
-    "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.33925v1": {
+    "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6366,9 +6420,9 @@
       "arxiv"
     ]
   },
-  "2611.32663v1": {
-    "title": "Economic World Model",
-    "evaluated_at": "2026-11-25T12:46:00",
+  "2611.33917v1": {
+    "title": "Event-WAM: Learning to Act with Event-Derived Futures",
+    "evaluated_at": "2026-11-26T11:55:35",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6382,9 +6436,9 @@
       "arxiv"
     ]
   },
-  "2611.32654v1": {
-    "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
-    "evaluated_at": "2026-11-25T12:46:02",
+  "2611.33886v1": {
+    "title": "DeltaRAE: Derivative Tokenization for Long Video Generation",
+    "evaluated_at": "2026-11-26T11:55:37",
     "score": 0,
     "scores": {
       "method_innovation": 0,
