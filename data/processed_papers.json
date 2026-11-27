@@ -6340,105 +6340,159 @@
     "pushed_at": "2026-11-26T11:55:39",
     "pushed_post": "2026-11-26_top3_推文.md"
   },
+  "2611.34830v1": {
+    "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-27T11:55:39",
+    "pushed_post": "2026-11-27_top3_推文.md"
+  },
+  "2611.34739v1": {
+    "title": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-27T11:55:39",
+    "pushed_post": "2026-11-27_top3_推文.md"
+  },
+  "2611.34730v1": {
+    "title": "WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-27T11:55:39",
+    "pushed_post": "2026-11-27_top3_推文.md"
+  },
+  "2611.34656v1": {
+    "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34644v1": {
+    "title": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34597v1": {
+    "title": "$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34509v1": {
+    "title": "Long-Horizon Planning with Latent World Models via Graph Anchors",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34435v1": {
+    "title": "Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34422v1": {
+    "title": "Can Visual World Models See Force?",
+    "evaluated_at": "2026-11-27T11:55:23",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
   "2611.34115v1": {
     "title": "A Simple Yet Effective Agent for Open-World Aerial Object Search",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.34054v1": {
-    "title": "CARE-WM: Same-Horizon Self-Conditioning with Constraint-Adaptive Regularization for Latent World Models",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.33993v1": {
-    "title": "Aegis-VLA: Reliability-Gated Action Refinement via a Trajectory World Model for Dynamic Object Manipulation",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.33939v1": {
-    "title": "CondUQ: Calibrated Conditional Uncertainty Quantification Using Distribution Matching",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.33925v1": {
-    "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.33917v1": {
-    "title": "Event-WAM: Learning to Act with Event-Derived Futures",
-    "evaluated_at": "2026-11-26T11:55:35",
-    "score": 0,
-    "scores": {
-      "method_innovation": 0,
-      "author_authority": 0,
-      "topic_relevance": 0,
-      "experiment_feasibility": 0,
-      "resource_completeness": 0
-    },
-    "comment": "（评估失败，已跳过）",
-    "sources": [
-      "arxiv"
-    ]
-  },
-  "2611.33886v1": {
-    "title": "DeltaRAE: Derivative Tokenization for Long Video Generation",
-    "evaluated_at": "2026-11-26T11:55:37",
+    "evaluated_at": "2026-11-27T11:55:24",
     "score": 0,
     "scores": {
       "method_innovation": 0,
