@@ -6394,9 +6394,9 @@
     "pushed_at": "2026-11-27T11:55:39",
     "pushed_post": "2026-11-27_top3_推文.md"
   },
-  "2611.34656v1": {
-    "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
-    "evaluated_at": "2026-11-27T11:55:23",
+  "2611.34693v1": {
+    "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6408,11 +6408,31 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-28T11:42:13",
+    "pushed_post": "2026-11-28_top3_推文.md"
+  },
+  "2611.34656v1": {
+    "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
+    "evaluated_at": "2026-11-28T11:42:10",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ],
+    "pushed_at": "2026-11-28T11:42:13",
+    "pushed_post": "2026-11-28_top3_推文.md"
   },
   "2611.34644v1": {
     "title": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics",
-    "evaluated_at": "2026-11-27T11:55:23",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6424,11 +6444,13 @@
     "comment": "（评估失败，已跳过）",
     "sources": [
       "arxiv"
-    ]
+    ],
+    "pushed_at": "2026-11-28T11:42:13",
+    "pushed_post": "2026-11-28_top3_推文.md"
   },
   "2611.34597v1": {
     "title": "$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation",
-    "evaluated_at": "2026-11-27T11:55:23",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6444,7 +6466,7 @@
   },
   "2611.34509v1": {
     "title": "Long-Horizon Planning with Latent World Models via Graph Anchors",
-    "evaluated_at": "2026-11-27T11:55:23",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6460,7 +6482,7 @@
   },
   "2611.34435v1": {
     "title": "Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model",
-    "evaluated_at": "2026-11-27T11:55:23",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6476,7 +6498,7 @@
   },
   "2611.34422v1": {
     "title": "Can Visual World Models See Force?",
-    "evaluated_at": "2026-11-27T11:55:23",
+    "evaluated_at": "2026-11-28T11:42:10",
     "score": 0,
     "scores": {
       "method_innovation": 0,
@@ -6492,7 +6514,39 @@
   },
   "2611.34115v1": {
     "title": "A Simple Yet Effective Agent for Open-World Aerial Object Search",
-    "evaluated_at": "2026-11-27T11:55:24",
+    "evaluated_at": "2026-11-28T11:42:10",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.34054v1": {
+    "title": "CARE-WM: Same-Horizon Self-Conditioning with Constraint-Adaptive Regularization for Latent World Models",
+    "evaluated_at": "2026-11-28T11:42:10",
+    "score": 0,
+    "scores": {
+      "method_innovation": 0,
+      "author_authority": 0,
+      "topic_relevance": 0,
+      "experiment_feasibility": 0,
+      "resource_completeness": 0
+    },
+    "comment": "（评估失败，已跳过）",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "2611.33993v1": {
+    "title": "Aegis-VLA: Reliability-Gated Action Refinement via a Trajectory World Model for Dynamic Object Manipulation",
+    "evaluated_at": "2026-11-28T11:42:11",
     "score": 0,
     "scores": {
       "method_innovation": 0,
